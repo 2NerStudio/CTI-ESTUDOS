@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Prática Adaptativa — CTI 2026</title>
+  <meta name="description" content="Treino inteligente (SRS): revise mais o que erra, espaçando o que acerta. Metas diárias e filtros por tema."/>
+  <link rel="icon" href="/favicon.ico"/>
+  <link rel="stylesheet" href="/assets/css/base.css"/>
+  <link rel="stylesheet" href="/assets/css/layout.css"/>
+  <link rel="stylesheet" href="/assets/css/componentes.css"/>
+  <link rel="stylesheet" href="/assets/css/aulas.css"/>
+  <link rel="stylesheet" href="/assets/css/dark.css" media="(prefers-color-scheme: dark)"/>
+  <style>
+    .adp-grid { display:grid; gap:1rem; grid-template-columns: 1fr; }
+    @media (min-width: 1100px){ .adp-grid { grid-template-columns: 1fr 340px; } }
+    .panel { border:1px solid var(--border); border-radius: var(--radius); padding:.75rem; background: var(--surface); }
+    .chips { display:flex; gap:.4rem; flex-wrap: wrap; }
+    .chip { border:1px solid var(--border); border-radius:999px; padding:.2rem .6rem; }
+    .filters .grid2 { display:grid; gap:.5rem; grid-template-columns: 1fr; }
+    @media (min-width: 720px){ .filters .grid2 { grid-template-columns: repeat(2,1fr); } }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header" role="banner">
+    <div class="container header-wrap">
+      <a class="brand" href="/" aria-label="Página inicial"><img src="/assets/img/logo.svg" alt="" width="36" height="36"/><span class="brand-name">CTI 2026</span></a>
+      <nav class="site-nav site-nav--desktop" aria-label="Seções principais">
+        <ul>
+          <li><a class="nav-link" href="/simulados/" aria-current="page">Simulados</a></li>
+          <li><a class="nav-link" href="/aulas/">Aulas</a></li>
+          <li><a class="nav-link" href="/redacao/">Redação</a></li>
+          <li><a class="nav-link" href="/recursos/">Recursos</a></li>
+        </ul>
+      </nav>
+      <nav class="site-nav--mobile nav-mobile" aria-label="Menu principal (mobile)">
+        <details class="menu"><summary class="nav-toggle">Menu</summary>
+          <ul class="menu-list">
+            <li><a href="/simulados/" class="nav-link" aria-current="page">Simulados</a></li>
+            <li><a href="/aulas/" class="nav-link">Aulas</a></li>
+            <li><a href="/redacao/" class="nav-link">Redação</a></li>
+            <li><a href="/recursos/" class="nav-link">Recursos</a></li>
+          </ul>
+        </details>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="breadcrumb" aria-label="Caminho de navegação">
+    <ol>
+      <li><a href="/">Início</a></li>
+      <li><a href="/simulados/">Simulados</a></li>
+      <li aria-current="page">Prática Adaptativa</li>
+    </ol>
+  </nav>
+
+  <main id="conteudo" class="section">
+    <div class="container adp-grid" id="adp-root">
+      <section class="pro-main">
+        <h1 class="h2">Prática Adaptativa</h1>
+        <p class="text-muted">Revise mais o que erra, e dê espaçamento ao que acerta. Defina sua meta diária e inicie a sessão — o sistema agenda automaticamente a próxima revisão de cada item.</p>
+
+        <div class="card">
+          <h2 class="h4">Sessão de hoje</h2>
+          <div class="btn-row">
+            <button id="adp-start" class="btn btn--primary" type="button">Iniciar sessão</button>
+            <div id="adp-resume-box" hidden>
+              <button id="adp-resume" class="btn btn--outline" type="button">Retomar sessão</button>
+            </div>
+          </div>
+          <div id="adp-out" class="section"></div>
+        </div>
+
+        <div class="card" style="margin-top:1rem;">
+          <h2 class="h4">Adicionar itens ao deck</h2>
+          <form class="filters" onsubmit="return false;">
+            <div class="grid2">
+              <div>
+                <label class="text-muted" for="adp-disc">Disciplina</label>
+                <select id="adp-disc"><option value="">Todas</option></select>
+              </div>
+              <div>
+                <label class="text-muted" for="adp-area">Área</label>
+                <select id="adp-area"><option value="">Todas</option></select>
+              </div>
+              <div>
+                <label class="text-muted" for="adp-tema">Tema</label>
+                <select id="adp-tema"><option value="">Todos</option></select>
+              </div>
+              <div>
+                <label class="text-muted" for="adp-nivel">Nível</label>
+                <select id="adp-nivel"><option value="">Todos</option></select>
+              </div>
+              <div>
+                <label class="text-muted" for="adp-add-qtd">Quantidade</label>
+                <input id="adp-add-qtd" type="number" min="1" max="200" step="1" value="20"/>
+              </div>
+            </div>
+            <div class="btn-row" style="margin-top:.5rem;">
+              <button id="adp-add" class="btn btn--outline" type="button">Adicionar ao deck</button>
+            </div>
+          </form>
+          <div id="adp-deck-list" class="section"></div>
+        </div>
+      </section>
+
+      <aside class="panel" aria-label="Painel do deck">
+        <h2 class="h4">Status do deck</h2>
+        <div id="adp-stats" class="text-muted"></div>
+
+        <h3 class="h4" style="margin-top:.75rem;">Configurações</h3>
+        <div class="grid2" style="display:grid; gap:.5rem; grid-template-columns: 1fr 1fr;">
+          <div>
+            <label class="text-muted" for="adp-goal">Meta diária (itens)</label>
+            <input id="adp-goal" type="number" min="5" max="100" value="20" />
+          </div>
+          <div>
+            <label class="text-muted" for="adp-newper">Novos por dia (max)</label>
+            <input id="adp-newper" type="number" min="0" max="50" value="10" />
+          </div>
+        </div>
+
+        <h3 class="h4" style="margin-top:.75rem;">Dados</h3>
+        <div class="btn-row">
+          <button id="adp-export" class="btn btn--outline" type="button">Exportar deck</button>
+          <label for="adp-import" class="btn btn--ghost" style="cursor:pointer;">Importar</label>
+          <input id="adp-import" type="file" accept="application/json" style="display:none;"/>
+        </div>
+        <button id="adp-reset" class="btn btn--ghost" type="button" style="margin-top:.5rem;">Zerar deck</button>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2025–2026 • Projeto CTI 2026.</p>
+      <nav class="footer-nav" aria-label="Rodapé">
+        <ul>
+          <li><a href="/simulados/">Simulados</a></li>
+          <li><a href="/simulados/painel.html">Painel de Desempenho</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="/assets/js/storage.js" defer></script>
+  <script src="/assets/js/quiz.js" defer></script>
+  <script src="/assets/js/adaptive.js" defer></script>
+  <script defer>
+    document.addEventListener('DOMContentLoaded', () => {
+      CTIAdaptive.init('#adp-root');
+    });
+  </script>
+</body>
+</html>

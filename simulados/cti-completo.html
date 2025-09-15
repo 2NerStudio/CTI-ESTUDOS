@@ -63,22 +63,69 @@
       <h1 class="h2">Simulado CTI 2026 — Completo</h1>
       <p class="text-muted">Tempo total: 4h30. Prepara-se para 50 questões (15 Pt, 15 Mat, 15 Hum, 5 Nat). Observação: com o banco inicial, a quantidade por disciplina pode ser menor; ao ampliarmos o banco, esta página atingirá o formato completo automaticamente.</p>
 
-      <div class="timer-bar" role="group" aria-label="Cronômetro do simulado">
-        <div>
-          <div class="text-muted">Tempo restante</div>
-          <div id="timer">04:30:00</div>
-        </div>
-        <div class="timer-actions">
-          <button id="btn-start" class="btn btn--primary" type="button">Iniciar/Retomar</button>
-          <button id="btn-pause" class="btn btn--outline" type="button">Pausar</button>
-          <button id="btn-reset" class="btn btn--ghost" type="button">Zerar tempo</button>
-          <button id="btn-finish-all" class="btn btn--secondary" type="button">Finalizar e ver resultado</button>
-        </div>
-      </div>
+        <style>
+        /* Simulado Pro — estilos locais */
+        .pro-grid { display: grid; gap: 1rem; grid-template-columns: 1fr; }
+        @media (min-width: 1024px) { .pro-grid { grid-template-columns: 1fr 280px; } }
+        .pro-panel { border:1px solid var(--border); border-radius: var(--radius); padding:.75rem; background: var(--surface); }
+        .pro-panel h2 { font-size: 1rem; margin: 0 0 .5rem 0; }
+        .pal-legend { display:flex; flex-wrap:wrap; gap:.35rem; margin:.35rem 0 .6rem; }
+        .pal-legend .lg { display:inline-flex; align-items:center; gap:.35rem; font-size:.9rem; padding:.2rem .4rem; border:1px solid var(--border); border-radius:999px; background:var(--bg); }
+        .pal-grid { display:grid; gap:.35rem; grid-template-columns: repeat(5, 1fr); }
+        .pal-item { padding:.45rem; border-radius:8px; border:1px solid var(--border); background:var(--bg); cursor:pointer; font-weight:700; }
+        .pal-item.is-current { outline:2px solid var(--accent); outline-offset:1px; }
+        .pal-item.is-marked { box-shadow: inset 0 0 0 2px #f59e0b55; }
+        .pal-item.st-notseen { opacity:.6; }
+        .pal-item.st-unanswered { background: var(--surface); }
+        .pal-item.st-correct { background:#f0fdf4; border-color:#16a34a; color:#166534; }
+        .pal-item.st-wrong { background:#fef2f2; border-color:#dc2626; color:#7f1d1d; }
+        .sum-row { display:flex; align-items:center; justify-content:space-between; border-bottom:1px dashed var(--border); padding:.25rem 0; }
+        .muted { color: var(--muted); }
+        .pro-actions { display:flex; gap:.5rem; flex-wrap: wrap; margin-top:.5rem; }
+        </style>
 
-      <div id="sim-aviso" class="section" aria-live="polite"></div>
+        <div class="pro-grid">
+        <div class="pro-main">
+            <div class="timer-bar" role="group" aria-label="Cronômetro do simulado">
+            <div>
+                <div class="text-muted">Tempo restante</div>
+                <div id="timer">04:30:00</div>
+            </div>
+            <div class="timer-actions">
+                <button id="btn-start" class="btn btn--primary" type="button">Iniciar/Retomar</button>
+                <button id="btn-pause" class="btn btn--outline" type="button">Pausar</button>
+                <button id="btn-reset" class="btn btn--ghost" type="button">Zerar tempo</button>
+                <button id="btn-finish-all" class="btn btn--secondary" type="button">Finalizar e ver resultado</button>
+            </div>
+            </div>
 
-      <div id="quiz-root"></div>
+            <div id="sim-aviso" class="section" aria-live="polite"></div>
+            <div id="quiz-root"></div>
+        </div>
+
+        <aside id="pro-sidebar" class="pro-panel" aria-label="Navegação do simulado">
+            <h2>Questões</h2>
+            <div class="pal-legend">
+            <span class="lg">⬜ Não vista</span>
+            <span class="lg" style="background:var(--surface)">▫ Não respondida</span>
+            <span class="lg" style="background:#f0fdf4;border-color:#16a34a;color:#166534;">✔ Correta</span>
+            <span class="lg" style="background:#fef2f2;border-color:#dc2626;color:#7f1d1d;">✖ Incorreta</span>
+            <span class="lg">⭐ Marcada</span>
+            </div>
+            <div id="pro-palette" class="pal-grid" role="navigation" aria-label="Paleta de questões"></div>
+            <div class="pro-actions">
+            <button id="pro-btn-mark" class="btn btn--outline" type="button">⭐ Marcar/Desmarcar (M)</button>
+            <button id="pro-btn-jump" class="btn btn--ghost" type="button">Ir p/ não respondida</button>
+            </div>
+
+            <h2 style="margin-top:.75rem;">Resumo</h2>
+            <div id="pro-summary" class="muted"></div>
+
+            <div class="muted" style="margin-top:.75rem;">
+            Atalhos: ← → (navegar), M (marcar), C (conferir), F (finalizar)
+            </div>
+        </aside>
+        </div>
     </div>
   </main>
 
@@ -105,5 +152,6 @@
       CTISim.start();
     });
   </script>
+  <script src="/assets/js/simulado.pro.js" defer></script>
 </body>
 </html>

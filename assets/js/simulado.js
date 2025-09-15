@@ -128,41 +128,56 @@
   }
 
   // Salva resultado para a página de resultado
-  function salvarResultado(app, remainingSeconds) {
+    function salvarResultado(app, remainingSeconds) {
     try {
-      const qs = app.state.questions;
-      const ans = app.state.answers;
-      const total = qs.length;
-      const correct = qs.filter(q => ans[q.id] && ans[q.id].isCorrect).length;
-      const pct = total ? Math.round((correct / total) * 100) : 0;
+        const qs = app.state.questions;
+        const ans = app.state.answers;
+        const total = qs.length;
+        const correct = qs.filter(q => ans[q.id] && ans[q.id].isCorrect).length;
+        const pct = total ? Math.round((correct / total) * 100) : 0;
 
-      const porDisc = {};
-      for (const q of qs) {
+        const porDisc = {};
+        for (const q of qs) {
         const d = q.disciplina || '—';
         porDisc[d] = porDisc[d] || { total: 0, correct: 0 };
         porDisc[d].total += 1;
         if (ans[q.id] && ans[q.id].isCorrect) porDisc[d].correct += 1;
-      }
+        }
 
-      const erradas = qs
+        const erradas = qs
         .map((q, i) => ({ q, i }))
         .filter(({ q }) => !(ans[q.id] && ans[q.id].isCorrect))
         .map(({ q, i }) => ({
-          index: i + 1,
-          id: q.id,
-          disciplina: q.disciplina,
-          area: q.area || null,
-          tema: q.tema || null,
-          enunciado: q.enunciado,
-          correta: q.correta,
-          marcada: ans[q.id] ? ans[q.id].selectedKey : null,
-          explicacao: q.explicacao || ''
+            index: i + 1,
+            id: q.id,
+            disciplina: q.disciplina,
+            area: q.area || null,
+            tema: q.tema || null,
+            enunciado: q.enunciado,
+            correta: q.correta,
+            marcada: ans[q.id] ? ans[q.id].selectedKey : null,
+            explicacao: q.explicacao || ''
         }));
 
-      const duration = 16200; // 4h30
-      const usado = duration - (typeof remainingSeconds === 'number' ? remainingSeconds : 0);
+        const duration = 16200; // 4h30
+        const usado = duration - (typeof remainingSeconds === 'number' ? remainingSeconds : 0);
 
-      const payload = {
+        // Itens detalhados (por questão) para analytics
+        const items = qs.map(q => {
+        const a = ans[q.id] || {};
+        return {
+            id: q.id,
+            disciplina: q.disciplina,
+            area: q.area || null,
+            tema: q.tema || null,
+            correct: !!a.isCorrect,
+            time: typeof a.time === 'number' ? a.time : null
+        };
+        });
+
+        const payload = {
+        id: 'sess-' + Date.now(),
+        mode: 'cti-completo',
         timestamp: Date.now(),
         total,
         correct,
@@ -170,14 +185,21 @@
         porDisciplina: porDisc,
         erradas,
         durationSeconds: usado,
+        items,
         questions: qs.map(q => q.id)
-      };
+        };
 
-      if (w.AppStorage) AppStorage.set(KEYS.result, payload);
+        if (w.AppStorage) {
+        AppStorage.set(KEYS.result, payload);
+        const histKey = 'simulado:cti2026:history';
+        const hist = AppStorage.get(histKey) || [];
+        hist.unshift(payload); // mais recente primeiro
+        AppStorage.set(histKey, hist);
+        }
     } catch (e) {
-      console.warn('Erro ao salvar resultado:', e);
+        console.warn('Erro ao salvar resultado/histórico:', e);
     }
-  }
+    }
 
   // Exibe avisos de montagem (quando faltam itens no banco)
   function renderAvisos() {
@@ -215,6 +237,17 @@
         persistKey: KEYS.quiz,
         showExplainOnCheck: true
       });
+
+            // Após criar o app
+        if (w.CTIPro && typeof w.CTIPro.mount === 'function') {
+        w.CTIPro.mount(app, {
+            sidebar: '#pro-sidebar',
+            palette: '#pro-palette',
+            summary: '#pro-summary',
+            markBtn: '#pro-btn-mark',
+            jumpBtn: '#pro-btn-jump'
+        });
+        }
 
       // Timer
       const timer = new w.CountdownTimer({ duration: 16200, persistKey: KEYS.timer });
