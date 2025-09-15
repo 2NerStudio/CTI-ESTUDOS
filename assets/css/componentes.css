@@ -128,3 +128,16 @@
 @media (min-width: 720px) {
   .cta-bar { grid-template-columns: 1fr auto; }
 }
+
+/* Focos visíveis consistentes */
+a:focus-visible, button:focus-visible, .btn:focus-visible,
+input[type="radio"]:focus-visible, input[type="checkbox"]:focus-visible,
+select:focus-visible, textarea:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--accent) 50%, transparent);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* Área de clique mais generosa nas alternativas do quiz */
+.alt-item { cursor: pointer; }
+.alt-label { display: block; width: 100%; cursor: pointer; }

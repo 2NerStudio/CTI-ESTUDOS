@@ -257,12 +257,12 @@
             <h3 class="h4" id="q-enunciado">${q.enunciado}</h3>
             ${mediaHTML}
           </div>
-          <form id="form-alts" class="alts" aria-labelledby="q-enunciado">
+          <form id="form-alts" class="alts" role="radiogroup" aria-labelledby="q-enunciado">
             <ul class="list list--clean alt-list">
               ${altsHTML}
             </ul>
           </form>
-          <div id="feedback" class="feedback" aria-live="polite"></div>
+          <div id="feedback" class="feedback" aria-live="polite" role="status"></div>
           <details id="explicacao" ${saved && saved.isChecked ? '' : 'hidden'}>
             <summary>Ver explicação</summary>
             <p>${q.explicacao || 'Sem explicação cadastrada.'}</p>

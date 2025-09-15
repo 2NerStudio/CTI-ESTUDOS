@@ -1,0 +1,13 @@
+/* assets/css/print.css — estilos de impressão */
+@media print {
+  /* remover elementos não essenciais */
+  .site-header, .site-footer, .breadcrumb, .nav-mobile, .site-nav, .timer-bar, .btn, .btn-row { display: none !important; }
+  body { background: #fff !important; color: #000 !important; }
+  .container { width: 100% !important; margin: 0 !important; padding: 0 10mm !important; }
+  .card, .card--soft { border: 1px solid #000 !important; box-shadow: none !important; }
+  a { color: #000 !important; text-decoration: none !important; }
+  .section { padding: 0 !important; }
+  h1, h2, h3, h4 { color: #000 !important; }
+  /* páginas em branco amigáveis */
+  @page { margin: 12mm; }
+}

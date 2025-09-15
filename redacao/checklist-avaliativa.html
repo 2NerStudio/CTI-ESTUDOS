@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Checklist Avaliativo — CTI 2026</title>
+  <meta name="description" content="Lista de verificação para revisar sua redação (tese, argumentos, coesão e norma-padrão)."/>
+  <link rel="icon" href="/favicon.ico"/>
+  <link rel="stylesheet" href="/assets/css/base.css"/>
+  <link rel="stylesheet" href="/assets/css/layout.css"/>
+  <link rel="stylesheet" href="/assets/css/componentes.css"/>
+  <link rel="stylesheet" href="/assets/css/dark.css" media="(prefers-color-scheme: dark)"/>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header" role="banner">
+    <div class="container header-wrap">
+      <a class="brand" href="/"><img src="/assets/img/logo.svg" alt="" width="36" height="36"/><span class="brand-name">CTI 2026</span></a>
+      <nav class="site-nav site-nav--desktop"><ul>
+        <li><a class="nav-link" href="/aulas/">Aulas</a></li>
+        <li><a class="nav-link" href="/simulados/">Simulados</a></li>
+        <li><a class="nav-link" href="/redacao/" aria-current="page">Redação</a></li>
+        <li><a class="nav-link" href="/recursos/">Recursos</a></li>
+      </ul></nav>
+      <nav class="site-nav--mobile nav-mobile"><details class="menu"><summary class="nav-toggle">Menu</summary>
+        <ul class="menu-list">
+          <li><a class="nav-link" href="/aulas/">Aulas</a></li>
+          <li><a class="nav-link" href="/simulados/">Simulados</a></li>
+          <li><a class="nav-link" href="/redacao/" aria-current="page">Redação</a></li>
+          <li><a class="nav-link" href="/recursos/">Recursos</a></li>
+        </ul>
+      </details></nav>
+    </div>
+  </header>
+
+  <nav class="breadcrumb" aria-label="Caminho">
+    <ol>
+      <li><a href="/">Início</a></li>
+      <li><a href="/redacao/">Redação</a></li>
+      <li aria-current="page">Checklist avaliativo</li>
+    </ol>
+  </nav>
+
+  <main id="conteudo" class="section">
+    <div class="container">
+      <h1 class="h2">Checklist Avaliativo</h1>
+      <p class="text-muted">Marque os itens que seu texto atende. O progresso é salvo no dispositivo.</p>
+
+      <form id="chk-form" class="card card--soft">
+        <fieldset>
+          <legend class="h4">Conteúdo e tese</legend>
+          <label><input type="checkbox" name="tese" /> Tese explícita na introdução e relacionada ao tema.</label><br/>
+          <label><input type="checkbox" name="argumentos1" /> Dois ou mais argumentos consistentes, com explicação.</label><br/>
+          <label><input type="checkbox" name="exemplos" /> Exemplos/dados pertinentes reforçam os argumentos.</label>
+        </fieldset>
+        <fieldset style="margin-top:.75rem;">
+          <legend class="h4">Coesão e estrutura</legend>
+          <label><input type="checkbox" name="paragrafos" /> Parágrafos bem delimitados (intro, des.1, des.2, concl.).</label><br/>
+          <label><input type="checkbox" name="conectivos" /> Conectivos variados e corretos.</label><br/>
+          <label><input type="checkbox" name="progressao" /> Ideias com progressão e sem contradições.</label>
+        </fieldset>
+        <fieldset style="margin-top:.75rem;">
+          <legend class="h4">Linguagem e norma-padrão</legend>
+          <label><input type="checkbox" name="pontuacao" /> Pontuação adequada.</label><br/>
+          <label><input type="checkbox" name="concordancia" /> Concordância e regência corretas.</label><br/>
+          <label><input type="checkbox" name="ortografia" /> Ortografia e acentuação corretas.</label>
+        </fieldset>
+        <fieldset style="margin-top:.75rem;">
+          <legend class="h4">Conclusão</legend>
+          <label><input type="checkbox" name="retomada" /> Retoma a tese e sintetiza argumentos.</label><br/>
+          <label><input type="checkbox" name="encaminhamento" /> Apresenta encaminhamento possível (quando cabível).</label>
+        </fieldset>
+
+        <div class="btn-row" style="margin-top:.75rem;">
+          <button class="btn btn--primary" type="button" id="btn-chk-save">Salvar</button>
+          <button class="btn btn--outline" type="button" id="btn-chk-clear">Limpar</button>
+        </div>
+      </form>
+
+      <div class="card" style="margin-top:1rem;">
+        <h2 class="h4">Progresso</h2>
+        <p id="chk-progress" class="text-muted">0/0 itens marcados</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2025–2026 • Projeto CTI 2026.</p>
+    </div>
+  </footer>
+
+  <script src="/assets/js/storage.js" defer></script>
+  <script src="/assets/js/redacao.js" defer></script>
+  <script defer>
+    document.addEventListener('DOMContentLoaded', () => {
+      CTIRedacao.initChecklist('#chk-form', '#chk-progress', 'redacao:checklist');
+    });
+  </script>
+</body>
+</html>

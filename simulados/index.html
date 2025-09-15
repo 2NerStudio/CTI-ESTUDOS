@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Simulados — CTI 2026</title>
+  <meta name="description" content="Pratique com o Simulado completo (15/15/5/15) com timer de 4h30, listas por tema e revisões rápidas. Progresso salvo no navegador."/>
+  <link rel="icon" href="/favicon.ico"/>
+  <link rel="stylesheet" href="/assets/css/base.css"/>
+  <link rel="stylesheet" href="/assets/css/layout.css"/>
+  <link rel="stylesheet" href="/assets/css/componentes.css"/>
+  <link rel="stylesheet" href="/assets/css/aulas.css"/>
+  <link rel="stylesheet" href="/assets/css/dark.css" media="(prefers-color-scheme: dark)"/>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-wrap">
+      <a class="brand" href="/" aria-label="Página inicial">
+        <img src="/assets/img/logo.svg" alt="Logotipo do site" width="36" height="36" decoding="async"/>
+        <span class="brand-name">CTI 2026</span>
+      </a>
+      <nav class="site-nav site-nav--desktop" aria-label="Seções principais">
+        <ul>
+          <li><a href="/aulas/" class="nav-link">Aulas</a></li>
+          <li><a href="/simulados/" class="nav-link" aria-current="page">Simulados</a></li>
+          <li><a href="/redacao/" class="nav-link">Redação</a></li>
+          <li><a href="/recursos/" class="nav-link">Recursos</a></li>
+        </ul>
+      </nav>
+      <nav class="site-nav--mobile nav-mobile" aria-label="Menu principal (mobile)">
+        <details class="menu"><summary class="nav-toggle">Menu</summary>
+          <ul class="menu-list">
+            <li><a href="/aulas/" class="nav-link">Aulas</a></li>
+            <li><a href="/simulados/" class="nav-link" aria-current="page">Simulados</a></li>
+            <li><a href="/redacao/" class="nav-link">Redação</a></li>
+            <li><a href="/recursos/" class="nav-link">Recursos</a></li>
+          </ul>
+        </details>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="breadcrumb" aria-label="Caminho de navegação">
+    <ol>
+      <li><a href="/">Início</a></li>
+      <li aria-current="page">Simulados</li>
+    </ol>
+  </nav>
+
+  <main id="conteudo" class="section">
+    <div class="container">
+      <h1 class="h2">Simulados</h1>
+      <p class="text-muted">Pratique no formato do CTI (15 Português, 15 Matemática, 5 Humanas, 15 Natureza) ou foque por tema. O progresso é salvo no navegador.</p>
+
+      <!-- Card para retomar simulado em andamento (aparece via JS se houver progresso) -->
+      <div id="resume-box" class="card card--soft" hidden aria-live="polite"></div>
+
+      <section class="section">
+        <div class="grid grid--3">
+          <article class="card card--icon">
+            <div class="card__icon"><img src="/assets/img/icons/simulado.svg" alt="" width="28" height="28"/></div>
+            <h3>CTI — Completo</h3>
+            <p>50 questões (15/15/5/15) com <strong>timer de 4h30</strong>. Itens embaralhados e relatório final.</p>
+            <ul class="list list--clean">
+              <li>Salvamento automático de progresso</li>
+              <li>Feedback com explicações</li>
+            </ul>
+            <a class="btn btn--primary" href="/simulados/cti-completo.html">Iniciar simulado</a>
+          </article>
+
+          <article class="card card--icon">
+            <div class="card__icon"><img src="/assets/img/icons/tema.svg" alt="" width="28" height="28"/></div>
+            <h3>Por tema</h3>
+            <p>Monte listas por disciplina, área, tema e nível. Ideal para reforço dirigido.</p>
+            <ul class="list list--clean">
+              <li>Filtros simples</li>
+              <li>10–30 questões</li>
+            </ul>
+            <a class="btn btn--outline" href="/simulados/por-tema.html">Escolher temas</a>
+          </article>
+
+          <article class="card card--icon">
+            <div class="card__icon"><img src="/assets/img/icons/revisao.svg" alt="" width="28" height="28"/></div>
+            <h3>Revisões rápidas</h3>
+            <p>Conjuntos prontos de 10–15 questões para revisão expressa.</p>
+            <ul class="list list--clean">
+              <li>Porcentagem, Interpretação, Newton...</li>
+              <li>Ótimo para aquecimento</li>
+            </ul>
+            <a class="btn btn--outline" href="/simulados/revisoes-rapidas.html">Começar revisão</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--alt">
+        <h2>Como funciona</h2>
+        <div class="grid grid--3">
+          <article class="card card--soft">
+            <h3>1) Estude</h3>
+            <p>Use as <a href="/aulas/">Aulas</a> por tema, com teoria enxuta e exemplos.</p>
+          </article>
+          <article class="card card--soft">
+            <h3>2) Pratique</h3>
+            <p>Faça simulados completos ou por tema. O sistema salva seu progresso automaticamente.</p>
+          </article>
+          <article class="card card--soft">
+            <h3>3) Revise</h3>
+            <p>Veja o relatório final, reveja os erros e foque nos pontos fracos.</p>
+          </article>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2025–2026 • Projeto de estudos para o Vestibulinho CTI UNESP Bauru.</p>
+      <nav class="footer-nav" aria-label="Rodapé">
+        <ul>
+          <li><a href="/recursos/cronograma-de-estudos.html">Cronograma</a></li>
+          <li><a href="/recursos/como-preencher-gabarito.html">Gabarito</a></li>
+          <li><a href="/recursos/dicas-rapidas.html">Dicas</a></li>
+          <li><a href="/recursos/normas-da-prova.html">Normas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Opcional: exibir "Retomar simulado" se houver progresso salvo -->
+  <script src="/assets/js/storage.js" defer></script>
+  <script defer>
+    document.addEventListener('DOMContentLoaded', () => {
+      if (!window.AppStorage) return;
+      const quizState = AppStorage.get('simulado:cti2026:quiz');
+      const timerState = AppStorage.get('simulado:cti2026:timer');
+      const hasProgress = quizState && Array.isArray(quizState.questions) && quizState.questions.length > 0;
+      const box = document.getElementById('resume-box');
+      if (hasProgress) {
+        box.hidden = false;
+        const answered = quizState.answers ? Object.keys(quizState.answers).length : 0;
+        const total = quizState.questions.length;
+        const remaining = timerState && typeof timerState.remaining === 'number' ? timerState.remaining : null;
+        const fmt = (s)=>{ s=Math.max(0,Math.floor(s));const h=Math.floor(s/3600),m=Math.floor((s%3600)/60),ss=s%60;const p=n=>String(n).padStart(2,'0');return `${p(h)}:${p(m)}:${p(ss)}`; };
+        box.innerHTML = `
+          <div><strong>Simulado em andamento</strong> — ${answered}/${total} respondidas${remaining!==null?` • tempo: ${fmt(remaining)}`:''}</div>
+          <div class="btn-row" style="margin-top:.5rem;">
+            <a class="btn btn--primary" href="/simulados/cti-completo.html">Retomar</a>
+            <button class="btn btn--ghost" type="button" id="btn-clear-progress">Descartar</button>
+          </div>`;
+        const clearBtn = document.getElementById('btn-clear-progress');
+        clearBtn?.addEventListener('click', () => {
+          if (!confirm('Descartar o progresso do simulado atual?')) return;
+          AppStorage.remove('simulado:cti2026:quiz');
+          AppStorage.remove('simulado:cti2026:timer');
+          AppStorage.remove('simulado:cti2026:result');
+          location.reload();
+        });
+      }
+    });
+  </script>
+</body>
+</html>
