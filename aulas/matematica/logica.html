@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lógica — CTI 2026</title>
+  <meta name="description" content="Raciocínio lógico: proposições, conectivos, tabelas-verdade, equivalências (Leis de De Morgan), princípios de contagem, arranjos e combinações simples." />
+  <link rel="canonical" href="https://SEU-DOMINIO/aulas/matematica/logica.html" />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/layout.css" />
+  <link rel="stylesheet" href="/assets/css/componentes.css" />
+  <link rel="stylesheet" href="/assets/css/aulas.css" />
+  <link rel="stylesheet" href="/assets/css/dark.css" media="(prefers-color-scheme: dark)" />
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header" role="banner">
+    <div class="container header-wrap">
+      <a class="brand" href="/" aria-label="Página inicial">
+        <img src="/assets/img/logo.svg" alt="Logotipo do site" width="36" height="36" decoding="async" />
+        <span class="brand-name">CTI 2026</span>
+      </a>
+      <nav class="site-nav site-nav--desktop" aria-label="Seções principais">
+        <ul>
+          <li><a href="/aulas/" class="nav-link" aria-current="page">Aulas</a></li>
+          <li><a href="/simulados/" class="nav-link">Simulados</a></li>
+          <li><a href="/redacao/" class="nav-link">Redação</a></li>
+          <li><a href="/recursos/" class="nav-link">Recursos</a></li>
+        </ul>
+      </nav>
+      <nav class="site-nav--mobile nav-mobile" aria-label="Menu principal (mobile)">
+        <details class="menu">
+          <summary class="nav-toggle" aria-label="Abrir menu">Menu</summary>
+          <ul class="menu-list">
+            <li><a href="/aulas/" class="nav-link" aria-current="page">Aulas</a></li>
+            <li><a href="/simulados/" class="nav-link">Simulados</a></li>
+            <li><a href="/redacao/" class="nav-link">Redação</a></li>
+            <li><a href="/recursos/" class="nav-link">Recursos</a></li>
+          </ul>
+        </details>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="breadcrumb" aria-label="Caminho de navegação">
+    <ol>
+      <li><a href="/">Início</a></li>
+      <li><a href="/aulas/">Aulas</a></li>
+      <li><a href="/aulas/matematica/">Matemática</a></li>
+      <li aria-current="page">Lógica</li>
+    </ol>
+  </nav>
+
+  <main id="conteudo" class="section">
+    <div class="container">
+      <article class="lesson-hero">
+        <h1>Lógica</h1>
+        <div class="lesson-meta">
+          <span class="pill">Tema: Raciocínio lógico</span>
+          <span class="pill">Dificuldade: básico–intermediário</span>
+          <span>Tempo estimado: 60–90 min</span>
+        </div>
+        <p class="text-muted">Proposições e conectivos, equivalências úteis e princípios de contagem. Foque em montar a estrutura do problema com clareza.</p>
+      </article>
+
+      <div class="lesson-layout">
+        <div class="lesson-content">
+          <section id="objetivos" class="section-block">
+            <h2>Objetivos da aula</h2>
+            <ul>
+              <li>Interpretar proposições e conectivos lógicos (¬, ∧, ∨, →, ↔).</li>
+              <li>Aplicar equivalências simples (De Morgan, contrarrecíproca).</li>
+              <li>Resolver problemas com princípios aditivo e multiplicativo.</li>
+              <li>Contar arranjos e combinações simples.</li>
+            </ul>
+          </section>
+
+          <section id="teoria" class="section-block">
+            <h2>Teoria</h2>
+
+            <h3>1) Proposições e conectivos</h3>
+            <ul>
+              <li>Negação (¬p): inverte o valor.</li>
+              <li>Conjunção (p ∧ q): é verdadeira quando p e q são verdadeiros.</li>
+              <li>Disjunção inclusiva (p ∨ q): é verdadeira quando pelo menos um é verdadeiro.</li>
+              <li>Implicação (p → q): só é falsa quando p é V e q é F.</li>
+              <li>Bicondicional (p ↔ q): V quando p e q têm o mesmo valor.</li>
+            </ul>
+
+            <h3>2) Equivalências úteis</h3>
+            <ul>
+              <li>De Morgan: ¬(p ∧ q) ≡ (¬p ∨ ¬q); ¬(p ∨ q) ≡ (¬p ∧ ¬q).</li>
+              <li>Contraposição: (p → q) ≡ (¬q → ¬p).</li>
+              <li>p → q ≡ (¬p ∨ q).</li>
+            </ul>
+
+            <h3>3) Contagem</h3>
+            <ul>
+              <li>Princípio multiplicativo: etapas independentes multiplicam possibilidades.</li>
+              <li>Princípio aditivo: escolhas excludentes somam possibilidades.</li>
+              <li>Fatorial: n! = n·(n−1)·…·1.</li>
+              <li>Arranjos sem repetição: A(n,k) = n!/(n−k)!. (ordem importa)</li>
+              <li>Combinações: C(n,k) = n!/[k!(n−k)!]. (ordem não importa)</li>
+            </ul>
+
+            <h3>Erros comuns</h3>
+            <ul>
+              <li>Tratar “ou” como exclusivo sem o texto indicar.</li>
+              <li>Esquecer restrições na contagem (sem repetição, posições fixas etc.).</li>
+              <li>Confundir arranjos (ordem importa) com combinações (ordem não importa).</li>
+            </ul>
+          </section>
+
+          <section id="exemplos" class="section-block">
+            <h2>Exemplos resolvidos</h2>
+
+            <div class="example">
+              <strong>Exemplo 1 — Tabela-verdade reduzida.</strong><br />
+              p ∧ (¬q ∨ r): é falsa apenas quando p é F ou quando p é V e (¬q ∨ r) é F (ou seja, q=V e r=F).
+            </div>
+
+            <div class="example" style="margin-top:.5rem;">
+              <strong>Exemplo 2 — Contagem.</strong><br />
+              Senha de 3 dígitos sem repetição (0–9, primeiro pode ser zero): 10·9·8 = <strong>720</strong>.
+            </div>
+          </section>
+
+          <section id="exercicios" class="section-block">
+            <h2>Exercícios</h2>
+
+            <div class="exercise"><strong>1)</strong> Negue a proposição: “Todos estudam ou praticam”.<br />
+              <details><summary>Gabarito</summary>“<strong>Nem todos</strong> estudam ou praticam” ≡ “Existe alguém que <strong>não</strong> estuda <strong>e não</strong> pratica”. (De Morgan + quantificador)</details>
+            </div>
+
+            <div class="exercise"><strong>2)</strong> Indique quando p → q é falsa.<br />
+              <details><summary>Gabarito</summary>Apenas quando p=V e q=F.</details>
+            </div>
+
+            <div class="exercise"><strong>3)</strong> Mostre a equivalência: ¬(p ∨ q) ≡ (¬p ∧ ¬q).<br />
+              <details><summary>Gabarito</summary>Lei de De Morgan para disjunção.</details>
+            </div>
+
+            <div class="exercise"><strong>4)</strong> Em uma turma, 30 jogam futebol, 20 basquete e 10 ambos. Quantos jogam ao menos um?<br />
+              <details><summary>Gabarito</summary>|F∪B| = 30+20−10 = <strong>40</strong>.</details>
+            </div>
+
+            <div class="exercise"><strong>5)</strong> E na turma de 50 alunos, quantos não jogam nenhum?<br />
+              <details><summary>Gabarito</summary>50 − 40 = <strong>10</strong>.</details>
+            </div>
+
+            <div class="exercise"><strong>6)</strong> Placas de 3 letras distintas (26 letras). Quantas?<br />
+              <details><summary>Gabarito</summary>A(26,3)=26·25·24=<strong>15.600</strong>.</details>
+            </div>
+
+            <div class="exercise"><strong>7)</strong> Sorveteria com 5 sabores: de quantas formas escolher 2 sabores (sem ordem)?<br />
+              <details><summary>Gabarito</summary>C(5,2)=10.</details>
+            </div>
+
+            <div class="exercise"><strong>8)</strong> Em uma sequência: 2, 6, 18, 54, ... Qual o 6º termo?<br />
+              <details><summary>Gabarito</summary>PG razão 3. a6 = 2·3^(5)=2·243=<strong>486</strong>.</details>
+            </div>
+
+            <div class="exercise"><strong>9)</strong> Paridade: o produto de 6 inteiros consecutivos é par ou ímpar?<br />
+              <details><summary>Gabarito</summary>Par (há pelo menos um par).</details>
+            </div>
+
+            <div class="exercise"><strong>10)</strong> Quantos anagramas da palavra “CTI” (todas as letras distintas)?<br />
+              <details><summary>Gabarito</summary>3!=<strong>6</strong>.</details>
+            </div>
+
+            <div class="exercise"><strong>11)</strong> Equivalência: (p → q) ↔ (¬q → ¬p) é sempre?<br />
+              <details><summary>Gabarito</summary>Verdadeira (contraposição).</details>
+            </div>
+
+            <div class="exercise"><strong>12)</strong> Senha de 4 dígitos: começa com número ímpar e dígitos podem repetir. Quantas?<br />
+              <details><summary>Gabarito</summary>1º: 5 opções (1,3,5,7,9); demais: 10 cada ⇒ 5·10·10·10 = <strong>5000</strong>.</details>
+            </div>
+          </section>
+
+          <section id="questoes-reais" class="section-block">
+            <h2>Questões de provas</h2>
+            <p>Serão adicionadas quando o banco estiver disponível.</p>
+          </section>
+
+          <section id="referencias" class="section-block">
+            <h2>Referências</h2>
+            <ul>
+              <li>Tabelas-verdade e equivalências básicas.</li>
+              <li>Princípios de contagem, arranjos e combinações.</li>
+            </ul>
+          </section>
+
+          <nav class="lesson-nav">
+            <a class="btn btn--outline" href="/aulas/matematica/geometria-espacial-volumes.html">← Geometria espacial</a>
+            <a class="btn btn--primary" href="/aulas/matematica/index.html">Matemática (índice) →</a>
+          </nav>
+        </div>
+
+        <aside class="lesson-toc" aria-label="Sumário da aula">
+          <h4>Conteúdo</h4>
+          <ol>
+            <li><a href="#objetivos">Objetivos</a></li>
+            <li><a href="#teoria">Teoria</a></li>
+            <li><a href="#exemplos">Exemplos</a></li>
+            <li><a href="#exercicios">Exercícios</a></li>
+            <li><a href="#questoes-reais">Questões de provas</a></li>
+            <li><a href="#referencias">Referências</a></li>
+          </ol>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2025–2026 • Projeto de estudos para o Vestibulinho CTI UNESP Bauru.</p>
+      <nav class="footer-nav" aria-label="Rodapé">
+        <ul>
+          <li><a href="/recursos/cronograma-de-estudos.html">Cronograma</a></li>
+          <li><a href="/recursos/como-preencher-gabarito.html">Gabarito</a></li>
+          <li><a href="/recursos/dicas-rapidas.html">Dicas</a></li>
+          <li><a href="/recursos/normas-da-prova.html">Normas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

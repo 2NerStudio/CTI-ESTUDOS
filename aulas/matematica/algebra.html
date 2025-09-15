@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Álgebra — CTI 2026</title>
+  <meta name="description" content="Expressões algébricas, produtos notáveis, fatoração e equações do 1º grau. Dicas práticas e exercícios resolvidos." />
+  <link rel="canonical" href="https://SEU-DOMINIO/aulas/matematica/algebra.html" />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/layout.css" />
+  <link rel="stylesheet" href="/assets/css/componentes.css" />
+  <link rel="stylesheet" href="/assets/css/aulas.css" />
+  <link rel="stylesheet" href="/assets/css/dark.css" media="(prefers-color-scheme: dark)" />
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header" role="banner">
+    <div class="container header-wrap">
+      <a class="brand" href="/" aria-label="Página inicial">
+        <img src="/assets/img/logo.svg" alt="Logotipo do site" width="36" height="36" decoding="async" />
+        <span class="brand-name">CTI 2026</span>
+      </a>
+      <nav class="site-nav site-nav--desktop" aria-label="Seções principais">
+        <ul>
+          <li><a href="/aulas/" class="nav-link" aria-current="page">Aulas</a></li>
+          <li><a href="/simulados/" class="nav-link">Simulados</a></li>
+          <li><a href="/redacao/" class="nav-link">Redação</a></li>
+          <li><a href="/recursos/" class="nav-link">Recursos</a></li>
+        </ul>
+      </nav>
+      <nav class="site-nav--mobile nav-mobile" aria-label="Menu principal (mobile)">
+        <details class="menu">
+          <summary class="nav-toggle" aria-label="Abrir menu">Menu</summary>
+          <ul class="menu-list">
+            <li><a href="/aulas/" class="nav-link" aria-current="page">Aulas</a></li>
+            <li><a href="/simulados/" class="nav-link">Simulados</a></li>
+            <li><a href="/redacao/" class="nav-link">Redação</a></li>
+            <li><a href="/recursos/" class="nav-link">Recursos</a></li>
+          </ul>
+        </details>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="breadcrumb" aria-label="Caminho de navegação">
+    <ol>
+      <li><a href="/">Início</a></li>
+      <li><a href="/aulas/">Aulas</a></li>
+      <li><a href="/aulas/matematica/">Matemática</a></li>
+      <li aria-current="page">Álgebra</li>
+    </ol>
+  </nav>
+
+  <main id="conteudo" class="section">
+    <div class="container">
+      <article class="lesson-hero">
+        <h1>Álgebra</h1>
+        <div class="lesson-meta">
+          <span class="pill">Tema: Álgebra</span>
+          <span class="pill">Dificuldade: intermediário</span>
+          <span>Tempo estimado: 60–90 min</span>
+        </div>
+        <p class="text-muted">Simplificação de expressões, produtos notáveis, fatoração e equações lineares. Base para sistemas e problemas contextualizados.</p>
+      </article>
+
+      <div class="lesson-layout">
+        <div class="lesson-content">
+          <section id="objetivos" class="section-block">
+            <h2>Objetivos da aula</h2>
+            <ul>
+              <li>Operar com monômios e polinômios.</li>
+              <li>Aplicar produtos notáveis e fatorar expressões.</li>
+              <li>Resolver equações do 1º grau com segurança.</li>
+            </ul>
+          </section>
+
+          <section id="prerequisitos" class="section-block">
+            <h2>Pré-requisitos</h2>
+            <p class="note">Revisar <a href="/aulas/matematica/operacoes-basicas.html">Operações</a> (distributiva) e <a href="/aulas/matematica/razao-e-proporcao.html">Razões</a>.</p>
+          </section>
+
+          <section id="teoria" class="section-block">
+            <h2>Teoria</h2>
+            <h3>1) Vocabulário</h3>
+            <ul>
+              <li>Monômio: 7x, −3xy; grau = soma dos expoentes.</li>
+              <li>Polinômio: soma de monômios (ex.: 2x² − 3x + 1).</li>
+            </ul>
+
+            <h3>2) Produtos notáveis</h3>
+            <ul>
+              <li>(a+b)² = a² + 2ab + b²</li>
+              <li>(a−b)² = a² − 2ab + b²</li>
+              <li>(a+b)(a−b) = a² − b²</li>
+            </ul>
+
+            <h3>3) Fatoração (principais)</h3>
+            <ul>
+              <li>Fator comum: ax + ay = a(x + y)</li>
+              <li>Diferença de quadrados: x² − 9 = (x − 3)(x + 3)</li>
+              <li>Trinômio quadrado perfeito: x² + 6x + 9 = (x + 3)²</li>
+              <li>Trinômio do 2º grau: x² + bx + c → pares (p,q) com p·q=c e p+q=b</li>
+            </ul>
+
+            <h3>4) Equações do 1º grau</h3>
+            <p>ax + b = 0 ⇒ x = −b/a (a ≠ 0). Respeite a “balança”: o que faz de um lado, faça do outro.</p>
+
+            <h3>Erros comuns</h3>
+            <ul>
+              <li>Esquecer sinais na distributiva.</li>
+              <li>Tratar (a+b)² como a² + b² (errado!).</li>
+              <li>Dividir por expressão que pode ser zero sem checar domínio.</li>
+            </ul>
+          </section>
+
+          <section id="exemplos" class="section-block">
+            <h2>Exemplos resolvidos</h2>
+
+            <div class="example">
+              <strong>Exemplo 1 — Simplificar.</strong><br />
+              3x − 2(x − 5) + 4 = 3x − 2x + 10 + 4 = <strong>x + 14</strong>.
+            </div>
+
+            <div class="example" style="margin-top:.5rem;">
+              <strong>Exemplo 2 — Produto notável.</strong><br />
+              (2x − 3)² = 4x² − 12x + 9.
+            </div>
+
+            <div class="example" style="margin-top:.5rem;">
+              <strong>Exemplo 3 — Fatoração.</strong><br />
+              6x² + 9x = 3x(2x + 3).
+            </div>
+
+            <div class="example" style="margin-top:.5rem;">
+              <strong>Exemplo 4 — Equação.</strong><br />
+              2(3x − 4) + 5 = 3(x + 1) ⇒ 6x − 8 + 5 = 3x + 3 ⇒ 3x = 6 ⇒ x = <strong>2</strong>.
+            </div>
+          </section>
+
+          <section id="exercicios" class="section-block">
+            <h2>Exercícios</h2>
+
+            <div class="exercise">
+              <strong>1)</strong> Simplifique: 5y − 2(3y − 4) + y.<br />
+              <details><summary>Gabarito e resolução</summary>
+                5y − 6y + 8 + y = <strong>8</strong>.
+              </details>
+            </div>
+
+            <div class="exercise" style="margin-top:.5rem;">
+              <strong>2)</strong> Desenvolva: (x + 5)².<br />
+              <details><summary>Gabarito e resolução</summary>
+                x² + 10x + 25.
+              </details>
+            </div>
+
+            <div class="exercise" style="margin-top:.5rem;">
+              <strong>3)</strong> Fatore: x² − 16.<br />
+              <details><summary>Gabarito e resolução</summary>
+                (x − 4)(x + 4).
+              </details>
+            </div>
+
+            <div class="exercise" style="margin-top:.5rem;">
+              <strong>4)</strong> Fatore: x² + 5x + 6.<br />
+              <details><summary>Gabarito e resolução</summary>
+                (x + 2)(x + 3).
+              </details>
+            </div>
+
+            <div class="exercise" style="margin-top:.5rem;">
+              <strong>5)</strong> Resolva: 4x − (2x − 6) = 10.<br />
+              <details><summary>Gabarito e resolução</summary>
+                4x − 2x + 6 = 10 ⇒ 2x = 4 ⇒ x = <strong>2</strong>.
+              </details>
+            </div>
+
+            <div class="exercise" style="margin-top:.5rem;">
+              <strong>6)</strong> Resolva: (x/2) + (x/3) = 10.<br />
+              <details><summary>Gabarito e resolução</summary>
+                (3x + 2x)/6 = 10 ⇒ 5x = 60 ⇒ x = <strong>12</strong>.
+              </details>
+            </div>
+
+            <div class="exercise" style="margin-top:.5rem;">
+              <strong>7)</strong> Avalie para a=2 e b=−3: (a − b)² − ab.<br />
+              <details><summary>Gabarito e resolução</summary>
+                (5)² − (−6) = 25 + 6 = <strong>31</strong>.
+              </details>
+            </div>
+
+            <div class="exercise" style="margin-top:.5rem;">
+              <strong>8)</strong> Fator comum: 12x³ − 8x².<br />
+              <details><summary>Gabarito e resolução</summary>
+                4x²(3x − 2).
+              </details>
+            </div>
+
+            <div class="exercise" style="margin-top:.5rem;">
+              <strong>9)</strong> Se (x + 2) é fator de x² + kx + 2, determine k.<br />
+              <details><summary>Gabarito e resolução</summary>
+                f(−2)=0 ⇒ 4 − 2k + 2 = 0 ⇒ 6 − 2k = 0 ⇒ k = <strong>3</strong>.
+              </details>
+            </div>
+
+            <div class="exercise" style="margin-top:.5rem;">
+              <strong>10)</strong> Desenvolva: (3x + 1)(3x − 1).<br />
+              <details><summary>Gabarito e resolução</summary>
+                (a+b)(a−b)=a²−b² ⇒ 9x² − 1.
+              </details>
+            </div>
+          </section>
+
+          <section id="questoes-reais" class="section-block">
+            <h2>Questões de provas</h2>
+            <p>Entrarão aqui quando o banco estiver pronto.</p>
+          </section>
+
+          <section id="referencias" class="section-block">
+            <h2>Referências</h2>
+            <ul>
+              <li>Produtos notáveis e fatoração (guia prático).</li>
+              <li>Equações do 1º grau e operações com polinômios.</li>
+            </ul>
+          </section>
+
+          <nav class="lesson-nav">
+            <a class="btn btn--outline" href="/aulas/matematica/porcentagem-e-juros.html">← Porcentagem e Juros</a>
+            <a class="btn btn--primary" href="/aulas/matematica/sistemas-de-equacoes.html">Sistemas de Equações →</a>
+          </nav>
+        </div>
+
+        <aside class="lesson-toc" aria-label="Sumário da aula">
+          <h4>Conteúdo</h4>
+          <ol>
+            <li><a href="#objetivos">Objetivos</a></li>
+            <li><a href="#prerequisitos">Pré-requisitos</a></li>
+            <li><a href="#teoria">Teoria</a></li>
+            <li><a href="#exemplos">Exemplos</a></li>
+            <li><a href="#exercicios">Exercícios</a></li>
+            <li><a href="#questoes-reais">Questões de provas</a></li>
+            <li><a href="#referencias">Referências</a></li>
+          </ol>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2025–2026 • Projeto de estudos para o Vestibulinho CTI UNESP Bauru.</p>
+      <nav class="footer-nav" aria-label="Rodapé">
+        <ul>
+          <li><a href="/recursos/cronograma-de-estudos.html">Cronograma</a></li>
+          <li><a href="/recursos/como-preencher-gabarito.html">Gabarito</a></li>
+          <li><a href="/recursos/dicas-rapidas.html">Dicas</a></li>
+          <li><a href="/recursos/normas-da-prova.html">Normas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

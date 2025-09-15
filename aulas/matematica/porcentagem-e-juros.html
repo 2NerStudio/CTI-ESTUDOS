@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Porcentagem e Juros — CTI 2026</title>
+  <meta name="description" content="Acréscimo, desconto, variação percentual, sucessivos, markup vs. margem, juros simples e compostos. Exercícios contextualizados em finanças." />
+  <link rel="canonical" href="https://SEU-DOMINIO/aulas/matematica/porcentagem-e-juros.html" />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/layout.css" />
+  <link rel="stylesheet" href="/assets/css/componentes.css" />
+  <link rel="stylesheet" href="/assets/css/aulas.css" />
+  <link rel="stylesheet" href="/assets/css/dark.css" media="(prefers-color-scheme: dark)" />
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header" role="banner">
+    <div class="container header-wrap">
+      <a class="brand" href="/" aria-label="Página inicial">
+        <img src="/assets/img/logo.svg" alt="Logotipo do site" width="36" height="36" decoding="async" />
+        <span class="brand-name">CTI 2026</span>
+      </a>
+      <nav class="site-nav site-nav--desktop" aria-label="Seções principais">
+        <ul>
+          <li><a href="/aulas/" class="nav-link" aria-current="page">Aulas</a></li>
+          <li><a href="/simulados/" class="nav-link">Simulados</a></li>
+          <li><a href="/redacao/" class="nav-link">Redação</a></li>
+          <li><a href="/recursos/" class="nav-link">Recursos</a></li>
+        </ul>
+      </nav>
+      <nav class="site-nav--mobile nav-mobile" aria-label="Menu principal (mobile)">
+        <details class="menu">
+          <summary class="nav-toggle" aria-label="Abrir menu">Menu</summary>
+          <ul class="menu-list">
+            <li><a href="/aulas/" class="nav-link" aria-current="page">Aulas</a></li>
+            <li><a href="/simulados/" class="nav-link">Simulados</a></li>
+            <li><a href="/redacao/" class="nav-link">Redação</a></li>
+            <li><a href="/recursos/" class="nav-link">Recursos</a></li>
+          </ul>
+        </details>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="breadcrumb" aria-label="Caminho de navegação">
+    <ol>
+      <li><a href="/">Início</a></li>
+      <li><a href="/aulas/">Aulas</a></li>
+      <li><a href="/aulas/matematica/">Matemática</a></li>
+      <li aria-current="page">Porcentagem e Juros</li>
+    </ol>
+  </nav>
+
+  <main id="conteudo" class="section">
+    <div class="container">
+      <article class="lesson-hero">
+        <h1>Porcentagem e Juros</h1>
+        <div class="lesson-meta">
+          <span class="pill">Tema: Matemática financeira</span>
+          <span class="pill">Dificuldade: intermediário</span>
+          <span>Tempo estimado: 60–90 min</span>
+        </div>
+        <p class="text-muted">Acréscimo, desconto e juros (simples e compostos) são campeões de prova. Domine fatores multiplicativos, sucessivos e a base de cálculo.</p>
+      </article>
+
+      <div class="lesson-layout">
+        <div class="lesson-content">
+          <section id="objetivos" class="section-block">
+            <h2>Objetivos da aula</h2>
+            <ul>
+              <li>Converter porcentagens para fração/decimal e aplicar fatores de aumento/descida.</li>
+              <li>Resolver variação percentual simples e sucessiva.</li>
+              <li>Distinguir markup de margem.</li>
+              <li>Calcular juros simples e compostos com atenção à taxa e ao período.</li>
+            </ul>
+          </section>
+
+          <section id="prerequisitos" class="section-block">
+            <h2>Pré-requisitos</h2>
+            <p class="note">Revise <a href="/aulas/matematica/razao-e-proporcao.html">Razão e Proporção</a> (valor unitário e produto cruzado).</p>
+          </section>
+
+          <section id="teoria" class="section-block">
+            <h2>Teoria</h2>
+
+            <h3>1) Representações</h3>
+            <ul>
+              <li>10% = 10/100 = 0,10</li>
+              <li>25% = 1/4 = 0,25</li>
+              <li>12,5% = 1/8 = 0,125</li>
+            </ul>
+
+            <h3>2) Acréscimo e desconto (fator)</h3>
+            <ul>
+              <li>Novo = Antigo × (1 + t) para acréscimo de t.</li>
+              <li>Novo = Antigo × (1 − t) para desconto de t.</li>
+              <li>Variação percentual = (Novo − Antigo) / Antigo × 100%.</li>
+            </ul>
+
+            <h3>3) Sucessivos</h3>
+            <p>Percentuais sucessivos multiplicam fatores. Ex.: +10% e depois −20% ⇒ fator total = 1,10 × 0,80 = 0,88 (queda de 12%).</p>
+
+            <h3>4) Base de cálculo</h3>
+            <p>Desconto/acrésci­mo sempre se aplica sobre a base indicada. Cuidado ao comparar margens.</p>
+
+            <h3>5) Markup × Margem</h3>
+            <ul>
+              <li>Markup de 25% sobre o custo C: preço = C × 1,25.</li>
+              <li>Margem (% sobre o preço): margem = lucro / preço. Se C=100 → preço=125 → lucro=25 → margem = 25/125 = 20%.</li>
+            </ul>
+
+            <h3>6) Juros simples</h3>
+            <ul>
+              <li>J = C × i × t; M = C + J = C(1 + i t).</li>
+              <li>i: taxa por período; t: número de períodos (compatibilize unidades!).</li>
+            </ul>
+
+            <h3>7) Juros compostos</h3>
+            <ul>
+              <li>M = C(1 + i)^t; J = M − C.</li>
+              <li>Taxas equivalentes: i_a.a. ≈ (1 + i_a.m.)^12 − 1 (se períodos mensais).</li>
+            </ul>
+
+            <h3>Erros comuns</h3>
+            <ul>
+              <li>Somar percentuais sucessivos (em vez de multiplicar fatores).</li>
+              <li>Trocar a base do desconto/acrésci­mo.</li>
+              <li>Usar juros simples quando o enunciado indica capitalização (compostos).</li>
+              <li>Misturar unidades de taxa e tempo (a.m., a.a.).</li>
+            </ul>
+          </section>
+
+          <section id="exemplos" class="section-block">
+            <h2>Exemplos resolvidos</h2>
+
+            <div class="example">
+              <strong>Exemplo 1 — Desconto.</strong><br />
+              R$ 200 com 15% de desconto: 200×(1−0,15)=200×0,85= <strong>R$ 170,00</strong>.
+            </div>
+
+            <div class="example" style="margin-top:.5rem;">
+              <strong>Exemplo 2 — Sucessivos.</strong><br />
+              +20% e depois −10% ⇒ fator: 1,20×0,90=1,08 ⇒ aumento total de <strong>8%</strong>.
+            </div>
+
+            <div class="example" style="margin-top:.5rem;">
+              <strong>Exemplo 3 — Markup vs. margem.</strong><br />
+              Custo 160; markup 25% ⇒ preço 200; lucro 40; margem = 40/200 = <strong>20%</strong>.
+            </div>
+
+            <div class="example" style="margin-top:.5rem;">
+              <strong>Exemplo 4 — Juros simples.</strong><br />
+              C=800; i=3% a.m.; t=5 meses ⇒ J=800×0,03×5=120; M= <strong>R$ 920,00</strong>.
+            </div>
+
+            <div class="example" style="margin-top:.5rem;">
+              <strong>Exemplo 5 — Juros compostos.</strong><br />
+              C=1000; i=2% a.m.; t=6 ⇒ M=1000×(1,02)^6≈1000×1,12616= <strong>R$ 1.126,16</strong>.
+            </div>
+          </section>
+
+          <section id="exercicios" class="section-block">
+            <h2>Exercícios</h2>
+
+            <div class="exercise">
+              <strong>1)</strong> 15% de 240 é:<br />
+              <details><summary>Gabarito e resolução</summary>
+                0,15×240=36. Resposta: <strong>36</strong>.
+              </details>
+            </div>
+
+            <div class="exercise" style="margin-top:.5rem;">
+              <strong>2)</strong> Preço após desconto de 18% sobre R$ 350.<br />
+              <details><summary>Gabarito e resolução</summary>
+                350×0,82= <strong>R$ 287,00</strong>.
+              </details>
+            </div>
+
+            <div class="exercise" style="margin-top:.5rem;">
+              <strong>3)</strong> Um produto subiu de 80 para 92. Qual a variação percentual?<br />
+              <details><summary>Gabarito e resolução</summary>
+                (92−80)/80=12/80=0,15 ⇒ <strong>+15%</strong>.
+              </details>
+            </div>
+
+            <div class="exercise" style="margin-top:.5rem;">
+              <strong>4)</strong> Dois descontos sucessivos de 10% e 20% em R$ 500 resultam em:<br />
+              <details><summary>Gabarito e resolução</summary>
+                500×0,9×0,8=500×0,72= <strong>R$ 360,00</strong> (desconto total de 28%).
+              </details>
+            </div>
+
+            <div class="exercise" style="margin-top:.5rem;">
+              <strong>5)</strong> Após acréscimo de 30%, o preço é R$ 546. Qual era o preço?<br />
+              <details><summary>Gabarito e resolução</summary>
+                Antigo = 546/1,3 = <strong>R$ 420,00</strong>.
+              </details>
+            </div>
+
+            <div class="exercise" style="margin-top:.5rem;">
+              <strong>6)</strong> C=1500 gerou M=1740 em 8 meses (juros simples). Qual a taxa mensal?<br />
+              <details><summary>Gabarito e resolução</summary>
+                J=240; i=J/(C·t)=240/(1500·8)=0,02 ⇒ <strong>2% a.m.</strong>
+              </details>
+            </div>
+
+            <div class="exercise" style="margin-top:.5rem;">
+              <strong>7)</strong> Juros simples: C=2200; i=1,5% a.m.; t=10 meses → M=?<br />
+              <details><summary>Gabarito e resolução</summary>
+                J=2200×0,015×10=330; M= <strong>R$ 2.530,00</strong>.
+              </details>
+            </div>
+
+            <div class="exercise" style="margin-top:.5rem;">
+              <strong>8)</strong> Juros compostos: C=2.000; i=3% a.m.; t=4 meses → M=?<br />
+              <details><summary>Gabarito e resolução</summary>
+                M=2000×(1,03)^4 ≈ 2000×1,12550881 = <strong>R$ 2.251,02</strong>.
+              </details>
+            </div>
+
+            <div class="exercise" style="margin-top:.5rem;">
+              <strong>9)</strong> Uma taxa de 2% a.m. equivale, ao ano, a:<br />
+              <details><summary>Gabarito e resolução</summary>
+                (1,02)^12−1 ≈ 0,268241 ⇒ <strong>26,82% a.a.</strong>
+              </details>
+            </div>
+
+            <div class="exercise" style="margin-top:.5rem;">
+              <strong>10)</strong> Inflação de 8% e reajuste salarial de 5%: variação real do poder de compra?<br />
+              <details><summary>Gabarito e resolução</summary>
+                Fator real = 1,05/1,08 ≈ 0,9722 ⇒ <strong>−2,78%</strong>.
+              </details>
+            </div>
+
+            <div class="exercise" style="margin-top:.5rem;">
+              <strong>11)</strong> Uma loja aplica markup de 40% sobre custo de R$ 250. Qual a margem sobre o preço?<br />
+              <details><summary>Gabarito e resolução</summary>
+                Preço=250×1,4=350; lucro=100; margem=100/350≈ <strong>28,57%</strong>.
+              </details>
+            </div>
+
+            <div class="exercise" style="margin-top:.5rem;">
+              <strong>12)</strong> Aumenta 10% e depois 15%. Qual o aumento total?<br />
+              <details><summary>Gabarito e resolução</summary>
+                1,10×1,15=1,265 ⇒ <strong>+26,5%</strong> (não é 25%).
+              </details>
+            </div>
+          </section>
+
+          <section id="questoes-reais" class="section-block">
+            <h2>Questões de provas</h2>
+            <p>Serão linkadas quando o banco de questões estiver disponível.</p>
+          </section>
+
+          <section id="referencias" class="section-block">
+            <h2>Referências</h2>
+            <ul>
+              <li>Conceitos de porcentagem e juros (simples/compostos) — material introdutório.</li>
+              <li>Conversões de taxa por período (a.m. ⇄ a.a.).</li>
+            </ul>
+          </section>
+
+          <nav class="lesson-nav">
+            <a class="btn btn--outline" href="/aulas/matematica/razao-e-proporcao.html">← Razão e Proporção</a>
+            <a class="btn btn--primary" href="/aulas/matematica/algebra.html">Álgebra →</a>
+          </nav>
+        </div>
+
+        <aside class="lesson-toc" aria-label="Sumário da aula">
+          <h4>Conteúdo</h4>
+          <ol>
+            <li><a href="#objetivos">Objetivos</a></li>
+            <li><a href="#prerequisitos">Pré-requisitos</a></li>
+            <li><a href="#teoria">Teoria</a></li>
+            <li><a href="#exemplos">Exemplos</a></li>
+            <li><a href="#exercicios">Exercícios</a></li>
+            <li><a href="#questoes-reais">Questões de provas</a></li>
+            <li><a href="#referencias">Referências</a></li>
+          </ol>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2025–2026 • Projeto de estudos para o Vestibulinho CTI UNESP Bauru.</p>
+      <nav class="footer-nav" aria-label="Rodapé">
+        <ul>
+          <li><a href="/recursos/cronograma-de-estudos.html">Cronograma</a></li>
+          <li><a href="/recursos/como-preencher-gabarito.html">Gabarito</a></li>
+          <li><a href="/recursos/dicas-rapidas.html">Dicas</a></li>
+          <li><a href="/recursos/normas-da-prova.html">Normas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

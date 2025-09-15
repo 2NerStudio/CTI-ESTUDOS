@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Geometria plana — CTI 2026</title>
+  <meta name="description" content="Perímetro e áreas de polígonos, circunferência e círculo, teorema de Pitágoras, semelhança de triângulos e setores circulares." />
+  <link rel="canonical" href="https://SEU-DOMINIO/aulas/matematica/geometria-plana.html" />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/layout.css" />
+  <link rel="stylesheet" href="/assets/css/componentes.css" />
+  <link rel="stylesheet" href="/assets/css/aulas.css" />
+  <link rel="stylesheet" href="/assets/css/dark.css" media="(prefers-color-scheme: dark)" />
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header" role="banner">
+    <div class="container header-wrap">
+      <a class="brand" href="/" aria-label="Página inicial">
+        <img src="/assets/img/logo.svg" alt="Logotipo do site" width="36" height="36" decoding="async" />
+        <span class="brand-name">CTI 2026</span>
+      </a>
+      <nav class="site-nav site-nav--desktop" aria-label="Seções principais">
+        <ul>
+          <li><a href="/aulas/" class="nav-link" aria-current="page">Aulas</a></li>
+          <li><a href="/simulados/" class="nav-link">Simulados</a></li>
+          <li><a href="/redacao/" class="nav-link">Redação</a></li>
+          <li><a href="/recursos/" class="nav-link">Recursos</a></li>
+        </ul>
+      </nav>
+      <nav class="site-nav--mobile nav-mobile" aria-label="Menu principal (mobile)">
+        <details class="menu">
+          <summary class="nav-toggle" aria-label="Abrir menu">Menu</summary>
+          <ul class="menu-list">
+            <li><a href="/aulas/" class="nav-link" aria-current="page">Aulas</a></li>
+            <li><a href="/simulados/" class="nav-link">Simulados</a></li>
+            <li><a href="/redacao/" class="nav-link">Redação</a></li>
+            <li><a href="/recursos/" class="nav-link">Recursos</a></li>
+          </ul>
+        </details>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="breadcrumb" aria-label="Caminho de navegação">
+    <ol>
+      <li><a href="/">Início</a></li>
+      <li><a href="/aulas/">Aulas</a></li>
+      <li><a href="/aulas/matematica/">Matemática</a></li>
+      <li aria-current="page">Geometria plana</li>
+    </ol>
+  </nav>
+
+  <main id="conteudo" class="section">
+    <div class="container">
+      <article class="lesson-hero">
+        <h1>Geometria plana</h1>
+        <div class="lesson-meta">
+          <span class="pill">Tema: Geometria</span>
+          <span class="pill">Dificuldade: intermediário</span>
+          <span>Tempo estimado: 70–100 min</span>
+        </div>
+        <p class="text-muted">Formulário essencial de perímetros e áreas, Pitágoras, semelhança de triângulos e setores de círculo. Use π≈3,14 quando não indicado.</p>
+      </article>
+
+      <div class="lesson-layout">
+        <div class="lesson-content">
+          <section id="objetivos" class="section-block">
+            <h2>Objetivos da aula</h2>
+            <ul>
+              <li>Calcular perímetros e áreas de figuras planas comuns.</li>
+              <li>Aplicar Pitágoras e triângulos notáveis em problemas.</li>
+              <li>Resolver questões com círculos: comprimento, área e setores.</li>
+              <li>Usar semelhança de triângulos e razões métricas.</li>
+            </ul>
+          </section>
+
+          <section id="prerequisitos" class="section-block">
+            <h2>Pré-requisitos</h2>
+            <p class="note">Revisar <a href="/aulas/matematica/angulos.html">Ângulos</a> e <a href="/aulas/matematica/razao-e-proporcao.html">Razões e proporções</a>.</p>
+          </section>
+
+          <section id="teoria" class="section-block">
+            <h2>Teoria</h2>
+
+            <h3>1) Unidades</h3>
+            <ul>
+              <li>Comprimento: mm, cm, m, km. 1 m = 100 cm.</li>
+              <li>Área: cm², m². 1 m² = 10.000 cm².</li>
+            </ul>
+
+            <h3>2) Fórmulas de perímetro e área</h3>
+            <ul>
+              <li>Retângulo: P = 2(a + b); A = a·b.</li>
+              <li>Quadrado: P = 4a; A = a².</li>
+              <li>Paralelogramo: A = base·altura.</li>
+              <li>Triângulo: A = (base·altura)/2.</li>
+              <li>Losango: A = (D·d)/2.</li>
+              <li>Trapézio: A = (B + b)/2 · h.</li>
+              <li>Circunferência: C = 2πr; C = πd.</li>
+              <li>Círculo: A = πr². Setor: A_setor = (θ/360°)·πr²; arco: L = (θ/360°)·2πr.</li>
+            </ul>
+
+            <h3>3) Triângulos</h3>
+            <ul>
+              <li>Soma dos ângulos internos: 180°.</li>
+              <li>Pitágoras (retângulo): a² = b² + c² (a é a hipotenusa).</li>
+              <li>Notáveis: 3-4-5; 5-12-13; 7-24-25. Escalas múltiplas também funcionam.</li>
+            </ul>
+
+            <h3>4) Polígonos</h3>
+            <ul>
+              <li>Soma dos ângulos internos: S = (n − 2)·180°.</li>
+              <li>Ângulo interno regular: α = [(n − 2)·180°]/n; externo: 360°/n.</li>
+              <li>Diagonais: n(n − 3)/2.</li>
+            </ul>
+
+            <h3>5) Semelhança</h3>
+            <ul>
+              <li>Triângulos semelhantes: razões de lados correspondentes iguais.</li>
+              <li>Perímetro escala por k; área escala por k².</li>
+            </ul>
+
+            <h3>Erros comuns</h3>
+            <ul>
+              <li>Confundir diâmetro com raio; esquecer de elevar ao quadrado na área do círculo.</li>
+              <li>Usar base inclinada como altura em paralelogramo/triângulo.</li>
+              <li>Somar percentuais de escala em vez de usar fatores na semelhança de áreas (k²).</li>
+            </ul>
+          </section>
+
+          <section id="exemplos" class="section-block">
+            <h2>Exemplos resolvidos</h2>
+
+            <div class="example">
+              <strong>Exemplo 1 — Trapézio.</strong><br />
+              B=10, b=6, h=4 ⇒ A = (10+6)/2 · 4 = 8 · 4 = <strong>32 cm²</strong>.
+            </div>
+
+            <div class="example" style="margin-top:.5rem;">
+              <strong>Exemplo 2 — Círculo.</strong><br />
+              r=6 ⇒ C=2πr=12π ≈ 37,68; A=πr²=36π ≈ <strong>113,04</strong>.
+            </div>
+
+            <div class="example" style="margin-top:.5rem;">
+              <strong>Exemplo 3 — Pitágoras.</strong><br />
+              Catetos 9 e 12 ⇒ a² = 9² + 12² = 81 + 144 = 225 ⇒ a = <strong>15</strong>.
+            </div>
+
+            <div class="example" style="margin-top:.5rem;">
+              <strong>Exemplo 4 — Setor circular.</strong><br />
+              r=4, θ=90° ⇒ A_setor = 1/4 · π·16 = <strong>4π</strong> ≈ 12,56.
+            </div>
+          </section>
+
+          <section id="exercicios" class="section-block">
+            <h2>Exercícios</h2>
+
+            <div class="exercise">
+              <strong>1)</strong> Retângulo 8×5: perímetro e área?<br />
+              <details><summary>Gabarito</summary>P=2(8+5)=26; A=8·5=<strong>40</strong>.</details>
+            </div>
+
+            <div class="exercise"><strong>2)</strong> Triângulo b=12, h=7: área?<br />
+              <details><summary>Gabarito</summary>A=(12·7)/2=<strong>42</strong>.</details>
+            </div>
+
+            <div class="exercise"><strong>3)</strong> Losango D=24, d=10: área?<br />
+              <details><summary>Gabarito</summary>A=(24·10)/2=<strong>120</strong>.</details>
+            </div>
+
+            <div class="exercise"><strong>4)</strong> Círculo r=5: C e A?<br />
+              <details><summary>Gabarito</summary>C=10π≈31,4; A=25π≈<strong>78,5</strong>.</details>
+            </div>
+
+            <div class="exercise"><strong>5)</strong> Parale logramo base=12, h=5: área?<br />
+              <details><summary>Gabarito</summary><strong>60</strong>.</details>
+            </div>
+
+            <div class="exercise"><strong>6)</strong> Triângulo retângulo com hipotenusa 13 e cateto 5: outro cateto?<br />
+              <details><summary>Gabarito</summary>c²=13²−5²=169−25=144 ⇒ c=<strong>12</strong>.</details>
+            </div>
+
+            <div class="exercise"><strong>7)</strong> Setor: r=3, θ=60°. Área?<br />
+              <details><summary>Gabarito</summary>A= (60/360)·π·9 = (1/6)·9π= <strong>1,5π</strong> ≈ 4,71.</details>
+            </div>
+
+            <div class="exercise"><strong>8)</strong> Três lados do triângulo em cm: 7, 24, 25. É retângulo?<br />
+              <details><summary>Gabarito</summary>25²=625 e 7²+24²=49+576=625 ⇒ sim, retângulo (7 e 24 catetos).</details>
+            </div>
+
+            <div class="exercise"><strong>9)</strong> Semelhança: k=3 entre triângulos. Se área do menor é 10, a do maior é?<br />
+              <details><summary>Gabarito</summary>Áreas escalam por k² ⇒ 10·9=<strong>90</strong>.</details>
+            </div>
+
+            <div class="exercise"><strong>10)</strong> Polígono regular com ângulo externo 24°. Nº de lados?<br />
+              <details><summary>Gabarito</summary>n=360/24=<strong>15</strong>.</details>
+            </div>
+
+            <div class="exercise"><strong>11)</strong> Um canteiro semicircular tem r=2 m. Perímetro (borda curva + diâmetro)?<br />
+              <details><summary>Gabarito</summary>Semicírculo: πr + diâmetro = π·2 + 4 ≈ <strong>10,28</strong> m.</details>
+            </div>
+
+            <div class="exercise"><strong>12)</strong> Em um mapa, 1 cm representa 200 m. Uma rua mede 7,5 cm no mapa. Comprimento real?<br />
+              <details><summary>Gabarito</summary>7,5·200 = <strong>1500 m</strong> = 1,5 km.</details>
+            </div>
+          </section>
+
+          <section id="questoes-reais" class="section-block">
+            <h2>Questões de provas</h2>
+            <p>Entrarão aqui quando o banco for publicado.</p>
+          </section>
+
+          <section id="referencias" class="section-block">
+            <h2>Referências</h2>
+            <ul>
+              <li>Formulário básico de Geometria Plana (áreas e perímetros).</li>
+              <li>Semelhança de triângulos e Pitágoras aplicados.</li>
+            </ul>
+          </section>
+
+          <nav class="lesson-nav">
+            <a class="btn btn--outline" href="/aulas/matematica/sistemas-de-equacoes.html">← Sistemas de Equações</a>
+            <a class="btn btn--primary" href="/aulas/matematica/angulos.html">Ângulos →</a>
+          </nav>
+        </div>
+
+        <aside class="lesson-toc" aria-label="Sumário da aula">
+          <h4>Conteúdo</h4>
+          <ol>
+            <li><a href="#objetivos">Objetivos</a></li>
+            <li><a href="#prerequisitos">Pré-requisitos</a></li>
+            <li><a href="#teoria">Teoria</a></li>
+            <li><a href="#exemplos">Exemplos</a></li>
+            <li><a href="#exercicios">Exercícios</a></li>
+            <li><a href="#questoes-reais">Questões de provas</a></li>
+            <li><a href="#referencias">Referências</a></li>
+          </ol>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2025–2026 • Projeto de estudos para o Vestibulinho CTI UNESP Bauru.</p>
+      <nav class="footer-nav" aria-label="Rodapé">
+        <ul>
+          <li><a href="/recursos/cronograma-de-estudos.html">Cronograma</a></li>
+          <li><a href="/recursos/como-preencher-gabarito.html">Gabarito</a></li>
+          <li><a href="/recursos/dicas-rapidas.html">Dicas</a></li>
+          <li><a href="/recursos/normas-da-prova.html">Normas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
