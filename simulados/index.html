@@ -4,7 +4,7 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Simulados — CTI 2026</title>
-  <meta name="description" content="Pratique com o Simulado completo (15/15/5/15) com timer de 4h30, listas por tema e revisões rápidas. Progresso salvo no navegador."/>
+  <meta name="description" content="Pratique com o Simulado completo (15/15/5/15), listas por tema, revisões rápidas, prática adaptativa e painel de desempenho."/>
   <link rel="icon" href="/favicon.ico"/>
   <link rel="stylesheet" href="/assets/css/base.css"/>
   <link rel="stylesheet" href="/assets/css/layout.css"/>
@@ -52,20 +52,22 @@
   <main id="conteudo" class="section">
     <div class="container">
       <h1 class="h2">Simulados</h1>
-      <p class="text-muted">Pratique no formato do CTI (15 Português, 15 Matemática, 5 Humanas, 15 Natureza) ou foque por tema. O progresso é salvo no navegador.</p>
+      <p class="text-muted">Pratique no formato do CTI (15 Português, 15 Matemática, 5 Humanas, 15 Natureza) ou foque por tema. Agora com Simulado Pro (paleta de questões, atalhos e resumo) e novas modalidades.</p>
 
-      <!-- Card para retomar simulado em andamento (aparece via JS se houver progresso) -->
-      <div id="resume-box" class="card card--soft" hidden aria-live="polite"></div>
+      <!-- Cards de retomada -->
+      <div id="resume-sim" class="card card--soft" hidden aria-live="polite" style="margin-bottom:1rem;"></div>
+      <div id="resume-adp" class="card card--soft" hidden aria-live="polite" style="margin-bottom:1rem;"></div>
 
+      <!-- Cards principais -->
       <section class="section">
         <div class="grid grid--3">
           <article class="card card--icon">
             <div class="card__icon"><img src="/assets/img/icons/simulado.svg" alt="" width="28" height="28"/></div>
             <h3>CTI — Completo</h3>
-            <p>50 questões (15/15/5/15) com <strong>timer de 4h30</strong>. Itens embaralhados e relatório final.</p>
+            <p>50 questões (15/15/5/15) com <strong>timer de 4h30</strong> e Simulado Pro (paleta, atalhos e resumo por disciplina).</p>
             <ul class="list list--clean">
-              <li>Salvamento automático de progresso</li>
-              <li>Feedback com explicações</li>
+              <li>Salvamento automático</li>
+              <li>Feedback com explicação</li>
             </ul>
             <a class="btn btn--primary" href="/simulados/cti-completo.html">Iniciar simulado</a>
           </article>
@@ -91,6 +93,31 @@
             </ul>
             <a class="btn btn--outline" href="/simulados/revisoes-rapidas.html">Começar revisão</a>
           </article>
+
+          <article class="card card--icon">
+            <div class="card__icon"><img src="/assets/img/icons/checklist.svg" alt="" width="28" height="28"/></div>
+            <h3>Prática Adaptativa</h3>
+            <p>Treino inteligente (SRS): revise mais o que erra e espaçe o que acerta. Metas diárias e filtros por tema.</p>
+            <ul class="list list--clean">
+              <li>Deck com agendamento</li>
+              <li>Retome a sessão do dia</li>
+            </ul>
+            <a class="btn btn--outline" href="/simulados/adaptativo.html">Abrir adaptativo</a>
+          </article>
+
+          <article class="card card--icon">
+            <div class="card__icon"><img src="/assets/img/icons/portugues.svg" alt="" width="28" height="28"/></div>
+            <h3>Painel de Desempenho</h3>
+            <p>Veja sua evolução, acertos por disciplina/tema e recomendações. Exporte/importe histórico.</p>
+            <a class="btn btn--outline" href="/simulados/painel.html">Abrir painel</a>
+          </article>
+
+          <article class="card card--icon">
+            <div class="card__icon"><img src="/assets/img/icons/editor.svg" alt="" width="28" height="28"/></div>
+            <h3>Coleções & Favoritos</h3>
+            <p>Guarde suas questões favoritas, registre notas e monte coleções personalizadas.</p>
+            <a class="btn btn--outline" href="/simulados/colecoes.html">Abrir coleções</a>
+          </article>
         </div>
       </section>
 
@@ -103,11 +130,11 @@
           </article>
           <article class="card card--soft">
             <h3>2) Pratique</h3>
-            <p>Faça simulados completos ou por tema. O sistema salva seu progresso automaticamente.</p>
+            <p>Faça simulados completos, por tema, adaptativos e revisões rápidas. Progresso salvo automaticamente.</p>
           </article>
           <article class="card card--soft">
-            <h3>3) Revise</h3>
-            <p>Veja o relatório final, reveja os erros e foque nos pontos fracos.</p>
+            <h3>3) Analise e melhore</h3>
+            <p>Veja o <a href="/simulados/painel.html">Painel</a>, revise erros e foque nos pontos fracos.</p>
           </article>
         </div>
       </section>
@@ -128,33 +155,55 @@
     </div>
   </footer>
 
-  <!-- Opcional: exibir "Retomar simulado" se houver progresso salvo -->
+  <!-- Retomar simulado/adaptativo -->
   <script src="/assets/js/storage.js" defer></script>
   <script defer>
     document.addEventListener('DOMContentLoaded', () => {
       if (!window.AppStorage) return;
+
+      // Retomar simulado completo
       const quizState = AppStorage.get('simulado:cti2026:quiz');
       const timerState = AppStorage.get('simulado:cti2026:timer');
-      const hasProgress = quizState && Array.isArray(quizState.questions) && quizState.questions.length > 0;
-      const box = document.getElementById('resume-box');
-      if (hasProgress) {
-        box.hidden = false;
+      const boxSim = document.getElementById('resume-sim');
+      const hasSim = quizState && Array.isArray(quizState.questions) && quizState.questions.length;
+      if (hasSim) {
+        boxSim.hidden = false;
         const answered = quizState.answers ? Object.keys(quizState.answers).length : 0;
         const total = quizState.questions.length;
         const remaining = timerState && typeof timerState.remaining === 'number' ? timerState.remaining : null;
         const fmt = (s)=>{ s=Math.max(0,Math.floor(s));const h=Math.floor(s/3600),m=Math.floor((s%3600)/60),ss=s%60;const p=n=>String(n).padStart(2,'0');return `${p(h)}:${p(m)}:${p(ss)}`; };
-        box.innerHTML = `
-          <div><strong>Simulado em andamento</strong> — ${answered}/${total} respondidas${remaining!==null?` • tempo: ${fmt(remaining)}`:''}</div>
+        boxSim.innerHTML = `
+          <div><strong>Simulado completo em andamento</strong> — ${answered}/${total} respondidas${remaining!==null?` • tempo: ${fmt(remaining)}`:''}</div>
           <div class="btn-row" style="margin-top:.5rem;">
             <a class="btn btn--primary" href="/simulados/cti-completo.html">Retomar</a>
-            <button class="btn btn--ghost" type="button" id="btn-clear-progress">Descartar</button>
+            <button class="btn btn--ghost" type="button" id="btn-clear-sim">Descartar</button>
           </div>`;
-        const clearBtn = document.getElementById('btn-clear-progress');
-        clearBtn?.addEventListener('click', () => {
-          if (!confirm('Descartar o progresso do simulado atual?')) return;
+        document.getElementById('btn-clear-sim')?.addEventListener('click', () => {
+          if (!confirm('Descartar o progresso do simulado?')) return;
           AppStorage.remove('simulado:cti2026:quiz');
           AppStorage.remove('simulado:cti2026:timer');
           AppStorage.remove('simulado:cti2026:result');
+          location.reload();
+        });
+      }
+
+      // Retomar adaptativo
+      const adpState = AppStorage.get('adaptive:session');
+      const boxAdp = document.getElementById('resume-adp');
+      const hasAdp = adpState && Array.isArray(adpState.questions) && adpState.questions.length;
+      if (hasAdp) {
+        boxAdp.hidden = false;
+        const answered = adpState.answers ? Object.keys(adpState.answers).length : 0;
+        const total = adpState.questions.length;
+        boxAdp.innerHTML = `
+          <div><strong>Prática adaptativa em andamento</strong> — ${answered}/${total} respondidas</div>
+          <div class="btn-row" style="margin-top:.5rem;">
+            <a class="btn btn--primary" href="/simulados/adaptativo.html">Retomar</a>
+            <button class="btn btn--ghost" type="button" id="btn-clear-adp">Descartar</button>
+          </div>`;
+        document.getElementById('btn-clear-adp')?.addEventListener('click', () => {
+          if (!confirm('Descartar a sessão adaptativa?')) return;
+          AppStorage.remove('adaptive:session');
           location.reload();
         });
       }
