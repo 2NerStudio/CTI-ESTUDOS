@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resultado do Simulado — CTI 2026</title>
+  <meta name="robots" content="noindex" />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/layout.css" />
+  <link rel="stylesheet" href="/assets/css/componentes.css" />
+  <link rel="stylesheet" href="/assets/css/dark.css" media="(prefers-color-scheme: dark)" />
+  <style>
+    .grid-2 { display:grid; gap:1rem; grid-template-columns: 1fr; }
+    @media (min-width: 800px){ .grid-2{ grid-template-columns: 1fr 1fr; } }
+    .stat { border:1px solid var(--border); border-radius: var(--radius-sm); padding:.75rem; }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-wrap">
+      <a class="brand" href="/" aria-label="Página inicial">
+        <img src="/assets/img/logo.svg" alt="" width="36" height="36" />
+        <span class="brand-name">CTI 2026</span>
+      </a>
+      <nav class="site-nav site-nav--desktop" aria-label="Seções principais">
+        <ul>
+          <li><a class="nav-link" href="/aulas/">Aulas</a></li>
+          <li><a class="nav-link" href="/simulados/" aria-current="page">Simulados</a></li>
+          <li><a class="nav-link" href="/redacao/">Redação</a></li>
+          <li><a class="nav-link" href="/recursos/">Recursos</a></li>
+        </ul>
+      </nav>
+      <nav class="site-nav--mobile nav-mobile" aria-label="Menu principal (mobile)">
+        <details class="menu"><summary class="nav-toggle">Menu</summary>
+          <ul class="menu-list">
+            <li><a class="nav-link" href="/aulas/">Aulas</a></li>
+            <li><a class="nav-link" href="/simulados/" aria-current="page">Simulados</a></li>
+            <li><a class="nav-link" href="/redacao/">Redação</a></li>
+            <li><a class="nav-link" href="/recursos/">Recursos</a></li>
+          </ul>
+        </details>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" class="section">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Caminho de navegação">
+        <ol>
+          <li><a href="/">Início</a></li>
+          <li><a href="/simulados/">Simulados</a></li>
+          <li aria-current="page">Resultado</li>
+        </ol>
+      </nav>
+
+      <div id="res-root"></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2025–2026 • Projeto de estudos para o Vestibulinho CTI UNESP Bauru.</p>
+      <nav class="footer-nav" aria-label="Rodapé">
+        <ul>
+          <li><a href="/recursos/cronograma-de-estudos.html">Cronograma</a></li>
+          <li><a href="/recursos/como-preencher-gabarito.html">Gabarito</a></li>
+          <li><a href="/recursos/dicas-rapidas.html">Dicas</a></li>
+          <li><a href="/recursos/normas-da-prova.html">Normas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="/assets/js/storage.js"></script>
+  <script>
+    (function(){
+      const root = document.getElementById('res-root');
+      const data = AppStorage.get('simulado:cti2026:result');
+      if (!data) {
+        root.innerHTML = '<div class="card card--soft">Não encontramos um resultado recente. Inicie um <a href="/simulados/cti-completo.html">simulado</a>.</div>';
+        return;
+      }
+
+      const fmtTime = (s) => {
+        s = Math.max(0, Math.floor(s));
+        const h = Math.floor(s / 3600), m = Math.floor((s % 3600)/60), ss = s % 60;
+        const pad = (x) => String(x).padStart(2,'0');
+        return `${pad(h)}:${pad(m)}:${pad(ss)}`;
+      };
+
+      const porDisc = data.porDisciplina || {};
+      const discHtml = Object.keys(porDisc).map(d => {
+        const x = porDisc[d];
+        const pct = x.total ? Math.round((x.correct/x.total)*100) : 0;
+        const name = d[0].toUpperCase()+d.slice(1);
+        return `<div class="stat"><strong>${name}</strong><br/>${x.correct}/${x.total} (${pct}%)</div>`;
+      }).join('');
+
+      const errHtml = (data.erradas || []).map(item => `
+        <div class="card" style="margin-top:.75rem;">
+          <div><strong>Q${item.index}</strong> • ${item.disciplina || ''} ${item.tema ? '• '+item.tema : ''}</div>
+          <p class="text-muted" style="margin:.4rem 0;">${item.enunciado}</p>
+          <p>Marcada: <strong>${item.marcada || '—'}</strong> • Correta: <strong>${item.correta}</strong></p>
+          ${item.explicacao ? `<details><summary>Explicação</summary><p>${item.explicacao}</p></details>` : ''}
+        </div>
+      `).join('');
+
+      root.innerHTML = `
+        <div class="card">
+          <h1 class="h3">Resultado do Simulado</h1>
+          <p><strong>${data.correct}/${data.total}</strong> acertos (${data.pct}%). Tempo utilizado: <strong>${fmtTime(data.durationSeconds || 0)}</strong>.</p>
+          <div class="grid-2" style="margin-top:.5rem;">${discHtml}</div>
+          <div class="btn-row" style="margin-top:.75rem;">
+            <a class="btn btn--primary" href="/simulados/cti-completo.html">Refazer simulado</a>
+            <button class="btn btn--outline" id="btn-clear">Limpar resultado</button>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2 class="h4">Para revisar</h2>
+          ${errHtml || '<p class="text-muted">Você acertou todas as questões respondidas. 🎉</p>'}
+        </div>
+      `;
+
+      const btnClear = document.getElementById('btn-clear');
+      btnClear.addEventListener('click', () => {
+        AppStorage.remove('simulado:cti2026:result');
+        AppStorage.remove('simulado:cti2026:quiz');
+        AppStorage.remove('simulado:cti2026:timer');
+        location.reload();
+      });
+    })();
+  </script>
+</body>
+</html>

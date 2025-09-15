@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simulado CTI 2026 — Completo</title>
+  <meta name="description" content="Simulado no formato CTI: 15 Português, 15 Matemática, 15 Humanas e 5 Natureza (banco inicial pode limitar a quantidade)." />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/layout.css" />
+  <link rel="stylesheet" href="/assets/css/componentes.css" />
+  <link rel="stylesheet" href="/assets/css/aulas.css" />
+  <link rel="stylesheet" href="/assets/css/dark.css" media="(prefers-color-scheme: dark)" />
+  <style>
+    .timer-bar {
+      display: grid; gap: .5rem; grid-template-columns: 1fr auto; align-items: center;
+      padding: .75rem; border: 1px dashed #bfdbfe; border-radius: var(--radius);
+      background: var(--surface); margin-bottom: 1rem;
+    }
+    .timer-actions { display:flex; gap:.5rem; flex-wrap: wrap; }
+    #timer { font-weight: 800; font-size: 1.1rem; }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header" role="banner">
+    <div class="container header-wrap">
+      <a class="brand" href="/" aria-label="Página inicial">
+        <img src="/assets/img/logo.svg" alt="Logo" width="36" height="36" />
+        <span class="brand-name">CTI 2026</span>
+      </a>
+      <nav class="site-nav site-nav--desktop" aria-label="Seções principais">
+        <ul>
+          <li><a href="/aulas/" class="nav-link">Aulas</a></li>
+          <li><a href="/simulados/" class="nav-link" aria-current="page">Simulados</a></li>
+          <li><a href="/redacao/" class="nav-link">Redação</a></li>
+          <li><a href="/recursos/" class="nav-link">Recursos</a></li>
+        </ul>
+      </nav>
+      <nav class="site-nav--mobile nav-mobile" aria-label="Menu principal (mobile)">
+        <details class="menu"><summary class="nav-toggle">Menu</summary>
+          <ul class="menu-list">
+            <li><a href="/aulas/" class="nav-link">Aulas</a></li>
+            <li><a href="/simulados/" class="nav-link" aria-current="page">Simulados</a></li>
+            <li><a href="/redacao/" class="nav-link">Redação</a></li>
+            <li><a href="/recursos/" class="nav-link">Recursos</a></li>
+          </ul>
+        </details>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" class="section">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Caminho de navegação">
+        <ol>
+          <li><a href="/">Início</a></li>
+          <li><a href="/simulados/">Simulados</a></li>
+          <li aria-current="page">CTI Completo</li>
+        </ol>
+      </nav>
+
+      <h1 class="h2">Simulado CTI 2026 — Completo</h1>
+      <p class="text-muted">Tempo total: 4h30. Prepara-se para 50 questões (15 Pt, 15 Mat, 15 Hum, 5 Nat). Observação: com o banco inicial, a quantidade por disciplina pode ser menor; ao ampliarmos o banco, esta página atingirá o formato completo automaticamente.</p>
+
+      <div class="timer-bar" role="group" aria-label="Cronômetro do simulado">
+        <div>
+          <div class="text-muted">Tempo restante</div>
+          <div id="timer">04:30:00</div>
+        </div>
+        <div class="timer-actions">
+          <button id="btn-start" class="btn btn--primary" type="button">Iniciar/Retomar</button>
+          <button id="btn-pause" class="btn btn--outline" type="button">Pausar</button>
+          <button id="btn-reset" class="btn btn--ghost" type="button">Zerar tempo</button>
+          <button id="btn-finish-all" class="btn btn--secondary" type="button">Finalizar e ver resultado</button>
+        </div>
+      </div>
+
+      <div id="sim-aviso" class="section" aria-live="polite"></div>
+
+      <div id="quiz-root"></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2025–2026 • Projeto de estudos para o Vestibulinho CTI UNESP Bauru.</p>
+      <nav class="footer-nav" aria-label="Rodapé">
+        <ul>
+          <li><a href="/recursos/cronograma-de-estudos.html">Cronograma</a></li>
+          <li><a href="/recursos/como-preencher-gabarito.html">Gabarito</a></li>
+          <li><a href="/recursos/dicas-rapidas.html">Dicas</a></li>
+          <li><a href="/recursos/normas-da-prova.html">Normas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="/assets/js/storage.js" defer></script>
+  <script src="/assets/js/quiz.js" defer></script>
+  <script src="/assets/js/timer.js" defer></script>
+  <script src="/assets/js/simulado.js" defer></script>
+  <script defer>
+    document.addEventListener('DOMContentLoaded', () => {
+      CTISim.start();
+    });
+  </script>
+</body>
+</html>
