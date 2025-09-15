@@ -30,7 +30,7 @@
     if (!text || !tokens || !tokens.length) return escHtml(text);
     let out = text;
     for (const tk of tokens) {
-      const rx = new RegExp('(' + tk.replace(/[.*+?^${}()|[```\```/g, '\\$&') + ')', 'gi');
+    const rx = new RegExp('(' + tk.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
       // Substitui em uma versão normalizada e aplica ao original com fallback simples
       const normalized = norm(out);
       let idx = 0, result = '', m;
