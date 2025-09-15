@@ -1,0 +1,8 @@
+# robots.txt — CTI UNESP Bauru 2026
+User-agent: *
+Allow: /
+
+# (Opcional) Bloquear diretórios que não devem ser indexados durante desenvolvimento:
+# Disallow: /assets/img/suportes/
+
+Sitemap: https://SEU-DOMINIO/sitemap.xml

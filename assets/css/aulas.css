@@ -1,0 +1,154 @@
+/*
+  Aulas — catálogos, trilhas, template de aula
+  Parte 4
+*/
+
+/* Áreas (hero interno) */
+.area-hero {
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  display: grid;
+  gap: .5rem;
+}
+
+/* Catálogo geral de áreas e tópicos */
+.catalog { display: grid; gap: 1rem; }
+.catalog--areas { grid-template-columns: 1fr; }
+.catalog--topics { grid-template-columns: 1fr; }
+
+@media (min-width: 720px) {
+  .catalog--areas { grid-template-columns: repeat(4, 1fr); }
+  .catalog--topics { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1024px) {
+  .catalog--topics { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* Cards de área/tópico */
+.area-card, .topic-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem;
+  display: grid; gap: .5rem;
+  box-shadow: var(--shadow-sm);
+}
+.area-card:hover, .topic-card:hover { box-shadow: var(--shadow-md); text-decoration: none; }
+
+.area-card h3, .topic-card h3 { margin: 0; }
+.area-card p, .topic-card p { margin: 0; color: var(--muted); }
+
+/* Ícone no card */
+.card-head { display: flex; align-items: center; gap: .5rem; }
+.card-head .icon {
+  width: 40px; height: 40px; border-radius: 999px;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--accent-soft); border: 1px solid #bfdbfe;
+}
+
+/* Lista de tópicos como links */
+.topic-list {
+  display: grid; gap: .5rem;
+}
+.topic-link {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: .75rem;
+  padding: .6rem .75rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg);
+  color: inherit; text-decoration: none;
+}
+.topic-link:hover { background: var(--surface); text-decoration: none; }
+.topic-link small { color: var(--muted); }
+
+/* Trilhas (chips grandes) */
+.trilha {
+  display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .25rem;
+}
+.trilha a {
+  padding: .45rem .7rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  border: 1px solid #bfdbfe;
+  color: #0b5cd9;
+  text-decoration: none; font-weight: 600;
+}
+.trilha a:hover { text-decoration: none; filter: brightness(0.98); }
+
+/* Template de Aula */
+.lesson-hero {
+  display: grid; gap: .75rem;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+.lesson-meta {
+  display: flex; flex-wrap: wrap; gap: .5rem .75rem; align-items: center;
+  color: var(--muted);
+  font-size: .95rem;
+}
+.pill {
+  display: inline-flex; align-items: center; gap: .35rem;
+  padding: .2rem .6rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  border: 1px solid #bfdbfe;
+  color: #0b5cd9; font-weight: 700; font-size: .8rem;
+}
+
+/* Layout da aula com TOC */
+.lesson-layout { display: grid; gap: 1rem; grid-template-columns: 1fr; }
+@media (min-width: 960px) {
+  .lesson-layout { grid-template-columns: 1fr 280px; }
+  .lesson-toc { position: sticky; top: 84px; align-self: start; }
+}
+.lesson-toc {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: .75rem;
+  background: var(--bg);
+}
+.lesson-toc h4 { margin: 0 0 .5rem 0; }
+.lesson-toc ol {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; gap: .35rem;
+}
+.lesson-toc a { color: var(--muted); text-decoration: none; }
+.lesson-toc a:hover { color: var(--text); text-decoration: underline; }
+
+/* Blocos de conteúdo da aula */
+.section-block { margin-bottom: 1rem; }
+.section-block h2 { margin-bottom: .5rem; }
+.note, .callout, .example, .exercise {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: .75rem .9rem;
+  background: var(--bg);
+}
+.callout { border-left: 4px solid #0b5cd9; }
+.example { border-left: 4px solid #16a34a; }
+.exercise { border-left: 4px solid #f59e0b; }
+.note { border-left: 4px solid #64748b; }
+
+.media {
+  border: 1px dashed #bfdbfe;
+  border-radius: var(--radius-sm);
+  padding: .5rem;
+  background: var(--surface);
+}
+.media figcaption { color: var(--muted); font-size: .9rem; margin-top: .25rem; }
+
+/* Navegação entre aulas */
+.lesson-nav {
+  display: flex; justify-content: space-between; gap: .5rem; flex-wrap: wrap;
+  border-top: 1px solid var(--border); padding-top: .75rem; margin-top: 1rem;
+}
+.lesson-nav a { text-decoration: none; }
+
+/* Tabelas e listas internas */
+.section-block ul { margin: .5rem 0 0 1.1rem; }
+.section-block li + li { margin-top: .25rem; }

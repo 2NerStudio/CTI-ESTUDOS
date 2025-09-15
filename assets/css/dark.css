@@ -1,0 +1,25 @@
+/*
+  dark.css — carregado só quando o usuário prefere tema escuro
+  Paleta mantém o azul CTI com alto contraste
+*/
+:root {
+  color-scheme: dark;
+  --bg: #0b1220;
+  --surface: #0f172a;
+  --text: #e5e7eb;
+  --muted: #94a3b8;
+  --border: #22314d;
+
+  --accent: #5da2ff;         /* azul mais claro para contraste no escuro */
+  --accent-contrast: #ffffff;
+  --accent-soft: #0b213f;
+  --success: #22c55e;
+  --warning: #fbbf24;
+  --danger:  #ef4444;
+}
+
+/* Ajustes específicos no escuro (opcionais) */
+.nav-link:hover { background: rgba(255,255,255,.04); }
+.card { background: #0f172a; border-color: #1f2a44; }
+.card--soft { background: #0b213f; border-color: #1f3a6b; }
+.site-footer { background: #0b1220; border-top-color: #1f2a44; }

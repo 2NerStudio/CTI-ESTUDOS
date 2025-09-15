@@ -1,0 +1,130 @@
+/*
+  Componentes — botões, cards, variações
+  Parte 1
+*/
+
+/* Botões */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: .5rem;
+  padding: .65rem .95rem;
+  border-radius: var(--radius-xs);
+  border: 1px solid transparent;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform .06s ease, box-shadow .12s ease, background-color .12s ease, border-color .12s ease;
+  cursor: pointer;
+}
+.btn:hover { transform: translateY(-1px); text-decoration: none; }
+.btn:active { transform: translateY(0); }
+
+.btn--primary {
+  background: var(--accent);
+  color: var(--accent-contrast);
+  border-color: color-mix(in srgb, var(--accent) 80%, black 0%);
+  box-shadow: var(--shadow-sm);
+}
+.btn--primary:hover { box-shadow: var(--shadow-md); }
+
+.btn--secondary {
+  background: var(--accent-soft);
+  color: #1e3a8a;
+  border-color: #bfdbfe;
+}
+
+.btn--outline {
+  background: transparent;
+  border-color: var(--border);
+}
+.btn--ghost {
+  background: transparent;
+  border-color: transparent;
+  color: var(--accent);
+  padding-left: 0;
+}
+
+/* Cards */
+.card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 1rem;
+  display: grid; gap: .75rem;
+}
+.card:hover { box-shadow: var(--shadow-md); }
+
+.card--soft {
+  background: var(--surface);
+  border-style: dashed;
+}
+
+/* Auxiliares de título dentro de cards */
+.card h3 { margin-bottom: .25rem; }
+.card p:last-child, .card .btn:last-child { margin-top: .25rem; }
+
+/* Badges/Tags (se necessário) */
+.tag {
+  display: inline-block; font-size: .75rem; padding: .2rem .5rem; border-radius: 999px;
+  background: var(--accent-soft); color: #1e3a8a; border: 1px solid #bfdbfe;
+}
+/* Breadcrumbs */
+.breadcrumb { width: min(1100px, 100% - 2rem); margin: .75rem auto 0; }
+.breadcrumb ol {
+  display: flex; flex-wrap: wrap; gap: .35rem .5rem; list-style: none; margin: 0; padding: 0;
+  color: var(--muted); font-size: .95rem;
+}
+.breadcrumb li a { color: var(--muted); text-decoration: none; }
+.breadcrumb li a:hover { color: var(--text); text-decoration: underline; }
+.breadcrumb li + li::before {
+  content: "›"; color: var(--border); margin-right: .5rem;
+}
+.breadcrumb [aria-current="page"] { color: var(--text); font-weight: 600; }
+
+/* Card com ícone */
+.card--icon { position: relative; }
+.card__icon {
+  width: 52px; height: 52px;
+  display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  border: 1px solid #bfdbfe;
+  color: var(--accent);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Lista sem marcadores (para features) */
+.list--clean { list-style: none; padding-left: 0; color: var(--muted); }
+.list--clean li + li { margin-top: .25rem; }
+
+/* Chips (atalhos de aulas) */
+.chips {
+  display: flex; flex-wrap: wrap; gap: .5rem;
+  margin-top: .75rem;
+}
+.chip {
+  display: inline-block;
+  padding: .4rem .65rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  border: 1px solid #bfdbfe;
+  color: #0b5cd9;
+  font-weight: 600;
+  text-decoration: none;
+}
+.chip:hover { text-decoration: none; filter: brightness(0.98); }
+
+/* Barra de CTA */
+.cta-bar {
+  display: grid; gap: .75rem; align-items: center;
+  grid-template-columns: 1fr; 
+  padding: 1rem;
+  border: 1px dashed #bfdbfe;
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+.cta-actions { display: flex; gap: .5rem; flex-wrap: wrap; }
+@media (min-width: 720px) {
+  .cta-bar { grid-template-columns: 1fr auto; }
+}
