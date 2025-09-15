@@ -126,6 +126,10 @@
 
     return final;
   }
+  
+  if (w.CTICollections && typeof w.CTICollections.mount === 'function') {
+  w.CTICollections.mount(app);
+}
 
   // Salva resultado para a página de resultado
     function salvarResultado(app, remainingSeconds) {
