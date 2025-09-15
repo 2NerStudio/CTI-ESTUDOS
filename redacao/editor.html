@@ -4,7 +4,7 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Editor de Redação — CTI 2026</title>
-  <meta name="description" content="Escreva, salve e acompanhe contagem de palavras/caracteres. Exporte seu rascunho."/>
+  <meta name="description" content="Escreva, salve e acompanhe contagem de palavras/caracteres, legibilidade e conectivos. Exporte seu rascunho."/>
   <link rel="icon" href="/favicon.ico"/>
   <link rel="stylesheet" href="/assets/css/base.css"/>
   <link rel="stylesheet" href="/assets/css/layout.css"/>
@@ -12,10 +12,20 @@
   <link rel="stylesheet" href="/assets/css/aulas.css"/>
   <link rel="stylesheet" href="/assets/css/dark.css" media="(prefers-color-scheme: dark)"/>
   <style>
+    .ed-grid { display:grid; gap:1rem; grid-template-columns: 1fr; }
+    @media (min-width: 1100px){ .ed-grid { grid-template-columns: 1fr 340px; } }
     .editor { display:grid; gap:.75rem; }
-    .editor textarea { width:100%; min-height: 50vh; padding:.75rem; border:1px solid var(--border); border-radius: var(--radius-sm); }
+    .editor textarea { width:100%; min-height: 52vh; padding:.75rem; border:1px solid var(--border); border-radius: var(--radius-sm); }
     .editor .stats { display:flex; gap:.5rem; flex-wrap:wrap; }
     .editor .stats .chip { border:1px solid var(--border); border-radius:999px; padding:.25rem .6rem; }
+    .panel { border:1px solid var(--border); border-radius: var(--radius); padding:.75rem; background: var(--surface); }
+    .meter { height: 10px; background:#e2e8f0; border-radius: 999px; overflow:hidden; }
+    .meter > span { display:block; height:10px; background:var(--accent); width:0%; transition: width .2s; }
+    .row { display:flex; justify-content: space-between; gap:.5rem; }
+    .muted { color: var(--muted); }
+    .list-compact li { margin-bottom: .25rem; }
+    .grid2 { display:grid; gap:.5rem; grid-template-columns: 1fr 1fr; }
+    @media (max-width: 720px){ .grid2 { grid-template-columns: 1fr; } }
   </style>
 </head>
 <body>
@@ -49,40 +59,80 @@
   </nav>
 
   <main id="conteudo" class="section">
-    <div class="container">
-      <h1 class="h2">Editor de Redação</h1>
-      <div class="card editor">
-        <div class="grid" style="grid-template-columns:1fr; gap:.5rem;">
-          <div>
-            <label for="ed-title" class="text-muted">Título do rascunho</label>
-            <input id="ed-title" type="text" placeholder="Ex.: Consumismo entre adolescentes" style="width:100%; padding:.5rem; border:1px solid var(--border); border-radius:6px;"/>
+    <div class="container ed-grid">
+      <section class="pro-main">
+        <h1 class="h2">Editor de Redação</h1>
+        <div class="card editor">
+          <div class="grid" style="grid-template-columns:1fr; gap:.5rem;">
+            <div>
+              <label for="ed-title" class="text-muted">Título do rascunho</label>
+              <input id="ed-title" type="text" placeholder="Ex.: Consumismo entre adolescentes" style="width:100%; padding:.5rem; border:1px solid var(--border); border-radius:6px;"/>
+            </div>
+            <div class="btn-row">
+              <button id="btn-insert-skel" class="btn btn--outline" type="button">Inserir esqueleto</button>
+              <button id="btn-save" class="btn btn--primary" type="button">Salvar rascunho</button>
+              <button id="btn-new" class="btn btn--secondary" type="button">Novo</button>
+              <button id="btn-copy" class="btn btn--outline" type="button">Copiar</button>
+              <button id="btn-export" class="btn btn--ghost" type="button">Exportar .txt</button>
+              <button id="btn-clear" class="btn btn--ghost" type="button">Limpar</button>
+            </div>
           </div>
-          <div class="btn-row">
-            <button id="btn-insert-skel" class="btn btn--outline" type="button">Inserir esqueleto</button>
-            <button id="btn-save" class="btn btn--primary" type="button">Salvar rascunho</button>
-            <button id="btn-new" class="btn btn--secondary" type="button">Novo</button>
-            <button id="btn-copy" class="btn btn--outline" type="button">Copiar</button>
-            <button id="btn-export" class="btn btn--ghost" type="button">Exportar .txt</button>
-            <button id="btn-clear" class="btn btn--ghost" type="button">Limpar</button>
+
+          <label for="ed-text" class="text-muted">Texto</label>
+          <textarea id="ed-text" spellcheck="true" placeholder="Escreva aqui seu artigo de opinião..."></textarea>
+
+          <div class="stats">
+            <span class="chip" id="st-words">0 palavras</span>
+            <span class="chip" id="st-chars">0 caracteres</span>
+            <span class="chip" id="st-paras">0 parágrafos</span>
+            <span class="chip" id="st-time">0 min leitura</span>
+            <span class="chip text-muted">Dica: 18–25 linhas costuma ser um bom alvo</span>
+          </div>
+
+          <div class="card card--soft">
+            <h2 class="h4">Rascunhos salvos</h2>
+            <ul id="draft-list" class="list"></ul>
+          </div>
+        </div>
+      </section>
+
+      <aside class="panel" aria-label="Métricas da redação">
+        <h2 class="h4">Métricas</h2>
+
+        <div class="grid2">
+          <div class="row"><span>Sentenças</span><strong id="m-sentences">0</strong></div>
+          <div class="row"><span>Palavras/sentença</span><strong id="m-avgwps">0</strong></div>
+          <div class="row"><span>Sentenças longas (&gt; 30)</span><strong id="m-longs">0</strong></div>
+          <div class="row"><span>Variação lexical (TTR)</span><strong id="m-ttr">0%</strong></div>
+          <div class="row"><span>Legibilidade (Flesch‑PT)</span><strong id="m-flesch">—</strong></div>
+          <div class="row"><span>Meta de palavras</span>
+            <span>
+              <input id="m-goal-input" type="number" min="100" max="500" step="10" value="200" style="width:90px;"/>
+            </span>
           </div>
         </div>
 
-        <label for="ed-text" class="text-muted">Texto</label>
-        <textarea id="ed-text" spellcheck="true" placeholder="Escreva aqui seu artigo de opinião..."></textarea>
-
-        <div class="stats">
-          <span class="chip" id="st-words">0 palavras</span>
-          <span class="chip" id="st-chars">0 caracteres</span>
-          <span class="chip" id="st-paras">0 parágrafos</span>
-          <span class="chip" id="st-time">0 min leitura</span>
-          <span class="chip text-muted">Dica: 18–25 linhas costuma ser um bom alvo</span>
+        <div style="margin:.5rem 0;">
+          <div class="meter" aria-label="Progresso da meta">
+            <span id="m-goal-bar" style="width:0%"></span>
+          </div>
+          <div class="muted"><span id="m-goal-label">0/200</span></div>
         </div>
 
-        <div class="card card--soft">
-          <h2 class="h4">Rascunhos salvos</h2>
-          <ul id="draft-list" class="list"></ul>
-        </div>
-      </div>
+        <h3 class="h4" style="margin-top:.5rem;">Conectivos (presença)</h3>
+        <ul class="list list-compact">
+          <li>Adição: <strong id="m-con-add">—</strong></li>
+          <li>Contraste: <strong id="m-con-ctr">—</strong></li>
+          <li>Causa: <strong id="m-con-cau">—</strong></li>
+          <li>Consequência: <strong id="m-con-con">—</strong></li>
+          <li>Conclusão: <strong id="m-con-fin">—</strong></li>
+        </ul>
+
+        <h3 class="h4" style="margin-top:.5rem;">Palavras repetidas (top)</h3>
+        <ul id="m-repeated" class="list list-compact"></ul>
+
+        <p class="muted" style="margin-top:.75rem;">Dicas: evite frases gigantes, varie o vocabulário, use conectivos claros e mantenha a tese evidente desde a introdução.</p>
+      </aside>
     </div>
   </main>
 
@@ -109,7 +159,25 @@
           export: '#btn-export',
           clear: '#btn-clear'
         },
-        persistKey: 'redacao:editor'
+        persistKey: 'redacao:editor',
+        metrics: {
+          sentences: '#m-sentences',
+          avgWPS: '#m-avgwps',
+          longSentences: '#m-longs',
+          ttr: '#m-ttr',
+          flesch: '#m-flesch',
+          goalInput: '#m-goal-input',
+          goalBar: '#m-goal-bar',
+          goalLabel: '#m-goal-label',
+          connectors: {
+            add: '#m-con-add',
+            ctr: '#m-con-ctr',
+            cau: '#m-con-cau',
+            con: '#m-con-con',
+            fin: '#m-con-fin'
+          },
+          repeatedList: '#m-repeated'
+        }
       });
     });
   </script>
