@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Buscar — CTI 2026</title>
+  <meta name="description" content="Busque aulas, simulados e recursos do CTI 2026."/>
+  <link rel="icon" href="/favicon.ico"/>
+  <link rel="stylesheet" href="/assets/css/base.css"/>
+  <link rel="stylesheet" href="/assets/css/layout.css"/>
+  <link rel="stylesheet" href="/assets/css/componentes.css"/>
+  <link rel="stylesheet" href="/assets/css/aulas.css"/>
+  <link rel="stylesheet" href="/assets/css/dark.css" media="(prefers-color-scheme: dark)"/>
+  <style>
+    .search-bar { display:grid; gap:.5rem; padding:.75rem; border:1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+    .search-grid { display:grid; gap:.5rem; grid-template-columns: 1fr; }
+    @media (min-width: 880px){ .search-grid { grid-template-columns: 2fr 1fr; } }
+    .search-input { width:100%; padding:.6rem .75rem; border:1px solid var(--border); border-radius: var(--radius-sm); }
+    .chips { display:flex; gap:.5rem; flex-wrap:wrap; }
+    .chip { padding:.25rem .5rem; border-radius:999px; border:1px solid var(--border); background: var(--bg); font-size:.9rem; }
+    mark { background:#fff3cd; }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-wrap">
+      <a class="brand" href="/" aria-label="Página inicial">
+        <img src="/assets/img/logo.svg" alt="" width="36" height="36"/>
+        <span class="brand-name">CTI 2026</span>
+      </a>
+      <nav class="site-nav site-nav--desktop" aria-label="Seções principais">
+        <ul>
+          <li><a class="nav-link" href="/aulas/">Aulas</a></li>
+          <li><a class="nav-link" href="/simulados/">Simulados</a></li>
+          <li><a class="nav-link" href="/redacao/">Redação</a></li>
+          <li><a class="nav-link" href="/recursos/">Recursos</a></li>
+        </ul>
+      </nav>
+      <nav class="site-nav--mobile nav-mobile" aria-label="Menu principal (mobile)">
+        <details class="menu"><summary class="nav-toggle">Menu</summary>
+          <ul class="menu-list">
+            <li><a class="nav-link" href="/aulas/">Aulas</a></li>
+            <li><a class="nav-link" href="/simulados/">Simulados</a></li>
+            <li><a class="nav-link" href="/redacao/">Redação</a></li>
+            <li><a class="nav-link" href="/recursos/">Recursos</a></li>
+          </ul>
+        </details>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" class="section">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Caminho de navegação">
+        <ol>
+          <li><a href="/">Início</a></li>
+          <li aria-current="page">Buscar</li>
+        </ol>
+      </nav>
+
+      <h1 class="h2">Buscar</h1>
+      <div class="search-bar search-grid" role="search">
+        <div>
+          <label for="search-input" class="sr-only">Buscar</label>
+          <input id="search-input" class="search-input" type="search" placeholder="Digite palavras-chave (ex.: porcentagem, Iluminismo, Newton)"/>
+          <div class="chips" style="margin-top:.5rem;">
+            <span class="chip" id="results-count">0 resultado(s)</span>
+            <span class="chip" id="results-time">—</span>
+          </div>
+        </div>
+        <div>
+          <fieldset>
+            <legend class="h4" style="margin-bottom:.25rem;">Filtros</legend>
+            <div class="chips" style="margin-bottom:.5rem;">
+              <label class="chip"><input type="checkbox" name="cat" value="Aulas" checked style="margin-right:.35rem;"/>Aulas</label>
+              <label class="chip"><input type="checkbox" name="cat" value="Simulados" checked style="margin-right:.35rem;"/>Simulados</label>
+              <label class="chip"><input type="checkbox" name="cat" value="Redação" checked style="margin-right:.35rem;"/>Redação</label>
+              <label class="chip"><input type="checkbox" name="cat" value="Recursos" checked style="margin-right:.35rem;"/>Recursos</label>
+            </div>
+            <label for="f-disciplina" class="text-muted">Disciplina</label>
+            <select id="f-disciplina">
+              <option value="">Todas</option>
+            </select>
+          </fieldset>
+        </div>
+      </div>
+
+      <section id="results" class="section"></section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2025–2026 • Projeto de estudos para o Vestibulinho CTI UNESP Bauru.</p>
+      <nav class="footer-nav" aria-label="Rodapé">
+        <ul>
+          <li><a href="/recursos/cronograma-de-estudos.html">Cronograma</a></li>
+          <li><a href="/recursos/como-preencher-gabarito.html">Gabarito</a></li>
+          <li><a href="/recursos/dicas-rapidas.html">Dicas</a></li>
+          <li><a href="/recursos/normas-da-prova.html">Normas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="/assets/js/search.js" defer></script>
+  <script defer>
+    document.addEventListener('DOMContentLoaded', () => {
+      CTISearch.init();
+    });
+  </script>
+</body>
+</html>

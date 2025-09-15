@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simulados por Tema — CTI 2026</title>
+  <meta name="description" content="Monte listas de questões por disciplina, área, tema e nível." />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/layout.css" />
+  <link rel="stylesheet" href="/assets/css/componentes.css" />
+  <link rel="stylesheet" href="/assets/css/aulas.css" />
+  <link rel="stylesheet" href="/assets/css/dark.css" media="(prefers-color-scheme: dark)" />
+  <style>
+    .filters { display:grid; gap:.75rem; border:1px solid var(--border); border-radius: var(--radius); padding: .75rem; background: var(--surface); }
+    .filters .grid2 { display:grid; gap:.5rem; grid-template-columns: 1fr; }
+    @media (min-width: 720px) { .filters .grid2 { grid-template-columns: repeat(2, 1fr); } }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-wrap">
+      <a class="brand" href="/" aria-label="Página inicial">
+        <img src="/assets/img/logo.svg" alt="" width="36" height="36" />
+        <span class="brand-name">CTI 2026</span>
+      </a>
+      <nav class="site-nav site-nav--desktop" aria-label="Seções principais">
+        <ul>
+          <li><a href="/aulas/" class="nav-link">Aulas</a></li>
+          <li><a href="/simulados/" class="nav-link" aria-current="page">Simulados</a></li>
+          <li><a href="/redacao/" class="nav-link">Redação</a></li>
+          <li><a href="/recursos/" class="nav-link">Recursos</a></li>
+        </ul>
+      </nav>
+      <nav class="site-nav--mobile nav-mobile" aria-label="Menu principal (mobile)">
+        <details class="menu"><summary class="nav-toggle">Menu</summary>
+          <ul class="menu-list">
+            <li><a href="/aulas/" class="nav-link">Aulas</a></li>
+            <li><a href="/simulados/" class="nav-link" aria-current="page">Simulados</a></li>
+            <li><a href="/redacao/" class="nav-link">Redação</a></li>
+            <li><a href="/recursos/" class="nav-link">Recursos</a></li>
+          </ul>
+        </details>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" class="section">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Caminho de navegação">
+        <ol>
+          <li><a href="/">Início</a></li>
+          <li><a href="/simulados/">Simulados</a></li>
+          <li aria-current="page">Por tema</li>
+        </ol>
+      </nav>
+
+      <h1 class="h2">Simulados por Tema</h1>
+      <p class="text-muted">Selecione os filtros e gere uma lista sob medida. Dica: comece por um único tema e 10–15 questões.</p>
+
+      <section id="f-root" class="section">
+        <form id="f-form" class="filters" aria-labelledby="f-title">
+          <h2 id="f-title" class="h4">Filtros</h2>
+          <div class="grid2">
+            <div>
+              <label for="f-disc" class="text-muted">Disciplina</label>
+              <select id="f-disc" required>
+                <option value="">Todas</option>
+              </select>
+            </div>
+            <div>
+              <label for="f-area" class="text-muted">Área (subdisciplina)</label>
+              <select id="f-area">
+                <option value="">Todas</option>
+              </select>
+            </div>
+            <div>
+              <label for="f-tema" class="text-muted">Tema</label>
+              <select id="f-tema">
+                <option value="">Todos</option>
+              </select>
+            </div>
+            <div>
+              <label for="f-nivel" class="text-muted">Nível</label>
+              <select id="f-nivel">
+                <option value="">Todos</option>
+              </select>
+            </div>
+            <div>
+              <label for="f-qtd" class="text-muted">Quantidade</label>
+              <input type="number" id="f-qtd" min="5" max="50" step="1" value="10" />
+            </div>
+          </div>
+          <div class="btn-row">
+            <button class="btn btn--primary" type="submit">Iniciar</button>
+            <button class="btn btn--outline" type="button" id="f-clear">Limpar</button>
+          </div>
+        </form>
+
+        <div id="f-out" class="section"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2025–2026 • Projeto de estudos para o Vestibulinho CTI UNESP Bauru.</p>
+      <nav class="footer-nav" aria-label="Rodapé">
+        <ul>
+          <li><a href="/recursos/cronograma-de-estudos.html">Cronograma</a></li>
+          <li><a href="/recursos/como-preencher-gabarito.html">Gabarito</a></li>
+          <li><a href="/recursos/dicas-rapidas.html">Dicas</a></li>
+          <li><a href="/recursos/normas-da-prova.html">Normas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="/assets/js/storage.js" defer></script>
+  <script src="/assets/js/quiz.js" defer></script>
+  <script src="/assets/js/filters.js" defer></script>
+  <script defer>
+    document.addEventListener('DOMContentLoaded', () => {
+      CTIFilters.initFilters('#f-root');
+    });
+  </script>
+</body>
+</html>
