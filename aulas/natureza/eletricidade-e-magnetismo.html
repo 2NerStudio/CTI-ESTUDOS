@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eletricidade e magnetismo — CTI 2026</title>
+  <meta name="description" content="Grandezas elétricas (tensão, corrente, resistência), Lei de Ohm, potência e energia, resistores em série/paralelo e noções de magnetismo e indução." />
+  <link rel="canonical" href="https://SEU-DOMINIO/aulas/natureza/eletricidade-e-magnetismo.html" />
+
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/layout.css" />
+  <link rel="stylesheet" href="/assets/css/componentes.css" />
+  <link rel="stylesheet" href="/assets/css/aulas.css" />
+  <link rel="stylesheet" href="/assets/css/dark.css" media="(prefers-color-scheme: dark)" />
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header" role="banner">
+    <div class="container header-wrap">
+      <a class="brand" href="/" aria-label="Página inicial"><img src="/assets/img/logo.svg" alt="Logo" width="36" height="36" /><span class="brand-name">CTI 2026</span></a>
+      <nav class="site-nav site-nav--desktop" aria-label="Seções principais">
+        <ul>
+          <li><a class="nav-link" href="/aulas/" aria-current="page">Aulas</a></li>
+          <li><a class="nav-link" href="/simulados/">Simulados</a></li>
+          <li><a class="nav-link" href="/redacao/">Redação</a></li>
+          <li><a class="nav-link" href="/recursos/">Recursos</a></li>
+        </ul>
+      </nav>
+      <nav class="site-nav--mobile nav-mobile" aria-label="Menu principal (mobile)">
+        <details class="menu"><summary class="nav-toggle">Menu</summary>
+          <ul class="menu-list">
+            <li><a class="nav-link" href="/aulas/" aria-current="page">Aulas</a></li>
+            <li><a class="nav-link" href="/simulados/">Simulados</a></li>
+            <li><a class="nav-link" href="/redacao/">Redação</a></li>
+            <li><a class="nav-link" href="/recursos/">Recursos</a></li>
+          </ul>
+        </details>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="breadcrumb" aria-label="Caminho de navegação">
+    <ol>
+      <li><a href="/">Início</a></li>
+      <li><a href="/aulas/">Aulas</a></li>
+      <li><a href="/aulas/natureza/">Ciências da Natureza</a></li>
+      <li aria-current="page">Eletricidade e magnetismo</li>
+    </ol>
+  </nav>
+
+  <main id="conteudo" class="section">
+    <div class="container">
+      <article class="lesson-hero">
+        <h1>Eletricidade e magnetismo</h1>
+        <div class="lesson-meta">
+          <span class="pill">Tema: Física</span>
+          <span class="pill">Dificuldade: intermediário</span>
+          <span>Tempo estimado: 70–100 min</span>
+        </div>
+        <p class="text-muted">O essencial de circuitos elétricos e um panorama de campos magnéticos e indução — o suficiente para resolver os itens mais comuns.</p>
+      </article>
+
+      <div class="lesson-layout">
+        <div class="lesson-content">
+          <section id="objetivos" class="section-block">
+            <h2>Objetivos</h2>
+            <ul>
+              <li>Aplicar Lei de Ohm e potência/energia elétrica.</li>
+              <li>Equivaler resistores em série e paralelo e calcular correntes/tensões.</li>
+              <li>Compreender noções de campo magnético e indução eletromagnética.</li>
+            </ul>
+          </section>
+
+          <section id="teoria" class="section-block">
+            <h2>Teoria</h2>
+
+            <h3>Grandezas básicas</h3>
+            <ul>
+              <li>Tensão (U, V), Corrente (I, A), Resistência (R, Ω).</li>
+              <li><strong>Lei de Ohm</strong>: U = R·I.</li>
+              <li><strong>Potência</strong>: P = U·I = I²R = U²/R.</li>
+              <li><strong>Energia</strong>: E = P·t. 1 kWh = 3,6×10⁶ J.</li>
+            </ul>
+
+            <h3>Associação de resistores</h3>
+            <ul>
+              <li><strong>Série</strong>: mesma corrente; R_eq = R₁ + R₂ + …</li>
+              <li><strong>Paralelo</strong>: mesma tensão; 1/R_eq = 1/R₁ + 1/R₂ + … (para dois: R_eq = R₁R₂/(R₁+R₂)).</li>
+            </ul>
+
+            <h3>Magnetismo (noções)</h3>
+            <ul>
+              <li>Imãs: polos N e S; linhas de campo saem do N e entram no S.</li>
+              <li>Correntes geram campo magnético (regra da mão direita).</li>
+              <li><strong>Indução</strong>: variação de fluxo magnético → fem induzida (Faraday–Lenz, qualitativo).</li>
+            </ul>
+
+            <figure class="media">
+              <img src="/assets/img/ilustracoes/circuito-simples.png" alt="Circuito simples com bateria e dois resistores" loading="lazy" />
+              <figcaption>Circuito com resistores em série/paralelo: identifique R_eq, correntes e tensões.</figcaption>
+            </figure>
+
+            <h3>Erros comuns</h3>
+            <ul>
+              <li>Somar direto resistências em paralelo (usar fórmula correta).</li>
+              <li>Esquecer que P = U·I (verificar unidades).</li>
+              <li>Confundir direção de campo magnético com corrente (atenção à convenção).</li>
+            </ul>
+          </section>
+
+          <section id="exemplos" class="section-block">
+            <h2>Exemplos resolvidos</h2>
+
+            <div class="example">
+              <strong>Exemplo 1 — Série.</strong><br />
+              R₁=3 Ω e R₂=7 Ω em série com U=20 V. R_eq=10 Ω; I=U/R=2 A. Tensões: V₁=6 V; V₂=14 V.
+            </div>
+
+            <div class="example" style="margin-top:.5rem;">
+              <strong>Exemplo 2 — Paralelo.</strong><br />
+              R₁=6 Ω || R₂=3 Ω → R_eq= (6·3)/(6+3)=2 Ω. Com U=10 V: I_total=U/R_eq=5 A.
+            </div>
+
+            <div class="example" style="margin-top:.5rem;">
+              <strong>Exemplo 3 — Energia.</strong><br />
+              Um aparelho de 800 W ligado por 2 h consome E=0,8 kW·2 h= <strong>1,6 kWh</strong>.
+            </div>
+          </section>
+
+          <section id="exercicios" class="section-block">
+            <h2>Exercícios</h2>
+            <div class="exercise"><strong>1)</strong> Um resistor de 10 Ω é submetido a 30 V. Calcule I e P.<details><summary>Gabarito</summary>I=U/R=3 A; P=U·I=90 W (ou I²R=9·10=90 W).</details></div>
+            <div class="exercise"><strong>2)</strong> Associe 4 Ω e 12 Ω em paralelo. R_eq=?<details><summary>Gabarito</summary>R_eq=(4·12)/(4+12)=48/16= <strong>3 Ω</strong>.</details></div>
+            <div class="exercise"><strong>3)</strong> Em série: 2 Ω, 2 Ω e 4 Ω. Com 16 V, calcule I.<details><summary>Gabarito</summary>R_eq=8 Ω; I=16/8= <strong>2 A</strong>.</details></div>
+            <div class="exercise"><strong>4)</strong> Uma lâmpada 60 W/120 V. Qual a corrente nominal?<details><summary>Gabarito</summary>I=P/U=60/120= <strong>0,5 A</strong>.</details></div>
+            <div class="exercise"><strong>5)</strong> Dois resistores iguais em paralelo resultam em 5 Ω. Cada um vale…?<details><summary>Gabarito</summary>Para R||R=R/2=5 ⇒ R= <strong>10 Ω</strong>.</details></div>
+            <div class="exercise"><strong>6)</strong> Um chuveiro 5.500 W ligado 15 min: consumo em kWh?<details><summary>Gabarito</summary>5,5 kW·0,25 h= <strong>1,375 kWh</strong>.</details></div>
+            <div class="exercise"><strong>7)</strong> V/F: Em paralelo, a tensão é a mesma em todos os resistores.<details><summary>Gabarito</summary>Verdadeiro.</details></div>
+            <div class="exercise"><strong>8)</strong> Uma corrente num fio gera…<details><summary>Gabarito</summary>Um campo magnético ao redor do fio (regra da mão direita).</details></div>
+            <div class="exercise"><strong>9)</strong> R_eq de 2, 3 e 6 Ω em paralelo.<details><summary>Gabarito</summary>1/R=1/2+1/3+1/6=1 ⇒ R_eq= <strong>1 Ω</strong>.</details></div>
+            <div class="exercise"><strong>10)</strong> Uma fonte 12 V alimenta R_eq=4 Ω. I_total e P_total?<details><summary>Gabarito</summary>I=12/4=3 A; P=U·I=36 W.</details></div>
+          </section>
+
+          <section id="questoes-reais" class="section-block">
+            <h2>Questões de provas</h2><p>Serão adicionadas quando o banco estiver disponível.</p>
+          </section>
+
+          <section id="referencias" class="section-block">
+            <h2>Referências</h2>
+            <ul>
+              <li>Eletricidade básica (circuitos resistivos), potenciação e consumo.</li>
+              <li>Introdução a magnetismo e indução (qualitativo).</li>
+            </ul>
+          </section>
+
+          <nav class="lesson-nav">
+            <a class="btn btn--outline" href="/aulas/natureza/fisica-leis-de-newton.html">← Leis de Newton</a>
+            <a class="btn btn--primary" href="/aulas/natureza/fontes-de-energia.html">Fontes de energia →</a>
+          </nav>
+        </div>
+
+        <aside class="lesson-toc" aria-label="Sumário da aula">
+          <h4>Conteúdo</h4>
+          <ol>
+            <li><a href="#objetivos">Objetivos</a></li>
+            <li><a href="#teoria">Teoria</a></li>
+            <li><a href="#exemplos">Exemplos</a></li>
+            <li><a href="#exercicios">Exercícios</a></li>
+            <li><a href="#questoes-reais">Questões</a></li>
+            <li><a href="#referencias">Referências</a></li>
+          </ol>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2025–2026 • Projeto de estudos para o Vestibulinho CTI UNESP Bauru.</p>
+      <nav class="footer-nav"><ul>
+        <li><a href="/recursos/cronograma-de-estudos.html">Cronograma</a></li>
+        <li><a href="/recursos/como-preencher-gabarito.html">Gabarito</a></li>
+        <li><a href="/recursos/dicas-rapidas.html">Dicas</a></li>
+        <li><a href="/recursos/normas-da-prova.html">Normas</a></li>
+      </ul></nav>
+    </div>
+  </footer>
+</body>
+</html>

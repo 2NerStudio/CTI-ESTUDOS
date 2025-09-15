@@ -1,0 +1,202 @@
+[
+  {
+    "id": "HIS-ILU-001",
+    "disciplina": "humanas",
+    "area": "historia",
+    "tema": "Iluminismo",
+    "habilidade": "ideias centrais",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O princípio da separação dos poderes está associado a:",
+    "alternativas": {
+      "A": "Voltaire",
+      "B": "Montesquieu",
+      "C": "Rousseau",
+      "D": "Hobbes",
+      "E": "Locke"
+    },
+    "correta": "B",
+    "explicacao": "Montesquieu propõe legislativo, executivo e judiciário."
+  },
+  {
+    "id": "HIS-RF-002",
+    "disciplina": "humanas",
+    "area": "historia",
+    "tema": "Revolução Francesa",
+    "habilidade": "fases e eventos",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O período do Terror (1793–1794) foi conduzido principalmente por:",
+    "alternativas": {
+      "A": "Diretório",
+      "B": "Girondinos",
+      "C": "Comitê de Salvação Pública",
+      "D": "Assembleia dos Notáveis",
+      "E": "Consulado"
+    },
+    "correta": "C",
+    "explicacao": "Comitê liderado por Robespierre."
+  },
+  {
+    "id": "HIS-IMP-003",
+    "disciplina": "humanas",
+    "area": "historia",
+    "tema": "Imperialismo",
+    "habilidade": "Conferência de Berlim",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A Conferência de Berlim (1884–85) definiu:",
+    "alternativas": {
+      "A": "o fim da escravidão nas colônias",
+      "B": "regras para a partilha da África",
+      "C": "o protetorado do Egito pela Itália",
+      "D": "a neutralidade da Índia",
+      "E": "a criação da ONU"
+    },
+    "correta": "B",
+    "explicacao": "Estabeleceu normas para ocupação colonial na África."
+  },
+  {
+    "id": "HIS-PGM-004",
+    "disciplina": "humanas",
+    "area": "historia",
+    "tema": "Primeira Guerra Mundial",
+    "habilidade": "causas e alianças",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A Tríplice Entente, em 1914, era formada por:",
+    "alternativas": {
+      "A": "Alemanha, Áustria-Hungria e Itália",
+      "B": "Reino Unido, França e Rússia",
+      "C": "Alemanha, Itália e Japão",
+      "D": "EUA, Reino Unido e França",
+      "E": "Rússia, Itália e EUA"
+    },
+    "correta": "B",
+    "explicacao": "Entente: RU, França e Rússia (Itália mudou de lado em 1915)."
+  },
+  {
+    "id": "HIS-VAR-005",
+    "disciplina": "humanas",
+    "area": "historia",
+    "tema": "Era Vargas",
+    "habilidade": "políticas e marcos",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A CLT foi promulgada no período:",
+    "alternativas": {
+      "A": "Governo Provisório (1930–34)",
+      "B": "Constitucional (1934–37)",
+      "C": "Estado Novo (1937–45)",
+      "D": "Segundo governo (1951–54)",
+      "E": "Nova República"
+    },
+    "correta": "C",
+    "explicacao": "A CLT (1943) é marco do Estado Novo."
+  },
+  {
+    "id": "HIS-DIT-006",
+    "disciplina": "humanas",
+    "area": "historia",
+    "tema": "Ditadura Militar no Brasil",
+    "habilidade": "marcos legais",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O AI-5, de 1968, determinou:",
+    "alternativas": {
+      "A": "fim do bipartidarismo",
+      "B": "eleições diretas",
+      "C": "fechamento do Congresso e suspensão de direitos",
+      "D": "anistia ampla",
+      "E": "início do milagre econômico"
+    },
+    "correta": "C",
+    "explicacao": "AI-5 intensificou a repressão política."
+  },
+  {
+    "id": "GEO-BIO-007",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "biomas",
+    "habilidade": "características",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Bioma com vegetação xerófita e clima semiárido:",
+    "alternativas": {
+      "A": "Amazônia",
+      "B": "Cerrado",
+      "C": "Caatinga",
+      "D": "Pantanal",
+      "E": "Pampa"
+    },
+    "correta": "C",
+    "explicacao": "Caatinga: adaptação à seca."
+  },
+  {
+    "id": "GEO-URB-008",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "urbanização",
+    "habilidade": "conceitos",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Conurbação é:",
+    "alternativas": {
+      "A": "expansão rural",
+      "B": "união física de malhas urbanas contíguas",
+      "C": "crescente número de bairros verticais",
+      "D": "migração campo-cidade",
+      "E": "metropolização sem integração viária"
+    },
+    "correta": "B",
+    "explicacao": "Conurbação = coalescência de cidades contíguas."
+  },
+  {
+    "id": "GEO-GLO-009",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "globalização",
+    "habilidade": "DIT e fluxos",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Cadeias globais de valor referem-se a:",
+    "alternativas": {
+      "A": "produção inteira em um único país",
+      "B": "produção fragmentada por países/etapas",
+      "C": "proibição de P&D em países centrais",
+      "D": "moeda única global",
+      "E": "somente comércio digital"
+    },
+    "correta": "B",
+    "explicacao": "Etapas em diferentes locais segundo especializações."
+  },
+  {
+    "id": "GEO-CLI-010",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "clima (El Niño)",
+    "habilidade": "efeitos regionais",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em anos de El Niño, é comum no Sul do Brasil:",
+    "alternativas": {
+      "A": "secas intensas",
+      "B": "mais chuvas",
+      "C": "temperaturas abaixo de 0°C o ano todo",
+      "D": "nevascas constantes",
+      "E": "ausência de frentes frias"
+    },
+    "correta": "B",
+    "explicacao": "Tendência de chuvas acima da média no Sul."
+  }
+]

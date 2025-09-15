@@ -1,0 +1,202 @@
+[
+  {
+    "id": "BIO-ECO-001",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "ecologia",
+    "habilidade": "nicho x habitat",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Habitat é ao organismo como \"endereço\"; nicho é como:",
+    "alternativas": {
+      "A": "\"profissão\" (papel ecológico)",
+      "B": "\"andar da casa\"",
+      "C": "\"documento de identidade\"",
+      "D": "\"peso e altura\"",
+      "E": "\"raça\""
+    },
+    "correta": "A",
+    "explicacao": "Nicho = função/atuação do organismo no ecossistema."
+  },
+  {
+    "id": "BIO-PIR-002",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "pirâmides ecológicas",
+    "habilidade": "fluxo de energia",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A pirâmide de energia nunca se inverte porque:",
+    "alternativas": {
+      "A": "energia é reciclada integralmente",
+      "B": "sempre há mais produtores em número",
+      "C": "há perda de energia em cada nível trófico",
+      "D": "decompositores consomem toda a energia",
+      "E": "os consumidores não gastam energia"
+    },
+    "correta": "C",
+    "explicacao": "Parte da energia dissipa-se como calor a cada transferência."
+  },
+  {
+    "id": "BIO-CIC-003",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "ciclos biogeoquímicos",
+    "habilidade": "nitrificação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "No ciclo do N, a transformação NH₄⁺ → NO₂⁻ → NO₃⁻ chama-se:",
+    "alternativas": {
+      "A": "fixação",
+      "B": "nitrificação",
+      "C": "amonificação",
+      "D": "desnitrificação",
+      "E": "assimilação"
+    },
+    "correta": "B",
+    "explicacao": "Oxidação do amônio a nitratos por bactérias nitrificantes."
+  },
+  {
+    "id": "AMB-INV-004",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "poluição do ar",
+    "habilidade": "inversão térmica",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Inversão térmica agrava a poluição pois:",
+    "alternativas": {
+      "A": "aumenta a velocidade do vento",
+      "B": "diminui a radiação solar",
+      "C": "aprisiona poluentes junto ao solo",
+      "D": "dissolve particulados",
+      "E": "resfria o solo rapidamente"
+    },
+    "correta": "C",
+    "explicacao": "Camada de ar quente sobre ar frio impede convecção."
+  },
+  {
+    "id": "BIO-IMU-005",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "imunização",
+    "habilidade": "ativa x passiva",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Soros conferem imunidade:",
+    "alternativas": {
+      "A": "ativa e duradoura",
+      "B": "passiva e imediata",
+      "C": "ativa e imediata",
+      "D": "metabólica",
+      "E": "genética"
+    },
+    "correta": "B",
+    "explicacao": "Anticorpos prontos → proteção imediata e temporária."
+  },
+  {
+    "id": "SAU-CON-006",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "contraceptivos",
+    "habilidade": "prevenção de ISTs",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Método que reduz risco de ISTs:",
+    "alternativas": {
+      "A": "pílula",
+      "B": "DIU de cobre",
+      "C": "implante hormonal",
+      "D": "preservativo",
+      "E": "tabelinha"
+    },
+    "correta": "D",
+    "explicacao": "Barreira física reduz transmissão (uso correto e consistente)."
+  },
+  {
+    "id": "FIS-NEW-007",
+    "disciplina": "natureza",
+    "area": "fisica",
+    "tema": "leis de Newton",
+    "habilidade": "plano inclinado",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Sem atrito, em plano de 30°, a aceleração é:",
+    "alternativas": {
+      "A": "g",
+      "B": "g·cos30°",
+      "C": "g·sen30°",
+      "D": "g/3",
+      "E": "0"
+    },
+    "correta": "C",
+    "explicacao": "Componente do peso paralelo: m g senθ / m."
+  },
+  {
+    "id": "FIS-ENE-008",
+    "disciplina": "natureza",
+    "area": "fisica",
+    "tema": "energia",
+    "habilidade": "conservação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Sem atrito, a soma K+U para um sistema mecânico:",
+    "alternativas": {
+      "A": "diminui sempre",
+      "B": "aumenta sempre",
+      "C": "permanece constante",
+      "D": "é zero",
+      "E": "não tem relação física"
+    },
+    "correta": "C",
+    "explicacao": "Conservação da energia mecânica (ausência de dissipação)."
+  },
+  {
+    "id": "FIS-ELM-009",
+    "disciplina": "natureza",
+    "area": "fisica",
+    "tema": "eletricidade",
+    "habilidade": "Lei de Ohm",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Um resistor de 6 Ω ligado a 12 V dissipa potência de:",
+    "alternativas": {
+      "A": "2 W",
+      "B": "12 W",
+      "C": "24 W",
+      "D": "36 W",
+      "E": "72 W"
+    },
+    "correta": "C",
+    "explicacao": "P=U²/R=144/6=24 W."
+  },
+  {
+    "id": "QUI-MIS-010",
+    "disciplina": "natureza",
+    "area": "quimica",
+    "tema": "misturas",
+    "habilidade": "métodos de separação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Para separar álcool e água usa-se:",
+    "alternativas": {
+      "A": "filtração",
+      "B": "decantação",
+      "C": "destilação fracionada",
+      "D": "evaporação simples",
+      "E": "peneiramento"
+    },
+    "correta": "C",
+    "explicacao": "Líquidos miscíveis com pontos de ebulição próximos → destilação fracionada."
+  }
+]

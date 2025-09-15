@@ -1,0 +1,203 @@
+[
+  {
+    "id": "PT-INT-001",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "interpretação de textos",
+    "habilidade": "ideia central e efeito de sentido",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Texto: \"No ônibus, Marina percebeu que, quando não olha o celular, as conversas parecem mais longas.\" A frase produz efeito de sentido principalmente por meio de:",
+    "alternativas": {
+      "A": "ironia sobre a percepção do tempo",
+      "B": "definição científica de tempo cronológico",
+      "C": "descrição objetiva de um experimento",
+      "D": "metalinguagem sobre comunicação",
+      "E": "instrução de uso de aparelho"
+    },
+    "correta": "A",
+    "explicacao": "Há contraste entre uso do celular e sensação subjetiva do tempo — recurso irônico.",
+    "tags": ["texto-breve", "percepção", "tempo"]
+  },
+  {
+    "id": "PT-FUN-002",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "identificar função predominante",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Clique e baixe o cronograma agora!\" A função predominante é:",
+    "alternativas": {
+      "A": "referencial",
+      "B": "emotiva",
+      "C": "conativa (apelativa)",
+      "D": "fática",
+      "E": "poética"
+    },
+    "correta": "C",
+    "explicacao": "Convite/imperativo direcionado ao leitor caracteriza função conativa."
+  },
+  {
+    "id": "PT-FIG-003",
+    "disciplina": "portugues",
+    "area": "estilo",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer figura",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "No trecho \"As notícias pescam nossa atenção\", identifica-se:",
+    "alternativas": {
+      "A": "metonímia",
+      "B": "metáfora",
+      "C": "eufemismo",
+      "D": "antítese",
+      "E": "hipérbole"
+    },
+    "correta": "B",
+    "explicacao": "Uso figurado por semelhança (\"pescar\" atenção) = metáfora."
+  },
+  {
+    "id": "PT-REF-004",
+    "disciplina": "portugues",
+    "area": "coesão",
+    "tema": "referência pronominal",
+    "habilidade": "retomada de ideias",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "No período \"Muitos reclamam das notificações. Isso prejudica o foco.\", o pronome \"Isso\" retoma:",
+    "alternativas": {
+      "A": "muitos",
+      "B": "reclamam",
+      "C": "notificações",
+      "D": "o ato de reclamar",
+      "E": "o excesso de notificações"
+    },
+    "correta": "E",
+    "explicacao": "\"Isso\" sintetiza a ideia do excesso de notificações (tema da oração anterior)."
+  },
+  {
+    "id": "PT-CON-005",
+    "disciplina": "portugues",
+    "area": "conectivos",
+    "tema": "operações de sentido",
+    "habilidade": "valor semântico",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em \"Não encontrou argumentos, logo desistiu\", o conectivo \"logo\" indica:",
+    "alternativas": {
+      "A": "oposição",
+      "B": "adição",
+      "C": "conclusão",
+      "D": "condição",
+      "E": "concessão"
+    },
+    "correta": "C",
+    "explicacao": "Logo → valor conclusivo."
+  },
+  {
+    "id": "PT-GRA-006",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "concordância e regência",
+    "habilidade": "norma-padrão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a opção CORRETA segundo a norma-padrão.",
+    "alternativas": {
+      "A": "Houveram provas fáceis.",
+      "B": "Assisti o filme ontem.",
+      "C": "A maioria dos alunos foram bem.",
+      "D": "Preferi estudo a improviso.",
+      "E": "Os estudante chegaram cedo."
+    },
+    "correta": "D",
+    "explicacao": "Preferir X a Y; haver existencial fica no singular; maioria → preferível singular; crase/ortografia nos demais."
+  },
+  {
+    "id": "PT-SIN-007",
+    "disciplina": "portugues",
+    "area": "sintaxe",
+    "tema": "orações adjetivas",
+    "habilidade": "restritiva x explicativa",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em \"Os temas, que caem muito, exigem revisão\", a oração sublinhada (que caem muito) é:",
+    "alternativas": {
+      "A": "adjetiva restritiva",
+      "B": "adjetiva explicativa",
+      "C": "substantiva objetiva",
+      "D": "adverbial causal",
+      "E": "coordenada explicativa"
+    },
+    "correta": "B",
+    "explicacao": "Vírgulas marcam explicação geral (todos os temas)."
+  },
+  {
+    "id": "PT-VOC-008",
+    "disciplina": "portugues",
+    "area": "semântica",
+    "tema": "parônimos",
+    "habilidade": "escolha vocabular",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete corretamente: O relatório foi _______ após encontrarmos erros.",
+    "alternativas": {
+      "A": "ratificado",
+      "B": "retificado",
+      "C": "resignado",
+      "D": "ressignado",
+      "E": "reafirmado"
+    },
+    "correta": "B",
+    "explicacao": "Retificar = corrigir; ratificar = confirmar."
+  },
+  {
+    "id": "PT-INT-009",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "interpretação de tiras/charges",
+    "habilidade": "humor e crítica",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Charge (descrição): personagem diz que \"estuda 5 minutos e descansa 2 horas\". O efeito de humor decorre de:",
+    "alternativas": {
+      "A": "linguagem técnica",
+      "B": "eufemismo",
+      "C": "hipérbole e quebra de expectativa",
+      "D": "definição objetiva",
+      "E": "comparação"
+    },
+    "correta": "C",
+    "explicacao": "Exagero e inversão da proporção esperada."
+  },
+  {
+    "id": "PT-RED-010",
+    "disciplina": "portugues",
+    "area": "redação",
+    "tema": "artigo de opinião",
+    "habilidade": "tese e argumento",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "No artigo de opinião, a tese deve aparecer preferencialmente:",
+    "alternativas": {
+      "A": "somente na conclusão",
+      "B": "em qualquer lugar sem relação com o tema",
+      "C": "na introdução, de forma clara",
+      "D": "apenas nos exemplos",
+      "E": "nunca explicitamente"
+    },
+    "correta": "C",
+    "explicacao": "Boa prática: apresentar a tese na introdução para guiar o texto."
+  }
+]

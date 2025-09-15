@@ -1,0 +1,47 @@
+{
+  "nome": "CTI 2026 Completo",
+  "descricao": "Simulado no formato CTI: 15 Português, 15 Matemática, 15 Humanas, 5 Natureza.",
+  "total": 50,
+  "tempoSegundos": 16200,
+  "embaralharQuestoes": true,
+  "embaralharAlternativas": true,
+  "blocos": [
+    {
+      "disciplina": "portugues",
+      "quantidade": 15,
+      "regras": [
+        { "tema": "interpretação de textos", "min": 5 },
+        { "tema": "gramática", "min": 3 },
+        { "tema": "figuras de linguagem", "min": 1 },
+        { "tema": "funções da linguagem", "min": 1 }
+      ]
+    },
+    {
+      "disciplina": "matematica",
+      "quantidade": 15,
+      "regras": [
+        { "tema": "porcentagem", "min": 2 },
+        { "tema": "razão e proporção", "min": 2 },
+        { "tema": "geometria plana", "min": 2 },
+        { "tema": "algebra", "min": 2 }
+      ]
+    },
+    {
+      "disciplina": "humanas",
+      "quantidade": 15,
+      "regras": [
+        { "area": "historia", "min": 7 },
+        { "area": "geografia", "min": 7 }
+      ]
+    },
+    {
+      "disciplina": "natureza",
+      "quantidade": 5,
+      "regras": [
+        { "area": "biologia", "min": 2 },
+        { "area": "fisica", "min": 2 },
+        { "area": "quimica", "min": 1 }
+      ]
+    }
+  ]
+}

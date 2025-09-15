@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Física: Energia — CTI 2026</title>
+  <meta name="description" content="Trabalho, energia cinética e potencial, conservação da energia mecânica, potência e trabalho do atrito. Exercícios resolvidos." />
+  <link rel="canonical" href="https://SEU-DOMINIO/aulas/natureza/fisica-energia.html" />
+
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/layout.css" />
+  <link rel="stylesheet" href="/assets/css/componentes.css" />
+  <link rel="stylesheet" href="/assets/css/aulas.css" />
+  <link rel="stylesheet" href="/assets/css/dark.css" media="(prefers-color-scheme: dark)" />
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header" role="banner">
+    <div class="container header-wrap">
+      <a class="brand" href="/" aria-label="Página inicial"><img src="/assets/img/logo.svg" alt="" width="36" height="36" /><span class="brand-name">CTI 2026</span></a>
+      <nav class="site-nav site-nav--desktop" aria-label="Seções principais">
+        <ul>
+          <li><a class="nav-link" href="/aulas/" aria-current="page">Aulas</a></li>
+          <li><a class="nav-link" href="/simulados/">Simulados</a></li>
+          <li><a class="nav-link" href="/redacao/">Redação</a></li>
+          <li><a class="nav-link" href="/recursos/">Recursos</a></li>
+        </ul>
+      </nav>
+      <nav class="site-nav--mobile nav-mobile" aria-label="Menu principal (mobile)">
+        <details class="menu"><summary class="nav-toggle">Menu</summary>
+          <ul class="menu-list">
+            <li><a class="nav-link" href="/aulas/" aria-current="page">Aulas</a></li>
+            <li><a class="nav-link" href="/simulados/">Simulados</a></li>
+            <li><a class="nav-link" href="/redacao/">Redação</a></li>
+            <li><a class="nav-link" href="/recursos/">Recursos</a></li>
+          </ul>
+        </details>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="breadcrumb" aria-label="Caminho de navegação">
+    <ol>
+      <li><a href="/">Início</a></li>
+      <li><a href="/aulas/">Aulas</a></li>
+      <li><a href="/aulas/natureza/">Ciências da Natureza</a></li>
+      <li aria-current="page">Física: Energia</li>
+    </ol>
+  </nav>
+
+  <main id="conteudo" class="section">
+    <div class="container">
+      <article class="lesson-hero">
+        <h1>Física: Energia</h1>
+        <div class="lesson-meta">
+          <span class="pill">Tema: Física</span>
+          <span class="pill">Dificuldade: intermediário</span>
+          <span>Tempo estimado: 60–90 min</span>
+        </div>
+        <p class="text-muted">Trabalho, energia e potência: como calcular, quando a energia se conserva e como o atrito altera o sistema.</p>
+      </article>
+
+      <div class="lesson-layout">
+        <div class="lesson-content">
+
+          <section id="objetivos" class="section-block">
+            <h2>Objetivos</h2>
+            <ul>
+              <li>Calcular trabalho, energia cinética e potenciais (gravitacional e elástica).</li>
+              <li>Aplicar a <strong>conservação da energia mecânica</strong> quando não há dissipação.</li>
+              <li>Resolver problemas com trabalho do atrito e potência média.</li>
+            </ul>
+          </section>
+
+          <section id="teoria" class="section-block">
+            <h2>Teoria</h2>
+
+            <h3>Trabalho e potência</h3>
+            <ul>
+              <li><strong>Trabalho</strong>: W = F·d·cosθ (J). Se força e deslocamento têm mesma direção: W = F·d.</li>
+              <li><strong>Potência</strong>: P = W/t (W); para velocidade constante na direção da força: P = F·v.</li>
+            </ul>
+
+            <h3>Energia</h3>
+            <ul>
+              <li><strong>Energia cinética</strong>: K = ½·m·v².</li>
+              <li><strong>Energia potencial gravitacional</strong>: U_g = m·g·h (perto da superfície da Terra).</li>
+              <li><strong>Energia potencial elástica</strong>: U_e = ½·k·x² (mola ideal).</li>
+              <li><strong>Energia mecânica</strong>: E = K + U.</li>
+            </ul>
+
+            <h3>Conservação e dissipação</h3>
+            <ul>
+              <li>Sem forças dissipativas (ex.: atrito), a energia mecânica se <strong>conserva</strong>.</li>
+              <li>Com atrito, há <strong>perda</strong> de energia mecânica: W_atrito = −f·d (dissipa em calor).</li>
+            </ul>
+
+            <div class="note">Use g ≈ 10 m/s² nos exercícios (salvo indicação contrária).</div>
+
+            <h3>Erros comuns</h3>
+            <ul>
+              <li>Esquecer o cosθ no trabalho (força aplicada em ângulo).</li>
+              <li>Usar conservação com atrito sem considerar o trabalho dissipativo.</li>
+              <li>Confundir massa (kg) com peso (N = m·g).</li>
+            </ul>
+          </section>
+
+          <section id="exemplos" class="section-block">
+            <h2>Exemplos resolvidos</h2>
+
+            <div class="example">
+              <strong>Exemplo 1 — Queda sem atrito.</strong><br />
+              Uma bola de 0,2 kg cai de h = 5 m (sem resistência). No chão: K = mgh = 0,2·10·5 = 10 J → v = √(2K/m) = √(20/0,2) = √100 = <strong>10 m/s</strong>.
+            </div>
+
+            <div class="example" style="margin-top:.5rem;">
+              <strong>Exemplo 2 — Trabalho por força inclinada.</strong><br />
+              F = 50 N, d = 4 m, θ = 60°. W = F·d·cosθ = 50·4·0,5 = <strong>100 J</strong>.
+            </div>
+
+            <div class="example" style="margin-top:.5rem;">
+              <strong>Exemplo 3 — Mola.</strong><br />
+              k = 200 N/m, x = 0,1 m. U_e = ½·200·0,01 = <strong>1 J</strong>.
+            </div>
+          </section>
+
+          <section id="exercicios" class="section-block">
+            <h2>Exercícios</h2>
+
+            <div class="exercise">
+              <strong>1)</strong> Um bloco (2 kg) desliza sem atrito do repouso a partir de h = 8 m. Velocidade ao chegar na base?
+              <details><summary>Gabarito e resolução</summary>
+                mgh = ½ m v² ⇒ v = √(2gh) = √(2·10·8) = √160 ≈ <strong>12,6 m/s</strong>.
+              </details>
+            </div>
+
+            <div class="exercise">
+              <strong>2)</strong> Uma força constante de 30 N atua por 5 m na mesma direção do movimento. Trabalho?
+              <details><summary>Gabarito</summary>W = Fd = 30·5 = <strong>150 J</strong>.</details>
+            </div>
+
+            <div class="exercise">
+              <strong>3)</strong> Uma máquina realiza 600 J em 20 s. Potência média?
+              <details><summary>Gabarito</summary>P = W/t = 600/20 = <strong>30 W</strong>.</details>
+            </div>
+
+            <div class="exercise">
+              <strong>4)</strong> Um bloco (5 kg) é puxado em piso horizontal com atrito cinético f = 10 N por 6 m. Trabalho do atrito?
+              <details><summary>Gabarito</summary>W_at = −f·d = −10·6 = <strong>−60 J</strong>.</details>
+            </div>
+
+            <div class="exercise">
+              <strong>5)</strong> Uma mola (k = 100 N/m) é comprimida de 0,2 m e solta um bloco (0,5 kg). Despreze atrito. Velocidade ao perder contato?
+              <details><summary>Gabarito</summary>½kx² = ½mv² ⇒ v = √(k/m)·x = √(100/0,5)·0,2 = √200·0,2 ≈ 14,14·0,2 = <strong>2,83 m/s</strong>.</details>
+            </div>
+          </section>
+
+          <section id="questoes-reais" class="section-block">
+            <h2>Questões de provas</h2>
+            <p>Entrarão aqui quando o banco estiver disponível.</p>
+          </section>
+
+          <section id="referencias" class="section-block">
+            <h2>Referências</h2>
+            <ul>
+              <li>Física mecânica introdutória (trabalho-energia, potência).</li>
+              <li>Materiais didáticos com exercícios numéricos progressivos.</li>
+            </ul>
+          </section>
+
+          <nav class="lesson-nav">
+            <a class="btn btn--outline" href="/aulas/natureza/ecologia-e-biomas-brasileiros.html">← Ecologia e biomas</a>
+            <a class="btn btn--primary" href="/aulas/natureza/fisica-leis-de-newton.html">Física: Leis de Newton →</a>
+          </nav>
+
+        </div>
+
+        <aside class="lesson-toc" aria-label="Sumário da aula">
+          <h4>Conteúdo</h4>
+          <ol>
+            <li><a href="#objetivos">Objetivos</a></li>
+            <li><a href="#teoria">Teoria</a></li>
+            <li><a href="#exemplos">Exemplos</a></li>
+            <li><a href="#exercicios">Exercícios</a></li>
+            <li><a href="#questoes-reais">Questões</a></li>
+            <li><a href="#referencias">Referências</a></li>
+          </ol>
+        </aside>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2025–2026 • Projeto de estudos para o Vestibulinho CTI UNESP Bauru.</p>
+      <nav class="footer-nav" aria-label="Rodapé">
+        <ul>
+          <li><a href="/recursos/cronograma-de-estudos.html">Cronograma</a></li>
+          <li><a href="/recursos/como-preencher-gabarito.html">Gabarito</a></li>
+          <li><a href="/recursos/dicas-rapidas.html">Dicas</a></li>
+          <li><a href="/recursos/normas-da-prova.html">Normas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
