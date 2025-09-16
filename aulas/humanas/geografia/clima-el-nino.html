@@ -1,10 +1,11 @@
+<!-- geografia/clima-el-nino.html -->
 <!doctype html>
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Clima — El Niño e La Niña — CTI 2026</title>
-  <meta name="description" content="ENSO: El Niño e La Niña, anomalias no Pacífico e efeitos no clima do Brasil (chuvas e secas regionais)."/>
+  <title>Clima — El Niño e La Niña (ENSO) — CTI 2026</title>
+  <meta name="description" content="ENSO: El Niño, La Niña e neutralidade. O que muda na circulação atmosférica, como se mede (Niño 3.4), efeitos típicos no Brasil e impactos em agro, energia e riscos."/>
   <link rel="canonical" href="https://SEU-DOMINIO/aulas/humanas/geografia/clima-el-nino.html"/>
   <link rel="icon" href="/favicon.ico"/>
   <link rel="stylesheet" href="/assets/css/base.css"/>
@@ -12,12 +13,18 @@
   <link rel="stylesheet" href="/assets/css/componentes.css"/>
   <link rel="stylesheet" href="/assets/css/aulas.css"/>
   <link rel="stylesheet" href="/assets/css/dark.css" media="(prefers-color-scheme: dark)"/>
+  <meta name="author" content="CTI 2026"/>
+  <meta name="theme-color" content="#0e6dfd"/>
 </head>
 <body>
 <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
 <header class="site-header" role="banner">
   <div class="container header-wrap">
-    <a class="brand" href="/" aria-label="Página inicial"><img src="/assets/img/logo.svg" alt="" width="36" height="36"/><span class="brand-name">CTI 2026</span></a>
+    <a class="brand" href="/" aria-label="Página inicial">
+      <img src="/assets/img/logo.svg" alt="" width="36" height="36"/>
+      <span class="brand-name">CTI 2026</span>
+    </a>
     <nav class="site-nav site-nav--desktop" aria-label="Seções principais">
       <ul>
         <li><a class="nav-link" href="/aulas/" aria-current="page">Aulas</a></li>
@@ -55,71 +62,92 @@
       <h1>Clima — El Niño e La Niña (ENSO)</h1>
       <div class="lesson-meta">
         <span class="pill">Tema: Geografia</span>
-        <span class="pill">Dificuldade: básico–intermediário</span>
-        <span>Tempo estimado: 50–80 min</span>
+        <span class="pill">Nível: básico–intermediário</span>
+        <span class="pill">Atualizado: set/2025</span>
+        <span>Tempo estimado: 60–90 min</span>
       </div>
-      <p class="text-muted">Anomalias de temperatura no Pacífico Equatorial alteram padrões de vento e chuva no mundo. No Brasil, efeitos variam por região.</p>
+      <p class="text-muted">Anomalias de temperatura do Pacífico Equatorial alteram ventos e padrões de chuva no planeta. No Brasil, os efeitos variam por região e intensidade do evento.</p>
     </article>
 
     <div class="lesson-layout">
       <div class="lesson-content">
+
         <section id="objetivos" class="section-block">
           <h2>Objetivos</h2>
           <ul>
-            <li>Diferenciar El Niño (aquecimento) e La Niña (resfriamento).</li>
-            <li>Reconhecer padrões típicos de chuva/temperatura no Brasil.</li>
-            <li>Relacionar ENSO a riscos (enchentes e secas) e setores afetados (agroenergia).</li>
+            <li>Diferenciar El Niño (aquecimento), La Niña (resfriamento) e neutralidade.</li>
+            <li>Reconhecer padrões típicos de precipitação/temperatura no Brasil em cada fase.</li>
+            <li>Relacionar ENSO a riscos (enchentes/secas) e setores (agro, energia).</li>
+          </ul>
+          <p class="text-muted"><strong>Pré-requisitos:</strong> circulação geral da atmosfera, massas de ar do Brasil.</p>
+        </section>
+
+        <section id="enso" class="section-block">
+          <h2>O que é ENSO?</h2>
+          <ul>
+            <li><strong>El Niño</strong>: aquecimento anômalo das águas no Pacífico Equatorial central-leste; enfraquece os alísios e altera a célula de Walker.</li>
+            <li><strong>La Niña</strong>: resfriamento anômalo; reforça alísios e desloca convecção para oeste.</li>
+            <li><strong>Neutralidade</strong>: ausência de sinal significativo; outros modos (ex.: Atlântico tropical) podem dominar.</li>
+          </ul>
+          <figure class="media">
+            <img src="/assets/img/ilustracoes/el-nino.png" alt="Esquema de El Niño no Pacífico: águas mais quentes no leste, alísios enfraquecidos" loading="lazy"/>
+            <figcaption>El Niño: águas mais quentes no Pacífico leste, deslocando a convecção e alterando teleconexões.</figcaption>
+          </figure>
+        </section>
+
+        <section id="monitoramento" class="section-block">
+          <h2>Como se mede</h2>
+          <ul>
+            <li><strong>Índice Niño 3.4</strong>: anomalia de TSM na faixa 5°N–5°S e 170°W–120°W. Valores positivos sustentados → El Niño; negativos → La Niña.</li>
+            <li><strong>SOI</strong> (Índice de Oscilação Sul): diferença de pressão (Taiti–Darwin). Negativo favorece El Niño; positivo, La Niña.</li>
+            <li>Intensidade (fraco, moderado, forte) e duração modulam os efeitos.</li>
           </ul>
         </section>
 
-        <section id="teoria" class="section-block">
-          <h2>Teoria</h2>
-          <h3>ENSO</h3>
+        <section id="efeitos" class="section-block">
+          <h2>Efeitos típicos no Brasil (tendências)</h2>
           <ul>
-            <li><strong>El Niño</strong>: aquecimento anômalo do Pacífico Equatorial central-leste; altera a circulação Walker.</li>
-            <li><strong>La Niña</strong>: resfriamento anômalo; reforça padrões opostos.</li>
+            <li><strong>Sul</strong>: El Niño — chuvas acima da média (maior risco de enchentes); La Niña — chuvas irregulares/abaixo da média.</li>
+            <li><strong>Norte/Nordeste</strong>: El Niño — redução de chuvas (seca em partes); La Niña — aumento de chuvas em áreas do Nordeste setentrional e Amazônia.</li>
+            <li><strong>Centro-Oeste/Sudeste</strong>: efeitos variáveis; podem ocorrer eventos extremos dependendo de frentes, jatos e umidade amazônica.</li>
           </ul>
+          <p class="text-muted">Importante: são <em>tendências</em>, não garantias. A circulação do Atlântico, a atuação de frentes frias e outros sistemas modula o resultado final.</p>
+        </section>
 
-          <h3>Efeitos típicos no Brasil (tendências)</h3>
+        <section id="impactos" class="section-block">
+          <h2>Setores impactados</h2>
           <ul>
-            <li><strong>Sul</strong>: El Niño — mais chuvas; La Niña — secas/chuvas irregulares.</li>
-            <li><strong>Norte/Nordeste</strong>: El Niño — secas; La Niña — chuvas acima da média em partes.</li>
-            <li><strong>Centro-Oeste/Sudeste</strong>: efeitos variáveis; podem ocorrer eventos extremos.</li>
+            <li><strong>Agropecuária:</strong> plantio/colheita, pragas/doenças e produtividade.</li>
+            <li><strong>Energia:</strong> hidrelétricas (reservatórios), demanda por termelétricas, eólica/solar.</li>
+            <li><strong>Riscos:</strong> enchentes/deslizamentos e estiagens prolongadas (defesas civis).</li>
           </ul>
+        </section>
 
-          <h3>Setores impactados</h3>
+        <section id="erros" class="section-block">
+          <h2>Erros comuns</h2>
           <ul>
-            <li>Agropecuária (safras), energia (hidrelétricas), gestão de riscos (defesas civis).</li>
-          </ul>
-
-          <figure class="media">
-            <img src="/assets/img/ilustracoes/el-nino.png" alt="Esquema de El Niño no Pacífico" loading="lazy"/>
-            <figcaption>El Niño: águas mais quentes no Pacífico Equatorial leste.</figcaption>
-          </figure>
-
-          <h3>Erros comuns</h3>
-          <ul>
-            <li>Tratar padrões como “lei” — são <em>tendências</em>, não garantias.</li>
-            <li>Atribuir todo evento extremo local ao ENSO sem considerar outros fatores.</li>
+            <li>Tratar efeitos de ENSO como regras fixas. São padrões prováveis com grande variabilidade.</li>
+            <li>Atribuir todo evento extremo ao ENSO sem checar outros fatores regionais (Atlântico, jato de baixos níveis, bloqueios).</li>
+            <li>Confundir tempo (dias) com clima (médias e padrões sazonais).</li>
           </ul>
         </section>
 
         <section id="exemplos" class="section-block">
           <h2>Exemplos resolvidos</h2>
           <div class="example">
-            Em ano de El Niño, espera-se no RS:
-            <br/><strong>Resposta:</strong> Chuvas acima da média (maior risco de enchentes).
+            Em ano de El Niño, no RS, espera-se:
+            <br/><strong>Resposta:</strong> Tendência a chuvas acima da média e maior risco de cheias.
           </div>
           <div class="example" style="margin-top:.5rem;">
             La Niña pode favorecer:
-            <br/><strong>Resposta:</strong> Mais chuvas no Nordeste (varia conforme intensidade e outros sistemas).
+            <br/><strong>Resposta:</strong> Chuvas acima da média no Nordeste setentrional (depende de intensidade e de outros sistemas).
           </div>
         </section>
 
         <section id="exercicios" class="section-block">
           <h2>Exercícios</h2>
           <div class="exercise"><strong>1)</strong> Defina ENSO.
-            <details><summary>Gabarito</summary>Oscilação sul do El Niño — anomalias de TSM no Pacífico e mudanças atmosféricas.</details>
+            <details><summary>Gabarito</summary>Oscilação acoplada oceano–atmosfera no Pacífico Equatorial (El Niño/La Niña) que altera padrões climáticos.</details>
           </div>
 
           <div class="exercise"><strong>2)</strong> Em qual fase tende a chover mais no Sul?
@@ -130,28 +158,41 @@
             <details><summary>Gabarito</summary>Falso. Efeitos variam por região.</details>
           </div>
 
-          <div class="exercise"><strong>4)</strong> Cite um setor afetado por ENSO.
-            <details><summary>Gabarito</summary>Energia hidrelétrica (reservatórios), agricultura (safras), defesa civil.</details>
+          <div class="exercise"><strong>4)</strong> Cite um setor impactado e um efeito possível.
+            <details><summary>Gabarito</summary>Energia → reservatórios com baixa recarga; Agro → perdas por excesso/falta de chuva.</details>
           </div>
 
           <div class="exercise"><strong>5)</strong> La Niña corresponde a:
-            <details><summary>Gabarito</summary>Resfriamento anômalo do Pacífico Equatorial.</details>
+            <details><summary>Gabarito</summary>Resfriamento anômalo do Pacífico Equatorial central-leste (índice Niño 3.4 negativo).</details>
           </div>
         </section>
 
-        <section id="questoes-reais" class="section-block">
-          <h2>Questões de provas</h2><p>Em breve.</p>
+        <section id="questoes" class="section-block">
+          <h2>Questões autorais no estilo de prova</h2>
+          <div class="exercise"><strong>1)</strong> O enfraquecimento dos ventos alísios no Pacífico é típico de:
+            <br/>a) La Niña
+            <br/>b) El Niño
+            <br/>c) Neutralidade
+            <details><summary>Gabarito</summary>b).</details>
+          </div>
+          <div class="exercise"><strong>2)</strong> Um El Niño forte pode aumentar a probabilidade de:
+            <br/>a) Chuvas acima da média no RS
+            <br/>b) Neve no Nordeste
+            <br/>c) Redução de frentes frias no Atlântico Sul
+            <details><summary>Gabarito</summary>a).</details>
+          </div>
         </section>
 
         <section id="referencias" class="section-block">
           <h2>Referências</h2>
           <ul>
-            <li>CPTEC/INPE — Monitoramento de ENSO.</li>
+            <li>CPTEC/INPE — Monitoramento de ENSO e boletins sazonais.</li>
             <li>NOAA — ENSO Diagnostic Discussion.</li>
+            <li>OMM — Guias sobre previsões sazonais.</li>
           </ul>
         </section>
 
-        <nav class="lesson-nav">
+        <nav class="lesson-nav" aria-label="Navegação da lição">
           <a class="btn btn--outline" href="/aulas/humanas/geografia/recursos-hidricos.html">← Recursos Hídricos</a>
           <a class="btn btn--primary" href="/aulas/humanas/geografia/cartografia-anamorfose.html">Cartografia (Anamorfose) →</a>
         </nav>
@@ -161,10 +202,14 @@
         <h4>Conteúdo</h4>
         <ol>
           <li><a href="#objetivos">Objetivos</a></li>
-          <li><a href="#teoria">Teoria</a></li>
+          <li><a href="#enso">O que é ENSO</a></li>
+          <li><a href="#monitoramento">Como se mede</a></li>
+          <li><a href="#efeitos">Efeitos no Brasil</a></li>
+          <li><a href="#impactos">Setores impactados</a></li>
+          <li><a href="#erros">Erros comuns</a></li>
           <li><a href="#exemplos">Exemplos</a></li>
           <li><a href="#exercicios">Exercícios</a></li>
-          <li><a href="#questoes-reais">Questões de provas</a></li>
+          <li><a href="#questoes">Questões autorais</a></li>
           <li><a href="#referencias">Referências</a></li>
         </ol>
       </aside>

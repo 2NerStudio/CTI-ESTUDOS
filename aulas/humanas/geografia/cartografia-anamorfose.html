@@ -1,10 +1,11 @@
+<!-- geografia/cartografia-anamorfose.html -->
 <!doctype html>
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Cartografia — Anamorfose — CTI 2026</title>
-  <meta name="description" content="Leitura de mapas, escala e projeções. Anamorfose: mapas temáticos com áreas redimensionadas por variáveis (população, PIB etc.)."/>
+  <meta name="description" content="Leitura de mapas, escala e projeções. Anamorfose (cartograma): como interpretar áreas redimensionadas por variáveis (população, PIB, emissões). Exercícios com gabarito."/>
   <link rel="canonical" href="https://SEU-DOMINIO/aulas/humanas/geografia/cartografia-anamorfose.html"/>
   <link rel="icon" href="/favicon.ico"/>
   <link rel="stylesheet" href="/assets/css/base.css"/>
@@ -12,6 +13,8 @@
   <link rel="stylesheet" href="/assets/css/componentes.css"/>
   <link rel="stylesheet" href="/assets/css/aulas.css"/>
   <link rel="stylesheet" href="/assets/css/dark.css" media="(prefers-color-scheme: dark)"/>
+  <meta name="author" content="CTI 2026"/>
+  <meta name="theme-color" content="#0e6dfd"/>
 </head>
 <body>
 <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
@@ -55,10 +58,11 @@
       <h1>Cartografia — Anamorfose</h1>
       <div class="lesson-meta">
         <span class="pill">Tema: Geografia</span>
-        <span class="pill">Dificuldade: básico–intermediário</span>
-        <span>Tempo estimado: 50–80 min</span>
+        <span class="pill">Nível: básico–intermediário</span>
+        <span class="pill">Atualizado: set/2025</span>
+        <span>Tempo estimado: 60–90 min</span>
       </div>
-      <p class="text-muted">Como ler mapas: escala, legenda e projeções. Anamorfose: quando as áreas são redimensionadas proporcionalmente a uma variável (ex.: população ou PIB).</p>
+      <p class="text-muted">Leitura de mapas: título, legenda, escala, orientação e projeções. Como interpretar cartogramas (anamorfose) sem cair em pegadinhas. Inclui passo a passo, exercícios e gabarito.</p>
     </article>
 
     <div class="lesson-layout">
@@ -66,93 +70,167 @@
         <section id="objetivos" class="section-block">
           <h2>Objetivos</h2>
           <ul>
-            <li>Interpretar escala, legenda e orientação de mapas.</li>
-            <li>Diferenciar projeções e reconhecer distorções.</li>
-            <li>Ler mapas em <strong>anamorfose</strong> e extrair conclusões corretas.</li>
+            <li>Converter medidas entre escala de mapa e terreno.</li>
+            <li>Reconhecer distorções de diferentes projeções cartográficas.</li>
+            <li>Interpretar corretamente mapas em anamorfose (cartogramas).</li>
+            <li>Evitar erros comuns em mapas temáticos (unidades, datas, absolutas × relativas).</li>
+          </ul>
+          <p class="text-muted"><strong>Pré-requisitos:</strong> noções de latitude/longitude e leitura de legendas.</p>
+        </section>
+
+        <section id="por-que-cai" class="section-block">
+          <h2>Por que cai na prova?</h2>
+          <ul>
+            <li>Conversão de escala é recorrente (1:50.000, 1:100.000, etc.).</li>
+            <li>Projeções: identificar o que cada uma preserva/deforma.</li>
+            <li>Anamorfose: separar área física de “tamanho pelo indicador”.</li>
           </ul>
         </section>
 
         <section id="teoria" class="section-block">
           <h2>Teoria</h2>
-          <h3>Leitura de mapas</h3>
+
+          <h3>Leitura básica</h3>
           <ul>
-            <li><strong>Escala</strong>: numérica (1:50.000) e gráfica. Permite converter medidas mapa↔real.</li>
-            <li><strong>Legenda</strong> e <strong>simbolização</strong>: cores e símbolos temáticos.</li>
-            <li><strong>Orientação</strong>: Norte, linhas de latitude/longitude.</li>
+            <li><strong>Título, fonte e data</strong>: sempre confira o ano e a cobertura dos dados.</li>
+            <li><strong>Legenda e simbolização</strong>: cores, hachuras e símbolos (pontos proporcionais, setas de fluxo).</li>
+            <li><strong>Orientação</strong>: Norte, rosa-dos-ventos; linhas de <strong>latitude</strong> (paralelos) e <strong>longitude</strong> (meridianos).</li>
+          </ul>
+
+          <h3>Escala</h3>
+          <ul>
+            <li><strong>Numérica</strong>: 1:n (ex.: 1:100.000 → 1 cm no mapa = 100.000 cm = 1 km no terreno).</li>
+            <li><strong>Gráfica</strong>: barra que permite medir mesmo se o mapa for redimensionado.</li>
+            <li><strong>Conversão prática</strong>: Distância real (km) = Distância no mapa (cm) × (n ÷ 100.000).</li>
+          </ul>
+
+          <h3>Coordenadas e distâncias</h3>
+          <ul>
+            <li>1° de latitude ≈ 111 km; 1° de longitude ≈ 111 × cos(φ) km.</li>
+            <li>Para estimar distâncias, prefira escala gráfica ou grandezas conhecidas.</li>
           </ul>
 
           <h3>Projeções (noções)</h3>
           <ul>
-            <li>Qualquer projeção deforma algo (áreas, formas, distâncias).</li>
-            <li>Ex.: Mercator preserva rumos, deforma áreas em altas latitudes; projeções equivalentes preservam área.</li>
+            <li><strong>Nenhuma</strong> projeção preserva tudo. Há trocas entre <em>forma</em>, <em>área</em>, <em>distâncias</em> e <em>direções</em>.</li>
+            <li>Exemplos: <strong>Mercator</strong> (conforme: preserva formas locais; amplia áreas em altas latitudes); <strong>Gall-Peters</strong> (equivalente: preserva áreas, distorce formas); <strong>Lambert</strong> (conforme cônica para médias latitudes); <strong>Albers</strong> (equivalente cônica).</li>
           </ul>
 
-          <h3>Anamorfose</h3>
+          <h3>Anamorfose (cartograma)</h3>
           <ul>
-            <li>Mapa em que as áreas dos territórios são redimensionadas por uma variável (ex.: população, PIB, emissões).</li>
-            <li>Leitura: países “crescem” ou “encolhem” conforme o valor do indicador — <em>não</em> reflete área real.</li>
+            <li>Mapa em que as áreas dos territórios são redimensionadas proporcionalmente a uma variável (população, PIB, emissões).</li>
+            <li><strong>Tipos</strong>: contíguo (mantém adjacências deformando formas) e não contíguo (áreas “flutuam”).</li>
+            <li>Uso ideal para <strong>valores absolutos</strong>; para <strong>taxas</strong> e <strong>proporções</strong>, prefira coropletas (com cuidado na classificação).</li>
           </ul>
 
           <figure class="media">
-            <img src="/assets/img/ilustracoes/anamorfose.png" alt="Exemplo de mapa em anamorfose" loading="lazy"/>
-            <figcaption>Exemplo: mundo redimensionado por população.</figcaption>
+            <img src="/assets/img/ilustracoes/anamorfose.png" alt="Mapa mundial em anamorfose redimensionado por população, com Índia e China ampliadas" loading="lazy"/>
+            <figcaption>Exemplo: mundo redimensionado por população. Tamanho ≠ área real, e sim valor do indicador.</figcaption>
           </figure>
+
+          <h3>Guia de leitura de cartogramas (5 passos)</h3>
+          <ol>
+            <li>Confira <strong>título</strong>, <strong>variável</strong>, <strong>unidade</strong> e <strong>ano</strong>.</li>
+            <li>Identifique se é contíguo ou não contíguo.</li>
+            <li>Compare com um mapa de área real para situar <em>outliers</em>.</li>
+            <li>Evite comparar <strong>densidades</strong> com cartogramas de valores absolutos.</li>
+            <li>Use a legenda para interpretar classes ou escalas de tamanho.</li>
+          </ol>
 
           <h3>Erros comuns</h3>
           <ul>
-            <li>Confundir mapa em anamorfose com mapa de área real.</li>
-            <li>Interpretar que “maior no mapa” é “maior território” — em anamorfose, é “maior valor do indicador”.</li>
+            <li>Confundir “maior no cartograma” com “maior território”.</li>
+            <li>Usar cartograma para <strong>taxas</strong> e concluir equivocadamente.</li>
+            <li>Ignorar que a <strong>projeção</strong> influencia a percepção de áreas e distâncias.</li>
           </ul>
         </section>
 
         <section id="exemplos" class="section-block">
           <h2>Exemplos resolvidos</h2>
           <div class="example">
-            Num mapa em anamorfose por PIB, os EUA e a UE aparecem “maiores” que países de grande território. Por quê?
-            <br/><strong>Resposta:</strong> Porque têm maior PIB, não por terem maior área física.
+            Em escala 1:250.000, 3 cm no mapa valem:
+            <br/><strong>Resposta:</strong> 3 × (250.000 ÷ 100.000) = 7,5 km.
           </div>
           <div class="example" style="margin-top:.5rem;">
-            Em escala 1:100.000, 1 cm no mapa vale:
-            <br/><strong>Resposta:</strong> 1 km no terreno.
+            Num cartograma por PIB, por que países de pequena área podem parecer “grandes”?
+            <br/><strong>Resposta:</strong> Porque têm grande PIB (valor absoluto), não grande território.
+          </div>
+          <div class="example" style="margin-top:.5rem;">
+            Quando preferir projeção equivalente?
+            <br/><strong>Resposta:</strong> Em mapas comparativos de <strong>áreas</strong> (ex.: distribuição de biomas, uso do solo).
           </div>
         </section>
 
         <section id="exercicios" class="section-block">
           <h2>Exercícios</h2>
-          <div class="exercise"><strong>1)</strong> Em escala 1:250.000, 3 cm no mapa equivalem a quantos km?
-            <details><summary>Gabarito</summary>1 cm = 2,5 km → 3 cm = <strong>7,5 km</strong>.</details>
+          <div class="exercise"><strong>1)</strong> Em 1:100.000, 4,5 cm no mapa equivalem a quantos km?
+            <details><summary>Gabarito</summary>1 cm = 1 km → 4,5 cm = <strong>4,5 km</strong>.</details>
           </div>
 
-          <div class="exercise"><strong>2)</strong> V/F: Em anamorfose por população, a Rússia pode parecer menor que Bangladesh.
+          <div class="exercise"><strong>2)</strong> V/F: Em cartograma por população, a Rússia pode aparecer menor que Bangladesh.
             <details><summary>Gabarito</summary>Verdadeiro (Bangladesh tem população muito grande para sua área).</details>
           </div>
 
-          <div class="exercise"><strong>3)</strong> Projeções preservam tudo?
-            <details><summary>Gabarito</summary>Não. Sempre há algum tipo de distorção.</details>
+          <div class="exercise"><strong>3)</strong> A projeção adequada para preservar áreas é:
+            <details><summary>Gabarito</summary>Equivalente (ex.: Gall-Peters, Albers).</details>
           </div>
 
           <div class="exercise"><strong>4)</strong> Ao ler um mapa temático, quais itens checar primeiro?
-            <details><summary>Gabarito</summary>Título, legenda, escala e data/fonte.</details>
+            <details><summary>Gabarito</summary>Título, legenda, escala, data e fonte.</details>
           </div>
 
-          <div class="exercise"><strong>5)</strong> Em uma anamorfose por emissões de CO₂, o que indica um país “maior”?
-            <details><summary>Gabarito</summary>Que emite mais CO₂ (valor absoluto), não que tenha maior área.</details>
+          <div class="exercise"><strong>5)</strong> Em cartograma por emissões de CO₂, um país “maior” indica:
+            <details><summary>Gabarito</summary>Emissões <strong>absolutas</strong> mais altas (não área, nem emissões per capita).</details>
           </div>
         </section>
 
-        <section id="questoes-reais" class="section-block">
-          <h2>Questões de provas</h2><p>Em breve.</p>
+        <section id="questoes" class="section-block">
+          <h2>Questões autorais no estilo de prova</h2>
+          <div class="exercise"><strong>1)</strong> A principal vantagem de um cartograma contíguo é:
+            <br/>a) Preservar perfeitamente as formas
+            <br/>b) Manter adjacências espaciais entre unidades
+            <br/>c) Eliminar distorções da projeção
+            <details><summary>Gabarito</summary>b).</details>
+          </div>
+
+          <div class="exercise"><strong>2)</strong> Um mapa que preserva rumos (loxodrômicos) e deforma áreas em altas latitudes é:
+            <br/>a) Gall-Peters
+            <br/>b) Albers
+            <br/>c) Mercator
+            <details><summary>Gabarito</summary>c) Mercator.</details>
+          </div>
+        </section>
+
+        <section id="resumo" class="section-block">
+          <h2>Resumo</h2>
+          <ol>
+            <li>Escala: 1:n → 1 cm no mapa vale n/100.000 km.</li>
+            <li>Projeções trocam preservação de forma/área/distâncias/direções.</li>
+            <li>Cartogramas redimensionam áreas por um indicador (valores absolutos).</li>
+            <li>Verifique sempre título, legenda, unidade e ano.</li>
+            <li>Evite comparar densidades em cartogramas de totais.</li>
+          </ol>
+        </section>
+
+        <section id="glossario" class="section-block">
+          <h2>Glossário</h2>
+          <ul>
+            <li><strong>Cartograma (anamorfose):</strong> mapa com áreas redimensionadas por um indicador.</li>
+            <li><strong>Projeção equivalente:</strong> preserva áreas.</li>
+            <li><strong>Projeção conforme:</strong> preserva formas locais.</li>
+            <li><strong>Coropleta:</strong> mapa temático que colore áreas por classes de um indicador.</li>
+          </ul>
         </section>
 
         <section id="referencias" class="section-block">
           <h2>Referências</h2>
           <ul>
-            <li>Manuais de cartografia e mapas temáticos.</li>
-            <li>Bases de dados temáticos (ONU, Banco Mundial).</li>
+            <li>Manuais de cartografia (IBGE) e guias de mapas temáticos.</li>
+            <li>Bases temáticas: ONU, Banco Mundial, Worldmapper.</li>
           </ul>
         </section>
 
-        <nav class="lesson-nav">
+        <nav class="lesson-nav" aria-label="Navegação da lição">
           <a class="btn btn--outline" href="/aulas/humanas/geografia/clima-el-nino.html">← Clima (El Niño)</a>
           <a class="btn btn--primary" href="/aulas/humanas/geografia/index.html">Geografia (índice) →</a>
         </nav>
@@ -162,10 +240,13 @@
         <h4>Conteúdo</h4>
         <ol>
           <li><a href="#objetivos">Objetivos</a></li>
+          <li><a href="#por-que-cai">Por que cai</a></li>
           <li><a href="#teoria">Teoria</a></li>
           <li><a href="#exemplos">Exemplos</a></li>
           <li><a href="#exercicios">Exercícios</a></li>
-          <li><a href="#questoes-reais">Questões de provas</a></li>
+          <li><a href="#questoes">Questões autorais</a></li>
+          <li><a href="#resumo">Resumo</a></li>
+          <li><a href="#glossario">Glossário</a></li>
           <li><a href="#referencias">Referências</a></li>
         </ol>
       </aside>
