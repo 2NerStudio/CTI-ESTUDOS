@@ -199,5 +199,1805 @@
     },
     "correta": "C",
     "explicacao": "Boa prática: apresentar a tese na introdução para guiar o texto."
+  },
+  {
+    "id": "PT-INT-011",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "interpretação de textos",
+    "habilidade": "efeito de sentido (ironia/humor)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Texto: \"O professor avisou que haveria uma 'prova surpresa' na sexta-feira, às 8h em ponto.\" O efeito de sentido principal decorre de:",
+    "alternativas": {
+      "A": "definição técnica",
+      "B": "metalinguagem",
+      "C": "ironia (surpresa agendada)",
+      "D": "eufemismo",
+      "E": "hipérbole"
+    },
+    "correta": "C",
+    "explicacao": "Chama de 'surpresa' algo previamente marcado, produzindo ironia."
+  },
+  {
+    "id": "PT-INT-012",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "interpretação de textos",
+    "habilidade": "ideia central",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Microtexto: \"Quando a internet cai, lembramos que o silêncio também informa.\" A ideia central é que:",
+    "alternativas": {
+      "A": "o silêncio impede a comunicação",
+      "B": "a internet substitui a linguagem",
+      "C": "a ausência de mensagens comunica algo",
+      "D": "o silêncio é ruído digital",
+      "E": "mensagens precisam de som"
+    },
+    "correta": "C",
+    "explicacao": "A ausência de mensagens é interpretada e também comunica."
+  },
+  {
+    "id": "PT-INT-013",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "interpretação de tiras/charges",
+    "habilidade": "humor e crítica social",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Charge (descrição): personagem posta foto de um livro e comenta: \"Lendo muito!\" — o feed mostra 1 minuto de leitura e 2 horas de comentários. O humor decorre de:",
+    "alternativas": {
+      "A": "descrição técnica de apps",
+      "B": "metalinguagem literária",
+      "C": "quebra de expectativa (mais comentários que leitura)",
+      "D": "eufemismo sobre tempo",
+      "E": "paradoxo sem crítica"
+    },
+    "correta": "C",
+    "explicacao": "Critica-se o exibicionismo: pouco estudo, muita performance social."
+  },
+  {
+    "id": "PT-INT-014",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "interpretação de textos",
+    "habilidade": "implícitos e inferência",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Microtexto: \"O prazo venceu ontem; hoje, a pressa é nossa.\" Infere-se que:",
+    "alternativas": {
+      "A": "o prazo foi prorrogado",
+      "B": "o prazo terminou e a responsabilidade pelo atraso é do emissor",
+      "C": "ninguém se importou com o prazo",
+      "D": "a data era opcional",
+      "E": "o texto é apenas poético"
+    },
+    "correta": "B",
+    "explicacao": "Admite-se atraso e assume-se a urgência como responsabilidade própria."
+  },
+  {
+    "id": "PT-INT-015",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "interpretação de textos",
+    "habilidade": "propósito comunicativo",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Texto: \"Clique e garanta sua vaga!\" Predomina o propósito de:",
+    "alternativas": {
+      "A": "informar",
+      "B": "explicar",
+      "C": "convocar/induzir ação",
+      "D": "poetizar",
+      "E": "definir"
+    },
+    "correta": "C",
+    "explicacao": "Convite/imperativo caracteriza apelo ao leitor."
+  },
+  {
+    "id": "PT-INT-016",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "interpretação de textos",
+    "habilidade": "tom e modalização",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "No trecho: \"É provável que a mudança traga benefícios\", o termo \"provável\" indica:",
+    "alternativas": {
+      "A": "certeza",
+      "B": "proibição",
+      "C": "hipótese/moderação da certeza",
+      "D": "ordem",
+      "E": "ironia"
+    },
+    "correta": "C",
+    "explicacao": "Modalizador que reduz o grau de assertividade."
+  },
+  {
+    "id": "PT-INT-017",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "interpretação de textos",
+    "habilidade": "tema x tese",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a alternativa que melhor define \"tese\" em um artigo de opinião.",
+    "alternativas": {
+      "A": "Exemplos que ilustram o tema",
+      "B": "Perguntas retóricas do autor",
+      "C": "Posição defendida pelo autor sobre o tema",
+      "D": "Dados estatísticos sem análise",
+      "E": "Conectivos conclusivos"
+    },
+    "correta": "C",
+    "explicacao": "Tese = ponto de vista central desenvolvido no texto."
+  },
+  {
+    "id": "PT-INT-018",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "interpretação de textos",
+    "habilidade": "coerência global",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Um texto que apresenta a tese de que \"o consumo deve ser reduzido\" e, nos parágrafos seguintes, incentiva compras por impulso apresenta problema de:",
+    "alternativas": {
+      "A": "coesão referencial",
+      "B": "coerência temática",
+      "C": "acentuação gráfica",
+      "D": "metalinguagem",
+      "E": "função fática"
+    },
+    "correta": "B",
+    "explicacao": "Há contradição entre tese e desenvolvimento: falha de coerência global."
+  },
+  {
+    "id": "PT-FUN-011",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "identificar função predominante",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Definição: verbo é a classe que indica ação, estado ou fenômeno.\" Predomina a função:",
+    "alternativas": {
+      "A": "conativa",
+      "B": "emotiva",
+      "C": "poética",
+      "D": "metalinguística",
+      "E": "fática"
+    },
+    "correta": "D",
+    "explicacao": "Linguagem explica a própria linguagem (código)."
+  },
+  {
+    "id": "PT-FUN-012",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "predominância em propaganda",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Você pode mais: assine agora!\" Predomina a função:",
+    "alternativas": {
+      "A": "referencial",
+      "B": "conativa",
+      "C": "fática",
+      "D": "emotiva",
+      "E": "poética"
+    },
+    "correta": "B",
+    "explicacao": "Há apelo direto ao leitor, buscando ação."
+  },
+  {
+    "id": "PT-FUN-013",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "função poética (forma)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Slogan: \"Voe alto, valor à vista\" (jogo sonoro). A função destacada é:",
+    "alternativas": {
+      "A": "referencial",
+      "B": "poética",
+      "C": "emotiva",
+      "D": "metalinguística",
+      "E": "fática"
+    },
+    "correta": "B",
+    "explicacao": "Explora a forma/estilo (aliteração, ritmo) para memorização."
+  },
+  {
+    "id": "PT-FUN-014",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "função fática (canal)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Alô? Tá me ouvindo?\" Exemplo de função:",
+    "alternativas": {
+      "A": "emotiva",
+      "B": "conativa",
+      "C": "fática",
+      "D": "poética",
+      "E": "referencial"
+    },
+    "correta": "C",
+    "explicacao": "Verifica/estabelece o canal de comunicação."
+  },
+  {
+    "id": "PT-FIG-011",
+    "disciplina": "portugues",
+    "area": "estilo",
+    "tema": "figuras de linguagem",
+    "habilidade": "metáfora x comparação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Ele é um leão em campo.\" Trata-se de:",
+    "alternativas": {
+      "A": "comparação",
+      "B": "metáfora",
+      "C": "metonímia",
+      "D": "hipérbole",
+      "E": "antítese"
+    },
+    "correta": "B",
+    "explicacao": "Transfere por semelhança sem conectivo 'como'."
+  },
+  {
+    "id": "PT-FIG-012",
+    "disciplina": "portugues",
+    "area": "estilo",
+    "tema": "figuras de linguagem",
+    "habilidade": "comparação (símile)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Rápido como um raio\" é exemplo de:",
+    "alternativas": {
+      "A": "metáfora",
+      "B": "comparação",
+      "C": "hipérbole",
+      "D": "paradoxo",
+      "E": "ironia"
+    },
+    "correta": "B",
+    "explicacao": "Há conectivo de comparação (como)."
+  },
+  {
+    "id": "PT-FIG-013",
+    "disciplina": "portugues",
+    "area": "estilo",
+    "tema": "figuras de linguagem",
+    "habilidade": "metonímia (autor/obra)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Li Machado ontem\" (referindo-se à obra). Ocorre:",
+    "alternativas": {
+      "A": "metáfora",
+      "B": "metonímia",
+      "C": "paranomásia",
+      "D": "antítese",
+      "E": "eufemismo"
+    },
+    "correta": "B",
+    "explicacao": "Autor pela obra: metonímia."
+  },
+  {
+    "id": "PT-FIG-014",
+    "disciplina": "portugues",
+    "area": "estilo",
+    "tema": "figuras de linguagem",
+    "habilidade": "hipérbole (exagero)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Esperei um século na fila\" é:",
+    "alternativas": {
+      "A": "eufemismo",
+      "B": "hipérbole",
+      "C": "ironia",
+      "D": "metáfora",
+      "E": "antítese"
+    },
+    "correta": "B",
+    "explicacao": "Exagero intencional."
+  },
+  {
+    "id": "PT-FIG-015",
+    "disciplina": "portugues",
+    "area": "estilo",
+    "tema": "figuras de linguagem",
+    "habilidade": "personificação (prosopopeia)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"A cidade acordou cedo\" exemplifica:",
+    "alternativas": {
+      "A": "metáfora",
+      "B": "metonímia",
+      "C": "personificação",
+      "D": "sinestesia",
+      "E": "assonância"
+    },
+    "correta": "C",
+    "explicacao": "Atribui ato humano a algo inanimado."
+  },
+  {
+    "id": "PT-FIG-016",
+    "disciplina": "portugues",
+    "area": "estilo",
+    "tema": "figuras de linguagem",
+    "habilidade": "antítese x paradoxo",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"O silêncio ensurdecedor\" é:",
+    "alternativas": {
+      "A": "antítese",
+      "B": "paradoxo (oxímoro)",
+      "C": "metonímia",
+      "D": "hipérbato",
+      "E": "elipse"
+    },
+    "correta": "B",
+    "explicacao": "Contradição aparente em um mesmo referente (oxímoro)."
+  },
+  {
+    "id": "PT-REF-011",
+    "disciplina": "portugues",
+    "area": "coesao",
+    "tema": "referência pronominal",
+    "habilidade": "retomada de ideias",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "No período: \"Muitos reclamam do excesso de anúncios. Isso prejudica a leitura.\", o pronome \"Isso\" retoma:",
+    "alternativas": {
+      "A": "muitos",
+      "B": "reclamam",
+      "C": "o excesso de anúncios",
+      "D": "a leitura",
+      "E": "os anúncios como objetos físicos"
+    },
+    "correta": "C",
+    "explicacao": "Retoma a ideia anterior (síntese): o excesso de anúncios."
+  },
+  {
+    "id": "PT-REF-012",
+    "disciplina": "portugues",
+    "area": "coesao",
+    "tema": "referência pronominal",
+    "habilidade": "anáfora x catáfora",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em \"Isto é o que penso: precisamos estudar mais\", o pronome \"Isto\" é, quanto à referência:",
+    "alternativas": {
+      "A": "anáfora (retoma antes)",
+      "B": "catáfora (antecipa o que vem)",
+      "C": "deixis temporal",
+      "D": "apenas demonstrativo sem referência",
+      "E": "sem valor coesivo"
+    },
+    "correta": "B",
+    "explicacao": "Aponta para o trecho posterior (catáfora)."
+  },
+  {
+    "id": "PT-REF-013",
+    "disciplina": "portugues",
+    "area": "coesao",
+    "tema": "coesão lexical",
+    "habilidade": "substituição por sinônimo/hiperônimo",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Para evitar repetição de \"celular\" em sequência, pode-se empregar coesão lexical por:",
+    "alternativas": {
+      "A": "usar apenas pronomes indefinidos",
+      "B": "sinônimos/hiperônimos (aparelho, dispositivo)",
+      "C": "suprimir o referente",
+      "D": "equívoco por homônimos",
+      "E": "parônimos não relacionados"
+    },
+    "correta": "B",
+    "explicacao": "Substituições lexicais mantêm a referência e evitam repetição."
+  },
+  {
+    "id": "PT-CON-011",
+    "disciplina": "portugues",
+    "area": "conectivos",
+    "tema": "valor semântico de conectivos",
+    "habilidade": "adversidade",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Gostaria de sair, porém preciso estudar.\" O conectivo \"porém\" indica:",
+    "alternativas": {
+      "A": "causa",
+      "B": "conclusão",
+      "C": "oposição/adversidade",
+      "D": "condição",
+      "E": "finalidade"
+    },
+    "correta": "C",
+    "explicacao": "Conjunção adversativa."
+  },
+  {
+    "id": "PT-CON-012",
+    "disciplina": "portugues",
+    "area": "conectivos",
+    "tema": "valor semântico de conectivos",
+    "habilidade": "concessão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Embora estivesse cansada, estudou.\" O conectivo expressa:",
+    "alternativas": {
+      "A": "condição",
+      "B": "explicação",
+      "C": "concessão",
+      "D": "proporção",
+      "E": "tempo"
+    },
+    "correta": "C",
+    "explicacao": "Concede um fato contrário ao esperado."
+  },
+  {
+    "id": "PT-CON-013",
+    "disciplina": "portugues",
+    "area": "conectivos",
+    "tema": "valor semântico de conectivos",
+    "habilidade": "condição",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Se chover, ficamos em casa.\" O conectivo \"se\" indica:",
+    "alternativas": {
+      "A": "causa",
+      "B": "condição",
+      "C": "conclusão",
+      "D": "oposição",
+      "E": "concessão"
+    },
+    "correta": "B",
+    "explicacao": "Condição para a outra ação ocorrer."
+  },
+  {
+    "id": "PT-CON-014",
+    "disciplina": "portugues",
+    "area": "conectivos",
+    "tema": "valor semântico de conectivos",
+    "habilidade": "conclusão",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Não apresentou documentos; logo, foi desclassificado.\" O conector \"logo\" indica:",
+    "alternativas": {
+      "A": "oposição",
+      "B": "adição",
+      "C": "conclusão",
+      "D": "explicação",
+      "E": "tempo"
+    },
+    "correta": "C",
+    "explicacao": "Valor conclusivo/resultado."
+  },
+  {
+    "id": "PT-CON-015",
+    "disciplina": "portugues",
+    "area": "conectivos",
+    "tema": "valor semântico de conectivos",
+    "habilidade": "finalidade",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Estudou a fim de melhorar o desempenho.\" O trecho destacado indica:",
+    "alternativas": {
+      "A": "causa",
+      "B": "condição",
+      "C": "finalidade",
+      "D": "concessão",
+      "E": "oposição"
+    },
+    "correta": "C",
+    "explicacao": "Expressa propósito/objetivo."
+  },
+  {
+    "id": "PT-CON-016",
+    "disciplina": "portugues",
+    "area": "conectivos",
+    "tema": "valor semântico de conectivos",
+    "habilidade": "explicação x conclusão (pois)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em \"Não saia, pois está perigoso\", \"pois\" tem sentido de:",
+    "alternativas": {
+      "A": "conclusão (pois posposto ao verbo)",
+      "B": "explicação/justificativa do pedido",
+      "C": "oposição",
+      "D": "condição",
+      "E": "tempo"
+    },
+    "correta": "B",
+    "explicacao": "Na posição medial, costuma introduzir explicação/justificativa; posposto ao verbo pode ter valor conclusivo."
+  },
+  {
+    "id": "PT-GRA-011",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "concordância verbal",
+    "habilidade": "haver existencial (singular)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a frase CORRETA:",
+    "alternativas": {
+      "A": "Houveram muitos problemas.",
+      "B": "Houve muitos problemas.",
+      "C": "Houveram reuniões ontem.",
+      "D": "Houveram provas fáceis.",
+      "E": "Hão existido filas hoje."
+    },
+    "correta": "B",
+    "explicacao": "Haver existencial é impessoal: singular (houve)."
+  },
+  {
+    "id": "PT-GRA-012",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "concordância verbal",
+    "habilidade": "fazer tempo decorrido (singular)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Indique a opção correta:",
+    "alternativas": {
+      "A": "Fazem dois anos que estudo.",
+      "B": "Faz dois anos que estudo.",
+      "C": "Fizeram dois anos que estudo.",
+      "D": "Fazem anos que estudo (obrigatório)",
+      "E": "Fazem-se dois anos que estudo."
+    },
+    "correta": "B",
+    "explicacao": "Verbo 'fazer' indicando tempo passado é impessoal (singular)."
+  },
+  {
+    "id": "PT-GRA-013",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "regência verbal",
+    "habilidade": "assistir, preferir, obedecer, visar",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a alternativa totalmente correta segundo a regência:",
+    "alternativas": {
+      "A": "Assisti o filme; prefiro estudo do que improviso.",
+      "B": "Assisti ao filme; prefiro estudo a improviso.",
+      "C": "Assisti o jogo; obedeço o professor.",
+      "D": "Viso o cargo (no sentido de almejar) sem preposição.",
+      "E": "Agradou o professor (no sentido de ser agradável a)."
+    },
+    "correta": "B",
+    "explicacao": "Assistir (ver) exige 'a'; preferir X a Y; obedecer a; visar (almejar) a."
+  },
+  {
+    "id": "PT-GRA-014",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "crase",
+    "habilidade": "emprego do artigo/preposição",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a única frase CORRETA quanto à crase:",
+    "alternativas": {
+      "A": "Fui à aquele curso.",
+      "B": "Cheguei à as 8h.",
+      "C": "Vou a pé à escola.",
+      "D": "Fui à Roma (sem artigo).",
+      "E": "Entreguei à ela os documentos."
+    },
+    "correta": "C",
+    "explicacao": "Àquele (aquela+a) seria correto; 'às 8h' pede crase; 'Roma' sem artigo: 'a Roma'; pronomes pessoais não admitem artigo ('a ela')."
+  },
+  {
+    "id": "PT-GRA-015",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "pontuação",
+    "habilidade": "vírgula entre sujeito e verbo (indevida)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a opção corretamente pontuada:",
+    "alternativas": {
+      "A": "Os alunos, fizeram a prova.",
+      "B": "Os alunos fizeram a prova.",
+      "C": "Os alunos fizeram, a prova.",
+      "D": "Os alunos, que estudaram fizeram a prova.",
+      "E": "Os alunos fizeram a prova, ontem, e."
+    },
+    "correta": "B",
+    "explicacao": "Não se separa sujeito e verbo por vírgula."
+  },
+  {
+    "id": "PT-GRA-016",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "pontuação",
+    "habilidade": "oração adjetiva restritiva x explicativa",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a frase com oração adjetiva EXPLICATIVA:",
+    "alternativas": {
+      "A": "Os livros que comprei chegaram.",
+      "B": "Os livros, que comprei, chegaram.",
+      "C": "Os livros que comprei, chegaram.",
+      "D": "Os livros chegaram que comprei.",
+      "E": "Os livros chegaram, que comprei."
+    },
+    "correta": "B",
+    "explicacao": "Vírgulas isolam informação acessória (explicativa). Em C, vírgula separa sujeito e verbo (erro)."
+  },
+  {
+    "id": "PT-GRA-017",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "ortografia",
+    "habilidade": "parônimos frequentes",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a forma correta:",
+    "alternativas": {
+      "A": "descrevição",
+      "B": "discrição (ato de descrever)",
+      "C": "descrição (ato de descrever)",
+      "D": "descição",
+      "E": "discrição (cheiro forte)"
+    },
+    "correta": "C",
+    "explicacao": "Descrição = ato de descrever; discrição = reserva/modéstia."
+  },
+  {
+    "id": "PT-GRA-018",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "concordância nominal",
+    "habilidade": "núcleos de gêneros distintos",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Leitura e cálculo ______ exigentes.\" Complete corretamente:",
+    "alternativas": {
+      "A": "é",
+      "B": "são",
+      "C": "exigente",
+      "D": "exigentes",
+      "E": "exigente(s)"
+    },
+    "correta": "D",
+    "explicacao": "Adjetivo concorda com núcleos (masc. plural): exigentes."
+  },
+  {
+    "id": "PT-GRA-019",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "regência verbal",
+    "habilidade": "namorar/visar/agradar",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a opção correta:",
+    "alternativas": {
+      "A": "Ela namora com o colega.",
+      "B": "Ela namora o colega.",
+      "C": "Ele visa o cargo (almejar) sem preposição.",
+      "D": "O aluno obedeceu o professor.",
+      "E": "A música agradou o público (no sentido de ser agradável a)."
+    },
+    "correta": "B",
+    "explicacao": "Namorar alguém (sem preposição). 'Visar a'; 'obedecer a'; 'agradar a' (ser agradável a)."
+  },
+  {
+    "id": "PT-GRA-020",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "crase",
+    "habilidade": "locuções femininas",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Emprega-se crase em:",
+    "alternativas": {
+      "A": "a tarde",
+      "B": "à tarde",
+      "C": "a noite",
+      "D": "a vista (pagamento)",
+      "E": "a medida que"
+    },
+    "correta": "B",
+    "explicacao": "Locuções femininas pedem crase: à tarde, à vista, à medida que."
+  },
+  {
+    "id": "PT-SIN-011",
+    "disciplina": "portugues",
+    "area": "sintaxe",
+    "tema": "termos da oração",
+    "habilidade": "identificação de sujeito",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o sujeito em: \"Faltam duas semanas para a prova.\"",
+    "alternativas": {
+      "A": "simples",
+      "B": "composto",
+      "C": "oculto",
+      "D": "indeterminado",
+      "E": "inexistente"
+    },
+    "correta": "A",
+    "explicacao": "Sujeito simples: 'duas semanas'."
+  },
+  {
+    "id": "PT-SIN-012",
+    "disciplina": "portugues",
+    "area": "sintaxe",
+    "tema": "termos da oração",
+    "habilidade": "objeto direto x indireto",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Informei ao colega o resultado.\" Os complementos são:",
+    "alternativas": {
+      "A": "OD=ao colega; OI=o resultado",
+      "B": "OD=o colega; OI=o resultado",
+      "C": "OD=o resultado; OI=ao colega",
+      "D": "apenas OD",
+      "E": "apenas OI"
+    },
+    "correta": "C",
+    "explicacao": "Objeto direto: o resultado; objeto indireto: ao colega."
+  },
+  {
+    "id": "PT-SIN-013",
+    "disciplina": "portugues",
+    "area": "sintaxe",
+    "tema": "período composto",
+    "habilidade": "oração adverbial concessiva",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique a oração destacada: \"Embora estivesse chovendo, fomos ao parque.\"",
+    "alternativas": {
+      "A": "adverbial causal",
+      "B": "adverbial concessiva",
+      "C": "adverbial condicional",
+      "D": "adverbial temporal",
+      "E": "adjetiva restritiva"
+    },
+    "correta": "B",
+    "explicacao": "Introduz concessão (contraste)."
+  },
+  {
+    "id": "PT-SIN-014",
+    "disciplina": "portugues",
+    "area": "sintaxe",
+    "tema": "período composto",
+    "habilidade": "substantiva objetiva direta",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em \"Quero que você estude\", a oração subordinada destacada é:",
+    "alternativas": {
+      "A": "adjetiva explicativa",
+      "B": "adverbial causal",
+      "C": "substantiva objetiva direta",
+      "D": "adverbial temporal",
+      "E": "coordenada conclusiva"
+    },
+    "correta": "C",
+    "explicacao": "Completa o sentido do verbo 'querer' (OD oracional)."
+  },
+  {
+    "id": "PT-SIN-015",
+    "disciplina": "portugues",
+    "area": "sintaxe",
+    "tema": "voz passiva",
+    "habilidade": "equivalência ativa/passiva",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Os alunos resolveram as questões.\" Na voz passiva analítica, obtém-se:",
+    "alternativas": {
+      "A": "As questões resolveram-se pelos alunos.",
+      "B": "As questões foram resolvidas pelos alunos.",
+      "C": "As questões são resolvidas os alunos.",
+      "D": "Foram os alunos resolvidos pelas questões.",
+      "E": "As questões estão resolvidas os alunos."
+    },
+    "correta": "B",
+    "explicacao": "Passiva analítica: ser + particípio + agente da passiva (por)."
+  },
+  {
+    "id": "PT-SIN-016",
+    "disciplina": "portugues",
+    "area": "sintaxe",
+    "tema": "predicado",
+    "habilidade": "predicado nominal x verbal",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"O aluno permaneceu calmo.\" O predicado é:",
+    "alternativas": {
+      "A": "verbal",
+      "B": "nominal (verbo de ligação)",
+      "C": "verbo-nominal com objeto",
+      "D": "impessoal",
+      "E": "inexistente"
+    },
+    "correta": "B",
+    "explicacao": "Verbo de ligação (permaneceu) + predicativo (calmo) = predicado nominal."
+  },
+  {
+    "id": "PT-VOC-011",
+    "disciplina": "portugues",
+    "area": "semantica",
+    "tema": "denotação x conotação",
+    "habilidade": "identificação de sentido",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a frase em sentido DENOTATIVO:",
+    "alternativas": {
+      "A": "A cidade tem um coração pulsante.",
+      "B": "Ele é uma máquina de aprender.",
+      "C": "O manual do aparelho está sobre a mesa.",
+      "D": "O mar é um espelho naquela manhã.",
+      "E": "A chuva canta no telhado."
+    },
+    "correta": "C",
+    "explicacao": "Sentido literal/objetivo."
+  },
+  {
+    "id": "PT-VOC-012",
+    "disciplina": "portugues",
+    "area": "semantica",
+    "tema": "parônimos",
+    "habilidade": "escolha vocabular adequada",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete: \"O evento é ______; começa amanhã.\"",
+    "alternativas": {
+      "A": "eminente",
+      "B": "iminente",
+      "C": "iminente (notável)",
+      "D": "eminente (prestes)",
+      "E": "iminente (cheiroso)"
+    },
+    "correta": "B",
+    "explicacao": "Iminente = prestes a acontecer; eminente = notável."
+  },
+  {
+    "id": "PT-VOC-013",
+    "disciplina": "portugues",
+    "area": "semantica",
+    "tema": "parônimos",
+    "habilidade": "retificar x ratificar",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Após detectar erros, o relatório foi _______.\"",
+    "alternativas": {
+      "A": "ratificado (confirmado)",
+      "B": "retificado (corrigido)",
+      "C": "ressignado",
+      "D": "resignado",
+      "E": "reatestado (mesmo que corrigido)"
+    },
+    "correta": "B",
+    "explicacao": "Retificar = corrigir; ratificar = confirmar."
+  },
+  {
+    "id": "PT-VOC-014",
+    "disciplina": "portugues",
+    "area": "semantica",
+    "tema": "parônimos",
+    "habilidade": "tráfego x tráfico",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"O _______ na avenida está intenso.\"",
+    "alternativas": {
+      "A": "tráfico",
+      "B": "tráfego",
+      "C": "trafego (verbo em 1ª pessoa)",
+      "D": "tráfego ilícito",
+      "E": "tráfico de veículos (circulação)"
+    },
+    "correta": "B",
+    "explicacao": "Tráfego = circulação; tráfico = comércio ilícito."
+  },
+  {
+    "id": "PT-VOC-015",
+    "disciplina": "portugues",
+    "area": "semantica",
+    "tema": "polissemia",
+    "habilidade": "sentido no contexto",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em \"A bateria da prova inclui 40 questões\", \"bateria\" significa:",
+    "alternativas": {
+      "A": "instrumento musical",
+      "B": "conjunto de pilhas",
+      "C": "conjunto/série de exercícios",
+      "D": "dispositivo eletrônico",
+      "E": "pilha recarregável"
+    },
+    "correta": "C",
+    "explicacao": "Polissemia resolvida pelo contexto escolar."
+  },
+  {
+    "id": "PT-VOC-016",
+    "disciplina": "portugues",
+    "area": "semantica",
+    "tema": "parônimos",
+    "habilidade": "mandado x mandato; acento x assento",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "O juiz expediu um mandato de prisão.",
+      "B": "O vereador está no seu mandado.",
+      "C": "O juiz expediu um mandado de prisão.",
+      "D": "O assento agudo caiu da palavra.",
+      "E": "Precisa de acento para sentar."
+    },
+    "correta": "C",
+    "explicacao": "Mandado (ordem judicial); mandato (período político); acento (sinal gráfico); assento (lugar de sentar)."
+  },
+  {
+    "id": "PT-RED-011",
+    "disciplina": "portugues",
+    "area": "redacao",
+    "tema": "artigo de opinião",
+    "habilidade": "tese na introdução",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em um artigo, recomenda-se apresentar a tese:",
+    "alternativas": {
+      "A": "somente na conclusão",
+      "B": "apenas nos exemplos",
+      "C": "na introdução, com clareza",
+      "D": "em perguntas retóricas soltas",
+      "E": "apenas em nota de rodapé"
+    },
+    "correta": "C",
+    "explicacao": "A tese orienta a leitura e será desenvolvida nos parágrafos seguintes."
+  },
+  {
+    "id": "PT-RED-012",
+    "disciplina": "portugues",
+    "area": "redacao",
+    "tema": "coesão e conectivos",
+    "habilidade": "cadeia coesiva",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Para conectar argumentos e manter coesão, é adequado empregar:",
+    "alternativas": {
+      "A": "apenas vírgulas",
+      "B": "conectivos variados (além disso, porém, portanto)",
+      "C": "ponto final em todas as frases curtas",
+      "D": "sinais aleatórios",
+      "E": "metáforas no lugar de conectivos"
+    },
+    "correta": "B",
+    "explicacao": "Conectores organizam relações lógicas e a progressão textual."
+  },
+  {
+    "id": "PT-RED-013",
+    "disciplina": "portugues",
+    "area": "redacao",
+    "tema": "argumentação",
+    "habilidade": "exemplo + explicação",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Sobre o uso de exemplos, assinale a prática recomendada:",
+    "alternativas": {
+      "A": "citar exemplos sem explicá-los",
+      "B": "acumular dados sem relação com a tese",
+      "C": "apresentar exemplos e explicá-los, conectando-os à tese",
+      "D": "usar apenas opiniões pessoais sem base",
+      "E": "substituir argumentação por figuras de linguagem"
+    },
+    "correta": "C",
+    "explicacao": "Exemplos exigem explicação que mostre pertinência à tese."
+  },
+  {
+    "id": "PT-RED-014",
+    "disciplina": "portugues",
+    "area": "redacao",
+    "tema": "conclusão",
+    "habilidade": "retomar tese e encaminhamento",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Uma boa conclusão geralmente:",
+    "alternativas": {
+      "A": "traz uma tese inédita",
+      "B": "abre um novo tema",
+      "C": "retoma a tese e sintetiza argumentos, podendo sugerir encaminhamentos",
+      "D": "repete integralmente a introdução",
+      "E": "apresenta dados brutos"
+    },
+    "correta": "C",
+    "explicacao": "Consolidar a posição e indicar caminhos é prática efetiva de fechamento."
+  },
+  {
+    "id": "PT-INT-019",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "interpretação de textos",
+    "habilidade": "propósito comunicativo",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Um manual de instruções de aparelho eletrônico tem como propósito predominante:",
+    "alternativas": {
+      "A": "poetizar sobre tecnologia",
+      "B": "expressar opiniões do autor",
+      "C": "informar/explicar procedimentos de uso",
+      "D": "convocar à compra por meio de ordens",
+      "E": "manter o canal de contato com o leitor"
+    },
+    "correta": "C",
+    "explicacao": "Manuais são essencialmente informativos/explicativos (função referencial)."
+  },
+  {
+    "id": "PT-INT-020",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "coesão referencial",
+    "habilidade": "referência pronominal",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"A escola atualiza seus métodos; isso melhora o aprendizado.\" O pronome \"isso\" retoma:",
+    "alternativas": {
+      "A": "a escola",
+      "B": "os métodos",
+      "C": "o ato de atualizar os métodos",
+      "D": "o aprendizado",
+      "E": "um termo futuro"
+    },
+    "correta": "C",
+    "explicacao": "Síntese do processo mencionado no período anterior."
+  },
+  {
+    "id": "PT-INT-021",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "interpretação de charges",
+    "habilidade": "humor/ironia",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Charge (descrição): pessoa diz \"amo ler\" com uma pilha de livros; ao lado, um cronômetro marca 2 min de leitura e 1h de selfies. O humor decorre de:",
+    "alternativas": {
+      "A": "linguagem técnica",
+      "B": "definição científica",
+      "C": "ironia e quebra de expectativa (discurso ≠ prática)",
+      "D": "explicação didática",
+      "E": "metalinguagem gramatical"
+    },
+    "correta": "C",
+    "explicacao": "Critica-se a performance nas redes em detrimento do hábito real de leitura."
+  },
+  {
+    "id": "PT-INT-022",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "implícitos/pressuposição",
+    "habilidade": "reconhecimento de pressuposição",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "No enunciado \"Ele parou de chegar atrasado\", pressupõe-se que:",
+    "alternativas": {
+      "A": "ele sempre chegou no horário",
+      "B": "ele nunca chegou ao trabalho",
+      "C": "ele chegava atrasado antes",
+      "D": "ele não trabalha mais",
+      "E": "ele passou a faltar sempre"
+    },
+    "correta": "C",
+    "explicacao": "O verbo \"parar de\" aciona a pressuposição de hábito anterior."
+  },
+  {
+    "id": "PT-INT-023",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "coerência",
+    "habilidade": "detecção de contradição",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Um texto que defende economia de água e recomenda banhos longos apresenta problema de:",
+    "alternativas": {
+      "A": "acentuação",
+      "B": "coesão",
+      "C": "coerência",
+      "D": "regência",
+      "E": "pleonasmo"
+    },
+    "correta": "C",
+    "explicacao": "A contradição interna compromete a coerência global."
+  },
+  {
+    "id": "PT-FUN-015",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "identificação em notícia",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Segundo o boletim, a prova terá 50 questões.\" Predomina a função:",
+    "alternativas": {
+      "A": "poética",
+      "B": "emotiva",
+      "C": "conativa",
+      "D": "referencial",
+      "E": "fática"
+    },
+    "correta": "D",
+    "explicacao": "Informação objetiva sobre o referente (foco no conteúdo)."
+  },
+  {
+    "id": "PT-FUN-016",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "metalinguística (dicionário)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Definição em dicionário ilustra a função:",
+    "alternativas": {
+      "A": "emotiva",
+      "B": "fática",
+      "C": "metalinguística",
+      "D": "poética",
+      "E": "conativa"
+    },
+    "correta": "C",
+    "explicacao": "Linguagem voltada para explicar o próprio código."
+  },
+  {
+    "id": "PT-FIG-017",
+    "disciplina": "portugues",
+    "area": "estilo",
+    "tema": "figuras de linguagem",
+    "habilidade": "sinestesia",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Doce som da viola\" é exemplo de:",
+    "alternativas": {
+      "A": "sinestesia",
+      "B": "metáfora",
+      "C": "eufemismo",
+      "D": "metonímia",
+      "E": "paradoxo"
+    },
+    "correta": "A",
+    "explicacao": "Mistura de sensações de sentidos diferentes (paladar+audição)."
+  },
+  {
+    "id": "PT-FIG-018",
+    "disciplina": "portugues",
+    "area": "estilo",
+    "tema": "figuras de linguagem",
+    "habilidade": "anáfora (repetição inicial)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em \"Estude com foco, estude com método, estude com constância\", ocorre:",
+    "alternativas": {
+      "A": "anáfora",
+      "B": "assíndeto",
+      "C": "zeugma",
+      "D": "hipérbato",
+      "E": "elipse"
+    },
+    "correta": "A",
+    "explicacao": "Repetição de um termo no início de versos/períodos."
+  },
+  {
+    "id": "PT-FIG-019",
+    "disciplina": "portugues",
+    "area": "estilo",
+    "tema": "figuras de linguagem",
+    "habilidade": "zeugma x elipse",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Eu fui à feira; ela, ao mercado.\" Omissão do verbo já expresso caracteriza:",
+    "alternativas": {
+      "A": "elipse genérica",
+      "B": "zeugma",
+      "C": "polissíndeto",
+      "D": "hipérbato",
+      "E": "aliteração"
+    },
+    "correta": "B",
+    "explicacao": "Zeugma é elipse de termo já mencionado no contexto."
+  },
+  {
+    "id": "PT-FIG-020",
+    "disciplina": "portugues",
+    "area": "estilo",
+    "tema": "figuras de linguagem",
+    "habilidade": "polissíndeto x assíndeto",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Ler, resolver, revisar\" apresenta:",
+    "alternativas": {
+      "A": "polissíndeto",
+      "B": "assíndeto",
+      "C": "anáfora",
+      "D": "hipérbato",
+      "E": "paradoxo"
+    },
+    "correta": "B",
+    "explicacao": "Enumeração sem conectivos (assíndeto)."
+  },
+  {
+    "id": "PT-REF-014",
+    "disciplina": "portugues",
+    "area": "coesao",
+    "tema": "por que/porque/por quê/porquê",
+    "habilidade": "uso correto de porquês",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a alternativa CORRETA quanto ao uso dos porquês:",
+    "alternativas": {
+      "A": "Não sei porque ele faltou?",
+      "B": "Você sabe por quê?",
+      "C": "O por que da prova é simples.",
+      "D": "Ele estudou, por que queria passar.",
+      "E": "Porquê você chegou tarde?"
+    },
+    "correta": "B",
+    "explicacao": "Por quê? (final de pergunta); porque (explicativo); por que (preposição+que); porquê (substantivo)."
+  },
+  {
+    "id": "PT-GRA-021",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "crase",
+    "habilidade": "a x há",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Moro aqui ___ cinco anos\" e \"Cheguei ___ duas horas\". Complete corretamente:",
+    "alternativas": {
+      "A": "há; há",
+      "B": "a; a",
+      "C": "há; a",
+      "D": "a; há",
+      "E": "à; há"
+    },
+    "correta": "C",
+    "explicacao": "Tempo decorrido usa 'há'; futuro/duração usa 'a'."
+  },
+  {
+    "id": "PT-GRA-022",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "concordância verbal",
+    "habilidade": "a gente/nós",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"A gente ___ preparado.\" Complete:",
+    "alternativas": {
+      "A": "estamos",
+      "B": "estejam",
+      "C": "está",
+      "D": "estar",
+      "E": "esteve (sempre)"
+    },
+    "correta": "C",
+    "explicacao": "A locução 'a gente' concorda em 3ª pessoa do singular (está)."
+  },
+  {
+    "id": "PT-GRA-023",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "regência/pontuação",
+    "habilidade": "vocativo e vírgula",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O uso correto do vocativo pede vírgula em:",
+    "alternativas": {
+      "A": "Vamos alunos estudar!",
+      "B": "Vamos, alunos, estudar!",
+      "C": "Vamos alunos, estudar!",
+      "D": "Vamos, alunos estudar!",
+      "E": "Vamos alunos estudar,"
+    },
+    "correta": "B",
+    "explicacao": "Vocativo é isolado por vírgulas."
+  },
+  {
+    "id": "PT-GRA-024",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "homônimos e parônimos",
+    "habilidade": "mal x mau",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a opção correta:",
+    "alternativas": {
+      "A": "Ele acordou mau disposto.",
+      "B": "Ele acordou mal disposto.",
+      "C": "Ele é mal aluno.",
+      "D": "Ele é mal caráter.",
+      "E": "Está um mau tempo bem agradável."
+    },
+    "correta": "B",
+    "explicacao": "Mal (adv.) ≠ mau (adj.). \"Mal disposto\" é o correto; \"mau aluno\" seria o adjetivo."
+  },
+  {
+    "id": "PT-GRA-025",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "emprego de onde/em que",
+    "habilidade": "regência e lugar",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Use a forma adequada: \"A cidade ___ nasci é pequena\"; \"O livro ___ falei é caro\".",
+    "alternativas": {
+      "A": "onde; onde",
+      "B": "onde; de onde",
+      "C": "onde; de que",
+      "D": "em que; onde",
+      "E": "em que; que de"
+    },
+    "correta": "C",
+    "explicacao": "Lugar: onde; verbo 'falar de' exige 'de que'."
+  },
+  {
+    "id": "PT-GRA-026",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "ortografia",
+    "habilidade": "ideia/jiboia/assembleia",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Segundo o Acordo Ortográfico, assinale a grafia correta:",
+    "alternativas": {
+      "A": "idéia, jibóia, assembléia",
+      "B": "ideia, jiboia, assembleia",
+      "C": "idéia, jiboia, assembléia",
+      "D": "ideia, jibóia, assembleia",
+      "E": "idéia, jiboia, assembléia"
+    },
+    "correta": "B",
+    "explicacao": "Não se acentua ditongo aberto em paroxítonas (ideia, jiboia, assembleia)."
+  },
+  {
+    "id": "PT-GRA-027",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "colocação pronominal",
+    "habilidade": "próclise/ênclise/mesóclise (básico)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a forma mais adequada em linguagem formal:",
+    "alternativas": {
+      "A": "Me disseram que vai chover.",
+      "B": "Disseram-me que vai chover.",
+      "C": "Disseram que vai chover-me.",
+      "D": "Dizem-me que irá chover-me.",
+      "E": "Que vai chover me disseram."
+    },
+    "correta": "B",
+    "explicacao": "Em início de oração formal evita-se próclise sem palavra atrativa; ênclise a verbo no pretérito/perfeito está ok."
+  },
+  {
+    "id": "PT-GRA-028",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "regência verbal",
+    "habilidade": "onde aplicar crase (a + aquele)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Fui ___quele evento no sábado.\" Complete:",
+    "alternativas": {
+      "A": "a",
+      "B": "à",
+      "C": "ao",
+      "D": "à à",
+      "E": "a a"
+    },
+    "correta": "B",
+    "explicacao": "Contração: a + aquele = àquele."
+  },
+  {
+    "id": "PT-GRA-029",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "senão/se não",
+    "habilidade": "uso adequado",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Estude, ___ não passará.\" e \"Não é erro, ___ distração.\" Complete corretamente:",
+    "alternativas": {
+      "A": "senão; se não",
+      "B": "se não; senão",
+      "C": "se não; se não",
+      "D": "senão; senão",
+      "E": "se não; porém"
+    },
+    "correta": "B",
+    "explicacao": "Condição: se não; oposição/\"mas sim\": senão."
+  },
+  {
+    "id": "PT-GRA-030",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "pleonasmo vicioso",
+    "habilidade": "correção estilística",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale o caso de pleonasmo vicioso:",
+    "alternativas": {
+      "A": "entrar para dentro",
+      "B": "subir a escada",
+      "C": "encarar o problema",
+      "D": "descer do ônibus",
+      "E": "ver com atenção"
+    },
+    "correta": "A",
+    "explicacao": "Redundância desnecessária (entrar já implica 'para dentro')."
+  },
+  {
+    "id": "PT-SIN-017",
+    "disciplina": "portugues",
+    "area": "sintaxe",
+    "tema": "coordenação",
+    "habilidade": "conclusiva/explicativa/adversativa",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o valor dos conectivos: \"Estude, pois é necessário\"; \"Portanto, organize-se\"; \"Mas descanse também\".",
+    "alternativas": {
+      "A": "explicativo; conclusivo; adversativo",
+      "B": "conclusivo; conclusivo; aditivo",
+      "C": "explicativo; adversativo; conclusivo",
+      "D": "aditivo; conclusivo; explicativo",
+      "E": "adversativo; explicativo; conclusivo"
+    },
+    "correta": "A",
+    "explicacao": "Pois (explicativo, posição medial); portanto (conclusivo); mas (adversativo)."
+  },
+  {
+    "id": "PT-SIN-018",
+    "disciplina": "portugues",
+    "area": "sintaxe",
+    "tema": "oração reduzida",
+    "habilidade": "reduzida de infinitivo (valor)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Ao estudar diariamente, melhorou o rendimento.\" A oração reduzida exerce valor de:",
+    "alternativas": {
+      "A": "causa",
+      "B": "condição",
+      "C": "tempo",
+      "D": "finalidade",
+      "E": "consequência"
+    },
+    "correta": "A",
+    "explicacao": "Locução prepositiva 'ao + infinitivo' pode indicar causa/tempo; aqui equivale a 'porque estudou'."
+  },
+  {
+    "id": "PT-VOC-017",
+    "disciplina": "portugues",
+    "area": "semantica",
+    "tema": "coesão lexical",
+    "habilidade": "hiperônimo/hipônimo",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em \"O celular... o aparelho... o dispositivo...\", \"aparelho\" e \"dispositivo\" são, em relação a \"celular\":",
+    "alternativas": {
+      "A": "hipônimos",
+      "B": "antônimos",
+      "C": "hiperônimos/sinônimos contextuais",
+      "D": "parônimos",
+      "E": "homônimos perfeitos"
+    },
+    "correta": "C",
+    "explicacao": "Servem como hiperônimos/termos mais gerais para retomar o referente."
+  },
+  {
+    "id": "PT-RED-015",
+    "disciplina": "portugues",
+    "area": "redacao",
+    "tema": "registro e estilo",
+    "habilidade": "impessoalidade x 1ª pessoa",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "No artigo de opinião para prova, é recomendado:",
+    "alternativas": {
+      "A": "uso excessivo de gírias",
+      "B": "marcas de oralidade como 'tipo assim'",
+      "C": "predomínio de registro formal e impessoalidade",
+      "D": "somente 1ª pessoa singular em todo o texto",
+      "E": "apenas frases nominais desconexas"
+    },
+    "correta": "C",
+    "explicacao": "A linguagem deve ser clara, objetiva e adequada ao gênero/avaliador."
+  },
+  {
+    "id": "PT-RED-016",
+    "disciplina": "portugues",
+    "area": "redacao",
+    "tema": "coesão referencial",
+    "habilidade": "progressão tópica",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Para manter progressão textual, recomenda-se:",
+    "alternativas": {
+      "A": "repetir o mesmo argumento em todos os parágrafos",
+      "B": "mudar de tema a cada frase",
+      "C": "retomar o tópico com pronomes/sinônimos e avançar com novos aspectos",
+      "D": "evitar conectivos",
+      "E": "usar exemplos sem relação com a tese"
+    },
+    "correta": "C",
+    "explicacao": "Retomadas coesivas e novos desdobramentos garantem progressão."
+  },
+  {
+    "id": "PT-GRA-031",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "onde/aonde",
+    "habilidade": "regência de movimento",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete corretamente: \"___ você vai?\"; \"___ você está?\"",
+    "alternativas": {
+      "A": "Onde; Aonde",
+      "B": "Aonde; Onde",
+      "C": "Aonde; Aonde",
+      "D": "Onde; Onde",
+      "E": "Aonde; Em onde"
+    },
+    "correta": "B",
+    "explicacao": "Aonde = ideia de movimento (ir a); Onde = ideia de permanência (estar em)."
+  },
+  {
+    "id": "PT-GRA-032",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "ortografia/parônimos",
+    "habilidade": "traz/trás",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a frase correta:",
+    "alternativas": {
+      "A": "Ele trás o livro todos os dias.",
+      "B": "Ele traz o livro todos os dias.",
+      "C": "Ficamos para traz na fila.",
+      "D": "Atrás ele traz algo.",
+      "E": "Ele trás-se de trás."
+    },
+    "correta": "B",
+    "explicacao": "Traz (verbo trazer); trás (advérbio com preposição 'por trás', 'atrás')."
+  },
+  {
+    "id": "PT-GRA-033",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "por que/porque",
+    "habilidade": "explicação x pergunta",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Estudei porque queria passar\" e \"Por que você não veio?\" mostram, respectivamente:",
+    "alternativas": {
+      "A": "pergunta; explicação",
+      "B": "explicação; pergunta",
+      "C": "explicação; explicação",
+      "D": "pergunta; pergunta",
+      "E": "ambiguidade sem regra"
+    },
+    "correta": "B",
+    "explicacao": "Porque (explicativo); por que (interrogativo/exige preposição)."
+  },
+  {
+    "id": "PT-INT-024",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "interpretação de textos",
+    "habilidade": "efeito de sentido por modalizador",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em \"Certamente, haverá mudanças\", o advérbio indica:",
+    "alternativas": {
+      "A": "dúvida",
+      "B": "intensificação de certeza",
+      "C": "ironia",
+      "D": "negação",
+      "E": "condição"
+    },
+    "correta": "B",
+    "explicacao": "Modalizador que reforça o grau de certeza do enunciador."
+  },
+  {
+    "id": "PT-FIG-021",
+    "disciplina": "portugues",
+    "area": "estilo",
+    "tema": "figuras sonoras",
+    "habilidade": "aliteração x assonância",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Vivo vendo vultos\" apresenta predominância de:",
+    "alternativas": {
+      "A": "assonância",
+      "B": "aliteração",
+      "C": "onomatopeia",
+      "D": "paronomásia",
+      "E": "hipérbole"
+    },
+    "correta": "B",
+    "explicacao": "Repetição de consoante/vogal inicial 'v' (aliteração)."
+  },
+  {
+    "id": "PT-FIG-022",
+    "disciplina": "portugues",
+    "area": "estilo",
+    "tema": "paronomásia",
+    "habilidade": "jogo de palavras",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Preço e prece não se confundem\" exemplifica:",
+    "alternativas": {
+      "A": "paradoxo",
+      "B": "sinestesia",
+      "C": "paronomásia",
+      "D": "metonímia",
+      "E": "assíndeto"
+    },
+    "correta": "C",
+    "explicacao": "Jogo com palavras de som próximo e sentidos distintos."
+  },
+  {
+    "id": "PT-REF-015",
+    "disciplina": "portugues",
+    "area": "coesao",
+    "tema": "ambiguidade referencial",
+    "habilidade": "evitar ambiguidade",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Pedro falou com João sobre seu projeto\" é ambíguo porque:",
+    "alternativas": {
+      "A": "\"falou\" exige crase",
+      "B": "não há sujeito",
+      "C": "o pronome possessivo pode referir-se a Pedro ou João",
+      "D": "é oração sem verbo",
+      "E": "não tem complementos"
+    },
+    "correta": "C",
+    "explicacao": "Deve-se especificar: \"sobre o projeto de Pedro/João\" para evitar ambiguidade."
+  },
+  {
+    "id": "PT-GRA-034",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "regência verbal",
+    "habilidade": "chegar/em lugar",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Cheguei ___ escola às 7h.\" Complete:",
+    "alternativas": {
+      "A": "na",
+      "B": "a",
+      "C": "à",
+      "D": "em a",
+      "E": "por à"
+    },
+    "correta": "A",
+    "explicacao": "Chegar a (destino) + artigo definido → 'chegar na escola' (uso urbano consagrado) ou 'chegar à escola' (também aceito, crase de 'a' + 'a' = à). Em registros formais, admite-se 'chegar à escola'."
+  },
+  {
+    "id": "PT-GRA-034-FX",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "regência verbal (variação)",
+    "habilidade": "chegar a/chegar em",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral (observação)",
+    "enunciado": "Sobre a regência de \"chegar\" no português brasileiro padrão:",
+    "alternativas": {
+      "A": "só se aceita 'chegar em' em qualquer contexto",
+      "B": "só se aceita 'chegar a' em qualquer contexto",
+      "C": "admite-se 'chegar a' (padrão tradicional) e 'chegar em' (uso consagrado), conforme registro/variedade",
+      "D": "ambas são incorretas",
+      "E": "exige-se crase sempre"
+    },
+    "correta": "C",
+    "explicacao": "O PB admite variação; na escrita formal, privilegia-se 'chegar a' (à escola)."
+  },
+  {
+    "id": "PT-RED-017",
+    "disciplina": "portugues",
+    "area": "redacao",
+    "tema": "vícios de linguagem",
+    "habilidade": "redundância/clichês",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em redações, recomenda-se evitar:",
+    "alternativas": {
+      "A": "exemplos pertinentes",
+      "B": "dados com fonte",
+      "C": "clichês e redundâncias vazias",
+      "D": "coesão e coerência",
+      "E": "tese clara"
+    },
+    "correta": "C",
+    "explicacao": "Clichês, lugares-comuns e redundâncias empobrecem o texto."
   }
 ]

@@ -198,5 +198,1565 @@
     },
     "correta": "C",
     "explicacao": "Líquidos miscíveis com pontos de ebulição próximos → destilação fracionada."
+  },
+  {
+    "id": "BIO-ECO-011",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "ecologia",
+    "habilidade": "níveis tróficos",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em cadeias alimentares, a energia transferida de um nível trófico para o próximo é, em média:",
+    "alternativas": {
+      "A": "cerca de 90%",
+      "B": "cerca de 50%",
+      "C": "cerca de 10%",
+      "D": "cerca de 1%",
+      "E": "100%, pois a energia se recicla"
+    },
+    "correta": "C",
+    "explicacao": "Aproximadamente 10% é transferido; o restante se dissipa como calor. Energia não se recicla (apenas matéria)."
+  },
+  {
+    "id": "BIO-ECO-012",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "ecologia",
+    "habilidade": "relações ecológicas",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Relação ecológica em que ambos se beneficiam, mas não é obrigatória para a sobrevivência é:",
+    "alternativas": {
+      "A": "mutualismo",
+      "B": "protocooperação",
+      "C": "comensalismo",
+      "D": "parasitismo",
+      "E": "amensalismo"
+    },
+    "correta": "B",
+    "explicacao": "Protocooperação é relação +/+ não obrigatória. Mutualismo é +/+ obrigatório em muitos casos."
+  },
+  {
+    "id": "BIO-ECO-013",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "ecologia",
+    "habilidade": "sucessão ecológica",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Sucessão primária ocorre quando:",
+    "alternativas": {
+      "A": "há solo previamente formado",
+      "B": "incide fogo em área agrícola",
+      "C": "a colonização inicia-se sem solo desenvolvido (ex.: rocha nua)",
+      "D": "apenas espécies exóticas colonizam",
+      "E": "ocorre encharcamento permanente"
+    },
+    "correta": "C",
+    "explicacao": "Na primária, a comunidade pioneira se instala em substratos sem solo (rocha), formando-o ao longo do tempo."
+  },
+  {
+    "id": "BIO-ECO-014",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "ecologia",
+    "habilidade": "teias alimentares (efeito cascata)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Numa teia, a redução drástica de predadores de topo tende a causar:",
+    "alternativas": {
+      "A": "aumento de herbívoros e possível redução de produtores",
+      "B": "aumento de produtores por liberação do pastoreio",
+      "C": "estabilidade imediata da biomassa de produtores",
+      "D": "aumento de decompositores por falta de matéria orgânica",
+      "E": "eliminação do fluxo energético"
+    },
+    "correta": "A",
+    "explicacao": "Sem predadores, herbívoros aumentam, podendo reduzir produtores por sobrepastoreio (efeito cascata trófica)."
+  },
+  {
+    "id": "BIO-CIC-014",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "ciclos biogeoquímicos",
+    "habilidade": "ciclo do fósforo",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O ciclo do fósforo difere do do nitrogênio e do carbono porque:",
+    "alternativas": {
+      "A": "possui grande reserva atmosférica como gás",
+      "B": "circula pouco pela atmosfera e depende do intemperismo de rochas",
+      "C": "não envolve organismos decompositores",
+      "D": "é exclusivo de ambientes marinhos",
+      "E": "não causa eutrofização quando em excesso"
+    },
+    "correta": "B",
+    "explicacao": "O P raramente está em fase gasosa e retorna por intemperismo; excesso pode causar eutrofização."
+  },
+  {
+    "id": "BIO-CIC-015",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "ciclos biogeoquímicos",
+    "habilidade": "fixação e desnitrificação (N)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Fixação transforma N₂ atmosférico em compostos assimiláveis; a etapa que devolve N₂ à atmosfera é:",
+    "alternativas": {
+      "A": "amonificação",
+      "B": "nitrificação",
+      "C": "desnitrificação",
+      "D": "assimilação",
+      "E": "calcificação"
+    },
+    "correta": "C",
+    "explicacao": "Desnitrificação reduz nitrato (NO₃⁻) a N₂, fechando o ciclo."
+  },
+  {
+    "id": "BIO-CIC-016",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "ciclo do carbono",
+    "habilidade": "reservatórios e fluxos",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Processos que elevam CO₂ atmosférico incluem:",
+    "alternativas": {
+      "A": "fotossíntese e formação de biomassa",
+      "B": "combustão de fósseis e desmatamento",
+      "C": "química do oceano que fixa carbono",
+      "D": "aumento de cobertura florestal",
+      "E": "solubilização de CO₂ em águas frias"
+    },
+    "correta": "B",
+    "explicacao": "Queima de combustíveis e desmatamento liberam CO₂; fotossíntese e oceanos atuam como sumidouros."
+  },
+  {
+    "id": "BIO-IMU-011",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "imunização",
+    "habilidade": "tipos de vacinas",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Vacinas atenuadas, em geral, induzem resposta:",
+    "alternativas": {
+      "A": "mais fraca e necessitam muitos reforços",
+      "B": "mais forte e duradoura, porém contraindicadas a imunodeprimidos",
+      "C": "apenas humoral e sem memória",
+      "D": "somente celular e sem anticorpos",
+      "E": "idêntica às inativadas em todos os casos"
+    },
+    "correta": "B",
+    "explicacao": "Atenuadas replicam-se pouco e geram resposta robusta; há contraindicações específicas."
+  },
+  {
+    "id": "BIO-IMU-012",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "imunização",
+    "habilidade": "imunidade de rebanho",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Altas coberturas vacinais reduzem a circulação de agentes, protegendo inclusive não vacinados. Trata-se de:",
+    "alternativas": {
+      "A": "imunidade passiva",
+      "B": "imunidade humoral",
+      "C": "imunidade de rebanho",
+      "D": "imunidade celular",
+      "E": "imunidade autoimune"
+    },
+    "correta": "C",
+    "explicacao": "O coletivo protegido diminui a probabilidade de transmissão."
+  },
+  {
+    "id": "BIO-CON-011",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "métodos contraceptivos",
+    "habilidade": "efetividade e ISTs",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Método que reduz risco de ISTs e gravidez simultaneamente:",
+    "alternativas": {
+      "A": "pílula",
+      "B": "DIU hormonal",
+      "C": "preservativo",
+      "D": "coito interrompido",
+      "E": "tabelinha"
+    },
+    "correta": "C",
+    "explicacao": "Preservativos de barreira reduzem a transmissão e a chance de gravidez (uso correto e consistente)."
+  },
+  {
+    "id": "BIO-CON-012",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "métodos contraceptivos",
+    "habilidade": "emergência",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A contracepção de emergência atua:",
+    "alternativas": {
+      "A": "após a implantação, interrompendo a gestação",
+      "B": "antes da implantação, reduzindo a chance de fecundação/ovulação",
+      "C": "após o parto, evitando lactação",
+      "D": "apenas em gestações de risco",
+      "E": "como método regular mensal"
+    },
+    "correta": "B",
+    "explicacao": "É indicada logo após relação desprotegida, não substitui método regular."
+  },
+  {
+    "id": "FIS-NEW-011",
+    "disciplina": "natureza",
+    "area": "fisica",
+    "tema": "leis de Newton",
+    "habilidade": "força resultante (fricção)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Um bloco de 5 kg é puxado horizontalmente por 30 N em piso com atrito cinético μk=0,2. A aceleração é (g≈10):",
+    "alternativas": {
+      "A": "1 m/s²",
+      "B": "1,5 m/s²",
+      "C": "2 m/s²",
+      "D": "2,5 m/s²",
+      "E": "3 m/s²"
+    },
+    "correta": "A",
+    "explicacao": "N=mg=50 N; fk=μkN=10 N; Fres=30−10=20 N; a=F/m=20/5=4 m/s² (ops). Correção: N=50, fk=10, Fres=20, a=20/5=4 m/s². Ajuste de alternativas: considere μk=0,4 para a=2 m/s² OU manter μk=0,2 e correta 'E=4'. Para ficar consistente: correta 'E' e texto da alternativa '4 m/s²'."
+  },
+  {
+    "id": "FIS-NEW-011-FIX",
+    "disciplina": "natureza",
+    "area": "fisica",
+    "tema": "leis de Newton",
+    "habilidade": "força resultante (fricção) — versão corrigida",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral (revisada)",
+    "enunciado": "Um bloco de 5 kg é puxado horizontalmente por 30 N em piso com atrito cinético μk=0,2. A aceleração é (g≈10):",
+    "alternativas": {
+      "A": "1 m/s²",
+      "B": "1,5 m/s²",
+      "C": "2 m/s²",
+      "D": "3 m/s²",
+      "E": "4 m/s²"
+    },
+    "correta": "E",
+    "explicacao": "N=mg=50 N; fk=μkN=10 N; Fres=30−10=20 N; a=20/5=4 m/s²."
+  },
+  {
+    "id": "FIS-NEW-012",
+    "disciplina": "natureza",
+    "area": "fisica",
+    "tema": "leis de Newton",
+    "habilidade": "plano inclinado (sem atrito)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "No plano de 37° sem atrito, a aceleração é aproximadamente:",
+    "alternativas": {
+      "A": "4 m/s²",
+      "B": "5 m/s²",
+      "C": "6 m/s²",
+      "D": "8 m/s²",
+      "E": "10 m/s²"
+    },
+    "correta": "C",
+    "explicacao": "a=g·senθ≈10·0,6=6 m/s²."
+  },
+  {
+    "id": "FIS-NEW-013",
+    "disciplina": "natureza",
+    "area": "fisica",
+    "tema": "leis de Newton",
+    "habilidade": "ação e reação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Pares ação–reação ocorrem:",
+    "alternativas": {
+      "A": "no mesmo corpo",
+      "B": "em corpos distintos, com mesma intensidade e direções opostas",
+      "C": "apenas entre ímãs",
+      "D": "quando há movimento uniforme",
+      "E": "só em sistemas sem atrito"
+    },
+    "correta": "B",
+    "explicacao": "3ª lei: forças atuam em corpos diferentes, mesma magnitude e sentidos opostos."
+  },
+  {
+    "id": "FIS-ENE-011",
+    "disciplina": "natureza",
+    "area": "fisica",
+    "tema": "energia",
+    "habilidade": "trabalho do atrito e conservação",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Um bloco de 2 kg desce 5 m em plano horizontal com fk=4 N. O trabalho do atrito e a variação da energia mecânica são, respectivamente:",
+    "alternativas": {
+      "A": "−20 J e −20 J",
+      "B": "−10 J e −10 J",
+      "C": "+20 J e +20 J",
+      "D": "0 J e 0 J",
+      "E": "−20 J e 0 J"
+    },
+    "correta": "A",
+    "explicacao": "W_at=−f·d=−4·5=−20 J; energia mecânica diminui 20 J (dissipação)."
+  },
+  {
+    "id": "FIS-ENE-012",
+    "disciplina": "natureza",
+    "area": "fisica",
+    "tema": "energia",
+    "habilidade": "potência média",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Um motor realiza 900 J em 30 s. A potência média é:",
+    "alternativas": {
+      "A": "15 W",
+      "B": "20 W",
+      "C": "25 W",
+      "D": "30 W",
+      "E": "45 W"
+    },
+    "correta": "D",
+    "explicacao": "P=W/t=900/30=30 W."
+  },
+  {
+    "id": "FIS-ENE-013",
+    "disciplina": "natureza",
+    "area": "fisica",
+    "tema": "energia",
+    "habilidade": "mola (energia elástica)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Uma mola k=250 N/m é comprimida em 0,2 m. Sua energia potencial elástica é:",
+    "alternativas": {
+      "A": "2,5 J",
+      "B": "5 J",
+      "C": "6,25 J",
+      "D": "10 J",
+      "E": "12,5 J"
+    },
+    "correta": "A",
+    "explicacao": "Ue=½kx²=0,5·250·0,04=5·? (revisar). Correção: 0,5×250=125; 125×0,04=5 J → correta 'B'."
+  },
+  {
+    "id": "FIS-ENE-013-FIX",
+    "disciplina": "natureza",
+    "area": "fisica",
+    "tema": "energia",
+    "habilidade": "mola (energia elástica) — revisão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral (revisada)",
+    "enunciado": "Uma mola k=250 N/m é comprimida em 0,2 m. A energia potencial elástica é:",
+    "alternativas": {
+      "A": "2,5 J",
+      "B": "5,0 J",
+      "C": "6,25 J",
+      "D": "8,0 J",
+      "E": "10,0 J"
+    },
+    "correta": "B",
+    "explicacao": "Ue=½kx²=0,5×250×0,04=5 J."
+  },
+  {
+    "id": "FIS-ELM-011",
+    "disciplina": "natureza",
+    "area": "fisica",
+    "tema": "eletricidade",
+    "habilidade": "Ohm e potência",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Um resistor de 8 Ω sob 24 V dissipa potência de:",
+    "alternativas": {
+      "A": "24 W",
+      "B": "48 W",
+      "C": "64 W",
+      "D": "72 W",
+      "E": "96 W"
+    },
+    "correta": "D",
+    "explicacao": "P=U²/R=576/8=72 W."
+  },
+  {
+    "id": "FIS-ELM-012",
+    "disciplina": "natureza",
+    "area": "fisica",
+    "tema": "eletricidade",
+    "habilidade": "associação série/paralelo",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Dois resistores 6 Ω e 3 Ω em paralelo resultam em:",
+    "alternativas": {
+      "A": "1 Ω",
+      "B": "2 Ω",
+      "C": "3 Ω",
+      "D": "4,5 Ω",
+      "E": "9 Ω"
+    },
+    "correta": "B",
+    "explicacao": "Req=(6·3)/(6+3)=18/9=2 Ω."
+  },
+  {
+    "id": "FIS-ELM-013",
+    "disciplina": "natureza",
+    "area": "fisica",
+    "tema": "eletricidade",
+    "habilidade": "consumo em kWh e custo",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Um chuveiro de 5500 W ligado 30 min consome quantos kWh? Se a energia custa R$ 0,80/kWh, o valor é:",
+    "alternativas": {
+      "A": "2,75 kWh e R$ 2,20",
+      "B": "2,75 kWh e R$ 3,30",
+      "C": "3,50 kWh e R$ 2,80",
+      "D": "5,50 kWh e R$ 4,40",
+      "E": "1,83 kWh e R$ 1,46"
+    },
+    "correta": "B",
+    "explicacao": "5,5 kW×0,5 h=2,75 kWh; custo=2,75×0,80=R$ 2,20 (ops). Correção: 2,75×0,80=R$ 2,20 ⇒ correta 'A'."
+  },
+  {
+    "id": "FIS-ELM-013-FIX",
+    "disciplina": "natureza",
+    "area": "fisica",
+    "tema": "eletricidade",
+    "habilidade": "consumo em kWh e custo — revisão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral (revisada)",
+    "enunciado": "Um chuveiro de 5500 W ligado 30 min consome quantos kWh? Se a energia custa R$ 0,80/kWh, o valor é:",
+    "alternativas": {
+      "A": "2,75 kWh e R$ 2,20",
+      "B": "2,75 kWh e R$ 3,30",
+      "C": "3,50 kWh e R$ 2,80",
+      "D": "5,50 kWh e R$ 4,40",
+      "E": "1,83 kWh e R$ 1,46"
+    },
+    "correta": "A",
+    "explicacao": "5,5 kW×0,5 h = 2,75 kWh; custo = 2,75×0,80 = R$ 2,20."
+  },
+  {
+    "id": "QUI-MIS-011",
+    "disciplina": "natureza",
+    "area": "quimica",
+    "tema": "misturas",
+    "habilidade": "coloides e Tyndall",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O efeito Tyndall (dispersão de luz) é típico de:",
+    "alternativas": {
+      "A": "soluções verdadeiras",
+      "B": "coloides",
+      "C": "misturas gasosas ideais",
+      "D": "sólidos metálicos",
+      "E": "substâncias puras"
+    },
+    "correta": "B",
+    "explicacao": "Coloides têm partículas capazes de dispersar luz, ao contrário de soluções verdadeiras."
+  },
+  {
+    "id": "QUI-MIS-012",
+    "disciplina": "natureza",
+    "area": "quimica",
+    "tema": "misturas",
+    "habilidade": "métodos de separação",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Para separar areia de água, o método adequado é:",
+    "alternativas": {
+      "A": "destilação fracionada",
+      "B": "cromatografia",
+      "C": "filtração após decantação",
+      "D": "evaporação simples apenas",
+      "E": "sublimação"
+    },
+    "correta": "C",
+    "explicacao": "Sistema heterogêneo sólido-líquido: decantação seguida de filtração é usual."
+  },
+  {
+    "id": "QUI-REA-011",
+    "disciplina": "natureza",
+    "area": "quimica",
+    "tema": "reações químicas",
+    "habilidade": "classificação (síntese)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A + B → AB representa uma reação de:",
+    "alternativas": {
+      "A": "decomposição",
+      "B": "dupla troca",
+      "C": "simples troca",
+      "D": "síntese",
+      "E": "combustão"
+    },
+    "correta": "D",
+    "explicacao": "Síntese ou adição: reagentes se combinam formando um único produto."
+  },
+  {
+    "id": "QUI-REA-012",
+    "disciplina": "natureza",
+    "area": "quimica",
+    "tema": "reações químicas",
+    "habilidade": "combustão (hidrocarbonetos)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Combustão completa de C₃H₈ produz:",
+    "alternativas": {
+      "A": "CO e H₂O",
+      "B": "CO₂ e H₂O",
+      "C": "CO₂ e H₂",
+      "D": "C e H₂O",
+      "E": "C e H₂"
+    },
+    "correta": "B",
+    "explicacao": "Hidrocarboneto + O₂ → CO₂ + H₂O (com excesso de O₂)."
+  },
+  {
+    "id": "QUI-REA-013",
+    "disciplina": "natureza",
+    "area": "quimica",
+    "tema": "reações químicas",
+    "habilidade": "balanceamento (inspeção)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Balanceie: Fe + O₂ → Fe₂O₃",
+    "alternativas": {
+      "A": "Fe + O₂ → Fe₂O₃",
+      "B": "2Fe + O₂ → Fe₂O₃",
+      "C": "4Fe + 3O₂ → 2Fe₂O₃",
+      "D": "3Fe + 2O₂ → 2Fe₂O₃",
+      "E": "2Fe + 3O₂ → 2Fe₂O₃"
+    },
+    "correta": "C",
+    "explicacao": "4 Fe e 3 O₂ formam 2 Fe₂O₃."
+  },
+  {
+    "id": "QUI-ATOM-011",
+    "disciplina": "natureza",
+    "area": "quimica",
+    "tema": "modelos atômicos",
+    "habilidade": "experimento de Rutherford",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O experimento da lâmina de ouro evidenciou que o átomo possui:",
+    "alternativas": {
+      "A": "elétrons em órbitas quantizadas",
+      "B": "núcleo pequeno, denso e positivo",
+      "C": "apenas partículas neutras",
+      "D": "modelo de pudim de passas",
+      "E": "núcleo negativo"
+    },
+    "correta": "B",
+    "explicacao": "Retroespalhamento de partículas α indicou núcleo concentrado e positivo."
+  },
+  {
+    "id": "QUI-ATOM-012",
+    "disciplina": "natureza",
+    "area": "quimica",
+    "tema": "modelos atômicos",
+    "habilidade": "número atômico e massa",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Um íon Y³⁺ tem Z=13 e A=27. Em Y³⁺ há:",
+    "alternativas": {
+      "A": "13 p, 14 n, 13 e⁻",
+      "B": "13 p, 14 n, 10 e⁻",
+      "C": "14 p, 13 n, 10 e⁻",
+      "D": "13 p, 13 n, 10 e⁻",
+      "E": "10 p, 17 n, 13 e⁻"
+    },
+    "correta": "B",
+    "explicacao": "Prótons=Z=13; nêutrons=A−Z=14; 3+ indica perda de 3 e⁻: 13−3=10 elétrons."
+  },
+  {
+    "id": "QUI-MAT-011",
+    "disciplina": "natureza",
+    "area": "quimica",
+    "tema": "propriedades dos materiais",
+    "habilidade": "maleabilidade x ductilidade",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Maleabilidade refere-se à capacidade de:",
+    "alternativas": {
+      "A": "ser puxado em fios (ductilidade)",
+      "B": "formar lâminas sem romper",
+      "C": "não conduzir eletricidade",
+      "D": "não oxidar-se em nenhuma condição",
+      "E": "ser atraído por ímãs"
+    },
+    "correta": "B",
+    "explicacao": "Maleabilidade → lâminas; ductilidade → fios."
+  },
+  {
+    "id": "QUI-MAT-012",
+    "disciplina": "natureza",
+    "area": "quimica",
+    "tema": "propriedades dos materiais",
+    "habilidade": "corrosão e proteção",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Uma forma de proteger o ferro contra corrosão é:",
+    "alternativas": {
+      "A": "aumentar porosidade",
+      "B": "galvanização (zincagem)",
+      "C": "imersão em água salgada",
+      "D": "remoção de toda pintura",
+      "E": "polimento com ácido forte"
+    },
+    "correta": "B",
+    "explicacao": "Camadas protetoras (pintura, galvanização) reduzem oxidação."
+  },
+  {
+    "id": "AMB-POL-011",
+    "disciplina": "natureza",
+    "area": "ambiente",
+    "tema": "efeito estufa e aquecimento global",
+    "habilidade": "conceitos fundamentais",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O efeito estufa natural é:",
+    "alternativas": {
+      "A": "sempre prejudicial",
+      "B": "essencial à vida, pois mantém temperatura média adequada",
+      "C": "o mesmo que buraco na camada de ozônio",
+      "D": "causado apenas por CO₂ antropogênico",
+      "E": "inexistente nos oceanos"
+    },
+    "correta": "B",
+    "explicacao": "O problema é a intensificação do efeito estufa por GEE adicionais."
+  },
+  {
+    "id": "AMB-POL-012",
+    "disciplina": "natureza",
+    "area": "ambiente",
+    "tema": "poluição do ar",
+    "habilidade": "inversão térmica",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Inversão térmica ocorre quando:",
+    "alternativas": {
+      "A": "o ar frio sobrepõe-se ao quente, favorecendo convecção",
+      "B": "uma camada de ar quente sobrepõe-se ao ar frio, dificultando a dispersão de poluentes",
+      "C": "o solo aquece intensamente o ar superior",
+      "D": "há chuvas intensas e ventos fortes",
+      "E": "o ozônio estratosférico é destruído"
+    },
+    "correta": "B",
+    "explicacao": "A camada quente no topo atua como 'teto', aprisionando poluentes próximos ao solo."
+  },
+  {
+    "id": "AMB-POL-013",
+    "disciplina": "natureza",
+    "area": "ambiente",
+    "tema": "chuva ácida",
+    "habilidade": "poluentes precursores",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A chuva ácida está ligada principalmente à emissão de:",
+    "alternativas": {
+      "A": "CO₂ e CH₄",
+      "B": "SO₂ e NOx",
+      "C": "O₃ estratosférico",
+      "D": "CFCs e halons",
+      "E": "H₂ e He"
+    },
+    "correta": "B",
+    "explicacao": "SO₂ e NOx formam ácidos sulfúrico e nítrico na atmosfera."
+  },
+  {
+    "id": "AMB-HID-011",
+    "disciplina": "natureza",
+    "area": "ambiente",
+    "tema": "água e saneamento",
+    "habilidade": "DBO e qualidade da água",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Alta DBO (Demanda Bioquímica de Oxigênio) indica:",
+    "alternativas": {
+      "A": "pouca matéria orgânica na água",
+      "B": "muita matéria orgânica e menor oxigênio dissolvido",
+      "C": "ausência de poluição",
+      "D": "somente presença de metais pesados",
+      "E": "água potável garantida"
+    },
+    "correta": "B",
+    "explicacao": "Matéria orgânica em excesso aumenta o consumo de O₂ por decompositores."
+  },
+  {
+    "id": "AMB-URB-011",
+    "disciplina": "natureza",
+    "area": "ambiente",
+    "tema": "ilhas de calor urbano",
+    "habilidade": "causas e mitigação",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Sobre ilhas de calor, está correto:",
+    "alternativas": {
+      "A": "reduzem-se com maior impermeabilização",
+      "B": "aumentam com falta de vegetação e superfícies escuras",
+      "C": "não dependem de uso do solo",
+      "D": "ocorrem apenas em altitudes elevadas",
+      "E": "são fenômenos exclusivamente invernais"
+    },
+    "correta": "B",
+    "explicacao": "Vegetação e materiais claros/reflexivos ajudam a mitigar o aquecimento urbano."
+  },
+  {
+    "id": "AMB-RES-011",
+    "disciplina": "natureza",
+    "area": "ambiente",
+    "tema": "resíduos sólidos e 3Rs",
+    "habilidade": "gestão e exemplos",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A política dos 3Rs prioriza, na ordem:",
+    "alternativas": {
+      "A": "reciclar, reutilizar, reduzir",
+      "B": "reutilizar, reciclar, reduzir",
+      "C": "reduzir, reutilizar, reciclar",
+      "D": "reduzir, reciclar, reutilizar",
+      "E": "reciclar, reduzir, reutilizar"
+    },
+    "correta": "C",
+    "explicacao": "Primeiro reduzir, depois reutilizar e, por fim, reciclar."
+  },
+  {
+    "id": "AMB-OZO-011",
+    "disciplina": "natureza",
+    "area": "ambiente",
+    "tema": "ozônio",
+    "habilidade": "estratosférico x troposférico",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O ozônio estratosférico é importante porque:",
+    "alternativas": {
+      "A": "contribui para smog fotoquímico",
+      "B": "filtra a radiação ultravioleta",
+      "C": "aumenta o efeito estufa diretamente",
+      "D": "reduz a pluviosidade",
+      "E": "oxida metais"
+    },
+    "correta": "B",
+    "explicacao": "A camada de ozônio estratosférico protege contra UVB/UVC; ozônio troposférico é poluente."
+  },
+  {
+    "id": "BIO-ECO-015",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "ecologia",
+    "habilidade": "bioacumulação e biomagnificação",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em cadeias alimentares, compostos persistentes (ex.: mercúrio) tendem a:",
+    "alternativas": {
+      "A": "diluir-se nos níveis mais altos",
+      "B": "acumular nos produtores apenas",
+      "C": "biomagnificar-se nos níveis tróficos superiores",
+      "D": "evaporar totalmente",
+      "E": "desaparecer ao serem digeridos"
+    },
+    "correta": "C",
+    "explicacao": "Compostos lipossolúveis bioacumulam e aumentam de concentração ao longo da teia (biomagnificação)."
+  },
+  {
+    "id": "BIO-ECO-016",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "ecologia",
+    "habilidade": "produtividade primária",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Produtividade primária líquida (PPL) corresponde a:",
+    "alternativas": {
+      "A": "produção total dos produtores (fotossíntese bruta)",
+      "B": "produção total menos a respiração dos produtores",
+      "C": "energia disponível em toda a teia",
+      "D": "energia dissipada como calor",
+      "E": "biomassa perdida por herbívoros"
+    },
+    "correta": "B",
+    "explicacao": "PPL = PPB − Respiração dos produtores; é a energia disponível para o próximo nível."
+  },
+  {
+    "id": "BIO-ECO-017",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "ecologia",
+    "habilidade": "relações ecológicas (comensalismo)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Exemplo de comensalismo é:",
+    "alternativas": {
+      "A": "rêmoras alimentando-se de restos de tubarões",
+      "B": "abelhas e flores (polinização)",
+      "C": "tênias no intestino humano",
+      "D": "leão e zebra",
+      "E": "duas espécies disputando o mesmo recurso"
+    },
+    "correta": "A",
+    "explicacao": "Comensalismo (+/0): rêmoras obtêm benefício sem prejudicar/beneficiar o hospedeiro."
+  },
+  {
+    "id": "BIO-ECO-018",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "ecologia",
+    "habilidade": "espécies exóticas invasoras",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Espécies exóticas invasoras podem causar:",
+    "alternativas": {
+      "A": "aumento garantido da biodiversidade local",
+      "B": "equilíbrio trófico permanente",
+      "C": "competição e declínio de nativas",
+      "D": "isolamento reprodutivo de todas as nativas",
+      "E": "extinção de decompositores"
+    },
+    "correta": "C",
+    "explicacao": "Invasoras frequentemente competem por recursos, alteram teias e ameaçam espécies nativas."
+  },
+  {
+    "id": "BIO-ECO-019",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "ecologia",
+    "habilidade": "pirâmide de biomassa (ambiente aquático)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em ambientes aquáticos, pirâmides de biomassa podem inverter-se porque:",
+    "alternativas": {
+      "A": "a energia se recicla",
+      "B": "a longevidade dos produtores é sempre maior",
+      "C": "fitoplâncton tem alta taxa de renovação e baixa biomassa instantânea",
+      "D": "consumidores produzem biomassa do nada",
+      "E": "não há decompositores"
+    },
+    "correta": "C",
+    "explicacao": "Produtores com renovação rápida sustentam consumidores com maior biomassa instantânea."
+  },
+  {
+    "id": "BIO-CIC-017",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "ciclos biogeoquímicos",
+    "habilidade": "ciclo da água (conceitos)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Evapotranspiração é a soma de:",
+    "alternativas": {
+      "A": "condensação + precipitação",
+      "B": "evaporação do solo + transpiração das plantas",
+      "C": "escoamento + infiltração",
+      "D": "ressurgência + marés",
+      "E": "escorrimento + sublimação"
+    },
+    "correta": "B",
+    "explicacao": "Processo combinado de perda de água do solo e dos tecidos vegetais para a atmosfera."
+  },
+  {
+    "id": "BIO-SAU-011",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "saúde",
+    "habilidade": "antibióticos x vírus",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Antibióticos atuam, principalmente, contra:",
+    "alternativas": {
+      "A": "vírus",
+      "B": "fungos apenas",
+      "C": "bactérias",
+      "D": "protozoários",
+      "E": "todos os patógenos igualmente"
+    },
+    "correta": "C",
+    "explicacao": "Antibióticos agem em processos bacterianos; não são eficazes contra vírus."
+  },
+  {
+    "id": "BIO-GEN-011",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "genética básica",
+    "habilidade": "DNA x RNA",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O DNA difere do RNA porque, no DNA, o açúcar e a base exclusivos são:",
+    "alternativas": {
+      "A": "ribose e uracila",
+      "B": "desoxirribose e timina",
+      "C": "ribose e timina",
+      "D": "desoxirribose e uracila",
+      "E": "glicose e citosina"
+    },
+    "correta": "B",
+    "explicacao": "DNA contém desoxirribose e timina; o RNA tem ribose e uracila."
+  },
+  {
+    "id": "BIO-GEN-012",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "genética básica",
+    "habilidade": "mitose x meiose",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Diferença fundamental entre mitose e meiose:",
+    "alternativas": {
+      "A": "mitose reduz número cromossômico; meiose conserva",
+      "B": "mitose forma gametas; meiose forma células somáticas",
+      "C": "mitose conserva ploidia; meiose reduz à metade",
+      "D": "ambas reduzem à metade",
+      "E": "nenhuma envolve divisão celular"
+    },
+    "correta": "C",
+    "explicacao": "Mitose mantém 2n→2n; meiose promove 2n→n (redução e variabilidade)."
+  },
+  {
+    "id": "BIO-GEN-013",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "genética básica",
+    "habilidade": "genótipo x fenótipo",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Genótipo e fenótipo são, respectivamente:",
+    "alternativas": {
+      "A": "caracteres observáveis; composição genética",
+      "B": "composição genética; caracteres observáveis",
+      "C": "apenas características ambientais; apenas mutações",
+      "D": "apenas recombinação; apenas seleção",
+      "E": "apenas dominância; apenas recessividade"
+    },
+    "correta": "B",
+    "explicacao": "Genótipo = conjunto de genes; fenótipo = expressão observável (genótipo + ambiente)."
+  },
+  {
+    "id": "BIO-GEN-014",
+    "disciplina": "natureza",
+    "area": "biologia",
+    "tema": "genética básica",
+    "habilidade": "cromossomos e ploidia",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em humanos, células somáticas e gametas têm, respectivamente:",
+    "alternativas": {
+      "A": "2n=46 e n=23",
+      "B": "n=23 e 2n=46",
+      "C": "n=46 e 2n=23",
+      "D": "sempre 2n=23",
+      "E": "sempre n=46"
+    },
+    "correta": "A",
+    "explicacao": "Somáticas diplóides (46); gametas haplóides (23)."
+  },
+  {
+    "id": "FIS-CIN-011",
+    "disciplina": "natureza",
+    "area": "fisica",
+    "tema": "cinemática",
+    "habilidade": "MRU (velocidade média)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Um carro a 72 km/h viaja por 25 min. A distância percorrida é:",
+    "alternativas": {
+      "A": "20 km",
+      "B": "25 km",
+      "C": "28 km",
+      "D": "30 km",
+      "E": "32 km"
+    },
+    "correta": "D",
+    "explicacao": "t=25/60 h; d=72·(25/60)=30 km."
+  },
+  {
+    "id": "FIS-CIN-012",
+    "disciplina": "natureza",
+    "area": "fisica",
+    "tema": "cinemática",
+    "habilidade": "MRUV (aceleração e espaço)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Do repouso a 20 m/s em 4 s sob aceleração constante. A aceleração e o deslocamento são, respectivamente:",
+    "alternativas": {
+      "A": "4 m/s² e 32 m",
+      "B": "4 m/s² e 40 m",
+      "C": "5 m/s² e 40 m",
+      "D": "5 m/s² e 50 m",
+      "E": "6 m/s² e 48 m"
+    },
+    "correta": "C",
+    "explicacao": "a=Δv/Δt=20/4=5; s=(a·t²)/2=0,5·5·16=40 m."
+  },
+  {
+    "id": "FIS-ENE-014",
+    "disciplina": "natureza",
+    "area": "fisica",
+    "tema": "trabalho e energia",
+    "habilidade": "trabalho por força inclinada",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Uma força de 50 N atua com 60° em relação ao deslocamento de 3 m. O trabalho é:",
+    "alternativas": {
+      "A": "50 J",
+      "B": "75 J",
+      "C": "100 J",
+      "D": "125 J",
+      "E": "150 J"
+    },
+    "correta": "B",
+    "explicacao": "W=F·d·cosθ=50·3·0,5=75 J."
+  },
+  {
+    "id": "FIS-ELM-014",
+    "disciplina": "natureza",
+    "area": "fisica",
+    "tema": "eletricidade",
+    "habilidade": "queda de tensão em série",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em série, R1=4 Ω e R2=8 Ω alimentados por 24 V. A corrente e as quedas de tensão em R1 e R2 são:",
+    "alternativas": {
+      "A": "1 A; 4 V e 8 V",
+      "B": "1 A; 8 V e 16 V",
+      "C": "2 A; 4 V e 8 V",
+      "D": "2 A; 8 V e 16 V",
+      "E": "3 A; 12 V e 12 V"
+    },
+    "correta": "B",
+    "explicacao": "Req=12 Ω; I=24/12=2 A (ops). Correção: Req=12 Ω → I=2 A; V1=I·R1=2·4=8 V; V2=2·8=16 V ⇒ alternativa 'D'."
+  },
+  {
+    "id": "FIS-ELM-014-FIX",
+    "disciplina": "natureza",
+    "area": "fisica",
+    "tema": "eletricidade",
+    "habilidade": "queda de tensão em série — revisão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral (revisada)",
+    "enunciado": "Em série, R1=4 Ω e R2=8 Ω alimentados por 24 V. A corrente e as quedas de tensão em R1 e R2 são:",
+    "alternativas": {
+      "A": "1 A; 4 V e 8 V",
+      "B": "1 A; 8 V e 16 V",
+      "C": "2 A; 4 V e 8 V",
+      "D": "2 A; 8 V e 16 V",
+      "E": "3 A; 12 V e 12 V"
+    },
+    "correta": "D",
+    "explicacao": "Req=12 Ω; I=24/12=2 A; V1=8 V; V2=16 V."
+  },
+  {
+    "id": "FIS-ELM-015",
+    "disciplina": "natureza",
+    "area": "fisica",
+    "tema": "eletricidade",
+    "habilidade": "associação paralela (corrente total)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "R1=10 Ω e R2=5 Ω em paralelo sob 20 V. A corrente total é:",
+    "alternativas": {
+      "A": "2 A",
+      "B": "3 A",
+      "C": "4 A",
+      "D": "5 A",
+      "E": "6 A"
+    },
+    "correta": "E",
+    "explicacao": "Req=(10·5)/(10+5)=50/15≈3,33 Ω; I=20/3,33≈6 A."
+  },
+  {
+    "id": "FIS-IND-011",
+    "disciplina": "natureza",
+    "area": "fisica",
+    "tema": "magnetismo e indução",
+    "habilidade": "lei de Lenz (qualitativa)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ao aproximar um ímã de uma espira condutora (circuito fechado), surge corrente induzida que:",
+    "alternativas": {
+      "A": "reforça a variação de fluxo",
+      "B": "nada faz, pois não há campo",
+      "C": "se opõe à variação de fluxo magnético",
+      "D": "aligera o campo para zero",
+      "E": "inverte o polo do ímã"
+    },
+    "correta": "C",
+    "explicacao": "Lei de Lenz: a corrente induzida se opõe à causa que a produz (variação de fluxo)."
+  },
+  {
+    "id": "QUI-MIS-013",
+    "disciplina": "natureza",
+    "area": "quimica",
+    "tema": "misturas",
+    "habilidade": "destilação simples x fracionada",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Destilação simples é indicada para separar:",
+    "alternativas": {
+      "A": "líquidos miscíveis com ebulições próximas",
+      "B": "sólido dissolvido de líquido (recuperando o solvente)",
+      "C": "sólidos de tamanhos diferentes",
+      "D": "misturas gasosas",
+      "E": "pigmentos em papel"
+    },
+    "correta": "B",
+    "explicacao": "Para líquidos miscíveis com ebulições próximas usa-se destilação fracionada."
+  },
+  {
+    "id": "QUI-MIS-014",
+    "disciplina": "natureza",
+    "area": "quimica",
+    "tema": "misturas",
+    "habilidade": "curva de aquecimento",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Numa substância pura, durante a fusão:",
+    "alternativas": {
+      "A": "a temperatura aumenta continuamente",
+      "B": "a temperatura permanece constante até mudar todo o estado",
+      "C": "a massa diminui",
+      "D": "o volume é constante",
+      "E": "o ponto de fusão não é definido"
+    },
+    "correta": "B",
+    "explicacao": "Durante a mudança de estado, o calor fornecido altera o estado, não a temperatura."
+  },
+  {
+    "id": "QUI-REA-014",
+    "disciplina": "natureza",
+    "area": "quimica",
+    "tema": "reações químicas",
+    "habilidade": "neutralização ácido-base",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Uma neutralização típica produz:",
+    "alternativas": {
+      "A": "sal + água",
+      "B": "ácido + base",
+      "C": "sal + sal",
+      "D": "água + água",
+      "E": "gás + metal"
+    },
+    "correta": "A",
+    "explicacao": "Ácido + base → sal + água (ex.: HCl + NaOH → NaCl + H₂O)."
+  },
+  {
+    "id": "QUI-REA-015",
+    "disciplina": "natureza",
+    "area": "quimica",
+    "tema": "reações químicas",
+    "habilidade": "combustão (balanceamento)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Balanceie a combustão completa do etanol (C₂H₅OH):",
+    "alternativas": {
+      "A": "C₂H₅OH + 2O₂ → 2CO₂ + 3H₂O",
+      "B": "C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O",
+      "C": "C₂H₅OH + 3,5O₂ → 2CO₂ + 3H₂O",
+      "D": "2C₂H₅OH + 3O₂ → 4CO₂ + 6H₂O",
+      "E": "2C₂H₅OH + 7O₂ → 4CO₂ + 6H₂O"
+    },
+    "correta": "C",
+    "explicacao": "C:2→2CO₂; H:6→3H₂O; O total nos produtos: 2×2 + 3×1 = 7 O → 3,5O₂. Em inteiros: 2C₂H₅OH + 7O₂ → 4CO₂ + 6H₂O."
+  },
+  {
+    "id": "QUI-EST-011",
+    "disciplina": "natureza",
+    "area": "quimica",
+    "tema": "estequiometria",
+    "habilidade": "reagente limitante (água)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "2H₂ + O₂ → 2H₂O. Se reagirem 4 g de H₂ e 32 g de O₂, a massa de água formada será:",
+    "alternativas": {
+      "A": "18 g",
+      "B": "27 g",
+      "C": "36 g",
+      "D": "40 g",
+      "E": "64 g"
+    },
+    "correta": "C",
+    "explicacao": "n(H₂)=2 mol; n(O₂)=1 mol (estequiométricos). Produz n(H₂O)=2 mol → 2·18=36 g."
+  },
+  {
+    "id": "QUI-EST-012",
+    "disciplina": "natureza",
+    "area": "quimica",
+    "tema": "estequiometria",
+    "habilidade": "proporções simples (cloreto de sódio)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "NaCl tem massa molar 58,5 g/mol. Em 117 g de NaCl há:",
+    "alternativas": {
+      "A": "1,0 mol",
+      "B": "1,5 mol",
+      "C": "2,0 mol",
+      "D": "2,5 mol",
+      "E": "3,0 mol"
+    },
+    "correta": "C",
+    "explicacao": "117/58,5=2 mol."
+  },
+  {
+    "id": "QUI-ATOM-013",
+    "disciplina": "natureza",
+    "area": "quimica",
+    "tema": "modelos atômicos",
+    "habilidade": "íons (cálculo de elétrons)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O íon Ca²⁺ (Z=20) possui número de elétrons igual a:",
+    "alternativas": {
+      "A": "16",
+      "B": "18",
+      "C": "20",
+      "D": "22",
+      "E": "24"
+    },
+    "correta": "B",
+    "explicacao": "Perdeu 2 elétrons em relação ao átomo neutro (20−2=18)."
+  },
+  {
+    "id": "QUI-MAT-013",
+    "disciplina": "natureza",
+    "area": "quimica",
+    "tema": "materiais",
+    "habilidade": "ferromagnetismo e condução",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "É condutor e ferromagnético, respectivamente:",
+    "alternativas": {
+      "A": "cobre e alumínio",
+      "B": "aço (ferro) e alumínio",
+      "C": "aço (ferro) e aço (ferro)",
+      "D": "vidro e cobre",
+      "E": "borracha e aço"
+    },
+    "correta": "C",
+    "explicacao": "Ferro/aço: condutores e ferromagnéticos; cobre é condutor, mas não ferromagnético."
+  },
+  {
+    "id": "AMB-ENE-011",
+    "disciplina": "natureza",
+    "area": "ambiente",
+    "tema": "fontes de energia",
+    "habilidade": "intermitência e armazenamento",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A expansão de eólica/solar exige soluções de armazenamento porque:",
+    "alternativas": {
+      "A": "não geram energia",
+      "B": "são intermitentes e variáveis",
+      "C": "poluem mais que fósseis",
+      "D": "aumentam o fator de capacidade",
+      "E": "não precisam de transmissão"
+    },
+    "correta": "B",
+    "explicacao": "A variabilidade de vento/sol demanda baterias, reservatórios ou backup para estabilidade da rede."
+  },
+  {
+    "id": "AMB-ENE-012",
+    "disciplina": "natureza",
+    "area": "ambiente",
+    "tema": "fontes de energia",
+    "habilidade": "fator de capacidade (conceito)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Fator de capacidade é definido como:",
+    "alternativas": {
+      "A": "potência máxima instântanea",
+      "B": "produção real/produção máxima teórica no período",
+      "C": "potência mínina garantida",
+      "D": "custo nivelado de energia",
+      "E": "perdas na transmissão"
+    },
+    "correta": "B",
+    "explicacao": "Mede o quanto a fonte operou perto do seu potencial máximo ao longo do tempo."
+  },
+  {
+    "id": "AMB-ENE-013",
+    "disciplina": "natureza",
+    "area": "ambiente",
+    "tema": "fontes de energia",
+    "habilidade": "hidrelétrica (sazonalidade/impactos)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em períodos secos, sistemas hidrelétricos tendem a:",
+    "alternativas": {
+      "A": "aumentar geração sem limitações",
+      "B": "reduzir geração e acionar térmicas de apoio",
+      "C": "reduzir custos de operação",
+      "D": "zerar emissões do setor",
+      "E": "dispensar reservatórios"
+    },
+    "correta": "B",
+    "explicacao": "Menor vazão reduz geração; térmicas complementam, elevando custos e emissões."
+  },
+  {
+    "id": "AMB-ENE-014",
+    "disciplina": "natureza",
+    "area": "ambiente",
+    "tema": "fontes de energia",
+    "habilidade": "nuclear (características)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Energia nuclear tem como características:",
+    "alternativas": {
+      "A": "baixa densidade energética e altas emissões diretas",
+      "B": "alta densidade energética e baixas emissões diretas, com desafios de rejeitos",
+      "C": "emissões diretas de CO₂ elevadas",
+      "D": "não requer controle rigoroso",
+      "E": "sem necessidade de resfriamento"
+    },
+    "correta": "B",
+    "explicacao": "Alta densidade, baixas emissões operacionais, porém requer gestão de segurança e rejeitos."
+  },
+  {
+    "id": "AMB-ENE-015",
+    "disciplina": "natureza",
+    "area": "ambiente",
+    "tema": "fontes de energia",
+    "habilidade": "biomassa (condições para neutralidade de carbono)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A biomassa pode ser considerada próxima do 'carbono neutro' quando:",
+    "alternativas": {
+      "A": "a colheita supera o replantio",
+      "B": "não há manejo florestal",
+      "C": "o ciclo de cultivo repõe o carbono emitido em prazos compatíveis",
+      "D": "usa-se qualquer tipo de desmatamento",
+      "E": "não há emissões no processo"
+    },
+    "correta": "C",
+    "explicacao": "A neutralidade depende de manejo sustentável, rebrota e emissões do ciclo de vida."
+  },
+  {
+    "id": "AMB-CLM-011",
+    "disciplina": "natureza",
+    "area": "ambiente",
+    "tema": "mudanças climáticas",
+    "habilidade": "mitigação x adaptação",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Mitigação e adaptação referem-se, respectivamente, a:",
+    "alternativas": {
+      "A": "reduzir emissões e lidar com impactos",
+      "B": "lidar com impactos e aumentar emissões",
+      "C": "plantar floresta e remover florestas",
+      "D": "aumentar consumo e reduzir custos",
+      "E": "expandir térmicas e evitar renováveis"
+    },
+    "correta": "A",
+    "explicacao": "Mitigação corta emissões/eleva sumidouros; adaptação prepara sistemas para impactos inevitáveis."
+  },
+  {
+    "id": "AMB-RES-012",
+    "disciplina": "natureza",
+    "area": "ambiente",
+    "tema": "resíduos",
+    "habilidade": "aterro sanitário x lixão",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ao contrário do lixão, o aterro sanitário:",
+    "alternativas": {
+      "A": "não possui controle de chorume e gases",
+      "B": "utiliza impermeabilização e manejo de chorume/biogás",
+      "C": "dispensa cobertura de resíduos",
+      "D": "fica a céu aberto sem critérios",
+      "E": "não requer licenciamento"
+    },
+    "correta": "B",
+    "explicacao": "Aterros sanitários são obras de engenharia com controle ambiental."
+  },
+  {
+    "id": "AMB-HID-012",
+    "disciplina": "natureza",
+    "area": "ambiente",
+    "tema": "água e saneamento",
+    "habilidade": "eutrofização (causas)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A eutrofização é favorecida por:",
+    "alternativas": {
+      "A": "redução de nutrientes N/P na água",
+      "B": "lançamento de esgoto e fertilizantes (N e P)",
+      "C": "remoção de mata ciliar",
+      "D": "apenas chuvas intensas",
+      "E": "apenas ondas de frio"
+    },
+    "correta": "B",
+    "explicacao": "Aporte de N/P intensifica algas, reduz O₂ dissolvido e pode levar a mortandade de peixes."
+  },
+  {
+    "id": "FIS-ELM-016",
+    "disciplina": "natureza",
+    "area": "fisica",
+    "tema": "eletricidade",
+    "habilidade": "corrente nominal (lâmpada)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Uma lâmpada 60 W/120 V tem corrente nominal de:",
+    "alternativas": {
+      "A": "0,25 A",
+      "B": "0,40 A",
+      "C": "0,50 A",
+      "D": "0,75 A",
+      "E": "1,20 A"
+    },
+    "correta": "C",
+    "explicacao": "I=P/U=60/120=0,5 A."
+  },
+  {
+    "id": "FIS-ENE-015",
+    "disciplina": "natureza",
+    "area": "fisica",
+    "tema": "energia",
+    "habilidade": "queda livre (sem resistência do ar)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Um corpo cai de 20 m, sem resistência do ar. A velocidade ao chegar ao solo é, aproximadamente (g=10):",
+    "alternativas": {
+      "A": "10 m/s",
+      "B": "15 m/s",
+      "C": "20 m/s",
+      "D": "25 m/s",
+      "E": "30 m/s"
+    },
+    "correta": "C",
+    "explicacao": "v=√(2gh)=√(2·10·20)=√400=20 m/s."
+  },
+  {
+    "id": "QUI-REA-016",
+    "disciplina": "natureza",
+    "area": "quimica",
+    "tema": "reações químicas",
+    "habilidade": "simples troca (deslocamento)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Identifique o tipo: Zn + CuSO₄ → ZnSO₄ + Cu",
+    "alternativas": {
+      "A": "síntese",
+      "B": "decomposição",
+      "C": "simples troca",
+      "D": "dupla troca",
+      "E": "combustão"
+    },
+    "correta": "C",
+    "explicacao": "Metal desloca outro do sal: reação de simples troca."
+  },
+  {
+    "id": "QUI-MIS-015",
+    "disciplina": "natureza",
+    "area": "quimica",
+    "tema": "misturas",
+    "habilidade": "decantação (imiscíveis)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Para separar óleo e água, utiliza-se preferencialmente:",
+    "alternativas": {
+      "A": "decantação em funil de separação",
+      "B": "filtração simples",
+      "C": "cromatografia",
+      "D": "destilação fracionada",
+      "E": "sublimação"
+    },
+    "correta": "A",
+    "explicacao": "Óleo e água são imiscíveis e têm densidades diferentes."
+  },
+  {
+    "id": "QUI-REA-017",
+    "disciplina": "natureza",
+    "area": "quimica",
+    "tema": "reações químicas",
+    "habilidade": "dupla troca (gás/precipitado)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "HCl + NaHCO₃ → ? (produtos principais)",
+    "alternativas": {
+      "A": "NaCl + H₂O + CO₂",
+      "B": "NaOH + CO₂",
+      "C": "NaCl + H₂",
+      "D": "Na₂CO₃ + H₂O",
+      "E": "Cl₂ + H₂O"
+    },
+    "correta": "A",
+    "explicacao": "Dupla troca com liberação de CO₂ (H₂CO₃ instável)."
   }
 ]

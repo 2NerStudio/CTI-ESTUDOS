@@ -198,5 +198,2005 @@
     },
     "correta": "B",
     "explicacao": "Tendência de chuvas acima da média no Sul."
+  },
+  {
+  "id": "HIS-ILU-011",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Iluminismo",
+  "habilidade": "autores e ideias",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Rousseau defendia que a legitimidade política reside na:",
+  "alternativas": {
+  "A": "monarquia hereditária",
+  "B": "nobreza de sangue",
+  "C": "soberania popular (vontade geral)",
+  "D": "igreja como poder temporal",
+  "E": "força militar do Estado"
+  },
+  "correta": "C",
+  "explicacao": "Em O Contrato Social, Rousseau sustenta a soberania da vontade geral."
+  },
+  {
+  "id": "HIS-ILU-012",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Iluminismo",
+  "habilidade": "direitos naturais",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Para John Locke, os direitos naturais incluem:",
+  "alternativas": {
+  "A": "nobreza e foro privilegiado",
+  "B": "vida, liberdade e propriedade",
+  "C": "servilismo e tributos",
+  "D": "direito divino dos reis",
+  "E": "voto censitário obrigatório"
+  },
+  "correta": "B",
+  "explicacao": "Locke defende vida, liberdade e propriedade como direitos naturais."
+  },
+  {
+  "id": "HIS-ILU-013",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Iluminismo",
+  "habilidade": "formas de governo",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Despotismo esclarecido pode ser definido como:",
+  "alternativas": {
+  "A": "democracia direta",
+  "B": "república parlamentar",
+  "C": "monarquia absoluta com reformas inspiradas no Iluminismo",
+  "D": "teocracia",
+  "E": "anarquia liberal"
+  },
+  "correta": "C",
+  "explicacao": "Monarcas adotam reformas 'ilustradas' sem abrir mão do poder."
+  },
+  {
+  "id": "HIS-ILU-014",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Iluminismo",
+  "habilidade": "separação dos poderes",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "A separação entre Legislativo, Executivo e Judiciário foi proposta por:",
+  "alternativas": {
+  "A": "Voltaire",
+  "B": "Montesquieu",
+  "C": "Rousseau",
+  "D": "Hobbes",
+  "E": "Adam Smith"
+  },
+  "correta": "B",
+  "explicacao": "Montesquieu, em O Espírito das Leis."
+  },
+  {
+  "id": "HIS-ILU-015",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Iluminismo",
+  "habilidade": "tolerância religiosa",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "A defesa da tolerância e a crítica ao fanatismo associam-se a:",
+  "alternativas": {
+  "A": "Voltaire",
+  "B": "Diderot",
+  "C": "Locke",
+  "D": "Smith",
+  "E": "Hume"
+  },
+  "correta": "A",
+  "explicacao": "Voltaire é conhecido pela defesa da tolerância e do pensamento crítico."
+  },
+  {
+  "id": "HIS-ILU-016",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Iluminismo",
+  "habilidade": "enciclopédia e difusão",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "A Enciclopédia (século XVIII), organizada para difundir saberes, esteve a cargo de:",
+  "alternativas": {
+  "A": "Newton e Descartes",
+  "B": "Diderot e d'Alembert",
+  "C": "Rousseau e Voltaire",
+  "D": "Montesquieu e Quesnay",
+  "E": "Kant e Hegel"
+  },
+  "correta": "B",
+  "explicacao": "Diderot e d’Alembert compilaram verbetes para difundir o conhecimento."
+  },
+  {
+  "id": "HIS-ILU-017",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Iluminismo",
+  "habilidade": "economia política",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Adam Smith defendia:",
+  "alternativas": {
+  "A": "mercantilismo e protecionismo rígido",
+  "B": "feudalismo com servidão",
+  "C": "livre mercado e 'mão invisível'",
+  "D": "economia planificada",
+  "E": "autarquia absoluta"
+  },
+  "correta": "C",
+  "explicacao": "No liberalismo clássico, propôs livre concorrência e divisão do trabalho."
+  },
+  {
+  "id": "HIS-RF-018",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Revolução Francesa",
+  "habilidade": "símbolos e eventos",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "A Queda da Bastilha (14/07/1789) simbolizou:",
+  "alternativas": {
+  "A": "a vitória da Santa Aliança",
+  "B": "o fim do Consulado",
+  "C": "o ataque ao símbolo do Antigo Regime",
+  "D": "a coroação de Luís XVI",
+  "E": "o Congresso de Viena"
+  },
+  "correta": "C",
+  "explicacao": "A Bastilha era símbolo do absolutismo e da arbitrariedade."
+  },
+  {
+  "id": "HIS-RF-019",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Revolução Francesa",
+  "habilidade": "direitos e princípios",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "A Declaração dos Direitos do Homem e do Cidadão (1789) defende:",
+  "alternativas": {
+  "A": "privilégios de nascimento",
+  "B": "censura prévia",
+  "C": "igualdade jurídica e liberdade",
+  "D": "escravidão legal",
+  "E": "direito divino dos reis"
+  },
+  "correta": "C",
+  "explicacao": "Afirma direitos naturais e igualdade perante a lei."
+  },
+  {
+  "id": "HIS-RF-020",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Revolução Francesa",
+  "habilidade": "fases e marcos",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "O Juramento do Jogo da Péla (1789) comprometeu os deputados do Terceiro Estado a:",
+  "alternativas": {
+  "A": "restaurar o absolutismo",
+  "B": "manter-se reunidos até elaborar uma Constituição",
+  "C": "dissolver a Assembleia",
+  "D": "abdicar em favor da nobreza",
+  "E": "suspender eleições"
+  },
+  "correta": "B",
+  "explicacao": "Ato fundador da Assembleia Nacional Constituinte."
+  },
+  {
+  "id": "HIS-RF-021",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Revolução Francesa",
+  "habilidade": "grupos políticos",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Os jacobinos distinguiam-se por serem:",
+  "alternativas": {
+  "A": "monarquistas absolutistas",
+  "B": "liberais moderados com base rural",
+  "C": "radicais com base popular urbana (sans-culottes)",
+  "D": "clero reformista",
+  "E": "nobreza constitucionalista"
+  },
+  "correta": "C",
+  "explicacao": "Ala radical republicana com apoio popular."
+  },
+  {
+  "id": "HIS-RF-022",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Revolução Francesa",
+  "habilidade": "terror jacobino",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "O Terror (1793–1794) foi conduzido sobretudo pelo:",
+  "alternativas": {
+  "A": "Diretório",
+  "B": "Comitê de Salvação Pública",
+  "C": "Consulado",
+  "D": "Congresso de Viena",
+  "E": "Santa Aliança"
+  },
+  "correta": "B",
+  "explicacao": "Órgão liderado por Robespierre para reprimir contrarrevolucionários."
+  },
+  {
+  "id": "HIS-RF-023",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Revolução Francesa",
+  "habilidade": "períodos políticos",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "O Diretório (1795–1799) caracterizou-se por:",
+  "alternativas": {
+  "A": "estabilidade política plena",
+  "B": "retorno do absolutismo",
+  "C": "instabilidade e crise que permitiram o 18 de Brumário",
+  "D": "república social radical",
+  "E": "monarquia constitucional consolidada"
+  },
+  "correta": "C",
+  "explicacao": "Crise favoreceu a ascensão de Napoleão."
+  },
+  {
+  "id": "HIS-RF-024",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Revolução Francesa e Napoleão",
+  "habilidade": "código civil",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "O Código Civil napoleônico consolidou:",
+  "alternativas": {
+  "A": "privilégios feudais",
+  "B": "igualdade jurídica e proteção à propriedade",
+  "C": "poder da nobreza",
+  "D": "servidão legal",
+  "E": "exclusão da burguesia"
+  },
+  "correta": "B",
+  "explicacao": "Igualdade formal e segurança da propriedade privada."
+  },
+  {
+  "id": "HIS-RF-025",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Revolução Francesa",
+  "habilidade": "marcos de transição",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "O 18 de Brumário (1799) marcou:",
+  "alternativas": {
+  "A": "início do Diretório",
+  "B": "retorno de Luís XVI",
+  "C": "golpe de Napoleão e início do Consulado",
+  "D": "derrota de Napoleão em Waterloo",
+  "E": "Congresso de Viena"
+  },
+  "correta": "C",
+  "explicacao": "Golpe que encerrou o Diretório e iniciou o Consulado."
+  },
+  {
+  "id": "HIS-IMP-026",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Imperialismo",
+  "habilidade": "motivações",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Motivação central do imperialismo do séc. XIX:",
+  "alternativas": {
+  "A": "abolição universal",
+  "B": "mercados e matérias-primas",
+  "C": "isolacionismo comercial",
+  "D": "equalização global de renda",
+  "E": "fim das potências navais"
+  },
+  "correta": "B",
+  "explicacao": "A 2ª Revolução Industrial impulsionou busca por mercados e recursos."
+  },
+  {
+  "id": "HIS-IMP-027",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Imperialismo",
+  "habilidade": "ideologias",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "O “fardo do homem branco” expressava:",
+  "alternativas": {
+  "A": "igualitarismo global",
+  "B": "liberalismo político",
+  "C": "ideologia de superioridade racial e 'missão civilizadora'",
+  "D": "pacifismo internacional",
+  "E": "nacionalismo anticolonial"
+  },
+  "correta": "C",
+  "explicacao": "Retórica que justificava a dominação com base em racismo científico."
+  },
+  {
+  "id": "HIS-IMP-028",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Imperialismo",
+  "habilidade": "resistências",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Exemplo de resistência bem-sucedida na África:",
+  "alternativas": {
+  "A": "Guerra dos Bôeres (britânicos vencem)",
+  "B": "Adwa (Etiópia derrota a Itália, 1896)",
+  "C": "Protetorado no Congo Belga",
+  "D": "Partilha da Indochina",
+  "E": "Guerra do Ópio (China vence plenamente)"
+  },
+  "correta": "B",
+  "explicacao": "A Etiópia manteve independência após vencer os italianos em Adwa."
+  },
+  {
+  "id": "HIS-IMP-029",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Imperialismo",
+  "habilidade": "consequências",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Conseqüência duradoura do imperialismo na África:",
+  "alternativas": {
+  "A": "fronteiras naturais respeitadas",
+  "B": "unidades étnicas preservadas",
+  "C": "fronteiras artificiais e tensões posteriores",
+  "D": "pleno desenvolvimento autônomo",
+  "E": "fim do racismo científico"
+  },
+  "correta": "C",
+  "explicacao": "Partilha ignorou realidades étnico-culturais."
+  },
+  {
+  "id": "HIS-IMP-030",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Imperialismo",
+  "habilidade": "Ásia e domínios",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "A Índia foi, no século XIX, colônia sobretudo de:",
+  "alternativas": {
+  "A": "França",
+  "B": "Espanha",
+  "C": "Reino Unido",
+  "D": "Alemanha",
+  "E": "Bélgica"
+  },
+  "correta": "C",
+  "explicacao": "Domínio britânico por meio da Companhia das Índias e do Raj."
+  },
+  {
+  "id": "HIS-IMP-031",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Imperialismo",
+  "habilidade": "conferência de Berlim",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "A Conferência de Berlim (1884–85) estabeleceu:",
+  "alternativas": {
+  "A": "a ONU",
+  "B": "o fim do colonialismo",
+  "C": "regras de 'ocupação efetiva' para partilha da África",
+  "D": "independência da Índia",
+  "E": "a Liga das Nações"
+  },
+  "correta": "C",
+  "explicacao": "Regulou a ocupação colonial e acelerou a partilha."
+  },
+  {
+  "id": "HIS-IMP-032",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Imperialismo",
+  "habilidade": "China e esferas de influência",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "“Esferas de influência”, na China do séc. XIX, referem-se a:",
+  "alternativas": {
+  "A": "zonas livres de domínio externo",
+  "B": "áreas sob controle econômico/político de potências",
+  "C": "regiões exclusivas dos EUA",
+  "D": "alianças pan-asiáticas",
+  "E": "protetorados apenas franceses"
+  },
+  "correta": "B",
+  "explicacao": "Potências dividiram espaços de controle econômico na China."
+  },
+  {
+  "id": "HIS-IND-033",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Independência Hispano-Americana",
+  "habilidade": "fatores externos",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Fator externo decisivo para as independências hispano-americanas:",
+  "alternativas": {
+  "A": "Congresso de Viena",
+  "B": "Invasão napoleônica à Espanha (1808)",
+  "C": "Unificação alemã",
+  "D": "Revolta dos Cipaios",
+  "E": "Liga das Nações"
+  },
+  "correta": "B",
+  "explicacao": "Crise da monarquia espanhola estimulou juntas e rupturas."
+  },
+  {
+  "id": "HIS-IND-034",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Independência Hispano-Americana",
+  "habilidade": "lideranças e regiões",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Associe líderes e eixos de atuação:",
+  "alternativas": {
+  "A": "Bolívar — Cone Sul; San Martín — Norte Andino",
+  "B": "Bolívar — Norte Andino; San Martín — Cone Sul",
+  "C": "Bolívar — México; San Martín — Cuba",
+  "D": "Bolívar — Brasil; San Martín — Chile e Peru",
+  "E": "Bolívar — EUA; San Martín — Canadá"
+  },
+  "correta": "B",
+  "explicacao": "Bolívar atuou no Norte andino; San Martín, no Cone Sul e Peru."
+  },
+  {
+  "id": "HIS-IND-035",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Independência Hispano-Americana",
+  "habilidade": "projetos políticos",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "A 'Gran Colômbia' idealizada por Bolívar buscava:",
+  "alternativas": {
+  "A": "unir territórios libertos (Venezuela, Colômbia, Equador...)",
+  "B": "reconquistar a Espanha",
+  "C": "submeter o Brasil",
+  "D": "aliança com o Império Otomano",
+  "E": "anexação dos EUA"
+  },
+  "correta": "A",
+  "explicacao": "União política de novos Estados — projeto não perdurou."
+  },
+  {
+  "id": "HIS-IND-036",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Independência Hispano-Americana",
+  "habilidade": "mexicana",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "No México, a independência (1821) foi proclamada por:",
+  "alternativas": {
+  "A": "Hidalgo",
+  "B": "Morelos",
+  "C": "Iturbide",
+  "D": "Porfírio Díaz",
+  "E": "Zapata"
+  },
+  "correta": "C",
+  "explicacao": "Iturbide concluiu o processo iniciado por Hidalgo e Morelos."
+  },
+  {
+  "id": "HIS-IND-037",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Independência Hispano-Americana",
+  "habilidade": "consequências",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Conseqüência política comum após as independências:",
+  "alternativas": {
+  "A": "unificação continental estável",
+  "B": "fragmentação e caudilhismo",
+  "C": "monarquia absoluta unificada",
+  "D": "federalismo ibérico",
+  "E": "aliança com Napoleão"
+  },
+  "correta": "B",
+  "explicacao": "Fragmentação e surgimento de líderes regionais."
+  },
+  {
+  "id": "HIS-IND-038",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Independência Hispano-Americana",
+  "habilidade": "doutrina Monroe",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "A Doutrina Monroe (1823) afirmava:",
+  "alternativas": {
+  "A": "Europa para os europeus",
+  "B": "América para os americanos",
+  "C": "Ásia para os asiáticos",
+  "D": "África para os africanos",
+  "E": "Mundo para a ONU"
+  },
+  "correta": "B",
+  "explicacao": "Rejeição à recolonização europeia, com interesses dos EUA."
+  },
+  {
+  "id": "HIS-IND-039",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Independência Hispano-Americana",
+  "habilidade": "elites criollas",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "As elites criollas buscavam, sobretudo:",
+  "alternativas": {
+  "A": "manter o monopólio metropolitano",
+  "B": "maior autonomia econômica e política",
+  "C": "restauração do absolutismo espanhol",
+  "D": "integração à Santa Aliança",
+  "E": "fim do comércio exterior"
+  },
+  "correta": "B",
+  "explicacao": "Queriam romper restrições coloniais e ampliar autonomia."
+  },
+  {
+  "id": "HIS-PGM-040",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Primeira Guerra Mundial",
+  "habilidade": "estopim",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "O estopim de 1914 foi:",
+  "alternativas": {
+  "A": "Tratado de Versalhes",
+  "B": "Assassinato do arquiduque Francisco Ferdinando em Sarajevo",
+  "C": "Revolução Russa",
+  "D": "Batalha de Verdun",
+  "E": "Bloqueio continental"
+  },
+  "correta": "B",
+  "explicacao": "O atentado desencadeou a crise entre as alianças."
+  },
+  {
+  "id": "HIS-PGM-041",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Primeira Guerra Mundial",
+  "habilidade": "alianças",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Em 1914, a Tríplice Aliança era composta por:",
+  "alternativas": {
+  "A": "Reino Unido, França e Rússia",
+  "B": "Alemanha, Áustria-Hungria e Itália",
+  "C": "EUA, Reino Unido e França",
+  "D": "Alemanha, Itália e Japão",
+  "E": "Rússia, Itália e EUA"
+  },
+  "correta": "B",
+  "explicacao": "A Itália mudou de lado em 1915, juntando-se à Entente."
+  },
+  {
+  "id": "HIS-PGM-042",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Primeira Guerra Mundial",
+  "habilidade": "frentes e tática",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "A guerra de trincheiras caracterizou-se por:",
+  "alternativas": {
+  "A": "rápidos avanços e baixas mínimas",
+  "B": "mobilidade total",
+  "C": "imobilismo, desgaste e grandes baixas",
+  "D": "combates navais apenas",
+  "E": "uso exclusivo de cavalaria"
+  },
+  "correta": "C",
+  "explicacao": "Frente Ocidental com longos cercos e alto custo humano."
+  },
+  {
+  "id": "HIS-PGM-043",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Primeira Guerra Mundial",
+  "habilidade": "marcos de 1917",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Em 1917, ocorreram dois fatos decisivos:",
+  "alternativas": {
+  "A": "saída da Alemanha e entrada da Rússia",
+  "B": "entrada dos EUA e saída da Rússia",
+  "C": "entrada do Japão e saída da Itália",
+  "D": "saída dos EUA e entrada do Brasil",
+  "E": "entrada da Espanha e saída da França"
+  },
+  "correta": "B",
+  "explicacao": "Revolução Russa e intervenção dos EUA alteraram o equilíbrio."
+  },
+  {
+  "id": "HIS-PGM-044",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Primeira Guerra Mundial",
+  "habilidade": "tratados",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Brest-Litovsk (1918) foi o tratado que:",
+  "alternativas": {
+  "A": "retirou a Alemanha da guerra",
+  "B": "retirou a Rússia da guerra",
+  "C": "criou a Liga das Nações",
+  "D": "deu colônias à Itália",
+  "E": "unificou os Bálcãs"
+  },
+  "correta": "B",
+  "explicacao": "Tratado entre Rússia bolchevique e Potências Centrais."
+  },
+  {
+  "id": "HIS-PGM-045",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Primeira Guerra Mundial",
+  "habilidade": "versailles e consequências",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Versalhes (1919) impôs à Alemanha:",
+  "alternativas": {
+  "A": "reconhecimento de vitória alemã",
+  "B": "reparações e perdas territoriais",
+  "C": "aliança com a Rússia",
+  "D": "domínio colonial ampliado",
+  "E": "neutralidade militar"
+  },
+  "correta": "B",
+  "explicacao": "Tratado duro alimentou ressentimentos e crises."
+  },
+  {
+  "id": "HIS-PGM-046",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Primeira Guerra Mundial",
+  "habilidade": "inovações bélicas",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Inovações da 1ª Guerra incluem:",
+  "alternativas": {
+  "A": "balões e catapultas",
+  "B": "gás venenoso, tanques, aviões, submarinos",
+  "C": "lanças e bestas",
+  "D": "muralhas e torres de cerco",
+  "E": "canhões de mão medievais"
+  },
+  "correta": "B",
+  "explicacao": "Conflito marcou uso massivo de novas tecnologias."
+  },
+  {
+  "id": "HIS-PGM-047",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Primeira Guerra Mundial",
+  "habilidade": "redesenho do mapa",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Após 1918, desapareceram os impérios:",
+  "alternativas": {
+  "A": "Britânico e Francês",
+  "B": "Austro-Húngaro, Otomano e Russo",
+  "C": "Espanhol e Português",
+  "D": "Alemão e Japonês",
+  "E": "Holandês e Belga"
+  },
+  "correta": "B",
+  "explicacao": "O mapa europeu foi redesenhado com novos Estados."
+  },
+  {
+  "id": "HIS-VAR-048",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Era Vargas",
+  "habilidade": "conflitos e constituições",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "A Revolução Constitucionalista (1932), em São Paulo, exigia:",
+  "alternativas": {
+  "A": "retorno ao absolutismo",
+  "B": "manutenção de interventores",
+  "C": "Constituição e eleições",
+  "D": "monarquia parlamentar",
+  "E": "aliança com o Eixo"
+  },
+  "correta": "C",
+  "explicacao": "Pressão pela Constituição de 1934 e normalização política."
+  },
+  {
+  "id": "HIS-VAR-049",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Era Vargas",
+  "habilidade": "propaganda e censura",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "O DIP, no Estado Novo, era órgão de:",
+  "alternativas": {
+  "A": "política externa",
+  "B": "impostos",
+  "C": "imprensa e propaganda (censura)",
+  "D": "reforma agrária",
+  "E": "educação militar"
+  },
+  "correta": "C",
+  "explicacao": "Departamento de Imprensa e Propaganda."
+  },
+  {
+  "id": "HIS-VAR-050",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Era Vargas",
+  "habilidade": "legislação trabalhista",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "A CLT (1943) foi promulgada durante o:",
+  "alternativas": {
+  "A": "Governo Provisório",
+  "B": "Governo Constitucional",
+  "C": "Estado Novo",
+  "D": "Segundo Governo (1951–54)",
+  "E": "Nova República"
+  },
+  "correta": "C",
+  "explicacao": "Consolidação das Leis do Trabalho, marco do Estado Novo."
+  },
+  {
+  "id": "HIS-VAR-051",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Era Vargas",
+  "habilidade": "industrialização",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "A CSN (Volta Redonda) foi criada com objetivo de:",
+  "alternativas": {
+  "A": "produzir trigo",
+  "B": "refinar petróleo",
+  "C": "produzir aço",
+  "D": "montar automóveis",
+  "E": "gerar energia eólica"
+  },
+  "correta": "C",
+  "explicacao": "Parte da industrialização e substituição de importações."
+  },
+  {
+  "id": "HIS-VAR-052",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Era Vargas (1951–54)",
+  "habilidade": "políticas públicas",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "A Petrobras foi criada em:",
+  "alternativas": {
+  "A": "1937",
+  "B": "1943",
+  "C": "1953",
+  "D": "1964",
+  "E": "1979"
+  },
+  "correta": "C",
+  "explicacao": "Lei nº 2004/1953, no segundo governo Vargas."
+  },
+  {
+  "id": "HIS-VAR-053",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Era Vargas",
+  "habilidade": "projetos e pretextos",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "O Plano Cohen foi:",
+  "alternativas": {
+  "A": "tratado de paz com a Argentina",
+  "B": "plano econômico liberal",
+  "C": "documento forjado usado para justificar o Estado Novo",
+  "D": "acordo do pós-guerra",
+  "E": "estatuto sindical"
+  },
+  "correta": "C",
+  "explicacao": "Falso plano 'comunista' usado como justificativa ao golpe de 1937."
+  },
+  {
+  "id": "HIS-VAR-054",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Era Vargas",
+  "habilidade": "participação na 2ª Guerra",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "A FEB (Força Expedicionária Brasileira) combateu na:",
+  "alternativas": {
+  "A": "França",
+  "B": "Itália",
+  "C": "Rússia",
+  "D": "África do Norte",
+  "E": "Ásia"
+  },
+  "correta": "B",
+  "explicacao": "A FEB atuou na campanha da Itália (Segunda Guerra)."
+  },
+  {
+  "id": "HIS-DIT-055",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Ditadura Militar no Brasil",
+  "habilidade": "partidos e estrutura",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "O bipartidarismo opunha:",
+  "alternativas": {
+  "A": "PT e PSDB",
+  "B": "UDN e PSD",
+  "C": "ARENA e MDB",
+  "D": "PTB e PL",
+  "E": "PCB e PR"
+  },
+  "correta": "C",
+  "explicacao": "ARENA (situação) e MDB (oposição consentida)."
+  },
+  {
+  "id": "HIS-DIT-056",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Ditadura Militar no Brasil",
+  "habilidade": "economia e sociedade",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "O 'milagre econômico' (1968–73) caracterizou-se por:",
+  "alternativas": {
+  "A": "crescimento com ampla distribuição",
+  "B": "crescimento, arrocho salarial e concentração de renda",
+  "C": "recessão prolongada",
+  "D": "autarquia econômica",
+  "E": "pleno emprego e liberdade sindical"
+  },
+  "correta": "B",
+  "explicacao": "Alto crescimento com aumento da desigualdade."
+  },
+  {
+  "id": "HIS-DIT-057",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Ditadura Militar no Brasil",
+  "habilidade": "aparelhos repressivos",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "DOI-CODI foi órgão de:",
+  "alternativas": {
+  "A": "políticas educacionais",
+  "B": "cultura e artes",
+  "C": "inteligência e repressão política",
+  "D": "saúde pública",
+  "E": "infraestrutura"
+  },
+  "correta": "C",
+  "explicacao": "Departamento de Operações de Informações e Centro de Operações de Defesa Interna."
+  },
+  {
+  "id": "HIS-DIT-058",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Ditadura Militar no Brasil",
+  "habilidade": "abertura política",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "A 'distensão lenta e gradual' e o fim do AI-5 (1978) ocorreram no governo:",
+  "alternativas": {
+  "A": "Castelo Branco",
+  "B": "Costa e Silva",
+  "C": "Médici",
+  "D": "Geisel",
+  "E": "Figueiredo"
+  },
+  "correta": "D",
+  "explicacao": "Geisel iniciou a abertura política controlada."
+  },
+  {
+  "id": "HIS-DIT-059",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Ditadura Militar no Brasil",
+  "habilidade": "anistia",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "A Lei da Anistia é de:",
+  "alternativas": {
+  "A": "1964",
+  "B": "1968",
+  "C": "1979",
+  "D": "1984",
+  "E": "1988"
+  },
+  "correta": "C",
+  "explicacao": "Lei nº 6.683/1979."
+  },
+  {
+  "id": "HIS-DIT-060",
+  "disciplina": "humanas",
+  "area": "historia",
+  "tema": "Ditadura Militar no Brasil",
+  "habilidade": "movimentos sociais",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "O movimento Diretas Já (1984) defendia:",
+  "alternativas": {
+  "A": "voto indireto para presidente",
+  "B": "manutenção do AI-5",
+  "C": "eleições diretas para presidente",
+  "D": "fechamento do Congresso",
+  "E": "volta do parlamentarismo"
+  },
+  "correta": "C",
+  "explicacao": "A emenda Dante de Oliveira, porém, não foi aprovada."
+  },
+  {
+    "id": "GEO-BIO-011",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "biomas",
+    "habilidade": "solo e uso agrícola",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "No Cerrado, o solo é geralmente:",
+    "alternativas": {
+      "A": "fértil e alcalino, dispensando correção",
+      "B": "pobre e ácido, exigindo calagem e adubação",
+      "C": "salino, exigindo dessalinização",
+      "D": "orgânico turfoso, de alta fertilidade natural",
+      "E": "areias quartzosas, sempre impróprias para cultivos"
+    },
+    "correta": "B",
+    "explicacao": "Solos do Cerrado costumam ser ácidos e pobres em nutrientes, exigindo correção (calagem) e adubação."
+  },
+  {
+    "id": "GEO-BIO-012",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "biomas",
+    "habilidade": "clima e vegetação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A Amazônia caracteriza-se, predominantemente, por:",
+    "alternativas": {
+      "A": "clima semiárido e caatinga",
+      "B": "clima equatorial úmido e floresta densa",
+      "C": "clima temperado e coníferas",
+      "D": "clima mediterrâneo e maquis",
+      "E": "clima desértico e xerófitas"
+    },
+    "correta": "B",
+    "explicacao": "A floresta amazônica desenvolve-se sob clima equatorial úmido, com alta pluviosidade e biodiversidade."
+  },
+  {
+    "id": "GEO-BIO-013",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "biomas",
+    "habilidade": "dinâmica hidrológica",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O Pantanal tem como processo ecológico central:",
+    "alternativas": {
+      "A": "ciclo de secas prolongadas (anos) sem cheias",
+      "B": "pulso anual de cheias e vazantes",
+      "C": "derretimento de geleiras estacionais",
+      "D": "piracema de espécies marinhas",
+      "E": "endurecimento do solo por permafrost"
+    },
+    "correta": "B",
+    "explicacao": "O pulso anual de cheias e vazantes regula a biodiversidade e as atividades econômicas no Pantanal."
+  },
+  {
+    "id": "GEO-BIO-014",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "biomas",
+    "habilidade": "impactos históricos",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual bioma foi historicamente mais devastado pela urbanização/industrialização no Sudeste?",
+    "alternativas": {
+      "A": "Caatinga",
+      "B": "Mata Atlântica",
+      "C": "Pampa",
+      "D": "Cerrado",
+      "E": "Pantanal"
+    },
+    "correta": "B",
+    "explicacao": "A Mata Atlântica sofreu intensa devastação com a expansão urbana e industrial do Sudeste."
+  },
+  {
+    "id": "GEO-BIO-015",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "biomas",
+    "habilidade": "fitofisionomia",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O Pampa distingue-se por apresentar:",
+    "alternativas": {
+      "A": "florestas ombrófilas densas",
+      "B": "savana com árvores tortas",
+      "C": "campos com gramíneas e pecuária extensiva",
+      "D": "vegetação xerófita e cactáceas",
+      "E": "manguezais e restingas"
+    },
+    "correta": "C",
+    "explicacao": "Predominam campos (gramíneas) e a pecuária extensiva nos Campos Sulinos (Pampa)."
+  },
+  {
+    "id": "GEO-BIO-016",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "biomas",
+    "habilidade": "adaptações à seca",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A Caatinga é corretamente descrita como:",
+    "alternativas": {
+      "A": "deserto sem vida",
+      "B": "semiárido com vegetação xeromórfica",
+      "C": "tundra com permafrost",
+      "D": "floresta temperada caducifólia",
+      "E": "taiga boreal"
+    },
+    "correta": "B",
+    "explicacao": "A Caatinga é um bioma semiárido com espécies adaptadas à seca (xeromorfismo)."
+  },
+  {
+    "id": "GEO-BIO-017",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "biomas",
+    "habilidade": "hotspot de biodiversidade",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Por que o Cerrado é considerado hotspot de biodiversidade?",
+    "alternativas": {
+      "A": "alta biodiversidade e baixo risco de perda",
+      "B": "baixa biodiversidade e alto risco",
+      "C": "alta biodiversidade e alto grau de ameaça",
+      "D": "vegetação homogênea e sem endemismos",
+      "E": "porque não sofre pressão agrícola"
+    },
+    "correta": "C",
+    "explicacao": "Combina grande diversidade biológica com forte ameaça de conversão e fragmentação."
+  },
+  {
+    "id": "GEO-URB-018",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "urbanização",
+    "habilidade": "conceitos básicos",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Urbanização e metropolização diferem porque:",
+    "alternativas": {
+      "A": "urbanização = êxodo urbano; metropolização = êxodo rural",
+      "B": "urbanização = aumento da população urbana; metropolização = concentração em metrópoles",
+      "C": "ambas significam conurbação",
+      "D": "urbanização exige conurbação",
+      "E": "metropolização ocorre só em países ricos"
+    },
+    "correta": "B",
+    "explicacao": "Metropolização é uma forma específica de urbanização, com concentração em metrópoles."
+  },
+  {
+    "id": "GEO-URB-019",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "urbanização",
+    "habilidade": "conurbação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Conurbação é:",
+    "alternativas": {
+      "A": "junção física de malhas urbanas contíguas",
+      "B": "novo município criado por decreto",
+      "C": "metrópole isolada",
+      "D": "verticalização do centro",
+      "E": "migração interurbana"
+    },
+    "correta": "A",
+    "explicacao": "Conurbação = coalescência física de áreas urbanas vizinhas."
+  },
+  {
+    "id": "GEO-URB-020",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "urbanização",
+    "habilidade": "macrocefalia urbana",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Macrocefalia urbana implica:",
+    "alternativas": {
+      "A": "distribuição equilibrada das funções urbanas",
+      "B": "uma cidade com primazia excessiva sobre a rede urbana",
+      "C": "ausência de metrópoles",
+      "D": "rede de cidades médias sem polos",
+      "E": "metropolização sem desigualdades"
+    },
+    "correta": "B",
+    "explicacao": "Hiperconcentração de atividades e serviços em uma cidade."
+  },
+  {
+    "id": "GEO-URB-021",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "urbanização",
+    "habilidade": "riscos ambientais urbanos",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A ocupação de encostas tende a elevar o risco de:",
+    "alternativas": {
+      "A": "nevascas",
+      "B": "deslizamentos",
+      "C": "secas plurianuais",
+      "D": "maremotos",
+      "E": "tsunamis"
+    },
+    "correta": "B",
+    "explicacao": "Encostas com solo instável favorecem escorregamentos, especialmente com chuvas."
+  },
+  {
+    "id": "GEO-URB-022",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "urbanização",
+    "habilidade": "soluções baseadas na natureza",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Uma medida urbana para reduzir enchentes é:",
+    "alternativas": {
+      "A": "cobrir rios com lajes",
+      "B": "impermeabilizar mais calçadas",
+      "C": "parques lineares e drenagem sustentável",
+      "D": "retificar cursos d’água sempre",
+      "E": "remover toda vegetação de várzea"
+    },
+    "correta": "C",
+    "explicacao": "Soluções baseadas na natureza reduzem picos de cheias e aumentam infiltração."
+  },
+  {
+    "id": "GEO-URB-023",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "urbanização",
+    "habilidade": "segregação socioespacial",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Segregação socioespacial refere-se a:",
+    "alternativas": {
+      "A": "mistura homogênea de rendas e serviços",
+      "B": "distribuição equitativa de infraestrutura",
+      "C": "separação territorial por renda/raça/serviços",
+      "D": "apenas mobilidade urbana",
+      "E": "apenas zoneamento industrial"
+    },
+    "correta": "C",
+    "explicacao": "É a diferenciação do espaço por critérios socioeconômicos e de acesso."
+  },
+  {
+    "id": "GEO-URB-024",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "urbanização",
+    "habilidade": "governança metropolitana",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Regiões metropolitanas conurbadas requerem, entre outras ações:",
+    "alternativas": {
+      "A": "gestão integrada de transporte e saneamento",
+      "B": "unificação política obrigatória dos municípios",
+      "C": "eliminação de corredores de ônibus",
+      "D": "redução de parques e áreas verdes",
+      "E": "expansão desordenada para várzeas"
+    },
+    "correta": "A",
+    "explicacao": "Serviços e fluxos excedem limites municipais, exigindo coordenação."
+  },
+  {
+    "id": "GEO-GLO-025",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "globalização",
+    "habilidade": "DIT/cadeias de valor",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Cadeias globais de valor indicam:",
+    "alternativas": {
+      "A": "toda produção em um só país",
+      "B": "produção fragmentada em etapas por países",
+      "C": "proibição de P&D nos países centrais",
+      "D": "fim do comércio internacional",
+      "E": "apenas serviços digitais"
+    },
+    "correta": "B",
+    "explicacao": "Etapas como P&D, componentes e montagem ocorrem em locais distintos."
+  },
+  {
+    "id": "GEO-GLO-026",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "globalização",
+    "habilidade": "empresas transnacionais",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Transnacionais escolhem locais de produção considerando:",
+    "alternativas": {
+      "A": "apenas clima",
+      "B": "custos, incentivos, logística e mercado",
+      "C": "exclusivamente regime político",
+      "D": "apenas idioma local",
+      "E": "proibição de comércio"
+    },
+    "correta": "B",
+    "explicacao": "Custo de trabalho, incentivos, infraestrutura e proximidade de mercados pesam na decisão."
+  },
+  {
+    "id": "GEO-GLO-027",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "globalização",
+    "habilidade": "blocos econômicos",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Sobre blocos econômicos, é correto afirmar:",
+    "alternativas": {
+      "A": "todos têm moeda única",
+      "B": "nenhum permite livre comércio",
+      "C": "nem todo bloco adota moeda única (varia por arranjo)",
+      "D": "são organizações militares",
+      "E": "proíbem integração produtiva"
+    },
+    "correta": "C",
+    "explicacao": "A UE tem euro (parcialmente), o Mercosul não — arranjos variam."
+  },
+  {
+    "id": "GEO-GLO-028",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "globalização",
+    "habilidade": "OMC e regras",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A OMC atua, principalmente, em:",
+    "alternativas": {
+      "A": "regular e mediar disputas do comércio internacional",
+      "B": "emitir moeda global",
+      "C": "definir taxas de juros mundiais",
+      "D": "coordenar exércitos",
+      "E": "controlar redes sociais"
+    },
+    "correta": "A",
+    "explicacao": "A OMC estabelece regras e arbitra disputas comerciais."
+  },
+  {
+    "id": "GEO-GLO-029",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "globalização",
+    "habilidade": "cidades globais",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Cidades globais destacam-se por:",
+    "alternativas": {
+      "A": "produção agrícola",
+      "B": "serviços avançados, finanças e comando de redes",
+      "C": "ausência de conectividade",
+      "D": "isolamento econômico",
+      "E": "apenas indústria pesada"
+    },
+    "correta": "B",
+    "explicacao": "Concentram sedes corporativas, finanças e hubs de conectividade."
+  },
+  {
+    "id": "GEO-GLO-030",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "globalização",
+    "habilidade": "offshoring/outsourcing",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Offshoring e outsourcing referem-se, respectivamente, a:",
+    "alternativas": {
+      "A": "terceirizar localmente; internalizar fora",
+      "B": "deslocar produção para outro país; terceirizar processos",
+      "C": "internacionalizar sedes; estatizar empresas",
+      "D": "desglobalizar; privatizar",
+      "E": "centralizar; descentralizar"
+    },
+    "correta": "B",
+    "explicacao": "Offshoring = mover etapas para outro país; outsourcing = terceirização."
+  },
+  {
+    "id": "GEO-GLO-031",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "globalização",
+    "habilidade": "impactos e críticas",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Entre críticas à globalização, destaca-se:",
+    "alternativas": {
+      "A": "eliminação das desigualdades",
+      "B": "padronização cultural e assimetrias",
+      "C": "zerar pressões ambientais",
+      "D": "fim das migrações",
+      "E": "ausência de fluxos financeiros"
+    },
+    "correta": "B",
+    "explicacao": "Apontam-se assimetrias, precarização e impactos ambientais."
+  },
+  {
+    "id": "GEO-COM-032",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "comércio internacional",
+    "habilidade": "balança comercial",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Se X=US$ 200 e M=US$ 150, o saldo comercial é:",
+    "alternativas": {
+      "A": "−50 (déficit)",
+      "B": "0 (equilíbrio)",
+      "C": "+50 (superávit)",
+      "D": "+350 (superávit)",
+      "E": "indefinido"
+    },
+    "correta": "C",
+    "explicacao": "Saldo = Exportações − Importações = 200−150 = +50."
+  },
+  {
+    "id": "GEO-COM-033",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "comércio internacional",
+    "habilidade": "câmbio e efeitos",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em geral, a desvalorização do real tende a:",
+    "alternativas": {
+      "A": "baratear importações",
+      "B": "encarecer importações e favorecer exportações",
+      "C": "reduzir exportações",
+      "D": "aumentar salários reais automaticamente",
+      "E": "eliminar inflação"
+    },
+    "correta": "B",
+    "explicacao": "Moeda mais fraca encarece importados e melhora competitividade exportadora."
+  },
+  {
+    "id": "GEO-COM-034",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "comércio internacional",
+    "habilidade": "parceiros",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Principais destinos das exportações brasileiras incluem:",
+    "alternativas": {
+      "A": "China, EUA e União Europeia",
+      "B": "Nepal, Laos e Butão",
+      "C": "Islândia, Malta e Mônaco",
+      "D": "Coreia do Norte e Iraque apenas",
+      "E": "Groenlândia e Antártida"
+    },
+    "correta": "A",
+    "explicacao": "Parceiros centrais do Brasil: China, EUA e UE."
+  },
+  {
+    "id": "GEO-COM-035",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "comércio internacional",
+    "habilidade": "pauta exportadora",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A pauta brasileira é marcada por:",
+    "alternativas": {
+      "A": "predomínio de serviços",
+      "B": "commodities (soja, minério, petróleo) com manufaturados em menor peso",
+      "C": "apenas bens de alta tecnologia",
+      "D": "exclusivo comércio de armas",
+      "E": "apenas bens culturais"
+    },
+    "correta": "B",
+    "explicacao": "Commodities têm grande peso, embora haja exportações industriais."
+  },
+  {
+    "id": "GEO-COM-036",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "comércio internacional",
+    "habilidade": "dependência e riscos",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A dependência de commodities aumenta a vulnerabilidade a:",
+    "alternativas": {
+      "A": "preços estáveis",
+      "B": "volatilidade de preços internacionais",
+      "C": "maior proteção cambial",
+      "D": "menor exposição externa",
+      "E": "redução de riscos climáticos"
+    },
+    "correta": "B",
+    "explicacao": "Oscilações de preços afetam receitas de exportação e planejamento."
+  },
+  {
+    "id": "GEO-COM-037",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "comércio internacional",
+    "habilidade": "Mercosul e manufaturas",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "No Mercosul, o comércio intrabloco é relevante para:",
+    "alternativas": {
+      "A": "produtos de alta tecnologia espacial",
+      "B": "manufaturados e cadeias regionais",
+      "C": "apenas commodities minerais",
+      "D": "somente serviços financeiros",
+      "E": "somente produtos agrícolas"
+    },
+    "correta": "B",
+    "explicacao": "O comércio intrabloco favorece manufaturas e integração produtiva regional."
+  },
+  {
+    "id": "GEO-COM-038",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "comércio internacional",
+    "habilidade": "conta corrente x balança",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Confundir saldo comercial com saldo em conta corrente é um erro porque:",
+    "alternativas": {
+      "A": "a conta corrente é igual ao saldo comercial",
+      "B": "a conta corrente inclui serviços e rendas, além de bens",
+      "C": "a conta corrente só mede turismo",
+      "D": "saldo comercial é irrelevante",
+      "E": "não há diferença conceitual"
+    },
+    "correta": "B",
+    "explicacao": "Conta corrente agrega bens, serviços, rendas e transferências unilaterais."
+  },
+  {
+    "id": "GEO-DEM-039",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "demografia",
+    "habilidade": "conceitos básicos",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Fecundidade e natalidade diferem porque:",
+    "alternativas": {
+      "A": "fecundidade = nascimentos por mil; natalidade = filhos por mulher",
+      "B": "fecundidade = filhos por mulher; natalidade = nascimentos por população",
+      "C": "são sinônimos",
+      "D": "apenas natalidade existe",
+      "E": "fecundidade mede óbitos"
+    },
+    "correta": "B",
+    "explicacao": "Fecundidade: média de filhos por mulher; natalidade: nascimentos por população."
+  },
+  {
+    "id": "GEO-DEM-040",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "demografia",
+    "habilidade": "crescimento vegetativo",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Crescimento vegetativo é dado por:",
+    "alternativas": {
+      "A": "migração − mortalidade",
+      "B": "natalidade − mortalidade",
+      "C": "natalidade + migração",
+      "D": "mortalidade − natalidade",
+      "E": "saldo migratório"
+    },
+    "correta": "B",
+    "explicacao": "É a diferença entre natalidade e mortalidade (não inclui migração)."
+  },
+  {
+    "id": "GEO-DEM-041",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "demografia",
+    "habilidade": "transição demográfica",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Na transição demográfica, a fase 2 caracteriza-se por:",
+    "alternativas": {
+      "A": "altas natalidade e mortalidade",
+      "B": "queda da mortalidade e natalidade ainda alta",
+      "C": "queda de natalidade com mortalidade crescente",
+      "D": "ambas baixas e estáveis com envelhecimento",
+      "E": "mortalidade maior que natalidade"
+    },
+    "correta": "B",
+    "explicacao": "Melhorias sanitárias reduzem a mortalidade; natalidade permanece alta."
+  },
+  {
+    "id": "GEO-DEM-042",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "demografia",
+    "habilidade": "pirâmide etária",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Pirâmide com base estreita e topo mais largo sugere:",
+    "alternativas": {
+      "A": "sociedade jovem em expansão",
+      "B": "envelhecimento e baixa fecundidade",
+      "C": "explosão de natalidade",
+      "D": "aumento de mortalidade infantil",
+      "E": "migração em massa de jovens"
+    },
+    "correta": "B",
+    "explicacao": "Base estreita sinaliza fecundidade baixa; proporção de idosos cresce."
+  },
+  {
+    "id": "GEO-DEM-043",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "demografia",
+    "habilidade": "densidade demográfica",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Densidade demográfica é:",
+    "alternativas": {
+      "A": "população/PIB",
+      "B": "população/área",
+      "C": "área/população",
+      "D": "nascimentos/área",
+      "E": "óbitos/população"
+    },
+    "correta": "B",
+    "explicacao": "Expressa habitantes por unidade de área (hab/km²)."
+  },
+  {
+    "id": "GEO-DEM-044",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "demografia",
+    "habilidade": "migração e remessas",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Brain drain\" refere-se a:",
+    "alternativas": {
+      "A": "aumento de analfabetismo",
+      "B": "emigração de mão de obra altamente qualificada",
+      "C": "imigração sazonal rural",
+      "D": "queda da expectativa de vida",
+      "E": "crescimento vegetativo negativo"
+    },
+    "correta": "B",
+    "explicacao": "Perda de quadros qualificados para países com mais oportunidades."
+  },
+  {
+    "id": "GEO-DEM-045",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "demografia",
+    "habilidade": "mortalidade infantil",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Mortalidade infantil mede óbitos:",
+    "alternativas": {
+      "A": "de 0 a 5 anos por mil nascidos vivos",
+      "B": "de 0 a 1 ano por mil nascidos vivos",
+      "C": "de 0 a 15 anos por mil habitantes",
+      "D": "de 1 a 5 anos por mil habitantes",
+      "E": "de 0 a 1 ano por mil habitantes"
+    },
+    "correta": "B",
+    "explicacao": "Indicador padrão: óbitos até 1 ano por mil nascidos vivos."
+  },
+  {
+    "id": "GEO-DEM-046",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "demografia",
+    "habilidade": "crescimento total",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Crescimento total da população resulta de:",
+    "alternativas": {
+      "A": "apenas migração",
+      "B": "apenas crescimento vegetativo",
+      "C": "crescimento vegetativo + saldo migratório",
+      "D": "apenas natalidade",
+      "E": "apenas mortalidade"
+    },
+    "correta": "C",
+    "explicacao": "Soma do crescimento natural e do saldo entre entradas e saídas."
+  },
+  {
+    "id": "GEO-HID-047",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "recursos hídricos",
+    "habilidade": "bacias brasileiras",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A maior bacia hidrográfica do Brasil é a:",
+    "alternativas": {
+      "A": "São Francisco",
+      "B": "Paraná",
+      "C": "Amazônica",
+      "D": "Uruguai",
+      "E": "Paraguai"
+    },
+    "correta": "C",
+    "explicacao": "A Bacia Amazônica é a maior do mundo em vazão e extensão."
+  },
+  {
+    "id": "GEO-HID-048",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "recursos hídricos",
+    "habilidade": "pantanal e bacia",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O Pantanal está inserido predominantemente na bacia do:",
+    "alternativas": {
+      "A": "São Francisco",
+      "B": "Paraná",
+      "C": "Paraguai",
+      "D": "Uruguai",
+      "E": "Tocantins-Araguaia"
+    },
+    "correta": "C",
+    "explicacao": "Planície de inundação associada ao rio Paraguai (Bacia do Prata)."
+  },
+  {
+    "id": "GEO-HID-049",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "recursos hídricos",
+    "habilidade": "consumo setorial",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O setor que mais consome água no Brasil é:",
+    "alternativas": {
+      "A": "residencial",
+      "B": "industrial",
+      "C": "agropecuário (especialmente irrigação)",
+      "D": "turismo",
+      "E": "mineração"
+    },
+    "correta": "C",
+    "explicacao": "A irrigação responde pela maior parcela do consumo de água."
+  },
+  {
+    "id": "GEO-HID-050",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "recursos hídricos",
+    "habilidade": "assoreamento e desmatamento",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O assoreamento de rios está associado a:",
+    "alternativas": {
+      "A": "redução de sedimentos por reflorestamento",
+      "B": "aumento de sedimentos por erosão/desmatamento",
+      "C": "resfriamento de águas profundas",
+      "D": "apenas poluição industrial dissolvida",
+      "E": "salinização por irrigação"
+    },
+    "correta": "B",
+    "explicacao": "A remoção da cobertura vegetal favorece erosão e deposição de sedimentos no leito."
+  },
+  {
+    "id": "GEO-HID-051",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "recursos hídricos",
+    "habilidade": "urbanização e cheias",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A impermeabilização urbana tende a:",
+    "alternativas": {
+      "A": "aumentar infiltração",
+      "B": "reduzir escoamento superficial",
+      "C": "aumentar picos de cheias",
+      "D": "aumentar recarga de aquíferos",
+      "E": "eliminar ilhas de calor"
+    },
+    "correta": "C",
+    "explicacao": "Solo impermeável reduz infiltração e aumenta escoamento e enchentes."
+  },
+  {
+    "id": "GEO-HID-052",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "recursos hídricos",
+    "habilidade": "gestão por bacias",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A gestão por bacias hidrográficas:",
+    "alternativas": {
+      "A": "ignora fronteiras estaduais e usuários",
+      "B": "considera múltiplos usuários e jurisdições",
+      "C": "aplica-se só a rios internacionais",
+      "D": "dispensa comitês de bacia",
+      "E": "exclui cobrança pelo uso"
+    },
+    "correta": "B",
+    "explicacao": "Integra diferentes atores e níveis para gerir a bacia como unidade."
+  },
+  {
+    "id": "GEO-HID-053",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "recursos hídricos",
+    "habilidade": "obras hidráulicas",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A Transposição do São Francisco é um exemplo de:",
+    "alternativas": {
+      "A": "barramento para geração nuclear",
+      "B": "transferência de vazões entre bacias",
+      "C": "canal para navegação oceânica",
+      "D": "dessalinização em larga escala",
+      "E": "perenização por aquíferos artificiais"
+    },
+    "correta": "B",
+    "explicacao": "Obra de interligação de águas para regiões semiáridas do NE."
+  },
+  {
+    "id": "GEO-CLI-054",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "clima (El Niño)",
+    "habilidade": "conceitos ENSO",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "El Niño e La Niña referem-se, respectivamente, a:",
+    "alternativas": {
+      "A": "resfriamento e aquecimento do Atlântico Sul",
+      "B": "aquecimento e resfriamento anômalo do Pacífico Equatorial",
+      "C": "ciclos de manchas solares",
+      "D": "aumento e queda da umidade no Saara",
+      "E": "mudanças na órbita da Terra"
+    },
+    "correta": "B",
+    "explicacao": "Fases do ENSO com anomalias de TSM no Pacífico Equatorial."
+  },
+  {
+    "id": "GEO-CLI-055",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "clima (El Niño)",
+    "habilidade": "efeitos regionais no Brasil",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em anos de El Niño, no Sul do Brasil, é comum observar:",
+    "alternativas": {
+      "A": "chuvas abaixo da média",
+      "B": "chuvas acima da média",
+      "C": "temperaturas permanentemente negativas",
+      "D": "ausência de frentes frias",
+      "E": "seca extrema garantida"
+    },
+    "correta": "B",
+    "explicacao": "Tendência de maior pluviosidade no Sul durante El Niño."
+  },
+  {
+    "id": "GEO-CLI-056",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "clima (El Niño)",
+    "habilidade": "La Niña e Nordeste/Norte",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Durante La Niña, no Brasil, observa-se comumente:",
+    "alternativas": {
+      "A": "maior chance de chuvas no Norte/Nordeste (varia com intensidade)",
+      "B": "seca absoluta em todo o país",
+      "C": "inverno sem frentes frias no Sul",
+      "D": "temperaturas abaixo de zero no Equador",
+      "E": "nevascas no Nordeste"
+    },
+    "correta": "A",
+    "explicacao": "La Niña pode favorecer chuvas no Norte/Nordeste; padrões são tendências, não garantias."
+  },
+  {
+    "id": "GEO-CLI-057",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "clima (El Niño)",
+    "habilidade": "cautelas analíticas",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Sobre ENSO, é correto afirmar:",
+    "alternativas": {
+      "A": "determina isoladamente todos os eventos extremos",
+      "B": "não influencia o Brasil",
+      "C": "fornece tendências regionais, mas não certezas",
+      "D": "ocorre apenas no Atlântico",
+      "E": "é fenômeno de escala local"
+    },
+    "correta": "C",
+    "explicacao": "ENSO altera padrões, mas eventos locais dependem de vários fatores."
+  },
+  {
+    "id": "GEO-CAR-058",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "cartografia",
+    "habilidade": "escala numérica",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em escala 1:100.000, 3 cm no mapa equivalem a:",
+    "alternativas": {
+      "A": "150 m",
+      "B": "300 m",
+      "C": "3 km",
+      "D": "30 km",
+      "E": "300 km"
+    },
+    "correta": "C",
+    "explicacao": "1 cm representa 1 km; logo 3 cm representam 3 km no terreno."
+  },
+  {
+    "id": "GEO-CAR-059",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "cartografia",
+    "habilidade": "projeções e distorções",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Sobre projeções cartográficas, assinale a correta:",
+    "alternativas": {
+      "A": "todas preservam área, forma e distância simultaneamente",
+      "B": "qualquer projeção deforma algum aspecto",
+      "C": "Mercator não deforma altas latitudes",
+      "D": "equivalentes deformam áreas",
+      "E": "não há projeções temáticas"
+    },
+    "correta": "B",
+    "explicacao": "Mapear a esfera no plano implica sacrificar alguma propriedade."
+  },
+  {
+    "id": "GEO-CAR-060",
+    "disciplina": "humanas",
+    "area": "geografia",
+    "tema": "cartografia/anamorfose",
+    "habilidade": "leitura de mapas temáticos",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em um mapa em anamorfose por população, um país 'maior' no desenho significa:",
+    "alternativas": {
+      "A": "maior território real",
+      "B": "maior altitude média",
+      "C": "maior população",
+      "D": "maior PIB per capita",
+      "E": "menor densidade"
+    },
+    "correta": "C",
+    "explicacao": "Na anamorfose, a área é redimensionada pela variável, não pela área física."
   }
 ]

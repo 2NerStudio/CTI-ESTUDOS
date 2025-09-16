@@ -245,5 +245,1905 @@
     },
     "correta": "E",
     "explicacao": "V=πr²h=π·25·10=250π."
+  },
+  {
+    "id": "MAT-OP-011",
+    "disciplina": "matematica",
+    "tema": "ordem das operações",
+    "habilidade": "prioridades",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Calcule: 18 ÷ 3 + 2 × (5 + 7) − 4",
+    "alternativas": {
+      "A": "22",
+      "B": "24",
+      "C": "26",
+      "D": "28",
+      "E": "32"
+    },
+    "correta": "C",
+    "explicacao": "(5+7)=12; 2×12=24; 18÷3=6 → 6+24−4=26."
+  },
+  {
+    "id": "MAT-OP-012",
+    "disciplina": "matematica",
+    "tema": "ordem das operações",
+    "habilidade": "uso de parênteses",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Calcule: 48 ÷ (3 × 2) + 5 × 3 − 7",
+    "alternativas": {
+      "A": "12",
+      "B": "14",
+      "C": "16",
+      "D": "18",
+      "E": "20"
+    },
+    "correta": "C",
+    "explicacao": "3×2=6 → 48÷6=8; 5×3=15 → 8+15−7=16."
+  },
+  {
+    "id": "MAT-OP-013",
+    "disciplina": "matematica",
+    "tema": "divisibilidade",
+    "habilidade": "regra do 9",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete 3_84 para que seja divisível por 9.",
+    "alternativas": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correta": "C",
+    "explicacao": "Soma 3+?+8+4=15+? deve ser múltiplo de 9 → ?=3."
+  },
+  {
+    "id": "MAT-FR-011",
+    "disciplina": "matematica",
+    "tema": "frações",
+    "habilidade": "simplificação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Simplifique: 84/126",
+    "alternativas": {
+      "A": "2/5",
+      "B": "2/3",
+      "C": "3/4",
+      "D": "4/7",
+      "E": "5/6"
+    },
+    "correta": "B",
+    "explicacao": "MDC=42 → 84/126 = 2/3."
+  },
+  {
+    "id": "MAT-FR-012",
+    "disciplina": "matematica",
+    "tema": "frações",
+    "habilidade": "soma com MMC",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "5/12 + 7/18 =",
+    "alternativas": {
+      "A": "1/2",
+      "B": "29/36",
+      "C": "11/18",
+      "D": "7/30",
+      "E": "17/24"
+    },
+    "correta": "B",
+    "explicacao": "MMC(12,18)=36 → 15/36 + 14/36 = 29/36."
+  },
+  {
+    "id": "MAT-FR-013",
+    "disciplina": "matematica",
+    "tema": "frações",
+    "habilidade": "multiplicação com simplificação",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "(14/25) × (15/28) =",
+    "alternativas": {
+      "A": "3/10",
+      "B": "7/10",
+      "C": "9/14",
+      "D": "5/14",
+      "E": "21/50"
+    },
+    "correta": "A",
+    "explicacao": "14/28=1/2 e 15/25=3/5 → (1×3)/(2×5)=3/10."
+  },
+  {
+    "id": "MAT-FR-014",
+    "disciplina": "matematica",
+    "tema": "frações",
+    "habilidade": "divisão de frações",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "(3/4) ÷ (5/6) =",
+    "alternativas": {
+      "A": "9/10",
+      "B": "5/8",
+      "C": "6/5",
+      "D": "18/20",
+      "E": "15/24"
+    },
+    "correta": "A",
+    "explicacao": "Multiplica pela inversa: (3/4)×(6/5)=18/20=9/10."
+  },
+  {
+    "id": "MAT-RP-011",
+    "disciplina": "matematica",
+    "tema": "razão e proporção",
+    "habilidade": "regra de três direta",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "8 litros custam R$ 60. Quanto custam 5 litros, no mesmo preço por litro?",
+    "alternativas": {
+      "A": "R$ 35,00",
+      "B": "R$ 36,50",
+      "C": "R$ 37,50",
+      "D": "R$ 38,00",
+      "E": "R$ 40,00"
+    },
+    "correta": "C",
+    "explicacao": "Valor unitário 60/8=7,5 → 5×7,5=37,50."
+  },
+  {
+    "id": "MAT-RP-012",
+    "disciplina": "matematica",
+    "tema": "razão e proporção",
+    "habilidade": "regra de três inversa",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "4 operários fazem um serviço em 6 dias. Em quantos dias 3 operários farão o mesmo serviço?",
+    "alternativas": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "8",
+      "E": "10"
+    },
+    "correta": "D",
+    "explicacao": "Inversa: menos operários → mais dias. 4×6=3×x ⇒ x=8."
+  },
+  {
+    "id": "MAT-RP-013",
+    "disciplina": "matematica",
+    "tema": "razão e proporção",
+    "habilidade": "escala cartográfica",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em escala 1:50.000, 7 cm no mapa equivalem a:",
+    "alternativas": {
+      "A": "350 m",
+      "B": "3,5 km",
+      "C": "7 km",
+      "D": "35 km",
+      "E": "70 km"
+    },
+    "correta": "B",
+    "explicacao": "1 cm → 500 m; 7 cm → 3500 m = 3,5 km."
+  },
+  {
+    "id": "MAT-RP-014",
+    "disciplina": "matematica",
+    "tema": "razão e proporção",
+    "habilidade": "velocidade média",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Um carro percorre 150 km em 2 h 30 min. A velocidade média é:",
+    "alternativas": {
+      "A": "50 km/h",
+      "B": "55 km/h",
+      "C": "60 km/h",
+      "D": "65 km/h",
+      "E": "75 km/h"
+    },
+    "correta": "C",
+    "explicacao": "2,5 h → 150/2,5=60 km/h."
+  },
+  {
+    "id": "MAT-PC-011",
+    "disciplina": "matematica",
+    "tema": "porcentagem",
+    "habilidade": "desconto",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Um produto de R$ 400 teve 15% de desconto. O preço final é:",
+    "alternativas": {
+      "A": "R$ 320,00",
+      "B": "R$ 330,00",
+      "C": "R$ 340,00",
+      "D": "R$ 350,00",
+      "E": "R$ 360,00"
+    },
+    "correta": "C",
+    "explicacao": "400×0,85=340."
+  },
+  {
+    "id": "MAT-PC-012",
+    "disciplina": "matematica",
+    "tema": "porcentagem",
+    "habilidade": "variações sucessivas",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Um preço sofre +25% e depois −20%. A variação total é:",
+    "alternativas": {
+      "A": "−5%",
+      "B": "0%",
+      "C": "+2%",
+      "D": "+5%",
+      "E": "−2%"
+    },
+    "correta": "B",
+    "explicacao": "Fator total 1,25×0,80=1,00 → variação 0%."
+  },
+  {
+    "id": "MAT-PC-013",
+    "disciplina": "matematica",
+    "tema": "porcentagem",
+    "habilidade": "base de cálculo (preço original)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Após aumento de 20%, o preço é R$ 288. O preço anterior era:",
+    "alternativas": {
+      "A": "R$ 220,00",
+      "B": "R$ 230,00",
+      "C": "R$ 240,00",
+      "D": "R$ 250,00",
+      "E": "R$ 260,00"
+    },
+    "correta": "C",
+    "explicacao": "Antigo = 288/1,2 = 240."
+  },
+  {
+    "id": "MAT-JS-011",
+    "disciplina": "matematica",
+    "tema": "juros simples",
+    "habilidade": "montante",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "C=R$ 1.500, i=2% a.m., n=10 meses. O montante M é:",
+    "alternativas": {
+      "A": "R$ 1.700,00",
+      "B": "R$ 1.780,00",
+      "C": "R$ 1.800,00",
+      "D": "R$ 1.820,00",
+      "E": "R$ 1.900,00"
+    },
+    "correta": "C",
+    "explicacao": "J=1500×0,02×10=300 → M=1800."
+  },
+  {
+    "id": "MAT-JS-012",
+    "disciplina": "matematica",
+    "tema": "juros simples",
+    "habilidade": "taxa mensal",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "C=R$ 800 gerou M=R$ 920 em 5 meses (juros simples). A taxa mensal i é:",
+    "alternativas": {
+      "A": "1%",
+      "B": "2%",
+      "C": "2,5%",
+      "D": "3%",
+      "E": "3,5%"
+    },
+    "correta": "D",
+    "explicacao": "J=120; i=J/(C·n)=120/(800·5)=0,03=3% a.m."
+  },
+  {
+    "id": "MAT-JC-011",
+    "disciplina": "matematica",
+    "tema": "juros compostos",
+    "habilidade": "montante composto",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "C=R$ 2.000, i=3% a.m., n=4 meses. O montante M é (aprox.):",
+    "alternativas": {
+      "A": "R$ 2.120,00",
+      "B": "R$ 2.180,00",
+      "C": "R$ 2.220,00",
+      "D": "R$ 2.251,02",
+      "E": "R$ 2.300,00"
+    },
+    "correta": "D",
+    "explicacao": "M=2000(1,03)^4 ≈ 2000×1,12550881 = 2251,02."
+  },
+  {
+    "id": "MAT-JC-012",
+    "disciplina": "matematica",
+    "tema": "juros compostos",
+    "habilidade": "capitalização mensal",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "C=R$ 1.000, i=5% a.m., n=3 meses. O montante M é (aprox.):",
+    "alternativas": {
+      "A": "R$ 1.150,00",
+      "B": "R$ 1.157,63",
+      "C": "R$ 1.160,00",
+      "D": "R$ 1.200,00",
+      "E": "R$ 1.250,00"
+    },
+    "correta": "B",
+    "explicacao": "M=1000(1,05)^3 ≈ 1000×1,157625 = 1157,63."
+  },
+  {
+    "id": "MAT-ALG-011",
+    "disciplina": "matematica",
+    "tema": "álgebra",
+    "habilidade": "produtos notáveis",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Desenvolva: (3x − 2)^2",
+    "alternativas": {
+      "A": "9x^2 − 12x + 4",
+      "B": "9x^2 − 4",
+      "C": "9x^2 + 4x + 4",
+      "D": "6x^2 − 4x + 4",
+      "E": "9x^2 − 2x + 4"
+    },
+    "correta": "A",
+    "explicacao": "(a−b)^2=a^2−2ab+b^2 → 9x^2 − 12x + 4."
+  },
+  {
+    "id": "MAT-ALG-012",
+    "disciplina": "matematica",
+    "tema": "álgebra",
+    "habilidade": "fatoração (diferença de quadrados)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Fatore: 9a^2 − 16b^2",
+    "alternativas": {
+      "A": "(3a − 4b)(3a + 4b)",
+      "B": "(9a − 16b)(a + b)",
+      "C": "(3a − 2b)(3a + 8b)",
+      "D": "(a − 4b)(9a + 4b)",
+      "E": "(3a − 16b)(3a + b)"
+    },
+    "correta": "A",
+    "explicacao": "x^2−y^2=(x−y)(x+y)."
+  },
+  {
+    "id": "MAT-ALG-013",
+    "disciplina": "matematica",
+    "tema": "álgebra",
+    "habilidade": "fatoração (trinômio)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Fatore: x^2 − x − 6",
+    "alternativas": {
+      "A": "(x − 3)(x + 2)",
+      "B": "(x − 2)(x + 3)",
+      "C": "(x − 1)(x − 6)",
+      "D": "(x + 1)(x − 6)",
+      "E": "(x + 1)(x + 6)"
+    },
+    "correta": "A",
+    "explicacao": "Pares que multiplicam −6 e somam −1: (−3, +2)."
+  },
+  {
+    "id": "MAT-ALG-014",
+    "disciplina": "matematica",
+    "tema": "álgebra",
+    "habilidade": "avaliação de expressão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Para a=2 e b=−3, calcule (a+b)^3 − ab.",
+    "alternativas": {
+      "A": "−7",
+      "B": "−5",
+      "C": "1",
+      "D": "5",
+      "E": "7"
+    },
+    "correta": "D",
+    "explicacao": "a+b=−1 → (−1)^3=−1; −ab=−(−6)=+6 → −1+6=5."
+  },
+  {
+    "id": "MAT-EQ1-011",
+    "disciplina": "matematica",
+    "tema": "equações do 1º grau",
+    "habilidade": "equação com frações",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "(x/3) + (x/6) = 5. Então x =",
+    "alternativas": {
+      "A": "6",
+      "B": "8",
+      "C": "10",
+      "D": "12",
+      "E": "15"
+    },
+    "correta": "C",
+    "explicacao": "3x/6=5 → x=10."
+  },
+  {
+    "id": "MAT-EQ1-012",
+    "disciplina": "matematica",
+    "tema": "equações do 1º grau",
+    "habilidade": "distributiva e isolação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Resolva: 2(4x − 3) − (x + 5) = 3x + 1",
+    "alternativas": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correta": "C",
+    "explicacao": "8x−6−x−5=3x+1 → 7x−11=3x+1 → 4x=12 → x=3."
+  },
+  {
+    "id": "MAT-SIS-011",
+    "disciplina": "matematica",
+    "tema": "sistemas lineares 2x2",
+    "habilidade": "eliminação/substituição",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Resolva: { x + y = 13; x − y = 5 }",
+    "alternativas": {
+      "A": "(8,5)",
+      "B": "(9,4)",
+      "C": "(10,3)",
+      "D": "(7,6)",
+      "E": "(6,7)"
+    },
+    "correta": "B",
+    "explicacao": "Somando: 2x=18 → x=9; y=13−9=4."
+  },
+  {
+    "id": "MAT-SIS-012",
+    "disciplina": "matematica",
+    "tema": "sistemas lineares 2x2",
+    "habilidade": "problema de preços",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "2 cadernos e 3 canetas custam R$ 27; 3 cadernos e 2 canetas custam R$ 28. O preço do caderno e o da caneta são, respectivamente:",
+    "alternativas": {
+      "A": "R$ 5,00 e R$ 6,00",
+      "B": "R$ 6,00 e R$ 5,00",
+      "C": "R$ 7,00 e R$ 4,00",
+      "D": "R$ 4,00 e R$ 7,00",
+      "E": "R$ 8,00 e R$ 3,00"
+    },
+    "correta": "B",
+    "explicacao": "Sistema: 2c+3k=27; 3c+2k=28 → c=6 e k=5."
+  },
+  {
+    "id": "MAT-ANG-011",
+    "disciplina": "matematica",
+    "tema": "ângulos e paralelas",
+    "habilidade": "correspondentes/alternos",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em paralelas cortadas por transversal, se um correspondente mede (2x+15)° e o outro (4x−5)°, então x =",
+    "alternativas": {
+      "A": "8",
+      "B": "9",
+      "C": "10",
+      "D": "11",
+      "E": "12"
+    },
+    "correta": "C",
+    "explicacao": "Correspondentes são congruentes: 2x+15=4x−5 → 2x=20 → x=10."
+  },
+  {
+    "id": "MAT-ANG-012",
+    "disciplina": "matematica",
+    "tema": "polígonos",
+    "habilidade": "soma dos ângulos internos",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A soma dos ângulos internos de um 15-gono é:",
+    "alternativas": {
+      "A": "1.800°",
+      "B": "2.160°",
+      "C": "2.340°",
+      "D": "2.520°",
+      "E": "2.700°"
+    },
+    "correta": "C",
+    "explicacao": "(n−2)·180 = 13×180 = 2340°."
+  },
+  {
+    "id": "MAT-ANG-013",
+    "disciplina": "matematica",
+    "tema": "polígonos regulares",
+    "habilidade": "ângulo interno",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em um polígono regular, o ângulo interno mede 140°. O número de lados é:",
+    "alternativas": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "10",
+      "E": "12"
+    },
+    "correta": "C",
+    "explicacao": "[(n−2)·180]/n=140 → 180n−360=140n → 40n=360 → n=9."
+  },
+  {
+    "id": "MAT-ANG-014",
+    "disciplina": "matematica",
+    "tema": "polígonos regulares",
+    "habilidade": "ângulo externo",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O ângulo externo de um polígono regular de 24 lados mede:",
+    "alternativas": {
+      "A": "10°",
+      "B": "12°",
+      "C": "15°",
+      "D": "18°",
+      "E": "20°"
+    },
+    "correta": "C",
+    "explicacao": "Cada externo = 360/n = 360/24 = 15°."
+  },
+  {
+    "id": "MAT-GP-011",
+    "disciplina": "matematica",
+    "tema": "geometria plana",
+    "habilidade": "área do trapézio",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Um trapézio tem bases 12 e 8 e altura 5. Sua área é:",
+    "alternativas": {
+      "A": "40",
+      "B": "45",
+      "C": "48",
+      "D": "50",
+      "E": "60"
+    },
+    "correta": "D",
+    "explicacao": "A=(B+b)/2·h=(12+8)/2·5=10·5=50 (u²)."
+  },
+  {
+    "id": "MAT-GP-012",
+    "disciplina": "matematica",
+    "tema": "geometria plana",
+    "habilidade": "circunferência",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Para r=7, o comprimento da circunferência é:",
+    "alternativas": {
+      "A": "7π",
+      "B": "12π",
+      "C": "14π",
+      "D": "21π",
+      "E": "28π"
+    },
+    "correta": "C",
+    "explicacao": "C=2πr=14π."
+  },
+  {
+    "id": "MAT-GP-013",
+    "disciplina": "matematica",
+    "tema": "geometria plana",
+    "habilidade": "área do triângulo",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Um triângulo tem base 12 e altura 9. Sua área é:",
+    "alternativas": {
+      "A": "42",
+      "B": "48",
+      "C": "52",
+      "D": "54",
+      "E": "60"
+    },
+    "correta": "D",
+    "explicacao": "A=bh/2=12×9/2=54."
+  },
+  {
+    "id": "MAT-GP-014",
+    "disciplina": "matematica",
+    "tema": "geometria plana",
+    "habilidade": "pitágoras",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em um triângulo retângulo, hipotenusa 13 e um cateto 5. O outro cateto mede:",
+    "alternativas": {
+      "A": "8",
+      "B": "10",
+      "C": "11",
+      "D": "12",
+      "E": "14"
+    },
+    "correta": "D",
+    "explicacao": "c²=13²−5²=169−25=144 → c=12."
+  },
+  {
+    "id": "MAT-GP-015",
+    "disciplina": "matematica",
+    "tema": "geometria plana",
+    "habilidade": "semelhança (áreas)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Dois triângulos semelhantes têm razão de semelhança k=3. Se a área do menor é 7, a do maior é:",
+    "alternativas": {
+      "A": "14",
+      "B": "21",
+      "C": "49",
+      "D": "63",
+      "E": "81"
+    },
+    "correta": "D",
+    "explicacao": "Áreas escalam por k² → 7×9=63."
+  },
+  {
+    "id": "MAT-GE-ESP-011",
+    "disciplina": "matematica",
+    "tema": "geometria espacial",
+    "habilidade": "volume do cilindro",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Cilindro com r=4 e h=9. Seu volume é:",
+    "alternativas": {
+      "A": "64π",
+      "B": "96π",
+      "C": "128π",
+      "D": "144π",
+      "E": "160π"
+    },
+    "correta": "D",
+    "explicacao": "V=πr²h=π·16·9=144π."
+  },
+  {
+    "id": "MAT-GE-ESP-012",
+    "disciplina": "matematica",
+    "tema": "geometria espacial",
+    "habilidade": "volume do cone",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Cone com r=5 e h=12. Seu volume é:",
+    "alternativas": {
+      "A": "60π",
+      "B": "80π",
+      "C": "90π",
+      "D": "100π",
+      "E": "120π"
+    },
+    "correta": "D",
+    "explicacao": "V=(πr²h)/3=(π·25·12)/3=100π."
+  },
+  {
+    "id": "MAT-GE-ESP-013",
+    "disciplina": "matematica",
+    "tema": "geometria espacial",
+    "habilidade": "área/volume da esfera",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Uma esfera de raio 6 tem área da superfície igual a:",
+    "alternativas": {
+      "A": "36π",
+      "B": "72π",
+      "C": "96π",
+      "D": "144π",
+      "E": "216π"
+    },
+    "correta": "D",
+    "explicacao": "S=4πr²=4π·36=144π."
+  },
+  {
+    "id": "MAT-GE-ESP-014",
+    "disciplina": "matematica",
+    "tema": "geometria espacial",
+    "habilidade": "conversão m³–L",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Uma caixa 0,5 m × 1,2 m × 0,3 m comporta quantos litros?",
+    "alternativas": {
+      "A": "120 L",
+      "B": "150 L",
+      "C": "160 L",
+      "D": "180 L",
+      "E": "200 L"
+    },
+    "correta": "D",
+    "explicacao": "V=0,5×1,2×0,3=0,18 m³ → 0,18×1000=180 L."
+  },
+  {
+    "id": "MAT-GE-ESP-015",
+    "disciplina": "matematica",
+    "tema": "geometria espacial",
+    "habilidade": "área total do cilindro",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Um cilindro com r=3 e h=5 possui área total:",
+    "alternativas": {
+      "A": "24π",
+      "B": "30π",
+      "C": "36π",
+      "D": "42π",
+      "E": "48π"
+    },
+    "correta": "E",
+    "explicacao": "S=2πr(h+r)=2π·3·(5+3)=6π·8=48π."
+  },
+  {
+    "id": "MAT-LOG-011",
+    "disciplina": "matematica",
+    "tema": "lógica/contagem",
+    "habilidade": "princípio multiplicativo",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Placas com 3 letras distintas (A–Z) seguidas de 3 dígitos (0–9) com repetição. Quantas placas possíveis?",
+    "alternativas": {
+      "A": "156.000",
+      "B": "260.000",
+      "C": "1.560.000",
+      "D": "2.600.000",
+      "E": "15.600.000"
+    },
+    "correta": "C",
+    "explicacao": "26·25·24·10·10·10=1.560.000."
+  },
+  {
+    "id": "MAT-LOG-012",
+    "disciplina": "matematica",
+    "tema": "lógica/contagem",
+    "habilidade": "combinações",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Escolher 2 sabores entre 7 (sem ordem). Quantas escolhas?",
+    "alternativas": {
+      "A": "14",
+      "B": "18",
+      "C": "21",
+      "D": "24",
+      "E": "28"
+    },
+    "correta": "C",
+    "explicacao": "C(7,2)=7·6/2=21."
+  },
+  {
+    "id": "MAT-LOG-013",
+    "disciplina": "matematica",
+    "tema": "lógica/contagem",
+    "habilidade": "arranjos",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Arranjos de 8 elementos tomados 3 a 3 (sem repetição) valem:",
+    "alternativas": {
+      "A": "48",
+      "B": "120",
+      "C": "240",
+      "D": "336",
+      "E": "640"
+    },
+    "correta": "D",
+    "explicacao": "A(8,3)=8·7·6=336."
+  },
+  {
+    "id": "MAT-LOG-014",
+    "disciplina": "matematica",
+    "tema": "lógica/contagem",
+    "habilidade": "produto/adição de casos",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Uma senha tem 4 caracteres: 1ª posição é letra (26 opções) e as 3 seguintes são dígitos (0–9). Quantas senhas?",
+    "alternativas": {
+      "A": "2.600",
+      "B": "26.000",
+      "C": "260.000",
+      "D": "2.600.000",
+      "E": "26.000.000"
+    },
+    "correta": "B",
+    "explicacao": "26·10·10·10=26.000."
+  },
+  {
+    "id": "MAT-LOG-015",
+    "disciplina": "matematica",
+    "tema": "lógica/conjuntos",
+    "habilidade": "princípio da inclusão-exclusão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Numa turma de 60, 35 jogam futebol, 28 jogam vôlei e 12 jogam ambos. Quantos jogam ao menos um dos esportes?",
+    "alternativas": {
+      "A": "45",
+      "B": "47",
+      "C": "51",
+      "D": "53",
+      "E": "55"
+    },
+    "correta": "C",
+    "explicacao": "|F∪V|=35+28−12=51."
+  },
+  {
+    "id": "MAT-MED-011",
+    "disciplina": "matematica",
+    "tema": "operações/estatística básica",
+    "habilidade": "média ponderada",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Notas: P1=6 (peso 2) e P2=8 (peso 3). A média ponderada é:",
+    "alternativas": {
+      "A": "7,0",
+      "B": "7,2",
+      "C": "7,4",
+      "D": "7,5",
+      "E": "7,8"
+    },
+    "correta": "B",
+    "explicacao": "(2·6+3·8)/5=(12+24)/5=7,2."
+  },
+  {
+    "id": "MAT-MED-012",
+    "disciplina": "matematica",
+    "tema": "operações/estatística básica",
+    "habilidade": "média aritmética",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A média de 7, 5, 8 e 10 é:",
+    "alternativas": {
+      "A": "7,0",
+      "B": "7,5",
+      "C": "7,8",
+      "D": "8,0",
+      "E": "8,5"
+    },
+    "correta": "B",
+    "explicacao": "(7+5+8+10)/4=30/4=7,5."
+  },
+  {
+    "id": "MAT-ESC-011",
+    "disciplina": "matematica",
+    "tema": "razão e proporção",
+    "habilidade": "escala cartográfica",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Numa escala 1:25.000, 7 cm no mapa correspondem a:",
+    "alternativas": {
+      "A": "700 m",
+      "B": "1,25 km",
+      "C": "1,75 km",
+      "D": "2,5 km",
+      "E": "3,5 km"
+    },
+    "correta": "C",
+    "explicacao": "7×25.000 cm = 175.000 cm = 1,75 km."
+  },
+  {
+    "id": "MAT-MRK-011",
+    "disciplina": "matematica",
+    "tema": "porcentagem",
+    "habilidade": "markup x margem",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Custo R$ 200 com markup de 25% → preço = R$ 250. A margem sobre o preço é:",
+    "alternativas": {
+      "A": "15%",
+      "B": "18%",
+      "C": "20%",
+      "D": "22%",
+      "E": "25%"
+    },
+    "correta": "C",
+    "explicacao": "Lucro=50; margem=50/250=20%."
+  },
+  {
+    "id": "MAT-DIV-011",
+    "disciplina": "matematica",
+    "tema": "divisibilidade",
+    "habilidade": "regra do 9 (dígito faltante)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete 5_83 para que seja múltiplo de 9.",
+    "alternativas": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3",
+      "E": "4"
+    },
+    "correta": "C",
+    "explicacao": "5+?+8+3=16+? deve ser 18 → ?=2."
+  },
+  {
+    "id": "MAT-OP-014",
+    "disciplina": "matematica",
+    "tema": "ordem das operações",
+    "habilidade": "prioridades",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Calcule: 72 ÷ (6 + 2) × 3 − 5",
+    "alternativas": {
+      "A": "18",
+      "B": "20",
+      "C": "22",
+      "D": "24",
+      "E": "26"
+    },
+    "correta": "C",
+    "explicacao": "(6+2)=8; 72÷8=9; 9×3=27; 27−5=22."
+  },
+  {
+    "id": "MAT-OP-015",
+    "disciplina": "matematica",
+    "tema": "ordem das operações",
+    "habilidade": "uso de parênteses e colchetes",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Calcule: 3{2[5+(4−1)]−7}",
+    "alternativas": {
+      "A": "21",
+      "B": "24",
+      "C": "27",
+      "D": "30",
+      "E": "33"
+    },
+    "correta": "C",
+    "explicacao": "(4−1)=3; 5+3=8; 2·8=16; 16−7=9; 3·9=27."
+  },
+  {
+    "id": "MAT-FR-015",
+    "disciplina": "matematica",
+    "tema": "frações",
+    "habilidade": "subtração com MMC",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "11/12 − 5/18 =",
+    "alternativas": {
+      "A": "23/36",
+      "B": "7/36",
+      "C": "1/2",
+      "D": "5/12",
+      "E": "17/36"
+    },
+    "correta": "A",
+    "explicacao": "MMC(12,18)=36 → 33/36 − 10/36 = 23/36."
+  },
+  {
+    "id": "MAT-FR-016",
+    "disciplina": "matematica",
+    "tema": "frações",
+    "habilidade": "número misto e soma",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "1 3/4 + 2 2/3 =",
+    "alternativas": {
+      "A": "3 5/12",
+      "B": "4 1/12",
+      "C": "4 5/12",
+      "D": "4 7/12",
+      "E": "5 1/12"
+    },
+    "correta": "C",
+    "explicacao": "7/4 + 8/3 = 21/12 + 32/12 = 53/12 = 4 5/12."
+  },
+  {
+    "id": "MAT-FR-017",
+    "disciplina": "matematica",
+    "tema": "frações",
+    "habilidade": "decimal para fração",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Converta 0,375 para fração irredutível.",
+    "alternativas": {
+      "A": "1/4",
+      "B": "3/8",
+      "C": "5/12",
+      "D": "7/16",
+      "E": "3/10"
+    },
+    "correta": "B",
+    "explicacao": "0,375 = 375/1000 = 3/8."
+  },
+  {
+    "id": "MAT-FR-018",
+    "disciplina": "matematica",
+    "tema": "frações",
+    "habilidade": "divisão de frações",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "(7/9) ÷ (14/27) =",
+    "alternativas": {
+      "A": "3/2",
+      "B": "7/6",
+      "C": "9/7",
+      "D": "14/27",
+      "E": "27/14"
+    },
+    "correta": "A",
+    "explicacao": "(7/9)×(27/14) = (7×3)/(14/?) = 21/14 = 3/2."
+  },
+  {
+    "id": "MAT-RP-015",
+    "disciplina": "matematica",
+    "tema": "razão e proporção",
+    "habilidade": "regra de três composta (máquinas e tempo)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "5 impressoras fazem 1000 cópias em 4 h. Quantas cópias 8 impressoras fazem em 3 h, ao mesmo ritmo?",
+    "alternativas": {
+      "A": "900",
+      "B": "1000",
+      "C": "1100",
+      "D": "1200",
+      "E": "1500"
+    },
+    "correta": "D",
+    "explicacao": "Produção ∝ (máquinas·tempo). 1000/(5·4)=50 por hora-máquina → 8·3·50=1200."
+  },
+  {
+    "id": "MAT-RP-016",
+    "disciplina": "matematica",
+    "tema": "razão e proporção",
+    "habilidade": "escala de receita",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Uma receita usa 300 g para 4 porções. Para 10 porções, quantos gramas?",
+    "alternativas": {
+      "A": "600 g",
+      "B": "650 g",
+      "C": "700 g",
+      "D": "750 g",
+      "E": "800 g"
+    },
+    "correta": "D",
+    "explicacao": "Valor por porção 300/4=75 g → 10·75=750 g."
+  },
+  {
+    "id": "MAT-RP-017",
+    "disciplina": "matematica",
+    "tema": "razão e proporção",
+    "habilidade": "velocidade média (trechos)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Um trajeto tem 60 km em 1 h e depois 40 km em 30 min. A velocidade média no total é:",
+    "alternativas": {
+      "A": "60 km/h",
+      "B": "62 km/h",
+      "C": "66,7 km/h",
+      "D": "70 km/h",
+      "E": "75 km/h"
+    },
+    "correta": "C",
+    "explicacao": "Distância 100 km; tempo 1,5 h → 100/1,5 ≈ 66,7 km/h."
+  },
+  {
+    "id": "MAT-RP-018",
+    "disciplina": "matematica",
+    "tema": "razão e proporção",
+    "habilidade": "preço por kg",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "1,2 kg custam R$ 33,00. O preço por kg é:",
+    "alternativas": {
+      "A": "R$ 25,00",
+      "B": "R$ 26,50",
+      "C": "R$ 27,50",
+      "D": "R$ 28,00",
+      "E": "R$ 30,00"
+    },
+    "correta": "C",
+    "explicacao": "33/1,2 = 27,5 R$/kg."
+  },
+  {
+    "id": "MAT-PC-014",
+    "disciplina": "matematica",
+    "tema": "porcentagem",
+    "habilidade": "acréscimo simples",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Aplique 12% de aumento a R$ 250,00.",
+    "alternativas": {
+      "A": "R$ 270,00",
+      "B": "R$ 275,00",
+      "C": "R$ 280,00",
+      "D": "R$ 285,00",
+      "E": "R$ 300,00"
+    },
+    "correta": "C",
+    "explicacao": "250×1,12=280."
+  },
+  {
+    "id": "MAT-PC-015",
+    "disciplina": "matematica",
+    "tema": "porcentagem",
+    "habilidade": "descontos sucessivos",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Um produto de R$ 200,00 recebe descontos sucessivos de 10% e 15%. O preço final é:",
+    "alternativas": {
+      "A": "R$ 150,00",
+      "B": "R$ 153,00",
+      "C": "R$ 160,00",
+      "D": "R$ 170,00",
+      "E": "R$ 172,00"
+    },
+    "correta": "B",
+    "explicacao": "200×0,90×0,85=153."
+  },
+  {
+    "id": "MAT-PC-016",
+    "disciplina": "matematica",
+    "tema": "porcentagem",
+    "habilidade": "poder de compra (inflação × reajuste)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Com inflação de 8% e reajuste salarial de 6%, a variação real do poder de compra é, aproximadamente:",
+    "alternativas": {
+      "A": "−1,0%",
+      "B": "−1,5%",
+      "C": "−1,85%",
+      "D": "−2,5%",
+      "E": "−3,0%"
+    },
+    "correta": "C",
+    "explicacao": "Fator real = 1,06/1,08 ≈ 0,9815 ⇒ −1,85%."
+  },
+  {
+    "id": "MAT-JS-013",
+    "disciplina": "matematica",
+    "tema": "juros simples",
+    "habilidade": "tempo de aplicação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em juros simples, C=R$ 900, i=2% a.m. gerou J=R$ 180. O tempo foi de:",
+    "alternativas": {
+      "A": "6 meses",
+      "B": "8 meses",
+      "C": "9 meses",
+      "D": "10 meses",
+      "E": "12 meses"
+    },
+    "correta": "D",
+    "explicacao": "J=C·i·n ⇒ 180=900·0,02·n ⇒ n=10."
+  },
+  {
+    "id": "MAT-JS-014",
+    "disciplina": "matematica",
+    "tema": "juros simples",
+    "habilidade": "taxa a partir de montante",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "C=R$ 1.200, M=R$ 1.380 em 6 meses (juros simples). A taxa mensal é:",
+    "alternativas": {
+      "A": "2,0% a.m.",
+      "B": "2,5% a.m.",
+      "C": "3,0% a.m.",
+      "D": "3,5% a.m.",
+      "E": "4,0% a.m."
+    },
+    "correta": "C",
+    "explicacao": "J=180 → i=J/(C·n)=180/(1200·6)=0,03=3% a.m."
+  },
+  {
+    "id": "MAT-JS-015",
+    "disciplina": "matematica",
+    "tema": "juros simples",
+    "habilidade": "capital a partir de montante",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em juros simples, M=R$ 1.500, i=3% a.m., n=5 meses. O capital C foi de:",
+    "alternativas": {
+      "A": "R$ 1.250,00",
+      "B": "R$ 1.280,00",
+      "C": "R$ 1.300,00",
+      "D": "R$ 1.304,35",
+      "E": "R$ 1.320,00"
+    },
+    "correta": "D",
+    "explicacao": "M=C(1+in)=C(1+0,15) ⇒ C=1500/1,15 ≈ 1304,35."
+  },
+  {
+    "id": "MAT-JC-013",
+    "disciplina": "matematica",
+    "tema": "juros compostos",
+    "habilidade": "montante anual",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "C=R$ 5.000 a 10% a.a. por 2 anos (compostos). O montante é:",
+    "alternativas": {
+      "A": "R$ 5.500,00",
+      "B": "R$ 5.750,00",
+      "C": "R$ 6.000,00",
+      "D": "R$ 6.050,00",
+      "E": "R$ 6.500,00"
+    },
+    "correta": "D",
+    "explicacao": "M=5000(1,10)^2=5000·1,21=6050."
+  },
+  {
+    "id": "MAT-JC-014",
+    "disciplina": "matematica",
+    "tema": "juros compostos",
+    "habilidade": "taxas equivalentes (mês→ano)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Uma taxa de 2% a.m. equivale, ao ano (compostos), a aproximadamente:",
+    "alternativas": {
+      "A": "24,00% a.a.",
+      "B": "25,45% a.a.",
+      "C": "26,00% a.a.",
+      "D": "26,82% a.a.",
+      "E": "28,00% a.a."
+    },
+    "correta": "D",
+    "explicacao": "(1,02)^12 − 1 ≈ 0,2682 = 26,82%."
+  },
+  {
+    "id": "MAT-ALG-015",
+    "disciplina": "matematica",
+    "tema": "álgebra",
+    "habilidade": "inequações do 1º grau",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Resolva: 3x − 5 < 16",
+    "alternativas": {
+      "A": "x < 7",
+      "B": "x > 7",
+      "C": "x ≤ 7",
+      "D": "x ≥ 7",
+      "E": "x = 7"
+    },
+    "correta": "A",
+    "explicacao": "3x < 21 ⇒ x < 7."
+  },
+  {
+    "id": "MAT-ALG-016",
+    "disciplina": "matematica",
+    "tema": "álgebra",
+    "habilidade": "fator como raiz (teorema do fator)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "(x+2) é fator de x^2 + kx + 2. Logo, k =",
+    "alternativas": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correta": "C",
+    "explicacao": "f(−2)=0 → 4 − 2k + 2 = 0 ⇒ 6 − 2k = 0 ⇒ k=3."
+  },
+  {
+    "id": "MAT-ALG-017",
+    "disciplina": "matematica",
+    "tema": "álgebra",
+    "habilidade": "produtos e diferenças",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "(2x−3)(x+4) − (x−5)(x−1) =",
+    "alternativas": {
+      "A": "x^2 + 9x − 17",
+      "B": "x^2 + 11x − 17",
+      "C": "x^2 + 11x − 19",
+      "D": "x^2 + 13x − 17",
+      "E": "x^2 + 11x + 17"
+    },
+    "correta": "B",
+    "explicacao": "Expansão: (2x^2+5x−12) − (x^2−6x+5) = x^2 + 11x − 17."
+  },
+  {
+    "id": "MAT-ALG-018",
+    "disciplina": "matematica",
+    "tema": "álgebra",
+    "habilidade": "comparação de identidades",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Determine a para que (x+a)^2 = x^2 + 10x + 25.",
+    "alternativas": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6",
+      "E": "7"
+    },
+    "correta": "C",
+    "explicacao": "(x+a)^2 = x^2 + 2ax + a^2 → 2a=10 ⇒ a=5 (e a^2=25 confirma)."
+  },
+  {
+    "id": "MAT-EQ1-013",
+    "disciplina": "matematica",
+    "tema": "equações do 1º grau",
+    "habilidade": "equação com frações",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "(x−2)/4 + (x+2)/3 = 5. Então x =",
+    "alternativas": {
+      "A": "8",
+      "B": "58/7",
+      "C": "9",
+      "D": "12",
+      "E": "15/2"
+    },
+    "correta": "B",
+    "explicacao": "×12: 3(x−2)+4(x+2)=60 ⇒ 7x+2=60 ⇒ x=58/7."
+  },
+  {
+    "id": "MAT-EQ1-014",
+    "disciplina": "matematica",
+    "tema": "equações do 1º grau",
+    "habilidade": "distributiva e isolação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Resolva: 5 − 2(3x−1) = x + 9",
+    "alternativas": {
+      "A": "−2",
+      "B": "−2/7",
+      "C": "2/7",
+      "D": "2",
+      "E": "7/2"
+    },
+    "correta": "B",
+    "explicacao": "5−6x+2=x+9 ⇒ 7−6x=x+9 ⇒ −7x=2 ⇒ x=−2/7."
+  },
+  {
+    "id": "MAT-SIS-013",
+    "disciplina": "matematica",
+    "tema": "sistemas lineares 2x2",
+    "habilidade": "eliminação/substituição (frações)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Resolva: { 2x + 3y = 19; x − y = 1 }",
+    "alternativas": {
+      "A": "(4,2)",
+      "B": "(19/3, 23/3)",
+      "C": "(22/5, 17/5)",
+      "D": "(5,3)",
+      "E": "(7,2)"
+    },
+    "correta": "C",
+    "explicacao": "x=1+y → 2(1+y)+3y=19 ⇒ 5y=17 ⇒ y=17/5; x=1+17/5=22/5."
+  },
+  {
+    "id": "MAT-SIS-014",
+    "disciplina": "matematica",
+    "tema": "sistemas lineares 2x2",
+    "habilidade": "eliminação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Resolva: { 4x − y = 10; 3x + 2y = 2 }",
+    "alternativas": {
+      "A": "(1,−3)",
+      "B": "(2,−2)",
+      "C": "(3,−4)",
+      "D": "(4,−6)",
+      "E": "(5,−8)"
+    },
+    "correta": "B",
+    "explicacao": "y=4x−10 → 3x+2(4x−10)=2 ⇒ 11x=22 ⇒ x=2; y=−2."
+  },
+  {
+    "id": "MAT-FUN-011",
+    "disciplina": "matematica",
+    "tema": "funções lineares",
+    "habilidade": "valor da função",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Para f(x)=2x+3, f(−4) é:",
+    "alternativas": {
+      "A": "−11",
+      "B": "−7",
+      "C": "−5",
+      "D": "1",
+      "E": "5"
+    },
+    "correta": "C",
+    "explicacao": "2(−4)+3=−8+3=−5."
+  },
+  {
+    "id": "MAT-FUN-012",
+    "disciplina": "matematica",
+    "tema": "funções lineares",
+    "habilidade": "coeficiente angular (inclinação)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A reta que passa por (1,2) e (5,14) tem coeficiente angular:",
+    "alternativas": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    },
+    "correta": "B",
+    "explicacao": "m=(14−2)/(5−1)=12/4=3."
+  },
+  {
+    "id": "MAT-FUN-013",
+    "disciplina": "matematica",
+    "tema": "funções lineares",
+    "habilidade": "equação da reta (ponto-inclinação)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Equação da reta com m=−2 que passa por (3,5) é:",
+    "alternativas": {
+      "A": "y = 2x − 1",
+      "B": "y = −2x + 11",
+      "C": "y = −2x − 11",
+      "D": "y = 2x + 11",
+      "E": "y = −x + 2"
+    },
+    "correta": "B",
+    "explicacao": "y−5=−2(x−3) ⇒ y=−2x+11."
+  },
+  {
+    "id": "MAT-FUN-014",
+    "disciplina": "matematica",
+    "tema": "funções lineares",
+    "habilidade": "zero da função",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O zero de f(x)=3x−12 é:",
+    "alternativas": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "6",
+      "E": "12"
+    },
+    "correta": "C",
+    "explicacao": "3x−12=0 ⇒ x=4."
+  },
+  {
+    "id": "MAT-GRAF-011",
+    "disciplina": "matematica",
+    "tema": "gráficos e tabelas",
+    "habilidade": "soma em série temporal",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Vendas diárias (unidades): Seg=20, Ter=30, Qua=25, Qui=35, Sex=40. O total semanal é:",
+    "alternativas": {
+      "A": "130",
+      "B": "140",
+      "C": "145",
+      "D": "150",
+      "E": "160"
+    },
+    "correta": "D",
+    "explicacao": "20+30+25+35+40=150."
+  },
+  {
+    "id": "MAT-GRAF-012",
+    "disciplina": "matematica",
+    "tema": "gráficos e tabelas",
+    "habilidade": "média aritmética",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Com os dados anteriores, a média diária é:",
+    "alternativas": {
+      "A": "25",
+      "B": "28",
+      "C": "30",
+      "D": "32",
+      "E": "35"
+    },
+    "correta": "C",
+    "explicacao": "150/5=30."
+  },
+  {
+    "id": "MAT-GRAF-013",
+    "disciplina": "matematica",
+    "tema": "gráficos e tabelas",
+    "habilidade": "nova média com acréscimo",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Se no sábado vendeu 50 unidades, a nova média (6 dias) é:",
+    "alternativas": {
+      "A": "31,0",
+      "B": "32,0",
+      "C": "33,3",
+      "D": "34,0",
+      "E": "35,0"
+    },
+    "correta": "C",
+    "explicacao": "Total 200; 200/6 ≈ 33,3."
+  },
+  {
+    "id": "MAT-EST-011",
+    "disciplina": "matematica",
+    "tema": "estatística básica",
+    "habilidade": "mediana",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A mediana de {2, 7, 4, 9, 5} é:",
+    "alternativas": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7",
+      "E": "9"
+    },
+    "correta": "B",
+    "explicacao": "Ordenado: 2,4,5,7,9 → mediana=5."
+  },
+  {
+    "id": "MAT-EST-012",
+    "disciplina": "matematica",
+    "tema": "estatística básica",
+    "habilidade": "moda",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A moda de {3, 4, 4, 5, 6, 6, 6, 7} é:",
+    "alternativas": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7",
+      "E": "não existe"
+    },
+    "correta": "C",
+    "explicacao": "6 é o valor mais frequente."
+  },
+  {
+    "id": "MAT-EST-013",
+    "disciplina": "matematica",
+    "tema": "estatística básica",
+    "habilidade": "amplitude",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A amplitude de {12, 5, 9, 21, 15} é:",
+    "alternativas": {
+      "A": "12",
+      "B": "14",
+      "C": "16",
+      "D": "18",
+      "E": "20"
+    },
+    "correta": "C",
+    "explicacao": "Máx−mín = 21−5=16."
+  },
+  {
+    "id": "MAT-PROB-011",
+    "disciplina": "matematica",
+    "tema": "probabilidade",
+    "habilidade": "evento simples (moeda)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A probabilidade de sair cara em um lançamento de moeda justa é:",
+    "alternativas": {
+      "A": "1/4",
+      "B": "1/3",
+      "C": "1/2",
+      "D": "2/3",
+      "E": "3/4"
+    },
+    "correta": "C",
+    "explicacao": "Espaço {C, K} com 2 resultados equiprováveis."
+  },
+  {
+    "id": "MAT-PROB-012",
+    "disciplina": "matematica",
+    "tema": "probabilidade",
+    "habilidade": "baralho padrão (ás)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A probabilidade de retirar um ás de um baralho de 52 cartas é:",
+    "alternativas": {
+      "A": "1/26",
+      "B": "1/13",
+      "C": "2/13",
+      "D": "1/10",
+      "E": "1/4"
+    },
+    "correta": "B",
+    "explicacao": "São 4 ases em 52 cartas → 4/52=1/13."
+  },
+  {
+    "id": "MAT-PROB-013",
+    "disciplina": "matematica",
+    "tema": "probabilidade",
+    "habilidade": "urna simples",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Numa urna há 5 bolas vermelhas e 3 azuis. A probabilidade de retirar uma vermelha é:",
+    "alternativas": {
+      "A": "3/8",
+      "B": "5/8",
+      "C": "1/2",
+      "D": "3/5",
+      "E": "5/6"
+    },
+    "correta": "B",
+    "explicacao": "Total 8 bolas; vermelhas 5 ⇒ 5/8."
+  },
+  {
+    "id": "MAT-GP-016",
+    "disciplina": "matematica",
+    "tema": "geometria plana",
+    "habilidade": "setor circular (área)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Para r=10 e ângulo central de 72°, a área do setor é:",
+    "alternativas": {
+      "A": "10π",
+      "B": "15π",
+      "C": "20π",
+      "D": "25π",
+      "E": "30π"
+    },
+    "correta": "C",
+    "explicacao": "A=(θ/360)πr²=(72/360)·π·100=20π."
+  },
+  {
+    "id": "MAT-GP-017",
+    "disciplina": "matematica",
+    "tema": "geometria plana",
+    "habilidade": "área do losango",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Losango com diagonais 12 e 16 tem área:",
+    "alternativas": {
+      "A": "84",
+      "B": "88",
+      "C": "92",
+      "D": "96",
+      "E": "104"
+    },
+    "correta": "D",
+    "explicacao": "A=(D·d)/2=(12·16)/2=96."
+  },
+  {
+    "id": "MAT-GE-ESP-016",
+    "disciplina": "matematica",
+    "tema": "geometria espacial",
+    "habilidade": "volume do prisma reto",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Um prisma de base retangular 3×5 e altura 10 tem volume:",
+    "alternativas": {
+      "A": "120",
+      "B": "130",
+      "C": "140",
+      "D": "150",
+      "E": "160"
+    },
+    "correta": "D",
+    "explicacao": "V=A_base·h=15·10=150 u³."
+  },
+  {
+    "id": "MAT-GE-ESP-017",
+    "disciplina": "matematica",
+    "tema": "geometria espacial",
+    "habilidade": "volume da pirâmide",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Pirâmide de base quadrada de lado 8 e altura 9 tem volume:",
+    "alternativas": {
+      "A": "128",
+      "B": "144",
+      "C": "160",
+      "D": "192",
+      "E": "256"
+    },
+    "correta": "D",
+    "explicacao": "V=(A_base·h)/3=(64·9)/3=192."
+  },
+  {
+    "id": "MAT-GE-ESP-018",
+    "disciplina": "matematica",
+    "tema": "geometria espacial",
+    "habilidade": "área lateral do cone",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Cone com r=6 e geratriz g=10 possui área lateral:",
+    "alternativas": {
+      "A": "36π",
+      "B": "48π",
+      "C": "54π",
+      "D": "60π",
+      "E": "72π"
+    },
+    "correta": "D",
+    "explicacao": "S_lat=πrg=π·6·10=60π."
+  },
+  {
+    "id": "MAT-UNID-011",
+    "disciplina": "matematica",
+    "tema": "unidades de medida",
+    "habilidade": "km/h ↔ m/s",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Converta 90 km/h para m/s.",
+    "alternativas": {
+      "A": "20 m/s",
+      "B": "22 m/s",
+      "C": "24 m/s",
+      "D": "25 m/s",
+      "E": "30 m/s"
+    },
+    "correta": "D",
+    "explicacao": "90×(1000/3600)=25 m/s."
+  },
+  {
+    "id": "MAT-MIX-011",
+    "disciplina": "matematica",
+    "tema": "razão e proporção",
+    "habilidade": "misturas em proporção fixa",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Uma solução tem 20% de sal em 200 g (40 g de sal). Para 500 g de solução na mesma proporção, a massa de sal deve ser:",
+    "alternativas": {
+      "A": "80 g",
+      "B": "90 g",
+      "C": "100 g",
+      "D": "110 g",
+      "E": "120 g"
+    },
+    "correta": "C",
+    "explicacao": "20% de 500 g = 100 g."
+  },
+  {
+    "id": "MAT-TME-011",
+    "disciplina": "matematica",
+    "tema": "razão e proporção",
+    "habilidade": "trabalho conjunto",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Uma torneira enche um tanque em 6 h e outra em 4 h. Juntas, o tempo para encher é:",
+    "alternativas": {
+      "A": "2 h",
+      "B": "2 h 24 min",
+      "C": "2 h 40 min",
+      "D": "3 h",
+      "E": "3 h 12 min"
+    },
+    "correta": "B",
+    "explicacao": "1/t=1/6+1/4=5/12 ⇒ t=12/5=2,4 h = 2 h 24 min."
+  },
+  {
+    "id": "MAT-ESC-012",
+    "disciplina": "matematica",
+    "tema": "escala",
+    "habilidade": "conversão de medida real",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em escala 1:200.000, uma estrada mede 7,5 cm no mapa. No terreno, a distância é:",
+    "alternativas": {
+      "A": "7,5 km",
+      "B": "12 km",
+      "C": "15 km",
+      "D": "20 km",
+      "E": "25 km"
+    },
+    "correta": "C",
+    "explicacao": "7,5×200.000 cm = 1.500.000 cm = 15.000 m = 15 km."
+  },
+  {
+    "id": "MAT-MRK-012",
+    "disciplina": "matematica",
+    "tema": "porcentagem",
+    "habilidade": "margem sobre o preço",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Custo R$ 180 e preço R$ 240. A margem (lucro/preço) é:",
+    "alternativas": {
+      "A": "20%",
+      "B": "22%",
+      "C": "24%",
+      "D": "25%",
+      "E": "28%"
+    },
+    "correta": "D",
+    "explicacao": "Lucro=60; margem=60/240=25%."
+  },
+  {
+    "id": "MAT-LOG-016",
+    "disciplina": "matematica",
+    "tema": "lógica/aritmética",
+    "habilidade": "paridade em produtos consecutivos",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O produto de 7 números inteiros consecutivos é:",
+    "alternativas": {
+      "A": "sempre ímpar",
+      "B": "sempre par",
+      "C": "primo",
+      "D": "múltiplo de 3 apenas",
+      "E": "múltiplo de 5 apenas"
+    },
+    "correta": "B",
+    "explicacao": "Entre 7 consecutivos há pelo menos um número par ⇒ produto par."
   }
 ]
