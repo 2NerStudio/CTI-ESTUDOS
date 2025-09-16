@@ -273,6 +273,24 @@
 
       <aside class="lesson-toc" aria-label="Sumário da aula">
         <h4>Conteúdo</h4>
+        <section class="section-block" id="pratique">
+          <h2>Pratique este tema</h2>
+          <div id="lesson-quiz-biomas"></div>
+        </section>
+
+        <!-- Carregar o módulo (uma vez no layout/base do site) -->
+        <script src="/assets/js/lesson-quiz.js" defer></script>
+
+        <script>
+          document.addEventListener('DOMContentLoaded', () => {
+            CTILessonQuiz.mount({
+              root: '#lesson-quiz-biomas',
+              area: 'geografia',
+              tema: 'Biomas',        // padronize com o campo "tema" do seu banco
+              limit: 10              // default inicial
+            });
+          });
+        </script>
         <ol>
           <li><a href="#objetivos">Objetivos</a></li>
           <li><a href="#por-que-cai">Por que cai</a></li>

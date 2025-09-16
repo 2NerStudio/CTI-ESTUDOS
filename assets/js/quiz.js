@@ -470,6 +470,25 @@
         if (force) console.warn('Persistência indisponível.');
       }
     }
+    // ... dentro de class QuizApp { ... }
+    finish() {
+      this.state.finished = true;
+      const total = this.state.questions.length;
+      const answered = Object.keys(this.state.answers).length;
+      const correct = Object.values(this.state.answers).filter(a => a.isCorrect).length;
+      const pct = total ? Math.round((correct / total) * 100) : 0;
+
+      this.$score.textContent = `Você acertou ${correct} de ${total} (${pct}%). Respondidas: ${answered}.`;
+      this.$review.innerHTML = this.renderReview();
+
+      this.$summary.hidden = false;
+      this.$root.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      this.persist();
+     // NOVO: callback opcional para integração com Analytics
+       if (typeof this.opts.onFinish === 'function') {
+       try { this.opts.onFinish(this); } catch (e) { console.warn('onFinish error', e); }
+     }
+    }
   }
 
   // API pública
