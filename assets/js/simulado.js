@@ -218,7 +218,7 @@
         <strong>Aviso:</strong> banco inicial ainda pequeno. ${meta.avisos.join(' ')}
       </div>`;
     } else {
-      html += `<div class="card card--soft text-muted">Banco carregado. Quando ampliarmos, o simulado atingirá 50 questões completas.</div>`;
+      html += `<div class="card card--soft text-muted">O modelo atual conta com aproximadamente 500 questões distintas.</div>`;
     }
     $box.innerHTML = html;
   }
