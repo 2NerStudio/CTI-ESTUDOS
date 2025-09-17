@@ -5,6 +5,7 @@
 (function (w, d) {
   'use strict';
   const HIST_KEY = 'simulado:cti2026:history';
+  const ADP_HIST_KEY = 'adaptive:history';
 
   function $(sel, root = d) { return root.querySelector(sel); }
   function $all(sel, root = d) { return Array.from(root.querySelectorAll(sel)); }
@@ -20,8 +21,39 @@
     return `${p(h)}:${p(m)}:${p(ss)}`;
   }
 
+  // Normaliza sessões do adaptativo para o mesmo "shape" dos simulados
+  function normalizeAdaptiveSession(s) {
+    if (!s) return s;
+    const total = (s.total != null) ? s.total : (s.answered != null ? s.answered : 0);
+    const durationSeconds = (s.durationSeconds != null)
+      ? s.durationSeconds
+      : (s.time != null ? (typeof s.time === 'number' ? Math.floor(s.time / 1000) : s.time) : 0);
+    return {
+      ...s,
+      mode: s.mode || 'adaptativo',
+      total,
+      durationSeconds,
+      items: s.items || [] // adaptativo normalmente não traz itens
+    };
+  }
+
+  // Carrega e mescla histórico de simulados + adaptativo
   function loadHistory() {
-    return (w.AppStorage && AppStorage.get(HIST_KEY)) || [];
+    const sim = (w.AppStorage && AppStorage.get(HIST_KEY)) || [];
+    const adpRaw = (w.AppStorage && AppStorage.get(ADP_HIST_KEY)) || [];
+    const adp = adpRaw.map(normalizeAdaptiveSession);
+
+    const all = sim.concat(adp);
+    const seen = new Set();
+    const merged = [];
+    for (const x of all) {
+      if (!x || !x.id) continue;
+      if (seen.has(x.id)) continue;
+      seen.add(x.id);
+      merged.push(x);
+    }
+    merged.sort((a, b) => (b.timestamp || 0) - (a.timestamp || 0));
+    return merged;
   }
   function saveHistory(hist) {
     if (w.AppStorage) AppStorage.set(HIST_KEY, hist || []);
@@ -29,7 +61,7 @@
 
   // Agregações
   function aggregateHistory(hist) {
-    const sessions = hist.slice().reverse(); // antigo -> recente para evolução
+    const sessions = hist.slice().reverse(); // hist desc -> asc para evolução
     const byDisc = {}; // {disc:{total:0,correct:0}}
     const perTema = {}; // {tema:{total:0,correct:0}}
     let totalSessions = sessions.length;
@@ -38,19 +70,26 @@
 
     sessions.forEach(s => {
       totalTime += s.durationSeconds || 0;
-      (s.items || []).forEach(it => {
-        totalAnswered++;
-        totalCorrect += it.correct ? 1 : 0;
-        const d = it.disciplina || '—';
-        byDisc[d] = byDisc[d] || { total: 0, correct: 0 };
-        byDisc[d].total += 1;
-        if (it.correct) byDisc[d].correct += 1;
+      const items = s.items || [];
+      if (items.length) {
+        items.forEach(it => {
+          totalAnswered++;
+          totalCorrect += it.correct ? 1 : 0;
+          const d = it.disciplina || '—';
+          byDisc[d] = byDisc[d] || { total: 0, correct: 0 };
+          byDisc[d].total += 1;
+          if (it.correct) byDisc[d].correct += 1;
 
-        const tema = it.tema || '(sem tema)';
-        perTema[tema] = perTema[tema] || { total: 0, correct: 0 };
-        perTema[tema].total += 1;
-        if (it.correct) perTema[tema].correct += 1;
-      });
+          const tema = it.tema || '(sem tema)';
+          perTema[tema] = perTema[tema] || { total: 0, correct: 0 };
+          perTema[tema].total += 1;
+          if (it.correct) perTema[tema].correct += 1;
+        });
+      } else if (typeof s.answered === 'number') {
+        // Sessões (ex.: adaptativo) sem itens detalhados
+        totalAnswered += s.answered;
+        totalCorrect += (s.correct || 0);
+      }
     });
 
     // ordena temas por menor acerto
@@ -59,7 +98,13 @@
       return { tema: k, ...x, pct };
     }).sort((a, b) => a.pct - b.pct);
 
-    const evo = sessions.map((s, i) => ({ index: i + 1, pct: s.pct, ts: s.timestamp }));
+    const evo = sessions.map((s, i) => {
+      const tot = (s.total != null) ? s.total : (s.answered != null ? s.answered : ((s.items || []).length));
+      const pct = (typeof s.pct === 'number')
+        ? s.pct
+        : (tot ? Math.round(((s.correct || 0) / tot) * 100) : 0);
+      return { index: i + 1, pct, ts: s.timestamp };
+    });
 
     return {
       totalSessions,
@@ -80,12 +125,18 @@
     ctx.clearRect(0, 0, w, h);
     const labels = data.map(d => d.label);
     const values = data.map(d => d.value);
+
+    if (!values.length) {
+      // nada a desenhar
+      return;
+    }
+
     const max = Math.max(100, Math.ceil(Math.max(...values) / 10) * 10);
 
     const padL = 40, padB = 24, padT = 10, padR = 10;
     const cw = w - padL - padR, ch = h - padT - padB;
-    const bw = cw / values.length * 0.7;
-    const gap = cw / values.length * 0.3;
+    const bw = (cw / values.length) * 0.7;
+    const gap = (cw / values.length) * 0.3;
 
     // Eixos
     ctx.strokeStyle = '#e2e8f0';
@@ -220,16 +271,21 @@
         <table>
           <thead><tr><th>Data</th><th>Modo</th><th>Acerto</th><th>Tempo</th><th>Itens</th><th>Ações</th></tr></thead>
           <tbody>
-            ${hist.map(s => `
+            ${hist.map(s => {
+              const tot = (s.total != null) ? s.total : (s.answered != null ? s.answered : ((s.items || []).length));
+              const itCount = (s.items && s.items.length) ? s.items.length : tot;
+              const pct = (typeof s.pct === 'number') ? s.pct : (tot ? Math.round(((s.correct || 0) / tot) * 100) : 0);
+              return `
               <tr>
                 <td>${fmtDate(s.timestamp)}</td>
                 <td>${s.mode || '—'}</td>
-                <td>${s.correct}/${s.total} (${s.pct}%)</td>
+                <td>${(s.correct || 0)}/${tot} (${pct}%)</td>
                 <td>${fmtTime(s.durationSeconds)}</td>
-                <td>${(s.items || []).length}</td>
+                <td>${itCount}</td>
                 <td><button class="btn btn--outline btn-details" data-id="${s.id}">Detalhes</button></td>
               </tr>
-            `).join('')}
+              `;
+            }).join('')}
           </tbody>
         </table>
       `;
@@ -252,7 +308,7 @@
           }).join('');
           const modal = $('#sess-detail');
           $('#sess-detail-body').innerHTML = `
-            <p><strong>Data:</strong> ${fmtDate(s.timestamp)} • <strong>Acerto:</strong> ${s.pct}% • <strong>Tempo:</strong> ${fmtTime(s.durationSeconds)}</p>
+            <p><strong>Data:</strong> ${fmtDate(s.timestamp)} • <strong>Acerto:</strong> ${typeof s.pct === 'number' ? s.pct : (s.total ? Math.round(((s.correct || 0)/s.total)*100) : 0)}% • <strong>Tempo:</strong> ${fmtTime(s.durationSeconds)}</p>
             <h4>Por tema</h4><ul class="list">${detail || '<li class="text-muted">Sem dados</li>'}</ul>
           `;
           modal.showModal();
