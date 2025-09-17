@@ -1999,5 +1999,1005 @@
     },
     "correta": "C",
     "explicacao": "Clichês, lugares-comuns e redundâncias empobrecem o texto."
+  },
+  {
+    "id": "PT-FUN-015",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "identificar função predominante",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Segundo o IBGE, a taxa de natalidade caiu no último ano.",
+    "alternativas": {
+      "A": "referencial",
+      "B": "emotiva",
+      "C": "poética",
+      "D": "conativa",
+      "E": "fática"
+    },
+    "correta": "A",
+    "explicacao": "Informação objetiva sobre a realidade (assunto)."
+  },
+  {
+    "id": "PT-FUN-016",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "conativa sem imperativo explícito",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Que tal estudar 30 minutos hoje?",
+    "alternativas": {
+      "A": "fática",
+      "B": "conativa",
+      "C": "poética",
+      "D": "referencial",
+      "E": "emotiva"
+    },
+    "correta": "B",
+    "explicacao": "Convite direcionado ao leitor (apelo à ação), mesmo sem imperativo."
+  },
+  {
+    "id": "PT-FUN-017",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "reconhecer função emotiva",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Uau, passei! Estou muito feliz!",
+    "alternativas": {
+      "A": "emotiva",
+      "B": "referencial",
+      "C": "metalinguística",
+      "D": "conativa",
+      "E": "fática"
+    },
+    "correta": "A",
+    "explicacao": "Expressão de sentimentos do emissor em 1ª pessoa."
+  },
+  {
+    "id": "PT-FUN-018",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "reconhecer função fática",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Olá, pessoal! Vocês me escutam?",
+    "alternativas": {
+      "A": "poética",
+      "B": "metalinguística",
+      "C": "fática",
+      "D": "emotiva",
+      "E": "referencial"
+    },
+    "correta": "C",
+    "explicacao": "Checagem/estabelecimento do canal de comunicação."
+  },
+  {
+    "id": "PT-FUN-019",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "reconhecer função metalinguística",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O prefixo 'anti-' indica oposição.",
+    "alternativas": {
+      "A": "referencial",
+      "B": "emotiva",
+      "C": "metalinguística",
+      "D": "fática",
+      "E": "conativa"
+    },
+    "correta": "C",
+    "explicacao": "Fala sobre o funcionamento do código linguístico."
+  },
+  {
+    "id": "PT-FUN-020",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "função poética (som e ritmo)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Sol, sal, sul: som que salta suave.",
+    "alternativas": {
+      "A": "poética",
+      "B": "conativa",
+      "C": "fática",
+      "D": "emotiva",
+      "E": "referencial"
+    },
+    "correta": "A",
+    "explicacao": "Jogo sonoro (aliteração/assonância) com foco na forma."
+  },
+  {
+    "id": "PT-FUN-021",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "identificar função referencial",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Inscrições: de 5 a 12 de outubro, das 8h às 17h.",
+    "alternativas": {
+      "A": "fática",
+      "B": "poética",
+      "C": "emotiva",
+      "D": "referencial",
+      "E": "conativa"
+    },
+    "correta": "D",
+    "explicacao": "Dados objetivos sobre prazos/horários."
+  },
+  {
+    "id": "PT-FUN-022",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "predominância em propaganda",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Compre hoje e ganhe 20% de desconto.",
+    "alternativas": {
+      "A": "conativa",
+      "B": "referencial",
+      "C": "metalinguística",
+      "D": "emotiva",
+      "E": "fática"
+    },
+    "correta": "A",
+    "explicacao": "Imperativo/apelo direto ao receptor (ação)."
+  },
+  {
+    "id": "PT-FUN-023",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "marcadores de subjetividade",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Estou indignado com o atraso.",
+    "alternativas": {
+      "A": "metalinguística",
+      "B": "emotiva",
+      "C": "referencial",
+      "D": "fática",
+      "E": "poética"
+    },
+    "correta": "B",
+    "explicacao": "1ª pessoa + juízo de valor (sentimentos do emissor)."
+  },
+  {
+    "id": "PT-FUN-024",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "fática (manter contato)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Hein? Alguém aí?",
+    "alternativas": {
+      "A": "poética",
+      "B": "conativa",
+      "C": "referencial",
+      "D": "fática",
+      "E": "emotiva"
+    },
+    "correta": "D",
+    "explicacao": "Checagem da presença do interlocutor (canal)."
+  },
+  {
+    "id": "PT-FUN-025",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "metalinguística (norma e classe de palavras)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O plural de 'cidadão' é 'cidadãos' (regra geral).",
+    "alternativas": {
+      "A": "metalinguística",
+      "B": "conativa",
+      "C": "emotiva",
+      "D": "referencial",
+      "E": "fática"
+    },
+    "correta": "A",
+    "explicacao": "Explicação sobre o código da língua."
+  },
+  {
+    "id": "PT-FUN-026",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "poética (aliteração/ritmo)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Vem, vento, varre a varanda.",
+    "alternativas": {
+      "A": "poética",
+      "B": "referencial",
+      "C": "emotiva",
+      "D": "metalinguística",
+      "E": "fática"
+    },
+    "correta": "A",
+    "explicacao": "Predomínio de efeitos sonoros e formais."
+  },
+  {
+    "id": "PT-FUN-027",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "identificar linguagem denotativa",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A vacina reduziu em 90% os casos graves, segundo o estudo.",
+    "alternativas": {
+      "A": "emotiva",
+      "B": "conativa",
+      "C": "referencial",
+      "D": "poética",
+      "E": "fática"
+    },
+    "correta": "C",
+    "explicacao": "Dado objetivo com fonte (assunto em foco)."
+  },
+  {
+    "id": "PT-FUN-028",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "conativa (instruções/CTA)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Clique aqui e veja o regulamento.",
+    "alternativas": {
+      "A": "conativa",
+      "B": "metalinguística",
+      "C": "fática",
+      "D": "referencial",
+      "E": "poética"
+    },
+    "correta": "A",
+    "explicacao": "Imperativo que dirige ação do leitor."
+  },
+  {
+    "id": "PT-FUN-029",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "emotiva (1ª pessoa)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Sinto-me confuso com tantas tarefas.",
+    "alternativas": {
+      "A": "emotiva",
+      "B": "poética",
+      "C": "fática",
+      "D": "conativa",
+      "E": "referencial"
+    },
+    "correta": "A",
+    "explicacao": "Expressão direta do estado do emissor."
+  },
+  {
+    "id": "PT-FUN-030",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "fática (teste de som)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Alô, teste: um, dois, três.",
+    "alternativas": {
+      "A": "metalinguística",
+      "B": "referencial",
+      "C": "fática",
+      "D": "conativa",
+      "E": "emotiva"
+    },
+    "correta": "C",
+    "explicacao": "Verificação do canal (contato)."
+  },
+  {
+    "id": "PT-FUN-031",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "metalinguística (pontuação/acentuação)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A crase indica a fusão de preposição 'a' com o artigo 'a'.",
+    "alternativas": {
+      "A": "referencial",
+      "B": "poética",
+      "C": "emotiva",
+      "D": "metalinguística",
+      "E": "fática"
+    },
+    "correta": "D",
+    "explicacao": "Descrição de regra do próprio código."
+  },
+  {
+    "id": "PT-FUN-032",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "poética (jogo verbal)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Rima que ruma, rumo que rima.",
+    "alternativas": {
+      "A": "poética",
+      "B": "emotiva",
+      "C": "metalinguística",
+      "D": "referencial",
+      "E": "conativa"
+    },
+    "correta": "A",
+    "explicacao": "Foco na forma, repetição e ritmo."
+  },
+  {
+    "id": "PT-FUN-033",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "referencial (previsão/aviso)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Previsão: temperatura máxima de 30°C amanhã.",
+    "alternativas": {
+      "A": "referencial",
+      "B": "conativa",
+      "C": "fática",
+      "D": "poética",
+      "E": "emotiva"
+    },
+    "correta": "A",
+    "explicacao": "Informação objetiva sobre o clima."
+  },
+  {
+    "id": "PT-FUN-034",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "conativa (pergunta-retórica)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Vamos juntos começar o projeto?",
+    "alternativas": {
+      "A": "emotiva",
+      "B": "metalinguística",
+      "C": "conativa",
+      "D": "referencial",
+      "E": "poética"
+    },
+    "correta": "C",
+    "explicacao": "Convite/indução ao engajamento do leitor."
+  },
+  {
+    "id": "PT-FUN-035",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "emotiva (interjeição)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Nossa, que frio terrível!",
+    "alternativas": {
+      "A": "fática",
+      "B": "emotiva",
+      "C": "poética",
+      "D": "conativa",
+      "E": "referencial"
+    },
+    "correta": "B",
+    "explicacao": "Interjeição + avaliação (subjetividade do emissor)."
+  },
+  {
+    "id": "PT-FUN-036",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "fática (manter a conversa)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Oi? Tô te ouvindo, sim.",
+    "alternativas": {
+      "A": "metalinguística",
+      "B": "poética",
+      "C": "fática",
+      "D": "referencial",
+      "E": "emotiva"
+    },
+    "correta": "C",
+    "explicacao": "Feedback de escuta, manutenção do canal."
+  },
+  {
+    "id": "PT-FUN-037",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "metalinguística (formação de palavras)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O sufixo '-mente' forma advérbios de modo a partir de adjetivos.",
+    "alternativas": {
+      "A": "referencial",
+      "B": "metalinguística",
+      "C": "conativa",
+      "D": "fática",
+      "E": "poética"
+    },
+    "correta": "B",
+    "explicacao": "Explica regra de construção na própria língua."
+  },
+  {
+    "id": "PT-FUN-038",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "diferenciar emotiva de referencial",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Editorial: 'Defendemos a transparência como princípio essencial.'",
+    "alternativas": {
+      "A": "emotiva",
+      "B": "referencial",
+      "C": "poética",
+      "D": "metalinguística",
+      "E": "fática"
+    },
+    "correta": "A",
+    "explicacao": "Opinião/posição (1ª pessoa do plural) do emissor."
+  },
+  {
+    "id": "PT-FUN-039",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "poética (aliteração/ritmo em slogan)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Slogan: 'Viver, ver, vencer'.",
+    "alternativas": {
+      "A": "poética",
+      "B": "conativa",
+      "C": "referencial",
+      "D": "emotiva",
+      "E": "metalinguística"
+    },
+    "correta": "A",
+    "explicacao": "Jogo sonoro e ritmo para memorizar a mensagem."
+  },
+  {
+    "id": "PT-FUN-040",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "identificar referencial em relatório",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Foram investidos R$ 2 milhões no programa, em 2024.",
+    "alternativas": {
+      "A": "conativa",
+      "B": "emotiva",
+      "C": "poética",
+      "D": "referencial",
+      "E": "fática"
+    },
+    "correta": "D",
+    "explicacao": "Dados objetivos, tom informativo."
+  },
+  {
+    "id": "PT-FUN-041",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "fática (pergunta de confirmação)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Pode me ouvir um instante?",
+    "alternativas": {
+      "A": "fática",
+      "B": "poética",
+      "C": "referencial",
+      "D": "conativa",
+      "E": "emotiva"
+    },
+    "correta": "A",
+    "explicacao": "Verifica o canal/atenção do interlocutor."
+  },
+  {
+    "id": "PT-FUN-042",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "conativa sem imperativo explícito",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Você já experimentou planejar sua semana?",
+    "alternativas": {
+      "A": "metalinguística",
+      "B": "emotiva",
+      "C": "poética",
+      "D": "conativa",
+      "E": "referencial"
+    },
+    "correta": "D",
+    "explicacao": "Pergunta retórica que induz à ação."
+  },
+  {
+    "id": "PT-FUN-043",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "metalinguística (sentido de termos)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O termo 'literal' refere-se ao sentido denotativo.",
+    "alternativas": {
+      "A": "emotiva",
+      "B": "conativa",
+      "C": "metalinguística",
+      "D": "referencial",
+      "E": "fática"
+    },
+    "correta": "C",
+    "explicacao": "Explica um conceito sobre a própria linguagem."
+  },
+  {
+    "id": "PT-FUN-044",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "conativa (pedido/ordem)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Cartaz: 'Silêncio, por favor'.",
+    "alternativas": {
+      "A": "referencial",
+      "B": "conativa",
+      "C": "emotiva",
+      "D": "poética",
+      "E": "fática"
+    },
+    "correta": "B",
+    "explicacao": "Direciona o comportamento do receptor."
+  },
+  {
+    "id": "PT-FUN-045",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "poética (efeito visual/estético)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Poema visual com versos que desenham uma onda.",
+    "alternativas": {
+      "A": "poética",
+      "B": "referencial",
+      "C": "metalinguística",
+      "D": "fática",
+      "E": "emotiva"
+    },
+    "correta": "A",
+    "explicacao": "A forma gráfica da mensagem é central."
+  },
+  {
+    "id": "PT-FUN-046",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "referencial (texto expositivo)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Resumo: 'O romance narra a trajetória de um migrante no século XX.'",
+    "alternativas": {
+      "A": "conativa",
+      "B": "emotiva",
+      "C": "fática",
+      "D": "referencial",
+      "E": "poética"
+    },
+    "correta": "D",
+    "explicacao": "Síntese informativa sobre o conteúdo."
+  },
+  {
+    "id": "PT-FUN-047",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "emotiva (crônica/opinião)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Eu confesso: nunca gostei de filas.",
+    "alternativas": {
+      "A": "emotiva",
+      "B": "referencial",
+      "C": "metalinguística",
+      "D": "poética",
+      "E": "fática"
+    },
+    "correta": "A",
+    "explicacao": "Primeira pessoa e posicionamento subjetivo."
+  },
+  {
+    "id": "PT-FUN-048",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "conativa (manual/instrução)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Conecte o cabo e pressione o botão 'Ligar'.",
+    "alternativas": {
+      "A": "poética",
+      "B": "metalinguística",
+      "C": "conativa",
+      "D": "emotiva",
+      "E": "referencial"
+    },
+    "correta": "C",
+    "explicacao": "Instruções que orientam a ação do leitor."
+  },
+  {
+    "id": "PT-FUN-049",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "fática (chat)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Tá na linha ainda?",
+    "alternativas": {
+      "A": "fática",
+      "B": "emotiva",
+      "C": "referencial",
+      "D": "conativa",
+      "E": "poética"
+    },
+    "correta": "A",
+    "explicacao": "Confirma a manutenção do contato."
+  },
+  {
+    "id": "PT-FUN-050",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "metalinguística (terminologia)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Parônimo é a palavra de forma parecida e sentido diferente.",
+    "alternativas": {
+      "A": "referencial",
+      "B": "conativa",
+      "C": "metalinguística",
+      "D": "fática",
+      "E": "emotiva"
+    },
+    "correta": "C",
+    "explicacao": "Definição técnica sobre a própria língua."
+  },
+  {
+    "id": "PT-FUN-051",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "poética (personificação/ritmo)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Chuva miúda miando no muro.",
+    "alternativas": {
+      "A": "emotiva",
+      "B": "poética",
+      "C": "referencial",
+      "D": "conativa",
+      "E": "metalinguística"
+    },
+    "correta": "B",
+    "explicacao": "Jogo sonoro e figura de linguagem com foco estético."
+  },
+  {
+    "id": "PT-FUN-052",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "referencial (comunicado)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A escola estará fechada na sexta por manutenção.",
+    "alternativas": {
+      "A": "referencial",
+      "B": "emotiva",
+      "C": "conativa",
+      "D": "fática",
+      "E": "poética"
+    },
+    "correta": "A",
+    "explicacao": "Aviso informativo e objetivo sobre um fato."
+  },
+  {
+    "id": "PT-FUN-053",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "conativa (publicidade)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Economize agora mesmo: compare e escolha.",
+    "alternativas": {
+      "A": "poética",
+      "B": "conativa",
+      "C": "metalinguística",
+      "D": "emotiva",
+      "E": "referencial"
+    },
+    "correta": "B",
+    "explicacao": "Apelo direto ao leitor para agir."
+  },
+  {
+    "id": "PT-FUN-054",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "emotiva (diário/1ª pessoa)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Sinto saudade da rotina de antes.",
+    "alternativas": {
+      "A": "referencial",
+      "B": "fática",
+      "C": "poética",
+      "D": "emotiva",
+      "E": "conativa"
+    },
+    "correta": "D",
+    "explicacao": "Sentimento pessoal em destaque."
+  },
+  {
+    "id": "PT-FUN-055",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "conativa (pergunta retórica publicitária)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Vai perder essa chance?",
+    "alternativas": {
+      "A": "conativa",
+      "B": "referencial",
+      "C": "metalinguística",
+      "D": "poética",
+      "E": "emotiva"
+    },
+    "correta": "A",
+    "explicacao": "Indução à ação por meio de pergunta retórica."
+  },
+  {
+    "id": "PT-FUN-056",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "predominância em artigo de opinião",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Acreditamos ser urgente reformar o transporte público.",
+    "alternativas": {
+      "A": "fática",
+      "B": "metalinguística",
+      "C": "referencial",
+      "D": "poética",
+      "E": "emotiva"
+    },
+    "correta": "E",
+    "explicacao": "Posicionamento do emissor (subjetividade), ainda que vise persuadir."
+  },
+  {
+    "id": "PT-FUN-057",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "diferenciar enciclopédia de dicionário",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Verbete enciclopédico: 'Fotossíntese é o processo pelo qual plantas...' (explicação científica).",
+    "alternativas": {
+      "A": "metalinguística",
+      "B": "emotiva",
+      "C": "poética",
+      "D": "referencial",
+      "E": "fática"
+    },
+    "correta": "D",
+    "explicacao": "Expõe um fenômeno do mundo (assunto), não a língua."
+  },
+  {
+    "id": "PT-FUN-058",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "metalinguística (análise da palavra)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A palavra 'paz' tem três letras, duas consoantes e uma vogal.",
+    "alternativas": {
+      "A": "referencial",
+      "B": "poética",
+      "C": "fática",
+      "D": "metalinguística",
+      "E": "conativa"
+    },
+    "correta": "D",
+    "explicacao": "A mensagem trata da estrutura da própria palavra (código)."
+  },
+  {
+    "id": "PT-FUN-059",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "predominância conativa com recurso poético",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Compare e decida: 'preço justo é justo pra você?'",
+    "alternativas": {
+      "A": "poética",
+      "B": "conativa",
+      "C": "emotiva",
+      "D": "referencial",
+      "E": "fática"
+    },
+    "correta": "B",
+    "explicacao": "Apesar do trocadilho, predomina o apelo à ação (convencer/induzir)."
+  },
+  {
+    "id": "PT-FUN-060",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "fática em transição de fala",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ok, vamos lá, continuando...",
+    "alternativas": {
+      "A": "fática",
+      "B": "conativa",
+      "C": "poética",
+      "D": "metalinguística",
+      "E": "referencial"
+    },
+    "correta": "A",
+    "explicacao": "Marca de manutenção/início de contato antes do conteúdo."
+  },
+  {
+    "id": "PT-FUN-061",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "diferenciar relato normativo informativo",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Segundo o edital, deve-se apresentar RG original.",
+    "alternativas": {
+      "A": "conativa",
+      "B": "referencial",
+      "C": "emotiva",
+      "D": "fática",
+      "E": "poética"
+    },
+    "correta": "B",
+    "explicacao": "Relato informativo de uma exigência (assunto), não um comando direto do emissor ao leitor."
+  },
+  {
+    "id": "PT-FUN-062",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "metalinguística com verbo no imperativo",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Use 'por que' separado em perguntas diretas.",
+    "alternativas": {
+      "A": "conativa",
+      "B": "metalinguística",
+      "C": "referencial",
+      "D": "fática",
+      "E": "emotiva"
+    },
+    "correta": "B",
+    "explicacao": "Embora haja imperativo, o foco é explicar uma regra do código."
+  },
+  {
+    "id": "PT-FUN-063",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "conativa (imperativo atenuado)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Seja você a mudança que deseja ver.",
+    "alternativas": {
+      "A": "poética",
+      "B": "referencial",
+      "C": "emotiva",
+      "D": "conativa",
+      "E": "fática"
+    },
+    "correta": "D",
+    "explicacao": "Imperativo convocando o leitor à ação."
+  },
+  {
+    "id": "PT-FUN-064",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "funções da linguagem",
+    "habilidade": "poética (repetição e ritmo)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Chove, chuva, chove sem parar.",
+    "alternativas": {
+      "A": "referencial",
+      "B": "fática",
+      "C": "poética",
+      "D": "emotiva",
+      "E": "metalinguística"
+    },
+    "correta": "C",
+    "explicacao": "Repetição e musicalidade com foco na forma da mensagem."
   }
 ]
