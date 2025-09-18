@@ -2999,5 +2999,1005 @@
     },
     "correta": "C",
     "explicacao": "Repetição e musicalidade com foco na forma da mensagem."
+  },
+  {
+    "id": "PT-TRA-001",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VTD (OD + voz passiva)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'demitiu' na frase: O diretor demitiu três funcionários ontem.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "A",
+    "explicacao": "Exige OD sem preposição (três funcionários). Passiva possível: Três funcionários foram demitidos."
+  },
+  {
+    "id": "PT-TRA-002",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VTI (preposição obrigatória)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'confia' na frase: Ele confia em você.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "B",
+    "explicacao": "Pede complemento com preposição (em você): OI."
+  },
+  {
+    "id": "PT-TRA-003",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VI (sem complemento)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'chegaram' na frase: Os alunos chegaram cedo.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "C",
+    "explicacao": "Não exige complemento; 'cedo' é adjunto adverbial de tempo."
+  },
+  {
+    "id": "PT-TRA-004",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VL (predicativo do sujeito)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'permaneceu' na frase: O céu permaneceu nublado.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "D",
+    "explicacao": "Liga o sujeito a um estado (predicativo: nublado)."
+  },
+  {
+    "id": "PT-TRA-005",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "Regência: 'assistir' (ver) = VTI",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'assistimos' na frase: Assistimos ao filme no sábado.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "B",
+    "explicacao": "No sentido de ver, 'assistir' exige preposição a (OI)."
+  },
+  {
+    "id": "PT-TRA-006",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "Polissemia: 'assistir' (dar assistência) = VTD",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'assistiu' na frase: A enfermeira assistiu o paciente.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "A",
+    "explicacao": "No sentido de dar assistência, é VTD (OD: o paciente)."
+  },
+  {
+    "id": "PT-TRA-007",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VTD ('preferir' + termo comparativo com a)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'prefiro' na frase: Prefiro chá a café.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "A",
+    "explicacao": "OD = 'chá'; o termo com 'a' indica comparação, não OI."
+  },
+  {
+    "id": "PT-TRA-008",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VI (deslocamento + adjuntos)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'moramos' na frase: Moramos em Campinas.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "C",
+    "explicacao": "Não exige complemento; 'em Campinas' é adjunto de lugar."
+  },
+  {
+    "id": "PT-TRA-009",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VTI (a quem?)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'respondeu' na frase: Ele respondeu à diretora com educação.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "B",
+    "explicacao": "Quem responde, responde a alguém (OI: à diretora)."
+  },
+  {
+    "id": "PT-TRA-010",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VL (parecer + adjetivo)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'parece' na frase: A notícia parece falsa.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "D",
+    "explicacao": "Liga o sujeito a uma qualidade (predicativo: falsa)."
+  },
+  {
+    "id": "PT-TRA-011",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VI (evento + adjuntos)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'partiu' na frase: O trem partiu ao meio-dia.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "C",
+    "explicacao": "Não pede complemento; 'ao meio-dia' é adjunto de tempo."
+  },
+  {
+    "id": "PT-TRA-012",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "bitransitivo (informar algo a alguém)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'explicou' na frase: A professora explicou a matéria aos alunos.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "E",
+    "explicacao": "Seleciona OD (a matéria) e OI (aos alunos)."
+  },
+  {
+    "id": "PT-TRA-013",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VTD (OD expresso)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'esqueceu' na frase: O aluno esqueceu o caderno.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "A",
+    "explicacao": "OD sem preposição (o caderno)."
+  },
+  {
+    "id": "PT-TRA-014",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "Pronominal + preposição ('esquecer-se de')",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'esqueceu-se' na frase: O aluno esqueceu-se do caderno.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "B",
+    "explicacao": "Com pronome, rege 'de' (OI: do caderno)."
+  },
+  {
+    "id": "PT-TRA-015",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "Regência: obedecer a",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'obedeceu' na frase: Ele obedeceu ao regulamento.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "B",
+    "explicacao": "Exige preposição a (OI: ao regulamento)."
+  },
+  {
+    "id": "PT-TRA-016",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VTD (teste de passiva)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'pagou' na frase: Ele pagou a conta.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "A",
+    "explicacao": "OD (a conta). Passiva: A conta foi paga."
+  },
+  {
+    "id": "PT-TRA-017",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "Regência alternativa de 'pagar'",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'pagou' na frase: Ele pagou ao garçom.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "B",
+    "explicacao": "Aqui o complemento é a pessoa beneficiada (OI: ao garçom)."
+  },
+  {
+    "id": "PT-TRA-018",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VI (verbo impessoal/ocorrência)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'choveu' na frase: Choveu muito à noite.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "C",
+    "explicacao": "Não seleciona complemento; 'muito' e 'à noite' são adjuntos."
+  },
+  {
+    "id": "PT-TRA-019",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VL (tornar-se)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'tornou-se' na frase: Ela tornou-se médica.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "D",
+    "explicacao": "Liga o sujeito a um novo estado (predicativo: médica)."
+  },
+  {
+    "id": "PT-TRA-020",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VL (andar + adjetivo)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'andou' na frase: Ele andou cansado o dia inteiro.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "D",
+    "explicacao": "Valor de estado (predicativo: cansado). 'o dia inteiro' é adjunto."
+  },
+  {
+    "id": "PT-TRA-021",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VI com predicativo posposto",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'vive' na frase: Vive feliz no campo.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "C",
+    "explicacao": "Verbo intransitivo; 'feliz' é predicativo do sujeito (não torna o verbo VL)."
+  },
+  {
+    "id": "PT-TRA-022",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VL (ficar + expressão de estado)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'ficou' na frase: A turma ficou em silêncio.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "D",
+    "explicacao": "Estado do sujeito (predicativo expresso por locução: em silêncio)."
+  },
+  {
+    "id": "PT-TRA-023",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "Regência: carecer de",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'carece' na frase: Ele carece de recursos.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "B",
+    "explicacao": "Exige 'de' (OI: de recursos)."
+  },
+  {
+    "id": "PT-TRA-024",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VTD (OD + passiva)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'buscaram' na frase: Eles buscaram soluções novas.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "A",
+    "explicacao": "OD (soluções novas). Passiva: Soluções novas foram buscadas."
+  },
+  {
+    "id": "PT-TRA-025",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "Regência: renunciar a",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'renunciou' na frase: O deputado renunciou ao cargo.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "B",
+    "explicacao": "Exige preposição a (OI: ao cargo)."
+  },
+  {
+    "id": "PT-TRA-026",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VI (duração como adjunto)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'durou' na frase: A prova durou três horas.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "C",
+    "explicacao": "'Três horas' é adjunto de tempo; o verbo não exige complemento."
+  },
+  {
+    "id": "PT-TRA-027",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VTD (OD expresso)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'chamou' na frase: A criança chamou a mãe.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "A",
+    "explicacao": "OD (a mãe)."
+  },
+  {
+    "id": "PT-TRA-028",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VTD + predicativo do OD",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'chamou' na frase: A criança chamou a mãe de teimosa.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "A",
+    "explicacao": "VTD (OD: a mãe) + predicativo do OD (de teimosa)."
+  },
+  {
+    "id": "PT-TRA-029",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VTD + predicativo do OD",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'julgaram' na frase: Os críticos julgaram o filme excelente.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "A",
+    "explicacao": "OD (o filme) + predicativo do OD (excelente)."
+  },
+  {
+    "id": "PT-TRA-030",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "Regência: abusar de",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'abusou' na frase: Ele abusou do poder.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "B",
+    "explicacao": "Exige 'de' (OI: do poder)."
+  },
+  {
+    "id": "PT-TRA-031",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "Polissemia: visar (mirar) = VTD",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'visou' na frase: Ele visou o alvo com cuidado.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "A",
+    "explicacao": "No sentido de mirar, é VTD (OD: o alvo)."
+  },
+  {
+    "id": "PT-TRA-032",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "Polissemia: visar (almejar) = VTI",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'visa' na frase: Ela visa a um cargo público.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "B",
+    "explicacao": "No sentido de almejar, rege 'a' (OI: a um cargo público)."
+  },
+  {
+    "id": "PT-TRA-033",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "Regência: agradecer a (pessoa)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'agradeceu' na frase: Ela agradeceu ao colega pela ajuda.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "B",
+    "explicacao": "A quem se agradece: OI (ao colega)."
+  },
+  {
+    "id": "PT-TRA-034",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "Regência: agradecer algo (OD)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'agradeceu' na frase: Ela agradeceu o apoio recebido.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "A",
+    "explicacao": "OD (o apoio)."
+  },
+  {
+    "id": "PT-TRA-035",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VTI ('chamar por' alguém)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'chamamos' na frase: Chamamos por você a manhã toda.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "B",
+    "explicacao": "'Chamar por' seleciona OI (por você)."
+  },
+  {
+    "id": "PT-TRA-036",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VTD (pronomes o/a)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'lembrei' na frase: Lembrei o recado no fim do dia.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "A",
+    "explicacao": "OD (o recado). Substitui por 'o': Lembrei-o."
+  },
+  {
+    "id": "PT-TRA-037",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "Pronominal + regência ('lembrar-se de')",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'lembrei-me' na frase: Lembrei-me do recado no fim do dia.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "B",
+    "explicacao": "Com pronome, rege 'de' (OI: do recado)."
+  },
+  {
+    "id": "PT-TRA-038",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "Regência: pensar em",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'pensei' na frase: Pensei em você durante a viagem.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "B",
+    "explicacao": "Exige preposição em (OI: em você)."
+  },
+  {
+    "id": "PT-TRA-039",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "Regência: precisar de",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'precisamos' na frase: Precisamos de materiais novos.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "B",
+    "explicacao": "Exige 'de' (OI: de materiais novos)."
+  },
+  {
+    "id": "PT-TRA-040",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VTD (OD + passiva)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'derrubou' na frase: O vento derrubou a árvore.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "A",
+    "explicacao": "OD (a árvore). Passiva: A árvore foi derrubada."
+  },
+  {
+    "id": "PT-TRA-041",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VI (sujeito paciente do processo)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'acenderam' na frase: As luzes acenderam de repente.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "C",
+    "explicacao": "Não há OD; 'de repente' é adjunto de modo."
+  },
+  {
+    "id": "PT-TRA-042",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VTD (voz passiva sintética/analítica)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'acenderam' na frase: Acenderam as luzes da sala.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "A",
+    "explicacao": "OD (as luzes da sala). Passiva: As luzes foram acesas."
+  },
+  {
+    "id": "PT-TRA-043",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VI (processo espontâneo do sujeito)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'quebrou' na frase: A janela quebrou com o vento.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "C",
+    "explicacao": "Sem OD; 'com o vento' é adjunto de causa."
+  },
+  {
+    "id": "PT-TRA-044",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VTD (par ativo)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'quebrou' na frase: O pedreiro quebrou a janela.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "A",
+    "explicacao": "OD (a janela)."
+  },
+  {
+    "id": "PT-TRA-045",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VI com predicativo posposto",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'saiu' na frase: Ela saiu feliz da prova.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "C",
+    "explicacao": "Intransitivo; 'feliz' é predicativo do sujeito; 'da prova' é adjunto."
+  },
+  {
+    "id": "PT-TRA-046",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "VL (tornar-se/virar)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'tornou-se' na frase: Ele se tornou perigoso.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "D",
+    "explicacao": "Predicativo do sujeito (perigoso); verbo de ligação."
+  },
+  {
+    "id": "PT-TRA-047",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "bitransitivo (entregar algo a alguém)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'entregou' na frase: O professor entregou as provas aos alunos.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "E",
+    "explicacao": "OD (as provas) + OI (aos alunos)."
+  },
+  {
+    "id": "PT-TRA-048",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "bitransitivo (dar algo a alguém)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'deram' na frase: Os pais deram presentes aos filhos.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "E",
+    "explicacao": "OD (presentes) + OI (aos filhos)."
+  },
+  {
+    "id": "PT-TRA-049",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "bitransitivo (informar algo a alguém)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'informou' na frase: O guia informou o caminho aos turistas.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "E",
+    "explicacao": "OD (o caminho) + OI (aos turistas)."
+  },
+  {
+    "id": "PT-TRA-050",
+    "disciplina": "portugues",
+    "area": "gramatica",
+    "tema": "Transitividade verbal",
+    "habilidade": "bitransitivo (comunicar algo a alguém)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o verbo 'comunicou' na frase: O gerente comunicou a decisão à equipe.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo (VTD+VTI)"
+    },
+    "correta": "E",
+    "explicacao": "OD (a decisão) + OI (à equipe)."
   }
 ]
