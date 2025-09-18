@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Recursos — CTI 2026</title>
+  <meta name="description" content="Guias, cronogramas e dicas para o Vestibulinho CTI 2026. Encontre normas da prova, como preencher o gabarito, cronogramas e dicas rápidas."/>
+  <link rel="icon" href="/favicon.ico"/>
+  <link rel="stylesheet" href="/assets/css/base.css"/>
+  <link rel="stylesheet" href="/assets/css/layout.css"/>
+  <link rel="stylesheet" href="/assets/css/componentes.css"/>
+  <link rel="stylesheet" href="/assets/css/dark.css" media="(prefers-color-scheme: dark)"/>
+  <link rel="stylesheet" href="/assets/css/print.css" media="print"/>
+  <style>
+    .busca-wrap { display: grid; gap: .5rem; }
+    #busca { padding: .625rem .75rem; border: 1px solid var(--border, #ddd); border-radius: .5rem; width: 100%; max-width: 520px; }
+    .recurso .meta { color: var(--muted); font-size: .9rem; margin-top: .25rem; }
+    .grid--recursos { margin-top: 1rem; }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular</a>
+  <header class="site-header" role="banner">
+    <div class="container header-wrap">
+      <a class="brand" href="/"><img src="/assets/img/logo.svg" alt="" width="36" height="36"/><span class="brand-name">CTI 2026</span></a>
+      <nav class="site-nav site-nav--desktop" aria-label="Principal">
+        <ul>
+          <li><a class="nav-link" href="/recursos/" aria-current="page">Recursos</a></li>
+          <li><a class="nav-link" href="/simulados/">Simulados</a></li>
+          <li><a class="nav-link" href="/aulas/">Aulas</a></li>
+          <li><a class="nav-link" href="/redacao/">Redação</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="breadcrumb" aria-label="Caminho">
+    <ol>
+      <li><a href="/">Início</a></li>
+      <li aria-current="page">Recursos</li>
+    </ol>
+  </nav>
+
+  <main id="conteudo" class="section">
+    <div class="container">
+      <h1 class="h2">Recursos</h1>
+      <p class="text-muted">Guias, cronogramas e dicas para o Vestibulinho CTI 2026. Explore os materiais abaixo ou use a busca.</p>
+
+      <div class="card card--soft">
+        <div class="busca-wrap">
+          <label for="busca" class="h4">Buscar recursos</label>
+          <input id="busca" type="search" placeholder="Digite: gabarito, cronograma, normas, dicas..." aria-describedby="status-busca"/>
+          <p id="status-busca" class="text-muted" aria-live="polite">Carregando…</p>
+        </div>
+      </div>
+
+      <section class="grid grid--2 grid--recursos" id="lista-recursos" aria-label="Lista de recursos">
+        <article class="card recurso" data-keys="normas, regras, edital, prova, materiais, identificação, duração, questões, redação">
+          <h2 class="h4">📜 <a href="/recursos/normas-da-prova.html">Normas da prova (CTI 2026)</a></h2>
+          <p>Regras essenciais do Vestibulinho CTI UNESP Bauru 2026: duração, estrutura (50 questões + redação), materiais e conduta.</p>
+          <p class="meta">Leia antes da prova</p>
+        </article>
+
+        <article class="card recurso" data-keys="gabarito, como preencher, caneta preta, erros comuns, tempo, estratégia">
+          <h2 class="h4">📝 <a href="/recursos/como-preencher-gabarito.html">Como preencher o gabarito</a></h2>
+          <p>Passo a passo para evitar erros: caneta correta, marcação completa, revisão final e controle de tempo.</p>
+          <p class="meta">Inclui erros comuns e boas práticas</p>
+        </article>
+
+        <article class="card recurso" data-keys="cronograma, plano de estudos, 8 semanas, 12 semanas, metas, planner, simulados">
+          <h2 class="h4">🗓️ <a href="/recursos/cronograma-de-estudos.html">Cronograma de estudos (8–12 semanas)</a></h2>
+          <p>Plano sugerido por semana, metas por disciplina e um planner imprimível para você personalizar.</p>
+          <p class="meta">Foque em prioridades + simulados</p>
+        </article>
+
+        <article class="card recurso" data-keys="dicas rápidas, atalhos, português, matemática, humanas, natureza, dia da prova">
+          <h2 class="h4">⚡ <a href="/recursos/dicas-rapidas.html">Dicas rápidas</a></h2>
+          <p>Atalhos práticos por disciplina e um checklist para o dia da prova: gestão de tempo e revisão do gabarito.</p>
+          <p class="meta">Revisão express antes da prova</p>
+        </article>
+      </section>
+
+      <div class="card" style="margin-top:1rem;">
+        <h2 class="h4">Atalhos úteis</h2>
+        <ul class="list">
+          <li><a href="/simulados/">Simulados</a> — pratique com questões por tema e provas completas.</li>
+          <li><a href="/aulas/">Aulas</a> — revise conteúdos essenciais por disciplina.</li>
+          <li><a href="/redacao/">Redação</a> — estrutura de artigo de opinião, exemplos e critérios.</li>
+        </ul>
+      </div>
+
+      <noscript>
+        <p class="text-muted" style="margin-top:.75rem;">Dica: ative o JavaScript para usar a busca. Todos os recursos estão listados acima.</p>
+      </noscript>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2025–2026 • Projeto CTI 2026.</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      const q = document.getElementById('busca');
+      const cards = Array.from(document.querySelectorAll('.recurso'));
+      const status = document.getElementById('status-busca');
+
+      function filtrar() {
+        const termo = (q.value || '').trim().toLowerCase();
+        let visiveis = 0;
+
+        cards.forEach(card => {
+          const texto = (card.dataset.keys + ' ' + card.textContent).toLowerCase();
+          const match = !termo || texto.includes(termo);
+          card.style.display = match ? '' : 'none';
+          if (match) visiveis++;
+        });
+
+        if (status) {
+          status.textContent = visiveis + ' ' + (visiveis === 1 ? 'item encontrado' : 'itens encontrados');
+        }
+      }
+
+      if (q) {
+        q.addEventListener('input', filtrar);
+      }
+      filtrar();
+    })();
+  </script>
+</body>
+</html>
