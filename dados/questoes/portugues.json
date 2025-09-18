@@ -5999,5 +5999,3005 @@
   },
   "correta": "B",
   "explicacao": "Antes de 'mas', usa-se vírgula para marcar a adversativa."
+},
+{
+  "id": "PT-SIN-051",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "oração sem sujeito (horas/data com ser)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"São duas horas.\" Classifique o sujeito.",
+  "alternativas": {
+    "A": "simples",
+    "B": "composto",
+    "C": "oculto",
+    "D": "inexistente",
+    "E": "indeterminado"
+  },
+  "correta": "D",
+  "explicacao": "Verbo 'ser' indicando horas: construção impessoal (sem sujeito)."
+},
+{
+  "id": "PT-SIN-052",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "oração sem sujeito (fenômeno natural)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Choveu muito ontem.\" Classifique o sujeito.",
+  "alternativas": {
+    "A": "simples",
+    "B": "composto",
+    "C": "oculto",
+    "D": "inexistente",
+    "E": "indeterminado"
+  },
+  "correta": "D",
+  "explicacao": "Verbo impessoal (fenômeno da natureza)."
+},
+{
+  "id": "PT-SIN-053",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "oração sem sujeito (datas com ser)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"É domingo amanhã.\" Classifique o sujeito.",
+  "alternativas": {
+    "A": "oculto",
+    "B": "simples",
+    "C": "inexistente",
+    "D": "indeterminado",
+    "E": "composto"
+  },
+  "correta": "C",
+  "explicacao": "Ser indicando data/dia: construção impessoal, sem sujeito."
+},
+{
+  "id": "PT-SIN-054",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "sujeito composto",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Ele e o irmão chegaram cedo.\" O sujeito é:",
+  "alternativas": {
+    "A": "simples",
+    "B": "composto",
+    "C": "oculto",
+    "D": "indeterminado",
+    "E": "inexistente"
+  },
+  "correta": "B",
+  "explicacao": "Dois núcleos: 'ele' e 'o irmão'."
+},
+{
+  "id": "PT-SIN-055",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "sujeito oculto (desinência verbal)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Estudamos a noite toda.\" Classifique o sujeito.",
+  "alternativas": {
+    "A": "oculto",
+    "B": "simples",
+    "C": "composto",
+    "D": "indeterminado",
+    "E": "inexistente"
+  },
+  "correta": "A",
+  "explicacao": "Desinência -mos indica 'nós' subentendido."
+},
+{
+  "id": "PT-SIN-056",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "substantiva subjetiva (reduzida de infinitivo)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Classifique a oração destacada: \"É preciso <u>estudar</u>.\"",
+  "alternativas": {
+    "A": "oração coordenada explicativa",
+    "B": "oração substantiva subjetiva (reduzida)",
+    "C": "oração adverbial final",
+    "D": "oração adjetiva restritiva",
+    "E": "oração substantiva objetiva direta"
+  },
+  "correta": "B",
+  "explicacao": "Infinitivo funciona como sujeito de 'é preciso'."
+},
+{
+  "id": "PT-SIN-057",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "predicativo do objeto",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Identifique o termo sublinhado: \"Julgou o plano <u>inviável</u>.\"",
+  "alternativas": {
+    "A": "objeto direto",
+    "B": "objeto indireto",
+    "C": "predicativo do objeto",
+    "D": "adjunto adnominal",
+    "E": "adjunto adverbial"
+  },
+  "correta": "C",
+  "explicacao": "Atribui qualidade ao objeto 'plano'."
+},
+{
+  "id": "PT-SIN-058",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "VTDI (regência de 'agradecer')",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Indique os complementos: \"Agradeci <u>aos pais</u> <u>o apoio</u>.\"",
+  "alternativas": {
+    "A": "OI e OD",
+    "B": "OD e OI",
+    "C": "adjuntos adnominais",
+    "D": "dois OIs",
+    "E": "dois ODs"
+  },
+  "correta": "A",
+  "explicacao": "'agradecer algo a alguém' → OI ('aos pais') + OD ('o apoio')."
+},
+{
+  "id": "PT-SIN-059",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "complemento nominal x adjunto adnominal",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Classifique o termo sublinhado: \"Tenho amor <u>à música</u>.\"",
+  "alternativas": {
+    "A": "adjunto adnominal",
+    "B": "complemento nominal",
+    "C": "objeto indireto",
+    "D": "predicativo do objeto",
+    "E": "adjunto adverbial"
+  },
+  "correta": "B",
+  "explicacao": "Nome abstrato 'amor' exige complemento preposicionado (alvo da afeição)."
+},
+{
+  "id": "PT-SIN-060",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "complemento nominal x adjunto adnominal (agente x paciente)",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Em \"amor <u>de mãe</u>\", o termo sublinhado é:",
+  "alternativas": {
+    "A": "complemento nominal (alvo)",
+    "B": "adjunto adnominal (agente)",
+    "C": "objeto indireto",
+    "D": "adjunto adverbial",
+    "E": "predicativo do sujeito"
+  },
+  "correta": "B",
+  "explicacao": "Indica quem sente (agente do nome) → adjunto adnominal; se fosse 'amor à mãe', seria complemento nominal (alvo)."
+},
+{
+  "id": "PT-SIN-061",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "complemento nominal (nome abstrato + de)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Tinha medo <u>de barata</u>.\" Classifique o termo sublinhado.",
+  "alternativas": {
+    "A": "adjunto adnominal",
+    "B": "complemento nominal",
+    "C": "objeto indireto",
+    "D": "adjunto adverbial",
+    "E": "aposto"
+  },
+  "correta": "B",
+  "explicacao": "Nome 'medo' (abstrato) completa sentido com preposição → complemento nominal."
+},
+{
+  "id": "PT-SIN-062",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "adjunto adnominal (determinantes do nome)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"<u>Os</u> <u>dois</u> projetos foram aprovados.\" Os termos sublinhados são:",
+  "alternativas": {
+    "A": "objetos diretos",
+    "B": "adjuntos adnominais",
+    "C": "adjuntos adverbiais",
+    "D": "complementos nominais",
+    "E": "predicativos"
+  },
+  "correta": "B",
+  "explicacao": "Artigo e numeral determinam o núcleo 'projetos'."
+},
+{
+  "id": "PT-SIN-063",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "voz passiva analítica (transformação)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Assinale a transformação correta: \"O diretor anunciou o resultado.\"",
+  "alternativas": {
+    "A": "O resultado foi anunciado pelo diretor.",
+    "B": "O resultado tinha anunciado pelo diretor.",
+    "C": "Foi anunciado o diretor pelo resultado.",
+    "D": "O diretor foi anunciado pelo resultado.",
+    "E": "O resultado se anunciou pelo diretor."
+  },
+  "correta": "A",
+  "explicacao": "OD vira sujeito; agente da passiva introduzido por 'por'."
+},
+{
+  "id": "PT-SIN-064",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "voz passiva sintética x indeterminação",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Em qual frase o 'se' é apassivador?",
+  "alternativas": {
+    "A": "Precisa-se de técnicos.",
+    "B": "Vendem-se casas.",
+    "C": "Chegou-se ao acordo.",
+    "D": "Trabalha-se à noite.",
+    "E": "Fala-se sobre esportes."
+  },
+  "correta": "B",
+  "explicacao": "Com VTD ('vender'), 'se' apassiva: 'Casas são vendidas'. Nos demais, VTI/VI → indeterminação."
+},
+{
+  "id": "PT-SIN-065",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "concordância na passiva sintética",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Assinale a forma correta.",
+  "alternativas": {
+    "A": "Vende-se casas.",
+    "B": "Vendem-se casa.",
+    "C": "Vendem-se casas.",
+    "D": "Vende-se os apartamentos.",
+    "E": "Vende-se apartamentos."
+  },
+  "correta": "C",
+  "explicacao": "Com 'se' apassivador, o verbo concorda com o sujeito paciente ('casas')."
+},
+{
+  "id": "PT-SIN-066",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "regência: 'obedecer a'",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Complete corretamente: \"Os alunos obedeceram ___ regras.\"",
+  "alternativas": {
+    "A": "as",
+    "B": "às",
+    "C": "a",
+    "D": "de",
+    "E": "com as"
+  },
+  "correta": "B",
+  "explicacao": "Regência: 'obedecer a' + artigo: 'às regras' (OI)."
+},
+{
+  "id": "PT-SIN-067",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "regência: 'preferir X a Y'",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Assinale a opção correta.",
+  "alternativas": {
+    "A": "Prefiro mais café do que chá.",
+    "B": "Prefiro café do que chá.",
+    "C": "Prefiro café a chá.",
+    "D": "Prefiro café ao chá.",
+    "E": "Prefiro café com chá."
+  },
+  "correta": "D",
+  "explicacao": "Construção normativa: 'preferir X a Y' → 'ao chá'."
+},
+{
+  "id": "PT-SIN-068",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "regência: 'assistir a' (ver)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Assinale a forma correta com 'assistir' (ver).",
+  "alternativas": {
+    "A": "Assisti o jogo.",
+    "B": "Assisti ao jogo.",
+    "C": "Assisti no jogo.",
+    "D": "Assisti pelo jogo.",
+    "E": "Assisti o ao jogo."
+  },
+  "correta": "B",
+  "explicacao": "No sentido de ver, 'assistir a' + artigo: 'ao jogo' (OI)."
+},
+{
+  "id": "PT-SIN-069",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "predicado nominal x verbal",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"O dia amanheceu nublado.\" O predicado é:",
+  "alternativas": {
+    "A": "verbal",
+    "B": "nominal",
+    "C": "verbo-nominal",
+    "D": "sem predicado",
+    "E": "sem sujeito"
+  },
+  "correta": "B",
+  "explicacao": "'Amanhecer' atua como VL de estado; 'nublado' = predicativo do sujeito."
+},
+{
+  "id": "PT-SIN-070",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "verbo-nominal (ação + estado)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Os alunos saíram satisfeitos.\" Classifique o predicado.",
+  "alternativas": {
+    "A": "verbal",
+    "B": "nominal",
+    "C": "verbo-nominal",
+    "D": "oração sem sujeito",
+    "E": "oração coordenada"
+  },
+  "correta": "C",
+  "explicacao": "Há ação ('saíram') e estado ('satisfeitos' = predicativo do sujeito)."
+},
+{
+  "id": "PT-SIN-071",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "adjunto adverbial de causa x complemento nominal",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Classifique: \"Chorou <u>de alegria</u>.\"",
+  "alternativas": {
+    "A": "complemento nominal",
+    "B": "adjunto adverbial de causa",
+    "C": "objeto indireto",
+    "D": "adjunto adnominal",
+    "E": "aposto"
+  },
+  "correta": "B",
+  "explicacao": "Expressa causa/motivo da ação do verbo → adjunto adverbial."
+},
+{
+  "id": "PT-SIN-072",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "coordenadas assindéticas (valor aditivo)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Em \"Chegou, sentou, respirou\", as orações são:",
+  "alternativas": {
+    "A": "subordinadas adverbiais",
+    "B": "subordinadas substantivas",
+    "C": "coordenadas assindéticas (valor aditivo)",
+    "D": "coordenadas adversativas",
+    "E": "orações reduzidas"
+  },
+  "correta": "C",
+  "explicacao": "Justaposição com vírgulas indica coordenação sem conjunção (soma de ações)."
+},
+{
+  "id": "PT-SIN-073",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "explicativa x causal com 'porque'",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Classifique a oração: \"Silêncio, porque a prova começou.\"",
+  "alternativas": {
+    "A": "subordinada causal",
+    "B": "coordenada explicativa",
+    "C": "coordenada adversativa",
+    "D": "subordinada concessiva",
+    "E": "coordenada conclusiva"
+  },
+  "correta": "B",
+  "explicacao": "Após ordem/pedido, 'porque' introduz justificativa (explicativa)."
+},
+{
+  "id": "PT-SIN-074",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "conclusiva (portanto/logo) x consequente",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Estudou bastante, portanto passou.\" A segunda oração é:",
+  "alternativas": {
+    "A": "adversativa",
+    "B": "conclusiva",
+    "C": "alternativa",
+    "D": "explicativa",
+    "E": "temporal"
+  },
+  "correta": "B",
+  "explicacao": "Conector 'portanto' marca conclusão."
+},
+{
+  "id": "PT-SIN-075",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "consecutiva (tão... que / tanto... que)",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Identifique a oração consecutiva.",
+  "alternativas": {
+    "A": "Ele estudou, porque queria passar.",
+    "B": "Ele estudou tanto, que passou.",
+    "C": "Ele estudou para que passasse.",
+    "D": "Ele estudou, embora cansado.",
+    "E": "Ele estudou quando pôde."
+  },
+  "correta": "B",
+  "explicacao": "Correlação 'tanto... que' indica consequência."
+},
+{
+  "id": "PT-SIN-076",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "temporal (assim que / mal)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"<u>Assim que</u> terminou, saiu.\" O valor do conectivo é:",
+  "alternativas": {
+    "A": "condição",
+    "B": "tempo",
+    "C": "causa",
+    "D": "concessão",
+    "E": "finalidade"
+  },
+  "correta": "B",
+  "explicacao": "'Assim que' = relação temporal de imediatismo."
+},
+{
+  "id": "PT-SIN-077",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "condicional (desde que/contanto que)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Escolha a frase condicional.",
+  "alternativas": {
+    "A": "Estude, porque é importante.",
+    "B": "Estude, já que quer passar.",
+    "C": "Estude, desde que descanse também.",
+    "D": "Estude, embora esteja cansado.",
+    "E": "Estude, quando puder."
+  },
+  "correta": "C",
+  "explicacao": "'Desde que' marca condição."
+},
+{
+  "id": "PT-SIN-078",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "concessiva (mesmo que/ainda que)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Assinale a opção concessiva.",
+  "alternativas": {
+    "A": "para que",
+    "B": "mesmo que",
+    "C": "visto que",
+    "D": "de modo que",
+    "E": "logo"
+  },
+  "correta": "B",
+  "explicacao": "'Mesmo que' = concessão."
+},
+{
+  "id": "PT-SIN-079",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "proporcional (à medida que/quanto mais...)",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Identifique o valor: \"<u>À medida que</u> estudava, melhorava.\"",
+  "alternativas": {
+    "A": "causa",
+    "B": "condição",
+    "C": "proporção",
+    "D": "tempo",
+    "E": "conclusão"
+  },
+  "correta": "C",
+  "explicacao": "Expressa proporcionalidade/gradualidade."
+},
+{
+  "id": "PT-SIN-080",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "conjunção 'nem' (aditiva negativa)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Classifique: \"Não estudou, nem revisou.\"",
+  "alternativas": {
+    "A": "aditiva",
+    "B": "adversativa",
+    "C": "alternativa",
+    "D": "conclusiva",
+    "E": "explicativa"
+  },
+  "correta": "A",
+  "explicacao": "'Nem' atua como aditiva negativa (e não)."
+},
+{
+  "id": "PT-SIN-081",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "que: pronome relativo x conjunção integrante",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Em \"O livro <u>que</u> comprei é raro\", 'que' é:",
+  "alternativas": {
+    "A": "conjunção integrante",
+    "B": "pronome relativo",
+    "C": "advérbio",
+    "D": "artigo",
+    "E": "preposição"
+  },
+  "correta": "B",
+  "explicacao": "Retoma 'livro' e introduz oração adjetiva restritiva."
+},
+{
+  "id": "PT-SIN-082",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "que: conjunção integrante x relativo",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Em \"Disse <u>que</u> viria\", 'que' é:",
+  "alternativas": {
+    "A": "pronome relativo",
+    "B": "conjunção integrante",
+    "C": "advérbio de modo",
+    "D": "preposição",
+    "E": "interjeição"
+  },
+  "correta": "B",
+  "explicacao": "Introduz oração substantiva objetiva direta (teste do 'isso': 'Disse isso')."
+},
+{
+  "id": "PT-SIN-083",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "pronome relativo 'cujo' (posse)",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Assinale o uso correto de 'cujo'.",
+  "alternativas": {
+    "A": "O autor que o livro li é famoso.",
+    "B": "O autor cujo livro li é famoso.",
+    "C": "O autor que o livro do qual li é famoso.",
+    "D": "O autor cujo li o livro é famoso.",
+    "E": "O autor cujo livro que li é famoso."
+  },
+  "correta": "B",
+  "explicacao": "'Cujo' indica posse entre antecedente e consequente e não admite artigo após si."
+},
+{
+  "id": "PT-SIN-084",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "pronome relativo 'onde' (lugar)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Emprego correto de 'onde':",
+  "alternativas": {
+    "A": "A razão onde expliquei é simples.",
+    "B": "O motivo onde falei é claro.",
+    "C": "A cidade onde nasci é pequena.",
+    "D": "O dia onde choveu foi longo.",
+    "E": "A ideia onde defendi é boa."
+  },
+  "correta": "C",
+  "explicacao": "'Onde' se usa com ideia de lugar físico/espacial."
+},
+{
+  "id": "PT-SIN-085",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "próclise/ênclise (contexto com palavra atrativa) — foco sintaxe de período",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Assinale a colocação pronominal correta em contexto com atrativo.",
+  "alternativas": {
+    "A": "Sempre lembre-se disso.",
+    "B": "Sempre se lembre disso.",
+    "C": "Lembre-se sempre disso.",
+    "D": "Lembre sempre-se disso.",
+    "E": "Se lembre sempre disso."
+  },
+  "correta": "B",
+  "explicacao": "Advérbio 'sempre' atrai o pronome átono (próclise)."
+},
+{
+  "id": "PT-SIN-086",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "coerência sintática de pronomes oblíquos (lhe=OI, o=OD)",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Selecione o uso adequado dos pronomes.",
+  "alternativas": {
+    "A": "Vi-lhe ontem.",
+    "B": "Entreguei-o a ela.",
+    "C": "Telefonei-lhe mais tarde.",
+    "D": "Obedeci-o sem questionar.",
+    "E": "Ajudei-lhe no trabalho."
+  },
+  "correta": "C",
+  "explicacao": "'Lhe' = OI ('telefonar a alguém'). Para OD, use 'o/a' ('vi-o')."
+},
+{
+  "id": "PT-SIN-087",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "pontuação com 'porém' e 'mas'",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Assinale a pontuação correta.",
+  "alternativas": {
+    "A": "Estude porém descanse.",
+    "B": "Estude, porém, descanse.",
+    "C": "Estude; porém descanse.",
+    "D": "Estude porém, descanse.",
+    "E": "Estude porém; descanse."
+  },
+  "correta": "B",
+  "explicacao": "Conectivo adversativo deslocado pode vir entre vírgulas."
+},
+{
+  "id": "PT-SIN-088",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "'pois' conclusivo (posposto) x explicativo (anteposto)",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Em \"Estude; passe, pois.\", 'pois' é:",
+  "alternativas": {
+    "A": "explicativo",
+    "B": "conclusivo",
+    "C": "adversativo",
+    "D": "temporal",
+    "E": "condicional"
+  },
+  "correta": "B",
+  "explicacao": "Quando posposto ao verbo/oração, 'pois' pode ter valor conclusivo."
+},
+{
+  "id": "PT-SIN-089",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "'como' causal (anteposto) x comparativo",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"<u>Como</u> chovia, ficamos em casa.\" O valor de 'como' é:",
+  "alternativas": {
+    "A": "comparativo",
+    "B": "concessivo",
+    "C": "causal",
+    "D": "temporal",
+    "E": "conclusivo"
+  },
+  "correta": "C",
+  "explicacao": "Anteposto, 'como' frequentemente exprime causa."
+},
+{
+  "id": "PT-SIN-090",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "'que' intensificador x 'porque' causal (evitar confusão)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Classifique: \"Estou tão cansado <u>que</u> vou dormir cedo.\"",
+  "alternativas": {
+    "A": "adverbial causal",
+    "B": "adverbial consecutiva",
+    "C": "coordenada explicativa",
+    "D": "adverbial condicional",
+    "E": "adjetiva restritiva"
+  },
+  "correta": "B",
+  "explicacao": "Estrutura 'tão... que' indica consequência."
+},
+{
+  "id": "PT-SIN-091",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "'desde que' condicional x temporal (ambiguidade resolvida pelo contexto)",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Você pode sair, <u>desde que</u> volte cedo.\" O valor do conector é:",
+  "alternativas": {
+    "A": "tempo",
+    "B": "condição",
+    "C": "concessão",
+    "D": "finalidade",
+    "E": "causa"
+  },
+  "correta": "B",
+  "explicacao": "No contexto, exige condição para a ação principal."
+},
+{
+  "id": "PT-SIN-092",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "'porque' explicativo x causal (comando + justificativa)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Feche a porta, porque está frio.\" Classifique a oração introduzida por 'porque'.",
+  "alternativas": {
+    "A": "coordenada explicativa",
+    "B": "adverbial causal",
+    "C": "adjetiva explicativa",
+    "D": "adverbial final",
+    "E": "coordenada adversativa"
+  },
+  "correta": "A",
+  "explicacao": "Após comando, 'porque' dá justificativa (explicativa)."
+},
+{
+  "id": "PT-SIN-093",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "'porquanto' causal/explicativo (registro formal)",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Adio a reunião, porquanto faltam dados.\" O valor é:",
+  "alternativas": {
+    "A": "conclusão",
+    "B": "oposição",
+    "C": "causa/explicação",
+    "D": "finalidade",
+    "E": "condição"
+  },
+  "correta": "C",
+  "explicacao": "'Porquanto' introduz causa/explicação (registro formal)."
+},
+{
+  "id": "PT-SIN-094",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "oração adjetiva com pronome relativo composto (o qual)",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Assinale a redação correta.",
+  "alternativas": {
+    "A": "Os alunos os quais chegaram cedo fizeram a prova.",
+    "B": "Os alunos, os quais chegaram cedo fizeram a prova.",
+    "C": "Os alunos, os quais chegaram cedo, fizeram a prova.",
+    "D": "Os alunos os quais, chegaram cedo, fizeram a prova.",
+    "E": "Os alunos, os quais, chegaram cedo fizeram a prova."
+  },
+  "correta": "C",
+  "explicacao": "Com 'os quais' explicativa, vírgulas são obrigatórias."
+},
+{
+  "id": "PT-SIN-095",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "'onde' x 'em que' (substantivos não-locativos)",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Uso adequado com substantivo abstrato:",
+  "alternativas": {
+    "A": "A situação onde estamos é difícil.",
+    "B": "O assunto onde tratamos é sério.",
+    "C": "O tema em que tratamos é sério.",
+    "D": "O tema que tratamos é sério.",
+    "E": "O tema onde tratamos é sério."
+  },
+  "correta": "D",
+  "explicacao": "Com substantivo não locativo, prefira 'que' ou 'em que' conforme o verbo ('tratar de' → 'de que')."
+},
+{
+  "id": "PT-SIN-096",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "'cujo' sem artigo (proibição de artigo após cujo)",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Assinale a única correta.",
+  "alternativas": {
+    "A": "A empresa cujo os projetos conhecemos.",
+    "B": "A empresa cujos projetos conhecemos.",
+    "C": "A empresa, cujo os projetos, conhecemos.",
+    "D": "A empresa, cujos os projetos, conhecemos.",
+    "E": "A empresa cujos os projetos conhecemos."
+  },
+  "correta": "B",
+  "explicacao": "'Cujo' não admite artigo após si; concorda com o possuído ('projetos')."
+},
+{
+  "id": "PT-SIN-097",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "substantiva objetiva indireta (verbo que pede preposição)",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Classifique: \"Precisamos <u>de que todos colaborem</u>.\"",
+  "alternativas": {
+    "A": "oração substantiva objetiva direta",
+    "B": "oração substantiva objetiva indireta",
+    "C": "oração adjetiva restritiva",
+    "D": "oração adverbial causal",
+    "E": "oração coordenada explicativa"
+  },
+  "correta": "B",
+  "explicacao": "Verbo 'precisar de' exige preposição → objeto indireto oracional."
+},
+{
+  "id": "PT-SIN-098",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "substantiva completiva nominal (nome que exige complemento)",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Em \"Tenho certeza <u>de que virá</u>\", a oração sublinhada é:",
+  "alternativas": {
+    "A": "substantiva objetiva direta",
+    "B": "substantiva subjetiva",
+    "C": "substantiva completiva nominal",
+    "D": "adjetiva explicativa",
+    "E": "adverbial temporal"
+  },
+  "correta": "C",
+  "explicacao": "Nome 'certeza' pede complemento preposicionado → completiva nominal."
+},
+{
+  "id": "PT-SIN-099",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "substantiva predicativa (após VL + 'é que')",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"O fato é <u>que precisamos agir</u>.\" Classifique a oração.",
+  "alternativas": {
+    "A": "substantiva subjetiva",
+    "B": "substantiva objetiva direta",
+    "C": "substantiva predicativa",
+    "D": "adjetiva explicativa",
+    "E": "adverbial causal"
+  },
+  "correta": "C",
+  "explicacao": "Funciona como predicativo do sujeito 'o fato'."
+},
+{
+  "id": "PT-SIN-100",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "oração apositiva (explicação/resumo)",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Tinha um objetivo: <u>que todos participassem</u>.\" Classifique a oração sublinhada.",
+  "alternativas": {
+    "A": "substantiva apositiva",
+    "B": "substantiva subjetiva",
+    "C": "adjetiva explicativa",
+    "D": "adverbial final",
+    "E": "coordenada explicativa"
+  },
+  "correta": "A",
+  "explicacao": "A oração explicita o termo anterior em aposto (aposição)."
+},
+{
+  "id": "PT-SIN-101",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "classificar tipo de sujeito (verbos existenciais)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Classifique o sujeito: \"Existe um caminho.\"",
+  "alternativas": {
+    "A": "simples",
+    "B": "composto",
+    "C": "oculto",
+    "D": "indeterminado",
+    "E": "inexistente"
+  },
+  "correta": "A",
+  "explicacao": "Sujeito simples posposto: 'um caminho'."
+},
+{
+  "id": "PT-SIN-102",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "sujeito simples posposto",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Faltam cinco minutos.\" Classifique o sujeito.",
+  "alternativas": {
+    "A": "oculto",
+    "B": "composto",
+    "C": "inexistente",
+    "D": "indeterminado",
+    "E": "simples"
+  },
+  "correta": "E",
+  "explicacao": "Sujeito 'cinco minutos' (núcleo: minutos) concorda com o verbo."
+},
+{
+  "id": "PT-SIN-103",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "impessoal com 'haver' (existir/acontecer)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Há provas amanhã.\" Classifique o sujeito.",
+  "alternativas": {
+    "A": "simples",
+    "B": "composto",
+    "C": "inexistente",
+    "D": "oculto",
+    "E": "indeterminado"
+  },
+  "correta": "C",
+  "explicacao": "'Haver' com sentido de existir é impessoal (sem sujeito)."
+},
+{
+  "id": "PT-SIN-104",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "predicado nominal (VL + qualidade)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Classifique o predicado: \"O caminho é longo.\"",
+  "alternativas": {
+    "A": "verbal",
+    "B": "nominal",
+    "C": "verbo-nominal",
+    "D": "oração sem sujeito",
+    "E": "período composto"
+  },
+  "correta": "B",
+  "explicacao": "Verbo de ligação ('é') + predicativo do sujeito ('longo')."
+},
+{
+  "id": "PT-SIN-105",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "predicado nominal (VL 'ficar')",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Identifique o predicado: \"Ele ficou calado.\"",
+  "alternativas": {
+    "A": "verbal",
+    "B": "nominal",
+    "C": "verbo-nominal",
+    "D": "sem sujeito",
+    "E": "assindético"
+  },
+  "correta": "B",
+  "explicacao": "VL 'ficou' + qualidade do sujeito ('calado')."
+},
+{
+  "id": "PT-SIN-106",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "predicativo do objeto (verbo de opinião)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Identifique o termo sublinhado: \"Achei o filme <u>excelente</u>.\"",
+  "alternativas": {
+    "A": "objeto direto",
+    "B": "objeto indireto",
+    "C": "predicativo do objeto",
+    "D": "predicativo do sujeito",
+    "E": "adjunto adnominal"
+  },
+  "correta": "C",
+  "explicacao": "Atribui qualidade ao OD ('o filme')."
+},
+{
+  "id": "PT-SIN-107",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "OI (regência: obedecer a)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Classifique o termo sublinhado: \"Obedeci <u>às regras</u>.\"",
+  "alternativas": {
+    "A": "objeto direto",
+    "B": "objeto indireto",
+    "C": "adjunto adverbial",
+    "D": "complemento nominal",
+    "E": "aposto"
+  },
+  "correta": "B",
+  "explicacao": "'Obedecer a' exige OI preposicionado."
+},
+{
+  "id": "PT-SIN-108",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "OI (bitransitivo 'pagar algo a alguém')",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Em \"Paguei a conta <u>ao garçom</u>\", o termo sublinhado é:",
+  "alternativas": {
+    "A": "objeto direto",
+    "B": "objeto indireto",
+    "C": "adjunto adverbial",
+    "D": "predicativo do objeto",
+    "E": "complemento nominal"
+  },
+  "correta": "B",
+  "explicacao": "Estrutura bitransitiva: OD ('a conta') + OI ('ao garçom')."
+},
+{
+  "id": "PT-SIN-109",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "VTI (visar a = ter em vista)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Transitividade de \"Visamos à melhoria do serviço\":",
+  "alternativas": {
+    "A": "intransitivo",
+    "B": "transitivo direto",
+    "C": "transitivo indireto",
+    "D": "bitransitivo",
+    "E": "de ligação"
+  },
+  "correta": "C",
+  "explicacao": "'Visar a' (ter em vista) exige OI: 'à melhoria'."
+},
+{
+  "id": "PT-SIN-110",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "VTD (implicar algo = acarretar)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"A mudança implica custos.\" A transitividade é:",
+  "alternativas": {
+    "A": "intransitivo",
+    "B": "transitivo direto",
+    "C": "transitivo indireto",
+    "D": "bitransitivo",
+    "E": "de ligação"
+  },
+  "correta": "B",
+  "explicacao": "'Implicar' no sentido de acarretar exige OD ('custos')."
+},
+{
+  "id": "PT-SIN-111",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "VI (chegar/ir) + adjunto adverbial",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Chegamos a tempo.\" Classifique o termo 'a tempo'.",
+  "alternativas": {
+    "A": "objeto direto",
+    "B": "objeto indireto",
+    "C": "adjunto adverbial de tempo",
+    "D": "adjunto adnominal",
+    "E": "complemento nominal"
+  },
+  "correta": "C",
+  "explicacao": "Circunstância temporal do verbo intransitivo 'chegar'."
+},
+{
+  "id": "PT-SIN-112",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "adjunto adverbial de lugar",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Classifique: \"Fizemos o experimento <u>no laboratório</u>.\"",
+  "alternativas": {
+    "A": "objeto direto",
+    "B": "objeto indireto",
+    "C": "adjunto adverbial de lugar",
+    "D": "adjunto adnominal",
+    "E": "complemento nominal"
+  },
+  "correta": "C",
+  "explicacao": "Indica o local da ação verbal."
+},
+{
+  "id": "PT-SIN-113",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "agente da passiva (por + termo)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"O texto foi corrigido <u>pelo professor</u>.\" O termo sublinhado é:",
+  "alternativas": {
+    "A": "sujeito paciente",
+    "B": "agente da passiva",
+    "C": "objeto indireto",
+    "D": "adjunto adverbial",
+    "E": "complemento nominal"
+  },
+  "correta": "B",
+  "explicacao": "Na passiva, o executor da ação é o agente da passiva ('por')."
+},
+{
+  "id": "PT-SIN-114",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "voz passiva sintética (sujeito paciente plural)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Assinale a forma correta (passiva sintética).",
+  "alternativas": {
+    "A": "Aluga-se casas.",
+    "B": "Alugam-se casa.",
+    "C": "Alugam-se casas.",
+    "D": "Aluga-se as casas.",
+    "E": "Aluga-se casas muitas."
+  },
+  "correta": "C",
+  "explicacao": "Com 'se' apassivador, o verbo concorda com o sujeito paciente ('casas')."
+},
+{
+  "id": "PT-SIN-115",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "'se' indeterminador com VI/VTI",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Em \"Trabalha-se muito aqui\", o 'se' é:",
+  "alternativas": {
+    "A": "apassivador",
+    "B": "índice de indeterminação do sujeito",
+    "C": "pronome reflexivo",
+    "D": "pronome recíproco",
+    "E": "partícula expletiva"
+  },
+  "correta": "B",
+  "explicacao": "Com VI ('trabalhar'), 'se' indetermina o sujeito."
+},
+{
+  "id": "PT-SIN-116",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "'se' apassivador com VTD",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Precisa-se de doações.\" Quanto ao 'se', assinale:",
+  "alternativas": {
+    "A": "é apassivador (passiva: Doações são precisadas)",
+    "B": "indetermina o sujeito (VTI)",
+    "C": "reflexivo do sujeito simples",
+    "D": "marca de voz média",
+    "E": "aposto à oração"
+  },
+  "correta": "B",
+  "explicacao": "Com VTI ('precisar de'), 'se' é índice de indeterminação; não há passiva gramatical."
+},
+{
+  "id": "PT-SIN-117",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "coordenação correlativa (não só... mas também)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Classifique a relação: \"Não só estudou, mas também praticou.\"",
+  "alternativas": {
+    "A": "aditiva (correlativa)",
+    "B": "adversativa",
+    "C": "alternativa",
+    "D": "conclusiva",
+    "E": "explicativa"
+  },
+  "correta": "A",
+  "explicacao": "Estrutura correlativa de soma (não só... mas também)."
+},
+{
+  "id": "PT-SIN-118",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "coordenação alternativa (ora... ora)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Ora avança, ora recua.\" A relação entre as orações é:",
+  "alternativas": {
+    "A": "aditiva",
+    "B": "adversativa",
+    "C": "alternativa (correlativa)",
+    "D": "conclusiva",
+    "E": "explicativa"
+  },
+  "correta": "C",
+  "explicacao": "Correlativas alternam estados/ações."
+},
+{
+  "id": "PT-SIN-119",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "coordenação adversativa (porém/contudo)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Tentou diversas vezes; contudo, não conseguiu.\" Classificação:",
+  "alternativas": {
+    "A": "aditiva",
+    "B": "adversativa",
+    "C": "alternativa",
+    "D": "conclusiva",
+    "E": "explicativa"
+  },
+  "correta": "B",
+  "explicacao": "Conector 'contudo' marca oposição (adversativa)."
+},
+{
+  "id": "PT-SIN-120",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "conclusão (por isso/portanto/logo)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Assinale o conectivo conclusivo:",
+  "alternativas": {
+    "A": "por isso",
+    "B": "porque",
+    "C": "embora",
+    "D": "quando",
+    "E": "a fim de"
+  },
+  "correta": "A",
+  "explicacao": "'Por isso' introduz conclusão/resultado do dito antes."
+},
+{
+  "id": "PT-SIN-121",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "subordinada adverbial final (para + infinitivo)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Saiu cedo <u>para estudar</u>.\" Classifique a oração reduzida.",
+  "alternativas": {
+    "A": "adverbial causal",
+    "B": "adverbial final",
+    "C": "adverbial temporal",
+    "D": "adverbial concessiva",
+    "E": "substantiva objetiva direta"
+  },
+  "correta": "B",
+  "explicacao": "Infinitivo com 'para' indica finalidade."
+},
+{
+  "id": "PT-SIN-122",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "subordinada adverbial temporal (ao + infinitivo)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"<u>Ao terminar</u>, desligue o equipamento.\" Classifique.",
+  "alternativas": {
+    "A": "causal",
+    "B": "temporal (reduzida de infinitivo)",
+    "C": "condicional",
+    "D": "concessiva",
+    "E": "final"
+  },
+  "correta": "B",
+  "explicacao": "'Ao + infinitivo' costuma indicar tempo."
+},
+{
+  "id": "PT-SIN-123",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "subordinada adverbial causal (gerúndio com valor causal)",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"<u>Estudando</u> bastante, conseguiu a vaga.\" O valor da reduzida é:",
+  "alternativas": {
+    "A": "temporal",
+    "B": "causal",
+    "C": "condicional",
+    "D": "final",
+    "E": "concessiva"
+  },
+  "correta": "B",
+  "explicacao": "Gerúndio pode indicar causa/condição conforme contexto; aqui expressa causa."
+},
+{
+  "id": "PT-SIN-124",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "condicional (caso/sem que)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"<u>Caso</u> chova, cancelaremos.\" O conector expressa:",
+  "alternativas": {
+    "A": "concessão",
+    "B": "condição",
+    "C": "causa",
+    "D": "tempo",
+    "E": "finalidade"
+  },
+  "correta": "B",
+  "explicacao": "'Caso' introduz condição."
+},
+{
+  "id": "PT-SIN-125",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "concessiva (se bem que / embora)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Escolha a alternativa concessiva.",
+  "alternativas": {
+    "A": "por isso",
+    "B": "se bem que",
+    "C": "desde que",
+    "D": "assim que",
+    "E": "para que"
+  },
+  "correta": "B",
+  "explicacao": "'Se bem que' exprime concessão."
+},
+{
+  "id": "PT-SIN-126",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "substantiva subjetiva (É bom que...)",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"É bom <u>que você participe</u>.\" Classifique a oração.",
+  "alternativas": {
+    "A": "substantiva subjetiva",
+    "B": "substantiva objetiva direta",
+    "C": "adjetiva explicativa",
+    "D": "adverbial final",
+    "E": "adverbial causal"
+  },
+  "correta": "A",
+  "explicacao": "Funciona como sujeito oracional de 'é bom'."
+},
+{
+  "id": "PT-SIN-127",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "substantiva objetiva direta (dizer que...)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Disse <u>que chegaria cedo</u>.\" A oração é:",
+  "alternativas": {
+    "A": "adjetiva restritiva",
+    "B": "substantiva objetiva direta",
+    "C": "adverbial temporal",
+    "D": "coordenada explicativa",
+    "E": "adverbial condicional"
+  },
+  "correta": "B",
+  "explicacao": "Teste do 'isso': 'Disse isso' → objeto direto oracional."
+},
+{
+  "id": "PT-SIN-128",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "substantiva completiva nominal (nome + de que)",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Tenho esperança <u>de que melhoremos</u>.\" Classifique.",
+  "alternativas": {
+    "A": "objetiva direta",
+    "B": "subjetiva",
+    "C": "completiva nominal",
+    "D": "adverbial final",
+    "E": "adjetiva explicativa"
+  },
+  "correta": "C",
+  "explicacao": "Nome 'esperança' pede complemento preposicionado → completiva nominal."
+},
+{
+  "id": "PT-SIN-129",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "'onde' x 'aonde' (movimento vs posição)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Uso adequado com movimento:",
+  "alternativas": {
+    "A": "Aonde você mora?",
+    "B": "Onde você vai?",
+    "C": "Aonde você vai?",
+    "D": "Onde você está indo?",
+    "E": "Aonde você está?"
+  },
+  "correta": "C",
+  "explicacao": "'Aonde' indica movimento com a preposição 'a' (ir a algum lugar)."
+},
+{
+  "id": "PT-SIN-130",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "'quem' relativo (pessoa antecedente expresso)",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Emprego correto do relativo 'quem' com antecedente:",
+  "alternativas": {
+    "A": "Conheci a autora, quem admiro.",
+    "B": "Conheci a autora, a quem admiro.",
+    "C": "Conheci a autora que admiro-a.",
+    "D": "Conheci a autora cujas admiro.",
+    "E": "Conheci a autora onde admiro."
+  },
+  "correta": "B",
+  "explicacao": "Com antecedente expresso, usa-se 'a quem' (preposição + relativo)."
+},
+{
+  "id": "PT-SIN-131",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "'cuja' (posse) concordância com o possuído",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Assinale a frase correta com 'cuja':",
+  "alternativas": {
+    "A": "A pesquisadora cujo artigos li é renomada.",
+    "B": "A pesquisadora cujos artigos li é renomada.",
+    "C": "A pesquisadora cujo os artigos li é renomada.",
+    "D": "A pesquisadora cujos os artigos li é renomada.",
+    "E": "A pesquisadora, cujos artigos, li é renomada."
+  },
+  "correta": "B",
+  "explicacao": "'Cujo' concorda com o possuído ('artigos') e não admite artigo após si."
+},
+{
+  "id": "PT-SIN-132",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "oração adjetiva (restritiva x explicativa) — efeito de sentido",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Assinale a explicativa:",
+  "alternativas": {
+    "A": "Os candidatos que estudaram venceram.",
+    "B": "Os candidatos, que estudaram, venceram.",
+    "C": "Os candidatos que estudaram, venceram.",
+    "D": "Os candidatos, que estudaram venceram.",
+    "E": "Os candidatos que, estudaram, venceram."
+  },
+  "correta": "B",
+  "explicacao": "Vírgulas isolam comentário geral sobre o antecedente (explicativa)."
+},
+{
+  "id": "PT-SIN-133",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "'porque' causal x explicativo (comando + justificativa)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Não corra, porque o piso está molhado.\" A oração introduzida por 'porque' é:",
+  "alternativas": {
+    "A": "coordenada explicativa",
+    "B": "adverbial causal",
+    "C": "adjetiva restritiva",
+    "D": "adverbial final",
+    "E": "coordenada conclusiva"
+  },
+  "correta": "A",
+  "explicacao": "Justifica a ordem anterior (valor explicativo)."
+},
+{
+  "id": "PT-SIN-134",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "'pois' explicativo (anteposto) x conclusivo (posposto)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Em \"Não façam barulho, pois há aula\", 'pois' é:",
+  "alternativas": {
+    "A": "conclusivo",
+    "B": "explicativo",
+    "C": "adversativo",
+    "D": "alternativo",
+    "E": "condicional"
+  },
+  "correta": "B",
+  "explicacao": "Anteposto à oração, 'pois' tem valor explicativo."
+},
+{
+  "id": "PT-SIN-135",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "'pois' conclusivo (posposto) com pausa forte",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Estudem; passem, pois.\" Classifique 'pois'.",
+  "alternativas": {
+    "A": "explicativo",
+    "B": "conclusivo",
+    "C": "adversativo",
+    "D": "temporal",
+    "E": "final"
+  },
+  "correta": "B",
+  "explicacao": "Posposto, 'pois' pode indicar conclusão."
+},
+{
+  "id": "PT-SIN-136",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "'que' integrante (teste do isso)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Em \"Afirmou <u>que viria</u>\", a oração é:",
+  "alternativas": {
+    "A": "adjetiva restritiva",
+    "B": "substantiva objetiva direta",
+    "C": "adverbial causal",
+    "D": "adverbial temporal",
+    "E": "coordenada explicativa"
+  },
+  "correta": "B",
+  "explicacao": "Substituível por 'isso': 'Afirmou isso' (OD oracional)."
+},
+{
+  "id": "PT-SIN-137",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "'que' relativo (retoma antecedente)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"O projeto <u>que</u> aprovamos é inovador.\" O 'que' é:",
+  "alternativas": {
+    "A": "conjunção integrante",
+    "B": "pronome relativo (OD)",
+    "C": "advérbio relativo de lugar",
+    "D": "preposição",
+    "E": "interjeição"
+  },
+  "correta": "B",
+  "explicacao": "Retoma 'projeto' e exerce função de OD na oração relativa."
+},
+{
+  "id": "PT-SIN-138",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "adjunto adnominal x complemento nominal (paciente x agente do nome)",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Em \"defesa <u>do meio ambiente</u>\", o termo sublinhado é:",
+  "alternativas": {
+    "A": "adjunto adnominal",
+    "B": "complemento nominal (alvo/paciente)",
+    "C": "objeto indireto",
+    "D": "adjunto adverbial",
+    "E": "aposto"
+  },
+  "correta": "B",
+  "explicacao": "Indica o alvo/objeto da defesa (paciente) → complemento nominal."
+},
+{
+  "id": "PT-SIN-139",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "aposto explicativo (vírgulas)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Classifique o trecho sublinhado: \"São Paulo, <u>a maior cidade do país</u>, concentra investimentos.\"",
+  "alternativas": {
+    "A": "adjunto adnominal",
+    "B": "aposto explicativo",
+    "C": "complemento nominal",
+    "D": "objeto indireto",
+    "E": "vocativo"
+  },
+  "correta": "B",
+  "explicacao": "Aposição explicativa, isolada por vírgulas."
+},
+{
+  "id": "PT-SIN-140",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "vocativo (chamamento) x sujeito",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"<u>Maria</u>, feche a janela.\" O termo sublinhado é:",
+  "alternativas": {
+    "A": "sujeito",
+    "B": "objeto direto",
+    "C": "aposto",
+    "D": "vocativo",
+    "E": "adjunto adnominal"
+  },
+  "correta": "D",
+  "explicacao": "Vocativo (chamamento), isolado por vírgula."
+},
+{
+  "id": "PT-SIN-141",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "pontuação: não separar sujeito e verbo",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Assinale a frase correta.",
+  "alternativas": {
+    "A": "Os alunos dedicados, passaram.",
+    "B": "Os alunos dedicados passaram.",
+    "C": "Os alunos, dedicados passaram.",
+    "D": "Os alunos, passaram dedicados.",
+    "E": "Os alunos passaram, dedicados."
+  },
+  "correta": "B",
+  "explicacao": "Não se usa vírgula entre sujeito e verbo."
+},
+{
+  "id": "PT-SIN-142",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "pontuação: adjetiva explicativa (duas vírgulas)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Pontue corretamente a explicativa.",
+  "alternativas": {
+    "A": "Os livros que li, são bons.",
+    "B": "Os livros, que li são bons.",
+    "C": "Os livros, que li, são bons.",
+    "D": "Os livros que li são, bons.",
+    "E": "Os livros, que li são, bons."
+  },
+  "correta": "C",
+  "explicacao": "Explicativa deve ser isolada por duas vírgulas."
+},
+{
+  "id": "PT-SIN-143",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "OD preposicionado (referência a pessoa)",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Em \"Vi <u>a</u> Ana ontem\", o termo sublinhado é:",
+  "alternativas": {
+    "A": "objeto indireto",
+    "B": "objeto direto preposicionado",
+    "C": "adjunto adnominal",
+    "D": "complemento nominal",
+    "E": "vocativo"
+  },
+  "correta": "B",
+  "explicacao": "OD de pessoa pode vir com preposição por ênfase/clareza."
+},
+{
+  "id": "PT-SIN-144",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "'lhe' (OI) x 'o' (OD) — coerência pronominal",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Escolha a frase correta:",
+  "alternativas": {
+    "A": "Vi-lhe ontem no corredor.",
+    "B": "Enviei-lhe o arquivo.",
+    "C": "Obedeci-o sem questionar.",
+    "D": "Assisti-o ao filme.",
+    "E": "Preferi-o ao chá."
+  },
+  "correta": "B",
+  "explicacao": "'Lhe' = OI (enviar algo a alguém). Para OD (ver), use 'o/a'."
+},
+{
+  "id": "PT-SIN-145",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "núcleo do sujeito (expressões partitivas)",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Núcleo do sujeito em: \"Um grupo de alunos chegou.\"",
+  "alternativas": {
+    "A": "grupo",
+    "B": "alunos",
+    "C": "um",
+    "D": "de alunos",
+    "E": "chegou"
+  },
+  "correta": "A",
+  "explicacao": "O núcleo é 'grupo' (expressão partitiva)."
+},
+{
+  "id": "PT-SIN-146",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "predicado verbo-nominal (predicativo do sujeito)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Eles voltaram felizes.\" O termo 'felizes' é:",
+  "alternativas": {
+    "A": "adjunto adverbial",
+    "B": "predicativo do objeto",
+    "C": "predicativo do sujeito",
+    "D": "objeto direto",
+    "E": "complemento nominal"
+  },
+  "correta": "C",
+  "explicacao": "Atribui estado ao sujeito após verbo de movimento → predicativo do sujeito."
+},
+{
+  "id": "PT-SIN-147",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "predicativo do objeto (considerar/eleger/nomear)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Elegeram-na <u>presidente</u>.\" O termo sublinhado é:",
+  "alternativas": {
+    "A": "objeto direto",
+    "B": "objeto indireto",
+    "C": "predicativo do sujeito",
+    "D": "predicativo do objeto",
+    "E": "aposto"
+  },
+  "correta": "D",
+  "explicacao": "Atribui estado/cargo ao objeto ('na')."
+},
+{
+  "id": "PT-SIN-148",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "complemento nominal x OI (nome exige preposição)",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Orgulho <u>de você</u>.\" Classifique o termo sublinhado.",
+  "alternativas": {
+    "A": "objeto indireto",
+    "B": "complemento nominal",
+    "C": "adjunto adnominal",
+    "D": "adjunto adverbial",
+    "E": "objeto direto"
+  },
+  "correta": "B",
+  "explicacao": "Nome 'orgulho' (abstrato) completa-se por preposição → complemento nominal."
+},
+{
+  "id": "PT-SIN-149",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "'tão... que' (consecutiva) x 'porque' (causal)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Estava tão motivado <u>que</u> estudou horas.\" A oração introduzida por 'que' é:",
+  "alternativas": {
+    "A": "adverbial causal",
+    "B": "adverbial consecutiva",
+    "C": "coordenada explicativa",
+    "D": "adverbial condicional",
+    "E": "adjetiva restritiva"
+  },
+  "correta": "B",
+  "explicacao": "Estrutura 'tão... que' indica consequência."
+},
+{
+  "id": "PT-SIN-150",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "'desde que' (condicional) x 'já que' (causal)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Você pode sair, <u>desde que</u> retorne cedo.\" O valor do conector é:",
+  "alternativas": {
+    "A": "causa",
+    "B": "concessão",
+    "C": "condição",
+    "D": "tempo",
+    "E": "finalidade"
+  },
+  "correta": "C",
+  "explicacao": "Estabelece condição para a ação principal."
+},
+{
+  "id": "PT-SIN-151",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "classificar tipo de sujeito (posposto)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Bastam três exemplos.\" Classifique o sujeito.",
+  "alternativas": {
+    "A": "simples",
+    "B": "composto",
+    "C": "inexistente",
+    "D": "indeterminado",
+    "E": "oculto"
+  },
+  "correta": "A",
+  "explicacao": "Sujeito simples posposto: 'três exemplos' (núcleo: exemplos)."
+},
+{
+  "id": "PT-SIN-152",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "oração sem sujeito (haver = existir)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Havia muitas opções.\" Classifique o sujeito.",
+  "alternativas": {
+    "A": "simples",
+    "B": "composto",
+    "C": "inexistente",
+    "D": "indeterminado",
+    "E": "oculto"
+  },
+  "correta": "C",
+  "explicacao": "Verbo 'haver' com sentido de existir é impessoal (sem sujeito)."
+},
+{
+  "id": "PT-SIN-153",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "índice de indeterminação do sujeito (se + VI)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Vive-se bem aqui.\" Quanto ao sujeito, assinale:",
+  "alternativas": {
+    "A": "simples",
+    "B": "composto",
+    "C": "inexistente",
+    "D": "indeterminado",
+    "E": "oculto"
+  },
+  "correta": "D",
+  "explicacao": "Com verbo intransitivo, o 'se' indetermina o sujeito."
+},
+{
+  "id": "PT-SIN-154",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "índice de indeterminação (se + VTI)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Precisa-se de profissionais.\" Classifique o sujeito.",
+  "alternativas": {
+    "A": "simples",
+    "B": "composto",
+    "C": "inexistente",
+    "D": "indeterminado",
+    "E": "oculto"
+  },
+  "correta": "D",
+  "explicacao": "Com VTI ('precisar de'), 'se' indetermina o sujeito; não há passiva."
+},
+{
+  "id": "PT-SIN-155",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "identificar tipo de predicado (VL)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Classifique o predicado: \"Os candidatos estão confiantes.\"",
+  "alternativas": {
+    "A": "verbal",
+    "B": "nominal",
+    "C": "verbo-nominal",
+    "D": "sem sujeito",
+    "E": "assindético"
+  },
+  "correta": "B",
+  "explicacao": "Verbo de ligação ('estão') + predicativo do sujeito ('confiantes')."
+},
+{
+  "id": "PT-SIN-156",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "predicado verbal (ação)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Classifique o predicado: \"Ele abriu a porta.\"",
+  "alternativas": {
+    "A": "verbal",
+    "B": "nominal",
+    "C": "verbo-nominal",
+    "D": "sem sujeito",
+    "E": "composto"
+  },
+  "correta": "A",
+  "explicacao": "Núcleo é o verbo de ação ('abriu')."
+},
+{
+  "id": "PT-SIN-157",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "predicado verbo-nominal (ação + estado)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Identifique o predicado: \"Voltaram cansados.\"",
+  "alternativas": {
+    "A": "verbal",
+    "B": "nominal",
+    "C": "verbo-nominal",
+    "D": "sem sujeito",
+    "E": "coordenado"
+  },
+  "correta": "C",
+  "explicacao": "Ação ('voltaram') + estado do sujeito ('cansados' = predicativo)."
+},
+{
+  "id": "PT-SIN-158",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "predicativo do sujeito (ficar + atributo)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Classifique o termo sublinhado: \"O céu ficou <u>vermelho</u>.\"",
+  "alternativas": {
+    "A": "objeto direto",
+    "B": "adjunto adnominal",
+    "C": "adjunto adverbial",
+    "D": "predicativo do sujeito",
+    "E": "complemento nominal"
+  },
+  "correta": "D",
+  "explicacao": "Com VL ('ficou'), o atributo qualifica o sujeito → predicativo do sujeito."
+},
+{
+  "id": "PT-SIN-159",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "OD clítico (perdoar alguém)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Perdoei-<u>te</u>.\" Classifique o pronome sublinhado.",
+  "alternativas": {
+    "A": "objeto direto",
+    "B": "objeto indireto",
+    "C": "complemento nominal",
+    "D": "adjunto adverbial",
+    "E": "aposto"
+  },
+  "correta": "A",
+  "explicacao": "Verbo 'perdoar' (VTD) pede OD; 'te' exerce função de OD."
+},
+{
+  "id": "PT-SIN-160",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "OI clítico (obedecer a)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Obedeci-<u>lhe</u>.\" Classifique o pronome.",
+  "alternativas": {
+    "A": "objeto direto",
+    "B": "objeto indireto",
+    "C": "adjunto adverbial",
+    "D": "complemento nominal",
+    "E": "aposto"
+  },
+  "correta": "B",
+  "explicacao": "'Obedecer a' → OI; 'lhe' = OI."
+},
+{
+  "id": "PT-SIN-161",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "VTDI (informar algo a alguém) — pronomes",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Informaram-<u>nos</u> a decisão.\" O pronome exerce função de:",
+  "alternativas": {
+    "A": "objeto direto",
+    "B": "objeto indireto",
+    "C": "adjunto adnominal",
+    "D": "complemento nominal",
+    "E": "aposto"
+  },
+  "correta": "B",
+  "explicacao": "Estrutura 'informar algo a alguém' → 'nos' (a nós) = OI."
+},
+{
+  "id": "PT-SIN-162",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "VTDI (avisar algo a alguém)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Classifique o termo sublinhado: \"Avisou <u>a todos</u> o horário.\"",
+  "alternativas": {
+    "A": "objeto direto",
+    "B": "objeto indireto",
+    "C": "adjunto adverbial",
+    "D": "predicativo do objeto",
+    "E": "aposto"
+  },
+  "correta": "B",
+  "explicacao": "OI do verbo 'avisar' na construção bitransitiva."
+},
+{
+  "id": "PT-SIN-163",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "VTI (precisar de) — OI",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Precisamos <u>de ajuda</u>.\" Classifique o termo.",
+  "alternativas": {
+    "A": "objeto direto",
+    "B": "objeto indireto",
+    "C": "complemento nominal",
+    "D": "adjunto adverbial",
+    "E": "adjunto adnominal"
+  },
+  "correta": "B",
+  "explicacao": "Complemento preposicionado do verbo → OI."
+},
+{
+  "id": "PT-SIN-164",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "OD (teste da passiva)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Comprei <u>um livro</u> ontem.\" Classifique o termo sublinhado.",
+  "alternativas": {
+    "A": "objeto direto",
+    "B": "objeto indireto",
+    "C": "adjunto adverbial",
+    "D": "complemento nominal",
+    "E": "aposto"
+  },
+  "correta": "A",
+  "explicacao": "Sem preposição; vira sujeito na passiva: 'Um livro foi comprado'."
+},
+{
+  "id": "PT-SIN-165",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "complemento nominal (nome abstrato + preposição)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"respeito <u>aos idosos</u>\". O termo sublinhado é:",
+  "alternativas": {
+    "A": "adjunto adnominal",
+    "B": "complemento nominal",
+    "C": "objeto indireto",
+    "D": "adjunto adverbial",
+    "E": "vocativo"
+  },
+  "correta": "B",
+  "explicacao": "Nome 'respeito' (abstrato) pede complemento (alvo/paciente) → CN."
+},
+{
+  "id": "PT-SIN-166",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "adjunto adnominal (especificação/posse de nome concreto)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"leis <u>da cidade</u>\". Classifique o termo sublinhado.",
+  "alternativas": {
+    "A": "adjunto adnominal",
+    "B": "complemento nominal",
+    "C": "objeto indireto",
+    "D": "adjunto adverbial",
+    "E": "predicativo"
+  },
+  "correta": "A",
+  "explicacao": "Especifica o núcleo 'leis' (nome concreto) → adjunto adnominal."
+},
+{
+  "id": "PT-SIN-167",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "complemento nominal (nome abstrato + de)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"medo <u>de altura</u>\". Classifique o termo.",
+  "alternativas": {
+    "A": "adjunto adnominal",
+    "B": "complemento nominal",
+    "C": "objeto indireto",
+    "D": "adjunto adverbial",
+    "E": "aposto"
+  },
+  "correta": "B",
+  "explicacao": "Completa o sentido do nome abstrato 'medo' → CN."
+},
+{
+  "id": "PT-SIN-168",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "adjunto adnominal (agente do nome)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"carinho <u>de mãe</u>\". O termo sublinhado é:",
+  "alternativas": {
+    "A": "adjunto adnominal",
+    "B": "complemento nominal",
+    "C": "objeto indireto",
+    "D": "adjunto adverbial",
+    "E": "vocativo"
+  },
+  "correta": "A",
+  "explicacao": "Indica quem sente (agente) → adjunto adnominal; se fosse 'carinho à mãe', seria CN."
+},
+{
+  "id": "PT-SIN-169",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "complemento nominal (paciente/alvo do nome)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"defesa <u>dos animais</u>\". Classifique o termo.",
+  "alternativas": {
+    "A": "adjunto adnominal",
+    "B": "complemento nominal",
+    "C": "objeto indireto",
+    "D": "aposto",
+    "E": "adjunto adverbial"
+  },
+  "correta": "B",
+  "explicacao": "Indica o alvo/objeto defendido (paciente) → complemento nominal."
+},
+{
+  "id": "PT-SIN-170",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "adjunto adnominal (agente/posse de nome)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"críticas <u>do professor</u>\". O termo é:",
+  "alternativas": {
+    "A": "adjunto adnominal",
+    "B": "complemento nominal",
+    "C": "objeto indireto",
+    "D": "adjunto adverbial",
+    "E": "predicativo"
+  },
+  "correta": "A",
+  "explicacao": "Origem/agente do nome → adjunto adnominal."
+},
+{
+  "id": "PT-SIN-171",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "adjunto adverbial (meio/instrumento)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Viaja <u>de ônibus</u>.\" Classifique o termo sublinhado.",
+  "alternativas": {
+    "A": "objeto direto",
+    "B": "objeto indireto",
+    "C": "adjunto adverbial",
+    "D": "adjunto adnominal",
+    "E": "complemento nominal"
+  },
+  "correta": "C",
+  "explicacao": "Circunstância de meio (modo de locomoção) → adjunto adverbial."
+},
+{
+  "id": "PT-SIN-172",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "adjunto adverbial (lugar)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Trabalha <u>aqui</u>.\" Classifique o termo sublinhado.",
+  "alternativas": {
+    "A": "objeto direto",
+    "B": "objeto indireto",
+    "C": "adjunto adverbial",
+    "D": "adjunto adnominal",
+    "E": "predicativo do sujeito"
+  },
+  "correta": "C",
+  "explicacao": "Indica lugar → adjunto adverbial."
+},
+{
+  "id": "PT-SIN-173",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "adjunto adverbial (modo)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Voltou <u>às pressas</u>.\" O termo é:",
+  "alternativas": {
+    "A": "complemento nominal",
+    "B": "objeto indireto",
+    "C": "adjunto adverbial",
+    "D": "adjunto adnominal",
+    "E": "predicativo do objeto"
+  },
+  "correta": "C",
+  "explicacao": "Circunstância de modo → adjunto adverbial."
+},
+{
+  "id": "PT-SIN-174",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "adjunto adverbial (tempo/duração)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Estudou <u>por duas horas</u>.\" Classifique o termo.",
+  "alternativas": {
+    "A": "objeto direto",
+    "B": "objeto indireto",
+    "C": "adjunto adverbial",
+    "D": "complemento nominal",
+    "E": "aposto"
+  },
+  "correta": "C",
+  "explicacao": "Indica duração de tempo → adjunto adverbial."
+},
+{
+  "id": "PT-SIN-175",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "coordenação aditiva (e/nem)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Estudou e passou.\" A relação é:",
+  "alternativas": {
+    "A": "aditiva",
+    "B": "adversativa",
+    "C": "alternativa",
+    "D": "conclusiva",
+    "E": "explicativa"
+  },
+  "correta": "A",
+  "explicacao": "Conjunção 'e' soma ações → aditiva."
+},
+{
+  "id": "PT-SIN-176",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "coordenação adversativa (mas/porém/contudo)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Estudou, mas errou por pressa.\" A relação é:",
+  "alternativas": {
+    "A": "aditiva",
+    "B": "adversativa",
+    "C": "alternativa",
+    "D": "conclusiva",
+    "E": "explicativa"
+  },
+  "correta": "B",
+  "explicacao": "'Mas' indica oposição → adversativa."
+},
+{
+  "id": "PT-SIN-177",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "coordenação alternativa (ou...ou)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Ou estuda, ou complica.\" A relação é:",
+  "alternativas": {
+    "A": "aditiva",
+    "B": "adversativa",
+    "C": "alternativa",
+    "D": "conclusiva",
+    "E": "explicativa"
+  },
+  "correta": "C",
+  "explicacao": "Conjunção alternativa → escolha entre ações."
+},
+{
+  "id": "PT-SIN-178",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "coordenação conclusiva (portanto/logo/por isso)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Faltou; portanto, perdeu pontos.\" Classifique a relação.",
+  "alternativas": {
+    "A": "aditiva",
+    "B": "adversativa",
+    "C": "alternativa",
+    "D": "conclusiva",
+    "E": "explicativa"
+  },
+  "correta": "D",
+  "explicacao": "'Portanto' indica conclusão."
+},
+{
+  "id": "PT-SIN-179",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "coordenação explicativa (pois/porque)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Silêncio, pois a prova começou.\" A segunda oração é:",
+  "alternativas": {
+    "A": "aditiva",
+    "B": "adversativa",
+    "C": "alternativa",
+    "D": "conclusiva",
+    "E": "explicativa"
+  },
+  "correta": "E",
+  "explicacao": "Justifica a ordem anterior → explicativa."
+},
+{
+  "id": "PT-SIN-180",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "coordenação assindética (justaposição)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Chegou, sentou, dormiu.\" As orações são:",
+  "alternativas": {
+    "A": "coordenadas assindéticas",
+    "B": "coordenadas adversativas",
+    "C": "subordinadas adverbiais",
+    "D": "subordinadas substantivas",
+    "E": "orações reduzidas de gerúndio"
+  },
+  "correta": "A",
+  "explicacao": "Justaposição com vírgulas, sem conjunção → assindéticas."
+},
+{
+  "id": "PT-SIN-181",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "subordinada adverbial concessiva (embora)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"<u>Embora</u> rico, era humilde.\" O valor do conectivo é:",
+  "alternativas": {
+    "A": "causa",
+    "B": "concessão",
+    "C": "condição",
+    "D": "tempo",
+    "E": "finalidade"
+  },
+  "correta": "B",
+  "explicacao": "'Embora' = concessão."
+},
+{
+  "id": "PT-SIN-182",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "subordinada adverbial condicional (se/caso)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"<u>Se</u> chover, não haverá jogo.\" O valor do conectivo é:",
+  "alternativas": {
+    "A": "condição",
+    "B": "causa",
+    "C": "concessão",
+    "D": "tempo",
+    "E": "finalidade"
+  },
+  "correta": "A",
+  "explicacao": "'Se' indica condição."
+},
+{
+  "id": "PT-SIN-183",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "subordinada adverbial causal (porque/visto que)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Não saí, <u>porque</u> chovia.\" Classifique a oração sublinhada.",
+  "alternativas": {
+    "A": "adverbial causal",
+    "B": "coordenada explicativa",
+    "C": "adjetiva restritiva",
+    "D": "adverbial final",
+    "E": "adverbial temporal"
+  },
+  "correta": "A",
+  "explicacao": "Expressa causa do não sair."
+},
+{
+  "id": "PT-SIN-184",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "subordinada adverbial final (para que)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Falou devagar, <u>para que</u> todos entendessem.\" O valor é:",
+  "alternativas": {
+    "A": "finalidade",
+    "B": "causa",
+    "C": "concessão",
+    "D": "tempo",
+    "E": "condição"
+  },
+  "correta": "A",
+  "explicacao": "Expressa objetivo da ação."
+},
+{
+  "id": "PT-SIN-185",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "subordinada adverbial temporal (quando/assim que)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"<u>Quando</u> chegar, avise.\" O conector indica:",
+  "alternativas": {
+    "A": "tempo",
+    "B": "causa",
+    "C": "condição",
+    "D": "concessão",
+    "E": "finalidade"
+  },
+  "correta": "A",
+  "explicacao": "Circunstância temporal."
+},
+{
+  "id": "PT-SIN-186",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "subordinada adverbial consecutiva (tão/tanto... que)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Estava <u>tão</u> cansado, <u>que</u> dormiu.\" A oração introduzida por 'que' é:",
+  "alternativas": {
+    "A": "adverbial causal",
+    "B": "adverbial consecutiva",
+    "C": "coordenada explicativa",
+    "D": "adverbial condicional",
+    "E": "adjetiva explicativa"
+  },
+  "correta": "B",
+  "explicacao": "Estrutura 'tão... que' indica consequência."
+},
+{
+  "id": "PT-SIN-187",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "consequência (de modo/forma/jeito que)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Estudou pouco, <u>de modo que</u> não passou.\" O valor é:",
+  "alternativas": {
+    "A": "causa",
+    "B": "consequência",
+    "C": "concessão",
+    "D": "condição",
+    "E": "tempo"
+  },
+  "correta": "B",
+  "explicacao": "Locução introduz relação de consequência."
+},
+{
+  "id": "PT-SIN-188",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "condicional (desde que/contanto que)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Passará, <u>desde que</u> estude.\" O valor do conectivo é:",
+  "alternativas": {
+    "A": "causa",
+    "B": "condição",
+    "C": "concessão",
+    "D": "tempo",
+    "E": "finalidade"
+  },
+  "correta": "B",
+  "explicacao": "Estabelece condição para o fato principal."
+},
+{
+  "id": "PT-SIN-189",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "concessiva (mesmo que/ainda que)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"<u>Mesmo que</u> chova, sairemos.\" O valor é:",
+  "alternativas": {
+    "A": "condição",
+    "B": "concessão",
+    "C": "causa",
+    "D": "tempo",
+    "E": "finalidade"
+  },
+  "correta": "B",
+  "explicacao": "Conector concessivo."
+},
+{
+  "id": "PT-SIN-190",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "proporcional (à medida que/quanto mais)",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"<u>À medida que</u> treinava, melhorava.\" O valor é:",
+  "alternativas": {
+    "A": "proporção",
+    "B": "condição",
+    "C": "tempo",
+    "D": "causa",
+    "E": "concessão"
+  },
+  "correta": "A",
+  "explicacao": "Expressa proporcionalidade/gradualidade."
+},
+{
+  "id": "PT-SIN-191",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "substantiva subjetiva (É necessário que...)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"É necessário <u>que você venha</u>.\" Classifique a oração sublinhada.",
+  "alternativas": {
+    "A": "substantiva subjetiva",
+    "B": "substantiva objetiva direta",
+    "C": "substantiva completiva nominal",
+    "D": "adjetiva restritiva",
+    "E": "adverbial final"
+  },
+  "correta": "A",
+  "explicacao": "Funciona como sujeito oracional de 'é necessário'."
+},
+{
+  "id": "PT-SIN-192",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "substantiva objetiva direta (querer que...)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Quero <u>que você venha</u>.\" A oração é:",
+  "alternativas": {
+    "A": "adjetiva explicativa",
+    "B": "substantiva objetiva direta",
+    "C": "adverbial causal",
+    "D": "adverbial temporal",
+    "E": "coordenada conclusiva"
+  },
+  "correta": "B",
+  "explicacao": "OD oracional (teste do 'isso': 'Quero isso')."
+},
+{
+  "id": "PT-SIN-193",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "substantiva completiva nominal (nome + de que)",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Tenho <u>certeza de que</u> virá.\" A oração introduzida por 'de que' é:",
+  "alternativas": {
+    "A": "substantiva objetiva direta",
+    "B": "substantiva subjetiva",
+    "C": "substantiva completiva nominal",
+    "D": "adjetiva restritiva",
+    "E": "adverbial concessiva"
+  },
+  "correta": "C",
+  "explicacao": "Completa o nome 'certeza' → completiva nominal."
+},
+{
+  "id": "PT-SIN-194",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "substantiva subjetiva (É provável que...)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"É provável <u>que chova</u>.\" Classifique a oração sublinhada.",
+  "alternativas": {
+    "A": "substantiva subjetiva",
+    "B": "substantiva objetiva indireta",
+    "C": "adverbial causal",
+    "D": "adjetiva explicativa",
+    "E": "adverbial temporal"
+  },
+  "correta": "A",
+  "explicacao": "Sujeito oracional de 'é provável'."
+},
+{
+  "id": "PT-SIN-195",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "substantiva objetiva direta (pedir que...) + OI",
+  "nivel": "dificil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"Pedi <u>a ele</u> <u>que viesse</u>.\" A oração sublinhada \"que viesse\" é:",
+  "alternativas": {
+    "A": "substantiva completiva nominal",
+    "B": "substantiva objetiva direta",
+    "C": "substantiva objetiva indireta",
+    "D": "adjetiva restritiva",
+    "E": "adverbial final"
+  },
+  "correta": "B",
+  "explicacao": "OD oracional; 'a ele' é OI do verbo 'pedir'."
+},
+{
+  "id": "PT-SIN-196",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "oração adjetiva restritiva (que)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"As praias <u>que visitamos</u> eram limpas.\" A oração sublinhada é:",
+  "alternativas": {
+    "A": "adjetiva explicativa",
+    "B": "adjetiva restritiva",
+    "C": "substantiva objetiva direta",
+    "D": "adverbial temporal",
+    "E": "coordenada explicativa"
+  },
+  "correta": "B",
+  "explicacao": "Sem vírgulas, restringe o antecedente → restritiva."
+},
+{
+  "id": "PT-SIN-197",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "oração adjetiva explicativa (vírgulas)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Assinale a opção com adjetiva explicativa.",
+  "alternativas": {
+    "A": "As praias que visitamos eram limpas.",
+    "B": "As praias, que visitamos, eram limpas.",
+    "C": "As praias que visitamos, eram limpas.",
+    "D": "As praias que, visitamos, eram limpas.",
+    "E": "As praias, que visitamos eram limpas."
+  },
+  "correta": "B",
+  "explicacao": "Explicativa deve vir entre duas vírgulas."
+},
+{
+  "id": "PT-SIN-198",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "oração adjetiva explicativa (o qual/a qual)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"O projeto, <u>o qual</u> foi aprovado, seguirá para execução.\" Classifique a oração relativa.",
+  "alternativas": {
+    "A": "adjetiva restritiva",
+    "B": "adjetiva explicativa",
+    "C": "substantiva subjetiva",
+    "D": "substantiva apositiva",
+    "E": "adverbial causal"
+  },
+  "correta": "B",
+  "explicacao": "Com 'o qual' e vírgulas, é explicativa."
+},
+{
+  "id": "PT-SIN-199",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "oração adjetiva restritiva (onde = lugar)",
+  "nivel": "medio",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "\"O lugar <u>onde nasci</u> é frio.\" A oração sublinhada é:",
+  "alternativas": {
+    "A": "adjetiva restritiva",
+    "B": "adjetiva explicativa",
+    "C": "substantiva objetiva direta",
+    "D": "adverbial temporal",
+    "E": "coordenada adversativa"
+  },
+  "correta": "A",
+  "explicacao": "Retoma 'lugar' (noção espacial) sem vírgula → restritiva."
+},
+{
+  "id": "PT-SIN-200",
+  "disciplina": "portugues",
+  "area": "linguagem",
+  "tema": "Sintaxe",
+  "habilidade": "pontuação com adverbial anteposta (vírgula obrigatória)",
+  "nivel": "facil",
+  "ano": 2025,
+  "fonte": "Autoral",
+  "enunciado": "Assinale a frase corretamente pontuada.",
+  "alternativas": {
+    "A": "Se possível envie-me o arquivo.",
+    "B": "Se possível, envie-me o arquivo.",
+    "C": "Se, possível, envie-me o arquivo.",
+    "D": "Se possível envie, me o arquivo.",
+    "E": "Se, possível envie, me o arquivo."
+  },
+  "correta": "B",
+  "explicacao": "Orações/expressões adverbiais antepostas pedem vírgula: 'Se possível, ...'."
 }
 ]
