@@ -1,20 +1,91 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="no-js">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Interpretação de textos — CTI 2026</title>
-  <meta name="description" content="Estratégias de leitura, inferência, propósito comunicativo, coesão e coerência, interpretação de charges e tiras." />
+  <meta name="description" content="Leitura estratégica para o Vestibulinho CTI: identificar tema, tese e propósito comunicativo, inferir implícitos, analisar coesão e coerência, interpretar charges e tiras. Com exemplos e exercícios interativos." />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#0F172A" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0B1220" media="(prefers-color-scheme: dark)" />
   <link rel="canonical" href="https://SEU-DOMINIO/aulas/portugues/interpretacao.html" />
 
+  <!-- Favicons / Manifest -->
   <link rel="icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <!-- Styles -->
   <link rel="stylesheet" href="/assets/css/base.css" />
   <link rel="stylesheet" href="/assets/css/layout.css" />
   <link rel="stylesheet" href="/assets/css/componentes.css" />
   <link rel="stylesheet" href="/assets/css/aulas.css" />
   <link rel="stylesheet" href="/assets/css/dark.css" media="(prefers-color-scheme: dark)" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="article" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="CTI 2026" />
+  <meta property="og:title" content="Interpretação de textos — CTI 2026" />
+  <meta property="og:description" content="Estratégias de leitura, inferência, coesão e coerência, efeitos de sentido, interpretação de charges e tiras. Com exemplos e exercícios interativos." />
+  <meta property="og:url" content="https://SEU-DOMINIO/aulas/portugues/interpretacao.html" />
+  <meta property="og:image" content="https://SEU-DOMINIO/assets/img/og/interpretacao.png" />
+  <meta property="og:image:alt" content="Caderno aberto e ícones de fala representando leitura crítica" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Interpretação de textos — CTI 2026" />
+  <meta name="twitter:description" content="Leitura estratégica para a prova: tema, tese, implícitos, coesão e efeitos de sentido, com exemplos e exercícios." />
+  <meta name="twitter:image" content="https://SEU-DOMINIO/assets/img/og/interpretacao.png" />
+
+  <!-- Structured Data: Article + Breadcrumb -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Article",
+    "inLanguage":"pt-BR",
+    "headline":"Interpretação de textos — CTI 2026",
+    "description":"Leitura estratégica para o Vestibulinho CTI: tema, tese, propósito comunicativo, inferência de implícitos, coesão e coerência, interpretação de charges e tiras.",
+    "author":{"@type":"Organization","name":"CTI 2026"},
+    "publisher":{"@type":"Organization","name":"CTI 2026","logo":{"@type":"ImageObject","url":"https://SEU-DOMINIO/assets/img/logo.svg"}},
+    "keywords":["interpretação de texto","inferência","coesão","coerência","charges","tiras","vestibulinho CTI"],
+    "mainEntityOfPage":{"@type":"WebPage","@id":"https://SEU-DOMINIO/aulas/portugues/interpretacao.html"}
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"BreadcrumbList",
+    "itemListElement":[
+      {"@type":"ListItem","position":1,"name":"Início","item":"https://SEU-DOMINIO/"},
+      {"@type":"ListItem","position":2,"name":"Aulas","item":"https://SEU-DOMINIO/aulas/"},
+      {"@type":"ListItem","position":3,"name":"Português","item":"https://SEU-DOMINIO/aulas/portugues/"},
+      {"@type":"ListItem","position":4,"name":"Interpretação de textos","item":"https://SEU-DOMINIO/aulas/portugues/interpretacao.html"}
+    ]
+  }
+  </script>
+
+  <!-- Small, safe page-specific styles (opcional) -->
+  <style>
+    #leitura-progress{position:fixed;top:0;left:0;height:4px;width:0;background:var(--brand,#3b82f6);z-index:1000;transition:width .2s ease}
+    .lesson-meta .pill[aria-label]{cursor:help}
+    .badge{display:inline-block;padding:.15rem .5rem;border-radius:.375rem;background:var(--muted,#eef2ff);font-size:.75rem}
+    .callout{padding:1rem;border:1px solid var(--muted,#e5e7eb);border-left-width:.3rem;border-radius:.5rem}
+    .callout--warn{border-left-color:#f59e0b}
+    .callout--tip{border-left-color:#3b82f6}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    /* Quiz */
+    form.quiz fieldset{margin:.75rem 0;padding:.75rem 1rem;border:1px solid var(--muted,#e5e7eb);border-radius:.5rem}
+    form.quiz legend{font-weight:600;margin-bottom:.25rem}
+    form.quiz .feedback{margin-top:.5rem;font-size:.9375rem}
+    form.quiz fieldset.is-correct{border-color:#16a34a;box-shadow:0 0 0 .2rem rgba(22,163,74,.12)}
+    form.quiz fieldset.is-wrong{border-color:#dc2626;box-shadow:0 0 0 .2rem rgba(220,38,38,.12)}
+    .tabela-conectivos{overflow-x:auto}
+    .tabela-conectivos table{width:100%;border-collapse:collapse}
+    .tabela-conectivos th,.tabela-conectivos td{border:1px solid var(--muted,#e5e7eb);padding:.5rem;text-align:left}
+  </style>
 </head>
 <body>
+  <div id="leitura-progress" role="progressbar" aria-label="Progresso de leitura" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
   <header class="site-header" role="banner">
@@ -60,10 +131,11 @@
         <h1>Interpretação de textos</h1>
         <div class="lesson-meta">
           <span class="pill">Tema: Português</span>
-          <span class="pill">Dificuldade: intermediário</span>
+          <span class="pill" aria-label="Nível sugerido">Dificuldade: intermediário</span>
           <span>Tempo estimado: 40–60 min</span>
+          <span class="badge" aria-label="Formato do material">com exercícios interativos</span>
         </div>
-        <p class="text-muted">Como ler com objetivo, identificar tese/ideia central, inferir informações implícitas e analisar o efeito de recursos de linguagem em textos verbais e em charges/tiras.</p>
+        <p class="text-muted">Como ler com objetivo, identificar tema/tese, inferir implícitos e analisar efeitos de linguagem em textos verbais e em charges/tiras — do jeito que a prova cobra.</p>
       </article>
 
       <div class="lesson-layout">
@@ -77,6 +149,9 @@
               <li>Interpretar efeitos de sentido em recursos expressivos (ironia, metáfora, hipérbole).</li>
               <li>Ler e relacionar linguagem verbal e não verbal (charges, tiras, cartuns).</li>
             </ul>
+            <div class="callout callout--tip" role="note" aria-label="Dica">
+              Dica de prova: marque conectivos, pronomes e modalizadores. Eles “entregam” a lógica do argumento.
+            </div>
           </section>
 
           <section id="prerequisitos" class="section-block">
@@ -84,42 +159,75 @@
             <p class="note">Vale revisar: <a href="/aulas/portugues/funcoes-da-linguagem.html">Funções da linguagem</a> e <a href="/aulas/portugues/figuras-de-linguagem.html">Figuras de linguagem</a>.</p>
           </section>
 
+          <section id="checklist" class="section-block">
+            <h2>Checklist rápido para a prova</h2>
+            <ul>
+              <li>Ler o texto antes das alternativas.</li>
+              <li>Substituir pronomes por seus referentes para checar coesão.</li>
+              <li>Rastrear conectivos e seu valor semântico (contraste, causa, conclusão etc.).</li>
+              <li>Detectar modalizadores: talvez, provavelmente, claramente...</li>
+              <li>Evitar extrapolar: sua resposta tem que caber no texto.</li>
+            </ul>
+          </section>
+
           <section id="teoria" class="section-block">
             <h2>Teoria</h2>
+
             <h3>1) Estratégias de leitura</h3>
             <ul>
-              <li><strong>Sobrevoo (skimming):</strong> leia título, intertítulos e primeiras frases para captar o tema e a intenção.</li>
-              <li><strong>Busca (scanning):</strong> procure termos-chave da pergunta (datas, nomes, conectivos, verbos).</li>
+              <li><strong>Sobrevoo (skimming):</strong> título, intertítulos e primeiras frases para captar tema e intenção.</li>
+              <li><strong>Busca (scanning):</strong> termos-chave da pergunta (datas, nomes, conectivos, verbos).</li>
               <li><strong>Perguntas-guia:</strong> O que se diz? Como se diz? Com que intenção? Qual o tom (crítico, irônico, informativo)?</li>
             </ul>
 
-            <h3>2) Coesão e operadores</h3>
+            <h3>2) Propósito comunicativo e gênero</h3>
+            <ul>
+              <li>Identifique <em>para quê</em> o texto foi escrito (informar, opinar, instruir, criticar...).</li>
+              <li>O gênero (artigo de opinião, notícia, tira, charge) orienta expectativas de linguagem e estrutura.</li>
+            </ul>
+
+            <h3>3) Coesão e operadores</h3>
             <ul>
               <li><strong>Referências:</strong> pronomes (ele, isso), sinônimos e elipses retomam ideias. Pergunte: “isso” retoma o quê?</li>
               <li><strong>Conectivos e valor semântico:</strong> mas/porém (oposição), portanto/logo (conclusão), embora/ainda que (concessão), porque (causa/explicação).</li>
             </ul>
 
-            <h3>3) Implícitos e inferência</h3>
+            <div class="tabela-conectivos" aria-label="Tabela de conectivos por relação lógica">
+              <table>
+                <thead>
+                  <tr><th>Relação lógica</th><th>Conectivos comuns</th><th>Exemplo</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>Contraste</td><td>mas, porém, contudo, entretanto</td><td>Estudou, <strong>mas</strong> não foi bem.</td></tr>
+                  <tr><td>Conclusão</td><td>portanto, logo, assim</td><td>Argumentos fracos; <strong>logo</strong>, tese frágil.</td></tr>
+                  <tr><td>Causa/Explicação</td><td>porque, pois (explicativo), já que</td><td>Chegou tarde <strong>porque</strong> perdeu o ônibus.</td></tr>
+                  <tr><td>Concessão</td><td>embora, ainda que, mesmo que</td><td><strong>Embora</strong> cansado, terminou a prova.</td></tr>
+                  <tr><td>Condição</td><td>se, caso, desde que</td><td><strong>Se</strong> chover, adie o passeio.</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h3>4) Implícitos e inferência</h3>
             <ul>
-              <li><strong>Explícito</strong> é dito; <strong>implícito</strong> é sugerido pelas pistas (vocabulário, tom, contexto sociocultural).</li>
-              <li>Evite extrapolar: use o texto como base. Conhecimento de mundo ajuda, mas não pode contrariar o enunciado.</li>
+              <li><strong>Explícito</strong> é dito; <strong>implícito</strong> é sugerido por pistas (vocabulário, tom, contexto sociocultural).</li>
+              <li>Use o texto como base: conhecimento de mundo ajuda, mas não pode contrariar o enunciado.</li>
             </ul>
 
-            <h3>4) Efeitos de sentido</h3>
+            <h3>5) Efeitos de sentido</h3>
             <ul>
               <li><strong>Ironia:</strong> dizer o contrário do que se pensa, com pista de tom/contraste.</li>
               <li><strong>Metáfora/hipérbole:</strong> transferir sentido por semelhança; exagerar para enfatizar.</li>
               <li><strong>Modalizadores:</strong> “talvez”, “certamente”, “é provável” orientam o grau de certeza/opinião.</li>
             </ul>
 
-            <h3>5) Texto + imagem (charges/tiras)</h3>
+            <h3>6) Texto + imagem (charges/tiras)</h3>
             <ul>
-              <li>Observe cenário, expressões faciais, texto dos balões e intertextualidades (referências a notícias, filmes, memes).</li>
+              <li>Observe cenário, expressões faciais, balões e intertextualidades (notícias, filmes, memes).</li>
               <li>Busque o <strong>alvo da crítica</strong> e o <strong>efeito de humor</strong> (quebra de expectativa, ambiguidade).</li>
             </ul>
 
             <figure class="media" aria-describedby="cap-charge">
-              <img src="/assets/img/suportes/interpretacao-charge-exemplo.png" alt="Charge genérica com personagem olhando para um celular enquanto ignora um livro aberto" loading="lazy" decoding="async" />
+              <img src="/assets/img/suportes/interpretacao-charge-exemplo.png" alt="Charge com personagem olhando o celular e ignorando um livro aberto; crítica ao consumo de informação em telas" loading="lazy" decoding="async" />
               <figcaption id="cap-charge">Exemplo de suporte: charge sobre consumo de informação em telas.</figcaption>
             </figure>
 
@@ -157,42 +265,78 @@
               E) a capacidade de foco<br /><br />
               Resolução: “Isso” sintetiza a ideia anterior completa: <em>o excesso de notificações</em>. Alternativa: <strong>D</strong>.
             </div>
+
+            <div class="example" style="margin-top:.5rem;">
+              <strong>Exemplo 3 — Charge/tira.</strong><br />
+              Em uma tira, o personagem diz: “Ativei as notificações de estudo” enquanto recebe alertas de memes e jogos.<br /><br />
+              Pergunta: o humor decorre principalmente de:<br />
+              A) linguagem técnica<br />
+              B) hipérbole e quebra de expectativa<br />
+              C) enumeração objetiva<br />
+              D) precisão matemática<br />
+              E) eufemismo<br /><br />
+              Resolução: há <em>quebra de expectativa</em> (espera-se foco; recebe distrações) e <em>hipérbole</em> no volume de alertas. Alternativa: <strong>B</strong>.
+            </div>
           </section>
 
           <section id="exercicios" class="section-block">
             <h2>Exercícios</h2>
+            <p class="text-muted">Marque as alternativas e clique em “Verificar respostas”.</p>
 
-            <div class="exercise">
-              <strong>1)</strong> Título: “Promoções imperdíveis até ontem”. Qual o efeito de sentido?<br />
-              A) Linguagem referencial informativa. B) Ironia, criticando o consumismo e a urgência artificial. C) Linguagem técnica. D) Linguagem poética literal. E) Linguagem fática, apenas para manter contato.<br />
-              <em>(Resposta: B. O “até ontem” é paradoxal/irônico.)</em>
-            </div>
+            <form class="quiz" aria-label="Exercícios de interpretação">
+              <fieldset id="q1" data-answer="B" data-explain-correct="O título é paradoxal, sugerindo urgência artificial do consumo." data-explain-wrong="Note o contraste entre 'promoções imperdíveis' e 'até ontem'." >
+                <legend><strong>1)</strong> Título: “Promoções imperdíveis até ontem”. Qual o efeito de sentido?</legend>
+                <label><input type="radio" name="q1" value="A" /> A) Linguagem referencial informativa.</label><br />
+                <label><input type="radio" name="q1" value="B" /> B) Ironia, criticando o consumismo e a urgência artificial.</label><br />
+                <label><input type="radio" name="q1" value="C" /> C) Linguagem técnica.</label><br />
+                <label><input type="radio" name="q1" value="D" /> D) Linguagem poética literal.</label><br />
+                <label><input type="radio" name="q1" value="E" /> E) Linguagem fática.</label>
+              </fieldset>
 
-            <div class="exercise" style="margin-top:.5rem;">
-              <strong>2)</strong> “Embora as redes aproximem, muitos se sentem sós.” O valor do conectivo “Embora” é de:<br />
-              A) explicação B) conclusão C) oposição/contraste D) concessão E) condição<br />
-              <em>(Resposta: D. Concessão.)</em>
-            </div>
+              <fieldset id="q2" data-answer="D" data-explain-correct="‘Embora’ é conectivo concessivo: admite um fato, mas apresenta outro que prevalece." data-explain-wrong="Revise valores semânticos: concessão ≠ oposição simples." >
+                <legend><strong>2)</strong> “Embora as redes aproximem, muitos se sentem sós.” O valor do conectivo “Embora” é de:</legend>
+                <label><input type="radio" name="q2" value="A" /> A) explicação</label><br />
+                <label><input type="radio" name="q2" value="B" /> B) conclusão</label><br />
+                <label><input type="radio" name="q2" value="C" /> C) oposição/contraste</label><br />
+                <label><input type="radio" name="q2" value="D" /> D) concessão</label><br />
+                <label><input type="radio" name="q2" value="E" /> E) condição</label>
+              </fieldset>
 
-            <div class="exercise" style="margin-top:.5rem;">
-              <strong>3)</strong> Em uma tira, o personagem afirma: “Vou estudar 5 min e descansar 2 horas”. O humor decorre de:<br />
-              A) precisão matemática B) hipérbole e quebra de expectativa C) descrição neutra D) linguagem técnica E) eufemismo<br />
-              <em>(Resposta: B.)</em>
-            </div>
+              <fieldset id="q3" data-answer="B" data-explain-correct="Hipérbole (proporção absurda) e quebra de expectativa geram humor." data-explain-wrong="Perceba a desproporção 5 min vs. 2 horas." >
+                <legend><strong>3)</strong> Em uma tira, o personagem afirma: “Vou estudar 5 min e descansar 2 horas”. O humor decorre de:</legend>
+                <label><input type="radio" name="q3" value="A" /> A) precisão matemática</label><br />
+                <label><input type="radio" name="q3" value="B" /> B) hipérbole e quebra de expectativa</label><br />
+                <label><input type="radio" name="q3" value="C" /> C) descrição neutra</label><br />
+                <label><input type="radio" name="q3" value="D" /> D) linguagem técnica</label><br />
+                <label><input type="radio" name="q3" value="E" /> E) eufemismo</label>
+              </fieldset>
 
-            <div class="exercise" style="margin-top:.5rem;">
-              <strong>4)</strong> No trecho “As notícias pescam nossa atenção”, o recurso é:<br />
-              A) metonímia B) metáfora C) comparação explícita D) ironia E) personificação<br />
-              <em>(Resposta: B. Sentido figurado de “pescar”.)</em>
-            </div>
+              <fieldset id="q4" data-answer="B" data-explain-correct="‘Pescar’ assume sentido figurado: metáfora." data-explain-wrong="Personificação exigiria atribuir ação humana a algo não humano (sem ser figura mais ampla)." >
+                <legend><strong>4)</strong> No trecho “As notícias pescam nossa atenção”, o recurso é:</legend>
+                <label><input type="radio" name="q4" value="A" /> A) metonímia</label><br />
+                <label><input type="radio" name="q4" value="B" /> B) metáfora</label><br />
+                <label><input type="radio" name="q4" value="C" /> C) comparação explícita</label><br />
+                <label><input type="radio" name="q4" value="D" /> D) ironia</label><br />
+                <label><input type="radio" name="q4" value="E" /> E) personificação</label>
+              </fieldset>
 
-            <div class="exercise" style="margin-top:.5rem;">
-              <strong>5)</strong> “Logo, a proposta não se sustenta.” O operador “Logo” indica:<br />
-              A) oposição B) causa C) adição D) conclusão E) concessão<br />
-              <em>(Resposta: D.)</em>
-            </div>
+              <fieldset id="q5" data-answer="D" data-explain-correct="‘Logo’ é operador conclusivo." data-explain-wrong="Cuidado: ‘logo’ não é causa, é efeito/conclusão." >
+                <legend><strong>5)</strong> “Logo, a proposta não se sustenta.” O operador “Logo” indica:</legend>
+                <label><input type="radio" name="q5" value="A" /> A) oposição</label><br />
+                <label><input type="radio" name="q5" value="B" /> B) causa</label><br />
+                <label><input type="radio" name="q5" value="C" /> C) adição</label><br />
+                <label><input type="radio" name="q5" value="D" /> D) conclusão</label><br />
+                <label><input type="radio" name="q5" value="E" /> E) concessão</label>
+              </fieldset>
 
-            <p class="note" style="margin-top:.5rem;">Quer mais prática? Monte listas em <a href="/simulados/por-tema.html">Simulados por tema</a>.</p>
+              <div style="margin-top:.75rem;display:flex;gap:.5rem;flex-wrap:wrap;">
+                <button type="submit" class="btn btn--primary">Verificar respostas</button>
+                <button type="button" class="btn btn--outline reveal-answers">Mostrar gabarito</button>
+                <button type="button" class="btn btn--ghost reset-quiz">Limpar</button>
+              </div>
+            </form>
+
+            <p class="note" style="margin-top:.75rem;">Quer mais prática? Monte listas em <a href="/simulados/por-tema.html">Simulados por tema</a>.</p>
           </section>
 
           <section id="questoes-reais" class="section-block">
@@ -206,6 +350,9 @@
               <li>Manuais de leitura crítica e gramática aplicada (nível fundamental/médio).</li>
               <li>Portais educacionais com charges e tiras de uso didático (verifique direitos de uso).</li>
             </ul>
+            <div class="callout callout--warn" role="note" aria-label="Atenção">
+              Em interpretação, <strong>não</strong> há “achismo”: baseie a resposta no texto e nos operadores de coesão.
+            </div>
           </section>
 
           <nav class="lesson-nav">
@@ -219,6 +366,7 @@
           <ol>
             <li><a href="#objetivos">Objetivos</a></li>
             <li><a href="#prerequisitos">Pré-requisitos</a></li>
+            <li><a href="#checklist">Checklist</a></li>
             <li><a href="#teoria">Teoria</a></li>
             <li><a href="#exemplos">Exemplos</a></li>
             <li><a href="#exercicios">Exercícios</a></li>
@@ -243,5 +391,79 @@
       </nav>
     </div>
   </footer>
+
+  <script>
+  (() => {
+    // Marca que JS está habilitado
+    document.documentElement.classList.remove('no-js');
+
+    // Barra de progresso de leitura
+    const bar = document.getElementById('leitura-progress');
+    if (bar) {
+      const onScroll = () => {
+        const scrollTop = window.scrollY || document.documentElement.scrollTop;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+        bar.style.width = pct + '%';
+        bar.setAttribute('aria-valuenow', String(Math.round(pct)));
+      };
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+    }
+
+    // Quiz interativo
+    const forms = document.querySelectorAll('form.quiz');
+    forms.forEach(form => {
+      form.addEventListener('submit', e => {
+        e.preventDefault();
+        let total = 0, correct = 0;
+        form.querySelectorAll('fieldset[data-answer]').forEach(fs => {
+          total++;
+          const selected = fs.querySelector('input[type="radio"]:checked');
+          const expected = fs.dataset.answer;
+          let feedback = fs.querySelector('.feedback');
+          if (!feedback) {
+            feedback = document.createElement('div');
+            feedback.className = 'feedback';
+            feedback.setAttribute('role','status');
+            feedback.setAttribute('aria-live','polite');
+            fs.appendChild(feedback);
+          }
+          if (selected && selected.value === expected) {
+            correct++;
+            fs.classList.add('is-correct'); fs.classList.remove('is-wrong');
+            feedback.textContent = 'Correto! ' + (fs.dataset.explainCorrect || '');
+          } else {
+            fs.classList.add('is-wrong'); fs.classList.remove('is-correct');
+            feedback.textContent = 'Confira: ' + (fs.dataset.explainWrong || 'Revise as pistas do texto.');
+          }
+        });
+        let summary = form.querySelector('.quiz-summary');
+        if (!summary) {
+          summary = document.createElement('p');
+          summary.className = 'quiz-summary';
+          form.appendChild(summary);
+        }
+        summary.innerHTML = 'Você acertou <strong>' + correct + '</strong> de <strong>' + total + '</strong>.';
+      });
+
+      const reveal = form.querySelector('.reveal-answers');
+      if (reveal) reveal.addEventListener('click', () => {
+        form.querySelectorAll('fieldset[data-answer]').forEach(fs => {
+          const val = fs.dataset.answer;
+          const opt = fs.querySelector('input[value="'+val+'"]');
+          if (opt) opt.checked = true;
+        });
+      });
+
+      const resetBtn = form.querySelector('.reset-quiz');
+      if (resetBtn) resetBtn.addEventListener('click', () => {
+        form.reset();
+        form.querySelectorAll('.feedback, .quiz-summary').forEach(el => el.remove());
+        form.querySelectorAll('fieldset').forEach(fs => fs.classList.remove('is-correct','is-wrong'));
+      });
+    });
+  })();
+  </script>
 </body>
 </html>
