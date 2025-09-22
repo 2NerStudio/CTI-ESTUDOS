@@ -15098,5 +15098,2005 @@
     },
     "correta": "A",
     "explicacao": "A tese orienta a argumentação e é critério de avaliação."
+  },
+  {
+    "id": "PT-VOC-001",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "denotacao e conotacao",
+    "habilidade": "diferenciar uso literal e figurado",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o uso de 'coração' em: 'A cidade tem um coração pulsante.'",
+    "alternativas": {
+      "A": "denotacao",
+      "B": "conotacao",
+      "C": "polissemia",
+      "D": "homonimia",
+      "E": "paronimia"
+    },
+    "correta": "B",
+    "explicacao": "Metáfora (sentido figurado), logo conotacao."
+  },
+  {
+    "id": "PT-VOC-002",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "denotacao e conotacao",
+    "habilidade": "identificar denotacao",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o uso de 'manual' em: 'O técnico consultou o manual do aparelho.'",
+    "alternativas": {
+      "A": "denotacao",
+      "B": "conotacao",
+      "C": "hiperonimia",
+      "D": "metonimia",
+      "E": "polissemia"
+    },
+    "correta": "A",
+    "explicacao": "Uso literal/objetivo (denotacao)."
+  },
+  {
+    "id": "PT-VOC-003",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "denotacao e conotacao",
+    "habilidade": "diferenciar uso literal e figurado",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a alternativa com conotacao.",
+    "alternativas": {
+      "A": "O aluno consultou o manual.",
+      "B": "O laboratório mede a temperatura.",
+      "C": "A cidade nunca dorme.",
+      "D": "A pesquisadora coletou dados.",
+      "E": "O técnico trocou a peça."
+    },
+    "correta": "C",
+    "explicacao": "Personificação (conotacao): 'A cidade nunca dorme.'"
+  },
+  {
+    "id": "PT-VOC-004",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "denotacao e conotacao",
+    "habilidade": "reconhecer marcas de figuracao",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'O atleta é uma máquina.' Nessa frase, 'máquina' está em:",
+    "alternativas": {
+      "A": "denotacao",
+      "B": "conotacao",
+      "C": "hiperonimia",
+      "D": "homonimia",
+      "E": "antonomia"
+    },
+    "correta": "B",
+    "explicacao": "Metáfora para força/desempenho (conotacao)."
+  },
+  {
+    "id": "PT-VOC-005",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "denotacao e conotacao",
+    "habilidade": "avaliar contexto semantico",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'Este é o motor do projeto: dedicação.' O termo 'motor' está em:",
+    "alternativas": {
+      "A": "denotacao",
+      "B": "conotacao",
+      "C": "polissemia",
+      "D": "homografia",
+      "E": "paronimia"
+    },
+    "correta": "B",
+    "explicacao": "Uso figurado para causa/impulso (conotacao)."
+  },
+  {
+    "id": "PT-VOC-006",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "denotacao e conotacao",
+    "habilidade": "identificar denotacao",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'O médico examinou o coração do paciente.' Classifique o uso de 'coração'.",
+    "alternativas": {
+      "A": "conotacao",
+      "B": "paronimia",
+      "C": "denotacao",
+      "D": "homonimia",
+      "E": "hiperonimia"
+    },
+    "correta": "C",
+    "explicacao": "Órgão físico (literal), portanto denotacao."
+  },
+  {
+    "id": "PT-VOC-007",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "denotacao e conotacao",
+    "habilidade": "diferenciar uso literal e figurado",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a frase em denotacao.",
+    "alternativas": {
+      "A": "A escola é um berço de talentos.",
+      "B": "O chefe é uma rocha.",
+      "C": "O aluno consultou o manual do aparelho.",
+      "D": "Meu bairro é um formigueiro.",
+      "E": "A cidade é um coração pulsante."
+    },
+    "correta": "C",
+    "explicacao": "As demais são figuras; 'consultou o manual' é literal."
+  },
+  {
+    "id": "PT-VOC-008",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "paronimos",
+    "habilidade": "distinguir paronimos em contexto",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete: 'O juiz ______ a sentença após corrigir um erro material.'",
+    "alternativas": {
+      "A": "ratificou",
+      "B": "retificou",
+      "C": "revogou",
+      "D": "reiterou",
+      "E": "suspendeu"
+    },
+    "correta": "A",
+    "explicacao": "Ratificar = confirmar; corrigir antes, depois confirmar."
+  },
+  {
+    "id": "PT-VOC-009",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "paronimos",
+    "habilidade": "distinguir paronimos em contexto",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete: 'O governo vai ______ os dados incorretos no relatório.'",
+    "alternativas": {
+      "A": "ratificar",
+      "B": "retificar",
+      "C": "retirar",
+      "D": "revisar",
+      "E": "ratificar e retificar"
+    },
+    "correta": "B",
+    "explicacao": "Retificar = corrigir dados."
+  },
+  {
+    "id": "PT-VOC-010",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "paronimos",
+    "habilidade": "distinguir paronimos frequentes",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Escolha a opção correta para a frase: 'A pesquisadora é muito ______ em sua área.'",
+    "alternativas": {
+      "A": "iminente",
+      "B": "eminente",
+      "C": "eminenta",
+      "D": "iminenta",
+      "E": "emanente"
+    },
+    "correta": "B",
+    "explicacao": "Eminente = notável; 'iminente' é 'prestes a acontecer'."
+  },
+  {
+    "id": "PT-VOC-011",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "paronimos",
+    "habilidade": "distinguir paronimos frequentes",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete: 'O campeonato é ______; começa amanhã.'",
+    "alternativas": {
+      "A": "eminente",
+      "B": "iminente",
+      "C": "emergente",
+      "D": "eminente e iminente",
+      "E": "eminento"
+    },
+    "correta": "B",
+    "explicacao": "Iminente = prestes a acontecer."
+  },
+  {
+    "id": "PT-VOC-012",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "paronimos",
+    "habilidade": "distinguir paronimos frequentes",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Escolha o termo correto: 'O ______ estava intenso na avenida.'",
+    "alternativas": {
+      "A": "tráfico",
+      "B": "tráfego",
+      "C": "trafego",
+      "D": "trafico",
+      "E": "tráfico e tráfego"
+    },
+    "correta": "B",
+    "explicacao": "Tráfego = circulação; tráfico = comércio ilícito."
+  },
+  {
+    "id": "PT-VOC-013",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "paronimos",
+    "habilidade": "distinguir paronimos frequentes",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Escolha o termo correto: 'Sua ______ do cenário foi minuciosa.'",
+    "alternativas": {
+      "A": "discrição",
+      "B": "descrição",
+      "C": "descição",
+      "D": "discreção",
+      "E": "decrição"
+    },
+    "correta": "B",
+    "explicacao": "Descrição = ato de descrever; discrição = reserva."
+  },
+  {
+    "id": "PT-VOC-014",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "paronimos",
+    "habilidade": "distinguir paronimos frequentes",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete: 'Recebi os seus ______ com alegria.'",
+    "alternativas": {
+      "A": "comprimentos",
+      "B": "cumprimentos",
+      "C": "comprimento",
+      "D": "cumprimento",
+      "E": "cumprimente"
+    },
+    "correta": "B",
+    "explicacao": "Cumprimentos = saudações; comprimento = medida."
+  },
+  {
+    "id": "PT-VOC-015",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "paronimos",
+    "habilidade": "distinguir paronimos frequentes",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a frase correta.",
+    "alternativas": {
+      "A": "O perfume estava flagrante.",
+      "B": "O erro foi fragrante.",
+      "C": "O erro foi flagrante.",
+      "D": "O jardim estava flagrante.",
+      "E": "O flagrante estava perfumado."
+    },
+    "correta": "C",
+    "explicacao": "Flagrante = evidente; fragrante = cheiroso."
+  },
+  {
+    "id": "PT-VOC-016",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "paronimos",
+    "habilidade": "distinguir paronimos frequentes",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete: 'O juiz decidiu ______ uma multa ao infrator.'",
+    "alternativas": {
+      "A": "infringir",
+      "B": "infligir",
+      "C": "influenciar",
+      "D": "afligir",
+      "E": "restringir"
+    },
+    "correta": "B",
+    "explicacao": "Infligir = aplicar pena; infringir = desrespeitar."
+  },
+  {
+    "id": "PT-VOC-017",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "paronimos",
+    "habilidade": "distinguir paronimos frequentes",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "No contexto: 'Ele ______ a lei', o verbo correto é:",
+    "alternativas": {
+      "A": "infligiu",
+      "B": "infringiu",
+      "C": "infingiu",
+      "D": "afligiu",
+      "E": "restringiu"
+    },
+    "correta": "B",
+    "explicacao": "Infringir = desrespeitar (lei)."
+  },
+  {
+    "id": "PT-VOC-018",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "paronimos",
+    "habilidade": "distinguir paronimos frequentes",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete: 'O mergulhador vai ______; depois, com ajuda, pode ______.'",
+    "alternativas": {
+      "A": "emergir; imergir",
+      "B": "imergir; emergir",
+      "C": "emergir; emergir",
+      "D": "imergir; imergir",
+      "E": "submergir; emergir"
+    },
+    "correta": "B",
+    "explicacao": "Imergir = afundar; emergir = vir à tona."
+  },
+  {
+    "id": "PT-VOC-019",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "paronimos",
+    "habilidade": "distinguir paronimos frequentes",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a opção correta: 'O ______ de vereador é de quatro anos.'",
+    "alternativas": {
+      "A": "mandado",
+      "B": "mandato",
+      "C": "mandata",
+      "D": "mandante",
+      "E": "mandatório"
+    },
+    "correta": "B",
+    "explicacao": "Mandato = período de exercício do cargo; mandado = ordem judicial."
+  },
+  {
+    "id": "PT-VOC-020",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "paronimos",
+    "habilidade": "distinguir paronimos frequentes",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a frase correta.",
+    "alternativas": {
+      "A": "O juiz expediu um mandato de prisão.",
+      "B": "O juiz expediu um mandado de prisão.",
+      "C": "O juiz expediu um mandata de prisão.",
+      "D": "O juiz expediu um mandamento de prisão.",
+      "E": "O juiz expediu um mandato prisional."
+    },
+    "correta": "B",
+    "explicacao": "Ordem judicial = mandado."
+  },
+  {
+    "id": "PT-VOC-021",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "homonimos e homofonos",
+    "habilidade": "classificar relacao fonografica",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'seção/sessão/cessão' são:",
+    "alternativas": {
+      "A": "homofonos",
+      "B": "homografos",
+      "C": "paronimos",
+      "D": "antonimos",
+      "E": "sinonimos"
+    },
+    "correta": "A",
+    "explicacao": "Mesma pronúncia, grafias e sentidos diferentes (homofonos)."
+  },
+  {
+    "id": "PT-VOC-022",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "homonimos e homografos",
+    "habilidade": "classificar relacao fonografica",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'colher' (verbo) x 'colher' (utensílio) são:",
+    "alternativas": {
+      "A": "homografos",
+      "B": "homofonos",
+      "C": "paronimos",
+      "D": "polissemia",
+      "E": "hiperonimia"
+    },
+    "correta": "A",
+    "explicacao": "Mesma grafia, pronúncias diferentes: homografos."
+  },
+  {
+    "id": "PT-VOC-023",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "homonimos",
+    "habilidade": "classificar homonimos perfeitos",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'manga' (fruta) x 'manga' (camisa) são:",
+    "alternativas": {
+      "A": "homonimos perfeitos",
+      "B": "homofonos",
+      "C": "homografos",
+      "D": "paronimos",
+      "E": "polissemia"
+    },
+    "correta": "A",
+    "explicacao": "Mesma grafia e som; sentidos distintos (homônimos perfeitos)."
+  },
+  {
+    "id": "PT-VOC-024",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "homonimos e homofonos",
+    "habilidade": "classificar relacao fonografica",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'censo' x 'senso' são:",
+    "alternativas": {
+      "A": "homografos",
+      "B": "homonimos perfeitos",
+      "C": "homofonos",
+      "D": "paronimos",
+      "E": "sinonimos"
+    },
+    "correta": "C",
+    "explicacao": "Soam igual; grafia e sentidos distintos."
+  },
+  {
+    "id": "PT-VOC-025",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "homonimos e homofonos",
+    "habilidade": "classificar relacao fonografica",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'acento' x 'assento' são:",
+    "alternativas": {
+      "A": "homofonos",
+      "B": "homografos",
+      "C": "paronimos",
+      "D": "antonimos",
+      "E": "sinonimos"
+    },
+    "correta": "A",
+    "explicacao": "Pronúncia idêntica em muitos sotaques; grafias/ sentidos diferentes."
+  },
+  {
+    "id": "PT-VOC-026",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "polissemia",
+    "habilidade": "reconhecer polissemia no contexto",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em: 'A bateria da prova terá 30 questões', 'bateria' é caso de:",
+    "alternativas": {
+      "A": "homonimia",
+      "B": "polissemia",
+      "C": "paronimia",
+      "D": "denotacao",
+      "E": "conotacao"
+    },
+    "correta": "B",
+    "explicacao": "Acepção de 'bateria' (conjunto de exercícios) dentro de um mesmo vocábulo (polissemia)."
+  },
+  {
+    "id": "PT-VOC-027",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "polissemia",
+    "habilidade": "reconhecer polissemia no contexto",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em: 'A cabeça do parafuso espanou', 'cabeça' é:",
+    "alternativas": {
+      "A": "homografo",
+      "B": "homofono",
+      "C": "polissemia",
+      "D": "conotacao",
+      "E": "hiperonimia"
+    },
+    "correta": "C",
+    "explicacao": "Sentido técnico de 'cabeça' (parte superior) = polissemia."
+  },
+  {
+    "id": "PT-VOC-028",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "polissemia",
+    "habilidade": "reconhecer polissemia no contexto",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'O banco fechou cedo' (instituição) x 'Sente no banco' (assento) indicam:",
+    "alternativas": {
+      "A": "paronimia",
+      "B": "homonimos perfeitos",
+      "C": "polissemia",
+      "D": "homografos",
+      "E": "metonimia"
+    },
+    "correta": "C",
+    "explicacao": "Acepções do mesmo vocábulo 'banco' (polissemia) em português corrente."
+  },
+  {
+    "id": "PT-VOC-029",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "polissemia",
+    "habilidade": "reconhecer polissemia no contexto",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'A vela do bolo' x 'A vela do barco' ilustram:",
+    "alternativas": {
+      "A": "homonimia",
+      "B": "polissemia",
+      "C": "paronimia",
+      "D": "hiperonimia",
+      "E": "sinonimia"
+    },
+    "correta": "B",
+    "explicacao": "Mesma palavra com acepções distintas e relacionadas (polissemia)."
+  },
+  {
+    "id": "PT-VOC-030",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "polissemia",
+    "habilidade": "reconhecer polissemia no contexto",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em: 'Ele fez uma folha com os cálculos', 'folha' refere-se a:",
+    "alternativas": {
+      "A": "parte da planta",
+      "B": "página de papel",
+      "C": "ramo de árvore",
+      "D": "sentido conotativo",
+      "E": "hiperonimo"
+    },
+    "correta": "B",
+    "explicacao": "Acepção de 'folha' como 'página' (polissemia)."
+  },
+  {
+    "id": "PT-VOC-031",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "polissemia",
+    "habilidade": "reconhecer polissemia no contexto",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'O braço do sofá quebrou' exemplifica:",
+    "alternativas": {
+      "A": "homografia",
+      "B": "polissemia",
+      "C": "paronimia",
+      "D": "conotacao",
+      "E": "antonimia"
+    },
+    "correta": "B",
+    "explicacao": "'Braço' em acepção de 'apoio lateral' (polissemia)."
+  },
+  {
+    "id": "PT-VOC-032",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "polissemia",
+    "habilidade": "reconhecer polissemia no contexto",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'A cabeça do time é o meio-campista' indica:",
+    "alternativas": {
+      "A": "conotacao",
+      "B": "homonimia",
+      "C": "polissemia",
+      "D": "hiperonimia",
+      "E": "metonimia"
+    },
+    "correta": "C",
+    "explicacao": "Acepção figurada dentro do mesmo vocábulo (polissemia)."
+  },
+  {
+    "id": "PT-VOC-033",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "hiperonimia e hiponimia",
+    "habilidade": "identificar hiperonomo",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Hiperônimo de 'maçã' é:",
+    "alternativas": {
+      "A": "fruta",
+      "B": "doce",
+      "C": "vermelha",
+      "D": "árvore",
+      "E": "mercado"
+    },
+    "correta": "A",
+    "explicacao": "Fruta é o termo mais geral (hiperonimo)."
+  },
+  {
+    "id": "PT-VOC-034",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "hiperonimia e hiponimia",
+    "habilidade": "identificar hiponimo",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Hipônimo de 'fruta' é:",
+    "alternativas": {
+      "A": "banana",
+      "B": "alimento",
+      "C": "comida",
+      "D": "mercadoria",
+      "E": "vitamina"
+    },
+    "correta": "A",
+    "explicacao": "Banana é caso específico (hiponimo) de fruta."
+  },
+  {
+    "id": "PT-VOC-035",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "hiperonimia e hiponimia",
+    "habilidade": "classificar relacao lexical",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'Veículo' em relação a 'carro' é:",
+    "alternativas": {
+      "A": "hiperonimo",
+      "B": "hiponimo",
+      "C": "sinonimo",
+      "D": "antonimo",
+      "E": "paronimo"
+    },
+    "correta": "A",
+    "explicacao": "Veículo é termo mais geral que inclui carro."
+  },
+  {
+    "id": "PT-VOC-036",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "hiperonimia e hiponimia",
+    "habilidade": "identificar hiponimo",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale o hipônimo de 'dispositivo eletrônico'.",
+    "alternativas": {
+      "A": "celular",
+      "B": "aparelho",
+      "C": "objeto",
+      "D": "equipamento",
+      "E": "tecnologia"
+    },
+    "correta": "A",
+    "explicacao": "Celular é um tipo específico de dispositivo eletrônico."
+  },
+  {
+    "id": "PT-VOC-037",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "hiperonimia e hiponimia",
+    "habilidade": "aplicar coesao lexical",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Para evitar repetição de 'celular', a melhor sequência é:",
+    "alternativas": {
+      "A": "celular → coisa → isso",
+      "B": "celular → aparelho → dispositivo",
+      "C": "celular → celular → celular",
+      "D": "celular → telefone → comida",
+      "E": "celular → fruta → aparelho"
+    },
+    "correta": "B",
+    "explicacao": "Cadeia lexical por sinônimo/hiperônimo mantém coesão."
+  },
+  {
+    "id": "PT-VOC-038",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "referencia pronominal",
+    "habilidade": "identificar anafora",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'As redes sociais oferecem recursos úteis. Isso pode otimizar o estudo.' O pronome 'Isso' é:",
+    "alternativas": {
+      "A": "anafora (retoma o anterior)",
+      "B": "catafora (antecipa o posterior)",
+      "C": "sem antecedente",
+      "D": "deixis exoforica",
+      "E": "pronome relativo"
+    },
+    "correta": "A",
+    "explicacao": "Retoma a ideia da oração anterior (anáfora)."
+  },
+  {
+    "id": "PT-VOC-039",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "referencia pronominal",
+    "habilidade": "identificar catafora",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'Este é o problema: faltam dados.' O pronome 'Este' funciona como:",
+    "alternativas": {
+      "A": "anafora",
+      "B": "catafora",
+      "C": "elipse",
+      "D": "pronome relativo",
+      "E": "vocativo"
+    },
+    "correta": "B",
+    "explicacao": "Aponta para o que virá (catáfora)."
+  },
+  {
+    "id": "PT-VOC-040",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "referencia pronominal",
+    "habilidade": "identificar antecedente pronominal",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'Os resultados foram divulgados; isso gerou debate.' 'Isso' retoma:",
+    "alternativas": {
+      "A": "apenas 'resultados'",
+      "B": "a acao de divulgar os resultados",
+      "C": "debate",
+      "D": "assunto geral do texto",
+      "E": "um termo posterior"
+    },
+    "correta": "B",
+    "explicacao": "Retoma a proposição anterior (a divulgação)."
+  },
+  {
+    "id": "PT-VOC-041",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "pronomes demonstrativos",
+    "habilidade": "selecionar demonstrativo adequado",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Para apontar ideia já dita, prefira:",
+    "alternativas": {
+      "A": "este/esta/isto",
+      "B": "esse/essa/isso",
+      "C": "aquele/aquela/aquilo",
+      "D": "ele/ela",
+      "E": "aquele/esta/isso"
+    },
+    "correta": "B",
+    "explicacao": "Esse/essa/isso retomam o que já foi dito (anáfora)."
+  },
+  {
+    "id": "PT-VOC-042",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "pronomes demonstrativos",
+    "habilidade": "selecionar demonstrativo adequado",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Para anunciar o que será explicado a seguir, use:",
+    "alternativas": {
+      "A": "esse",
+      "B": "este",
+      "C": "aquele",
+      "D": "isso",
+      "E": "aquilo"
+    },
+    "correta": "B",
+    "explicacao": "Este/esta/isto apontam para o que virá (catáfora)."
+  },
+  {
+    "id": "PT-VOC-043",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "coesao pronominal",
+    "habilidade": "evitar ambiguidade pronominal",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Melhor opção para evitar ambiguidade: 'João falou com Pedro quando ele chegou.'",
+    "alternativas": {
+      "A": "Quando ele chegou, João falou com Pedro.",
+      "B": "João falou com Pedro quando João chegou.",
+      "C": "João falou quando ele chegou.",
+      "D": "João falou com Pedro quando chegaram.",
+      "E": "João falou com Pedro quando o mesmo chegou."
+    },
+    "correta": "B",
+    "explicacao": "Repetir o termo elimina a ambiguidade do 'ele'."
+  },
+  {
+    "id": "PT-VOC-044",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "coesao pronominal",
+    "habilidade": "reconhecer cadeia referencial",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'Os smartphones evoluíram. Esses aparelhos têm câmeras potentes.' O termo 'Esses aparelhos' é:",
+    "alternativas": {
+      "A": "introducao de novo topico",
+      "B": "retomada sinonimica",
+      "C": "exemplo nao relacionado",
+      "D": "antonimia",
+      "E": "repeticao literal"
+    },
+    "correta": "B",
+    "explicacao": "Retoma por sinônimo/hiperônimo (aparelhos) o referente 'smartphones'."
+  },
+  {
+    "id": "PT-VOC-045",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "elipse e substituicao",
+    "habilidade": "identificar elipse",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em: 'Comprei o livro e [ ] li em dois dias', há:",
+    "alternativas": {
+      "A": "catafora",
+      "B": "anafora",
+      "C": "elipse do sujeito",
+      "D": "hiperonimia",
+      "E": "polissemia"
+    },
+    "correta": "C",
+    "explicacao": "Sujeito elíptico recuperável pelo contexto (eu)."
+  },
+  {
+    "id": "PT-VOC-046",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "coesao lexical",
+    "habilidade": "escolher substituicoes adequadas",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Melhor substituição para evitar repetição de 'pesquisa' em registro formal:",
+    "alternativas": {
+      "A": "negócio",
+      "B": "bagulho",
+      "C": "estudo",
+      "D": "trampo",
+      "E": "coisa"
+    },
+    "correta": "C",
+    "explicacao": "Estudo mantém registro formal e coesão lexical."
+  },
+  {
+    "id": "PT-VOC-047",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "coesao pronominal",
+    "habilidade": "identificar antecedente pronominal",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'Maria elogiou Ana porque ela foi dedicada.' 'Ela' refere-se, mais provavelmente, a:",
+    "alternativas": {
+      "A": "Maria",
+      "B": "Ana",
+      "C": "as duas",
+      "D": "nenhuma",
+      "E": "o narrador"
+    },
+    "correta": "B",
+    "explicacao": "Tendência de proximidade referencia 'Ana'; ainda assim, é ambíguo. Melhor reescrever em prova."
+  },
+  {
+    "id": "PT-VOC-048",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "sinonimos e registro",
+    "habilidade": "selecionar sinonimo adequado ao contexto",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em texto formal: 'medidas para diminuir o consumo'. Melhor sinônimo para 'diminuir':",
+    "alternativas": {
+      "A": "reduzir",
+      "B": "cortar",
+      "C": "atrofiar",
+      "D": "rebaixar",
+      "E": "podar"
+    },
+    "correta": "A",
+    "explicacao": "Reduzir é neutro/formal; outros têm nuances impróprias."
+  },
+  {
+    "id": "PT-VOC-049",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "sinonimos e antonimos",
+    "habilidade": "identificar antonimo contextual",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Antônimo mais adequado de 'aumentar' em relatório técnico:",
+    "alternativas": {
+      "A": "cair",
+      "B": "minguar",
+      "C": "reduzir",
+      "D": "murchar",
+      "E": "encolher"
+    },
+    "correta": "C",
+    "explicacao": "Reduzir é par lexical técnico/ formal para 'aumentar'."
+  },
+  {
+    "id": "PT-VOC-050",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "sinonimos e registro",
+    "habilidade": "selecionar vocabulario conforme registro",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Melhor opção para texto acadêmico: 'Os resultados foram _______ por pares.'",
+    "alternativas": {
+      "A": "checados",
+      "B": "vistos",
+      "C": "verificados",
+      "D": "conferidos",
+      "E": "dadinhos"
+    },
+    "correta": "C",
+    "explicacao": "Verificados tem registro mais formal em contexto acadêmico."
+  },
+  {
+    "id": "PT-VOC-051",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "denotacao e conotacao",
+    "habilidade": "diferenciar uso literal e figurado",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique o uso em: 'Ele é um poço de sabedoria.'",
+    "alternativas": {
+      "A": "denotacao",
+      "B": "conotacao",
+      "C": "polissemia",
+      "D": "homonimia",
+      "E": "antonimia"
+    },
+    "correta": "B",
+    "explicacao": "Metáfora (poço de sabedoria) é conotacao."
+  },
+  {
+    "id": "PT-VOC-052",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "denotacao e conotacao",
+    "habilidade": "identificar denotacao",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a frase em denotacao.",
+    "alternativas": {
+      "A": "A internet é uma janela para o mundo.",
+      "B": "O técnico trocou a peça defeituosa.",
+      "C": "A cidade pulsa à noite.",
+      "D": "O aluno é uma máquina de aprender.",
+      "E": "O mercado respirou após as notícias."
+    },
+    "correta": "B",
+    "explicacao": "Uso literal/objetivo; as demais são figuradas."
+  },
+  {
+    "id": "PT-VOC-053",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "denotacao e conotacao",
+    "habilidade": "reconhecer marcas de figuracao",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual recurso abaixo sinaliza com mais probabilidade o uso figurado?",
+    "alternativas": {
+      "A": "metafora",
+      "B": "definicao de dicionario",
+      "C": "dado estatistico",
+      "D": "medida exata",
+      "E": "etimologia"
+    },
+    "correta": "A",
+    "explicacao": "Metáfora é marca típica de conotacao."
+  },
+  {
+    "id": "PT-VOC-054",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "denotacao e conotacao",
+    "habilidade": "avaliar contexto semantico",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Classifique: 'A economia esfriou no segundo semestre.'",
+    "alternativas": {
+      "A": "denotacao",
+      "B": "conotacao",
+      "C": "polissemia",
+      "D": "homonimia",
+      "E": "hiperonimia"
+    },
+    "correta": "B",
+    "explicacao": "Esfriar é metáfora para desacelerar, logo conotacao."
+  },
+  {
+    "id": "PT-VOC-055",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "denotacao e conotacao",
+    "habilidade": "identificar denotacao",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em 'Rosa = flor', o sentido é:",
+    "alternativas": {
+      "A": "conotacao",
+      "B": "denotacao",
+      "C": "polissemia",
+      "D": "homonimia",
+      "E": "metonimia"
+    },
+    "correta": "B",
+    "explicacao": "Sentido literal/de dicionário."
+  },
+  {
+    "id": "PT-VOC-056",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "sinonimos e registro",
+    "habilidade": "selecionar vocabulario conforme registro",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete (registro formal): 'O evento vai ______ às 9h.'",
+    "alternativas": {
+      "A": "iniciar",
+      "B": "começar",
+      "C": "dar a largada",
+      "D": "pegar no tranco",
+      "E": "estrear"
+    },
+    "correta": "A",
+    "explicacao": "Iniciar é mais neutro/formal que as demais opções."
+  },
+  {
+    "id": "PT-VOC-057",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "sinonimos e registro",
+    "habilidade": "selecionar vocabulario conforme registro",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete (ato oficial): 'A sessão será ______ às 18h.'",
+    "alternativas": {
+      "A": "terminada",
+      "B": "encerrada",
+      "C": "acabada",
+      "D": "finalizada",
+      "E": "parada"
+    },
+    "correta": "B",
+    "explicacao": "Encerrar/encerrada é a forma preferida em atos oficiais."
+  },
+  {
+    "id": "PT-VOC-058",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "sinonimos e registro",
+    "habilidade": "selecionar vocabulario conforme registro",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em manual técnico, prefira:",
+    "alternativas": {
+      "A": "usar",
+      "B": "utilizar",
+      "C": "mexer",
+      "D": "brincar",
+      "E": "operar com"
+    },
+    "correta": "B",
+    "explicacao": "Utilizar tem registro mais técnico/impessoal."
+  },
+  {
+    "id": "PT-VOC-059",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "sinonimos e registro",
+    "habilidade": "selecionar vocabulario conforme registro",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Medidas para ______ os impactos ambientais.",
+    "alternativas": {
+      "A": "diminuir",
+      "B": "mitigar",
+      "C": "cortar",
+      "D": "podar",
+      "E": "atrofiar"
+    },
+    "correta": "B",
+    "explicacao": "Mitigar é termo típico de registro técnico/político."
+  },
+  {
+    "id": "PT-VOC-060",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "sinonimos e registro",
+    "habilidade": "selecionar vocabulario conforme registro",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O estudo foi ______ em 2024.",
+    "alternativas": {
+      "A": "feito",
+      "B": "tocado",
+      "C": "realizado",
+      "D": "bolado",
+      "E": "aprontado"
+    },
+    "correta": "C",
+    "explicacao": "Realizado é a forma mais formal."
+  },
+  {
+    "id": "PT-VOC-061",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "paronimos",
+    "habilidade": "distinguir paronimos em contexto",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A votação ______ a cerimônia de abertura.",
+    "alternativas": {
+      "A": "procedeu",
+      "B": "precedeu",
+      "C": "precederam",
+      "D": "processou",
+      "E": "prosseguiu"
+    },
+    "correta": "B",
+    "explicacao": "Preceder = vir antes; proceder = ter procedência/ser correto."
+  },
+  {
+    "id": "PT-VOC-062",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "paronimos",
+    "habilidade": "distinguir paronimos em contexto",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Essa suspeita não ______.",
+    "alternativas": {
+      "A": "precede",
+      "B": "procede",
+      "C": "precedes",
+      "D": "prossegue",
+      "E": "processa"
+    },
+    "correta": "B",
+    "explicacao": "Proceder = ser válida/ter fundamento."
+  },
+  {
+    "id": "PT-VOC-063",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "paronimos",
+    "habilidade": "distinguir paronimos frequentes",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ele é um ______: sempre gentil e cortês.",
+    "alternativas": {
+      "A": "cavaleiro",
+      "B": "cavalheiro",
+      "C": "cavalar",
+      "D": "cavalheiroso",
+      "E": "cavalhada"
+    },
+    "correta": "B",
+    "explicacao": "Cavalheiro = homem gentil; cavaleiro = quem monta a cavalo."
+  },
+  {
+    "id": "PT-VOC-064",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "paronimos",
+    "habilidade": "distinguir paronimos frequentes",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O ______ venceu a prova de hipismo.",
+    "alternativas": {
+      "A": "cavalheiro",
+      "B": "cavaleiro",
+      "C": "cavalar",
+      "D": "cavalheiroso",
+      "E": "cavalino"
+    },
+    "correta": "B",
+    "explicacao": "Cavaleiro = atleta/quem monta a cavalo."
+  },
+  {
+    "id": "PT-VOC-065",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "homofonos",
+    "habilidade": "usar grafia correta no contexto",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Vou à ______ de cinema às 20h.",
+    "alternativas": {
+      "A": "seção",
+      "B": "sessão",
+      "C": "cessão",
+      "D": "seçao",
+      "E": "sesão"
+    },
+    "correta": "B",
+    "explicacao": "Sessão = reunião/exibição; seção = parte; cessão = ato de ceder."
+  },
+  {
+    "id": "PT-VOC-066",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "homofonos",
+    "habilidade": "usar grafia correta no contexto",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Leia a ______ de esportes do jornal.",
+    "alternativas": {
+      "A": "seção",
+      "B": "sessão",
+      "C": "cessão",
+      "D": "seçao",
+      "E": "sesão"
+    },
+    "correta": "A",
+    "explicacao": "Seção = parte de um todo (jornal)."
+  },
+  {
+    "id": "PT-VOC-067",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "homofonos",
+    "habilidade": "usar grafia correta no contexto",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Houve ______ de direitos autorais.",
+    "alternativas": {
+      "A": "seção",
+      "B": "sessão",
+      "C": "cessão",
+      "D": "secção",
+      "E": "sensão"
+    },
+    "correta": "C",
+    "explicacao": "Cessão = ato de ceder."
+  },
+  {
+    "id": "PT-VOC-068",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "paronimos",
+    "habilidade": "distinguir paronimos em contexto",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A polícia coibiu o ______ de drogas.",
+    "alternativas": {
+      "A": "tráfego",
+      "B": "tráfico",
+      "C": "trafico",
+      "D": "trafego",
+      "E": "trafegar"
+    },
+    "correta": "B",
+    "explicacao": "Tráfico = comércio ilícito; tráfego = circulação."
+  },
+  {
+    "id": "PT-VOC-069",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "paronimos",
+    "habilidade": "usar paronimos corretamente",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Medimos o ______ da mesa.",
+    "alternativas": {
+      "A": "cumprimento",
+      "B": "comprimento",
+      "C": "cumprimentos",
+      "D": "comprimentar",
+      "E": "cumprimentar"
+    },
+    "correta": "B",
+    "explicacao": "Comprimento = medida; cumprimento = saudação/ato de cumprir."
+  },
+  {
+    "id": "PT-VOC-070",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "paronimos",
+    "habilidade": "usar paronimos corretamente",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Mantenha a ______ ao tratar do assunto.",
+    "alternativas": {
+      "A": "descrição",
+      "B": "discrição",
+      "C": "descição",
+      "D": "discreção",
+      "E": "decrição"
+    },
+    "correta": "B",
+    "explicacao": "Discrição = reserva/moderação; descrição = ato de descrever."
+  },
+  {
+    "id": "PT-VOC-071",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "paronimos",
+    "habilidade": "usar paronimos corretamente",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Seu ______ termina em 2028.",
+    "alternativas": {
+      "A": "mandato",
+      "B": "mandado",
+      "C": "mandante",
+      "D": "mandatório",
+      "E": "mandata"
+    },
+    "correta": "A",
+    "explicacao": "Mandato = período de exercício do cargo; mandado = ordem judicial."
+  },
+  {
+    "id": "PT-VOC-072",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "paronimos",
+    "habilidade": "usar paronimos corretamente",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Após horas submerso, o submarino vai ______.",
+    "alternativas": {
+      "A": "imergir",
+      "B": "emergir",
+      "C": "submergir",
+      "D": "surgir",
+      "E": "afundar"
+    },
+    "correta": "B",
+    "explicacao": "Emergir = vir à tona; imergir = afundar."
+  },
+  {
+    "id": "PT-VOC-073",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "paronimos",
+    "habilidade": "distinguir paronimos em contexto",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O árbitro decidiu ______ uma punição exemplar.",
+    "alternativas": {
+      "A": "infringir",
+      "B": "infligir",
+      "C": "afligir",
+      "D": "restringir",
+      "E": "expandir"
+    },
+    "correta": "B",
+    "explicacao": "Infligir = aplicar (pena); infringir = desrespeitar (lei)."
+  },
+  {
+    "id": "PT-VOC-074",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "homografos",
+    "habilidade": "classificar relacao fonografica",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'colher' (verbo) x 'colher' (utensílio) são:",
+    "alternativas": {
+      "A": "homografos",
+      "B": "homofonos",
+      "C": "paronimos",
+      "D": "polissemia",
+      "E": "sinonimos"
+    },
+    "correta": "A",
+    "explicacao": "Mesma grafia com pronúncias diferentes: homógrafos."
+  },
+  {
+    "id": "PT-VOC-075",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "homofonos",
+    "habilidade": "usar grafia correta no contexto",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Sente-se no ______ da frente.",
+    "alternativas": {
+      "A": "assento",
+      "B": "acento",
+      "C": "acento e assento",
+      "D": "acentuo",
+      "E": "ascenso"
+    },
+    "correta": "A",
+    "explicacao": "Assento = lugar para sentar; acento = sinal gráfico."
+  },
+  {
+    "id": "PT-VOC-076",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "homofonos",
+    "habilidade": "usar grafia correta no contexto",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O ______ agudo indica a sílaba tônica em certas palavras.",
+    "alternativas": {
+      "A": "assento",
+      "B": "acento",
+      "C": "ascenso",
+      "D": "assensão",
+      "E": "cento"
+    },
+    "correta": "B",
+    "explicacao": "Acento = sinal gráfico."
+  },
+  {
+    "id": "PT-VOC-077",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "homonimos",
+    "habilidade": "classificar homonimos perfeitos",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual par apresenta homonimos perfeitos?",
+    "alternativas": {
+      "A": "censo/senso",
+      "B": "colher (verbo)/colher (utensílio)",
+      "C": "manga (fruta)/manga (camisa)",
+      "D": "tráfego/tráfico",
+      "E": "descrição/discrição"
+    },
+    "correta": "C",
+    "explicacao": "Mesma grafia e pronúncia; sentidos diferentes."
+  },
+  {
+    "id": "PT-VOC-078",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "homofonos",
+    "habilidade": "classificar relacao fonografica",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'censo' e 'senso' são:",
+    "alternativas": {
+      "A": "homografos",
+      "B": "homofonos",
+      "C": "paronimos",
+      "D": "sinonimos",
+      "E": "antonimos"
+    },
+    "correta": "B",
+    "explicacao": "Mesma pronúncia, grafias/sentidos distintos."
+  },
+  {
+    "id": "PT-VOC-079",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "homografos",
+    "habilidade": "reconhecer homografia",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale o par de homografos.",
+    "alternativas": {
+      "A": "tráfego/tráfico",
+      "B": "acento/assento",
+      "C": "colher (verbo)/colher (utensílio)",
+      "D": "censo/senso",
+      "E": "seção/sessão"
+    },
+    "correta": "C",
+    "explicacao": "Mesma grafia; pronúncias e sentidos diferentes."
+  },
+  {
+    "id": "PT-VOC-080",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "polissemia",
+    "habilidade": "reconhecer polissemia no contexto",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a frase que exemplifica polissemia.",
+    "alternativas": {
+      "A": "A bateria do celular acabou.",
+      "B": "A bateria da prova terá 30 questões.",
+      "C": "Comprei uma bateria nova para o carro.",
+      "D": "Todas as alternativas",
+      "E": "Nenhuma das alternativas"
+    },
+    "correta": "D",
+    "explicacao": "Várias acepções do mesmo vocábulo 'bateria'."
+  },
+  {
+    "id": "PT-VOC-081",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "pronomes demonstrativos",
+    "habilidade": "selecionar demonstrativo adequado",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete: '______ produto, mencionado no parágrafo anterior, foi recolhido.'",
+    "alternativas": {
+      "A": "Este",
+      "B": "Esse",
+      "C": "Aquele",
+      "D": "Isto",
+      "E": "Aquilo"
+    },
+    "correta": "B",
+    "explicacao": "Esse retoma o que já foi mencionado (anáfora)."
+  },
+  {
+    "id": "PT-VOC-082",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "pronomes demonstrativos",
+    "habilidade": "selecionar demonstrativo adequado",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete: '______ será detalhado a seguir: o método.'",
+    "alternativas": {
+      "A": "Isso",
+      "B": "Isto",
+      "C": "Esse",
+      "D": "Aquele",
+      "E": "Aquilo"
+    },
+    "correta": "B",
+    "explicacao": "Isto aponta para o que virá (catáfora)."
+  },
+  {
+    "id": "PT-VOC-083",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "pronomes demonstrativos",
+    "habilidade": "selecionar demonstrativo adequado",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Discutimos o problema A no início; voltaremos a ______ questão no final.",
+    "alternativas": {
+      "A": "esta",
+      "B": "essa",
+      "C": "aquela",
+      "D": "isto",
+      "E": "isso"
+    },
+    "correta": "C",
+    "explicacao": "Aquela indica referência mais distante no texto/tempo."
+  },
+  {
+    "id": "PT-VOC-084",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "pronomes demonstrativos",
+    "habilidade": "selecionar demonstrativo adequado",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Foi citado o relatório de 2019; ______ documento e o de 2024 serão confrontados.",
+    "alternativas": {
+      "A": "esse",
+      "B": "este",
+      "C": "aquele",
+      "D": "isto",
+      "E": "aquilo"
+    },
+    "correta": "C",
+    "explicacao": "Aquele retoma algo mais distante temporalmente (2019)."
+  },
+  {
+    "id": "PT-VOC-085",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "referencia pronominal",
+    "habilidade": "identificar catafora",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'Isto é o essencial: foco.' O pronome é:",
+    "alternativas": {
+      "A": "anaforico",
+      "B": "cataforico",
+      "C": "relativo",
+      "D": "pessoal",
+      "E": "indefinido"
+    },
+    "correta": "B",
+    "explicacao": "Aponta para o que virá (catáfora)."
+  },
+  {
+    "id": "PT-VOC-086",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "referencia pronominal",
+    "habilidade": "identificar anafora",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'Os alertas foram reiterados. Isso não impediu incidentes.' O pronome é:",
+    "alternativas": {
+      "A": "cataforico",
+      "B": "anaforico",
+      "C": "demonstrativo de distancia maxima",
+      "D": "relativo",
+      "E": "interrogativo"
+    },
+    "correta": "B",
+    "explicacao": "Retoma a ideia anterior (anáfora)."
+  },
+  {
+    "id": "PT-VOC-087",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "coesao pronominal",
+    "habilidade": "evitar ambiguidade pronominal",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Escolha a reescrita sem ambiguidade: 'Lucas avisou Paulo quando ele chegou.'",
+    "alternativas": {
+      "A": "Lucas avisou Paulo quando ele chegou mesmo.",
+      "B": "Lucas avisou Paulo quando ambos chegaram.",
+      "C": "Lucas avisou Paulo quando Lucas chegou.",
+      "D": "Lucas avisou quando ele chegou.",
+      "E": "Lucas avisou Paulo quando o mesmo chegou."
+    },
+    "correta": "C",
+    "explicacao": "Repetir o referente resolve a ambiguidade de 'ele'."
+  },
+  {
+    "id": "PT-VOC-088",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "coesao lexical",
+    "habilidade": "construir cadeia lexical",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a sequência mais coesa para evitar repetição de 'computador'.",
+    "alternativas": {
+      "A": "computador → coisa → isso → aquilo",
+      "B": "computador → máquina → dispositivo → equipamento",
+      "C": "computador → banana → celular → carro",
+      "D": "computador → computador → computador → computador",
+      "E": "computador → ele → ele → ele"
+    },
+    "correta": "B",
+    "explicacao": "Cadeia por sinônimos/hiperônimos mantém o tópico."
+  },
+  {
+    "id": "PT-VOC-089",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "coesao lexical",
+    "habilidade": "evitar repeticao excessiva",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Escolha a melhor reescrita: 'A pesquisa foi extensa. A pesquisa analisou três escolas. A pesquisa durou um ano.'",
+    "alternativas": {
+      "A": "A pesquisa... a pesquisa... a pesquisa...",
+      "B": "O estudo foi extenso. Esse trabalho analisou três escolas e durou um ano.",
+      "C": "Foi extensa. Isso analisou três escolas e durou um ano.",
+      "D": "A pesquisa foi extensa. Ele analisou três escolas e durou um ano.",
+      "E": "A pesquisa foi extensa e extensa."
+    },
+    "correta": "B",
+    "explicacao": "Hiperônimo (estudo) e retomadas variadas (esse trabalho) garantem coesão."
+  },
+  {
+    "id": "PT-VOC-090",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "elipse e substituicao",
+    "habilidade": "identificar elipse",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em: 'Eu queria ajudar, mas [ ] não pude', há:",
+    "alternativas": {
+      "A": "elipse do verbo",
+      "B": "elipse do sujeito",
+      "C": "catafora",
+      "D": "anafora",
+      "E": "metafora"
+    },
+    "correta": "B",
+    "explicacao": "Sujeito elíptico (eu) recuperável pelo contexto."
+  },
+  {
+    "id": "PT-VOC-091",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "pronomes relativos",
+    "habilidade": "identificar referente do relativo",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em 'O livro que comprei é ótimo', 'que' retoma:",
+    "alternativas": {
+      "A": "livro",
+      "B": "eu",
+      "C": "ótimo",
+      "D": "comprei",
+      "E": "frase inteira"
+    },
+    "correta": "A",
+    "explicacao": "Pronome relativo 'que' retoma 'o livro'."
+  },
+  {
+    "id": "PT-VOC-092",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "pronomes relativos",
+    "habilidade": "reconhecer funcao do relativo",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O pronome relativo 'onde' normalmente retoma:",
+    "alternativas": {
+      "A": "pessoa",
+      "B": "lugar",
+      "C": "ideia abstrata",
+      "D": "tempo",
+      "E": "modo"
+    },
+    "correta": "B",
+    "explicacao": "Onde retoma antecedente locativo (lugar)."
+  },
+  {
+    "id": "PT-VOC-093",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "pronomes relativos",
+    "habilidade": "selecionar relativo adequado",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual relativo expressa posse e evita ambiguidade?",
+    "alternativas": {
+      "A": "que",
+      "B": "o qual",
+      "C": "cujo",
+      "D": "quem",
+      "E": "onde"
+    },
+    "correta": "C",
+    "explicacao": "Cujo indica posse entre dois termos contíguos."
+  },
+  {
+    "id": "PT-VOC-094",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "hiperonimia e hiponimia",
+    "habilidade": "identificar hiperonomo",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Hiperônimo de 'rosa' é:",
+    "alternativas": {
+      "A": "flor",
+      "B": "jardim",
+      "C": "vermelha",
+      "D": "arranjo",
+      "E": "pétala"
+    },
+    "correta": "A",
+    "explicacao": "Flor é termo mais geral."
+  },
+  {
+    "id": "PT-VOC-095",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "hiperonimia e hiponimia",
+    "habilidade": "identificar hiponimo",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Hipônimo de 'fruta' é:",
+    "alternativas": {
+      "A": "vitamina",
+      "B": "mercadoria",
+      "C": "uva",
+      "D": "alimento",
+      "E": "doce"
+    },
+    "correta": "C",
+    "explicacao": "Uva é caso específico de fruta."
+  },
+  {
+    "id": "PT-VOC-096",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "hiperonimia e hiponimia",
+    "habilidade": "classificar relacao lexical",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'Município' em relação a 'cidade' (no uso comum) funciona como:",
+    "alternativas": {
+      "A": "sinonimo absoluto",
+      "B": "hiperonimo",
+      "C": "hiponimo",
+      "D": "antonimo",
+      "E": "paronimo"
+    },
+    "correta": "B",
+    "explicacao": "Termo mais geral usado para evitar repetição (cadeia lexical)."
+  },
+  {
+    "id": "PT-VOC-097",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "sinonimos e registro",
+    "habilidade": "selecionar vocabulario conforme registro",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Escolha a opção mais adequada em texto acadêmico: 'O método foi ______ após testes.'",
+    "alternativas": {
+      "A": "melhorado",
+      "B": "aperfeiçoado",
+      "C": "dado um up",
+      "D": "turbinado",
+      "E": "ajeitado"
+    },
+    "correta": "B",
+    "explicacao": "Aperfeiçoado é formal e preciso."
+  },
+  {
+    "id": "PT-VOC-098",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "sinonimos e antonimos",
+    "habilidade": "identificar antonimo contextual",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Antônimo mais adequado de 'reduzir' em relatório:",
+    "alternativas": {
+      "A": "aumentar",
+      "B": "crescer",
+      "C": "subir",
+      "D": "ampliar",
+      "E": "expandir"
+    },
+    "correta": "A",
+    "explicacao": "Aumentar é o par mais direto e neutro."
+  },
+  {
+    "id": "PT-VOC-099",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "erros comuns",
+    "habilidade": "evitar sinonimo inadequado",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual opção mantém o registro neutro em 'medidas para diminuir o consumo'?",
+    "alternativas": {
+      "A": "atrofiar o consumo",
+      "B": "rebaixar o consumo",
+      "C": "reduzir o consumo",
+      "D": "podar o consumo",
+      "E": "cortar o consumo"
+    },
+    "correta": "C",
+    "explicacao": "Reduzir é a escolha neutra/formal (as demais têm nuance inadequada)."
+  },
+  {
+    "id": "PT-VOC-100",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "coesao pronominal",
+    "habilidade": "evitar ambiguidade pronominal",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'A diretora reuniu coordenadores e professores. Ela anunciou mudanças.' Para eliminar ambiguidade, prefira:",
+    "alternativas": {
+      "A": "Eles anunciaram mudanças.",
+      "B": "Anunciaram mudanças.",
+      "C": "A diretora anunciou mudanças.",
+      "D": "A mesma anunciou mudanças.",
+      "E": "Ela (diretora) anunciou mudanças."
+    },
+    "correta": "C",
+    "explicacao": "Repetir o referente ('a diretora') evita ambiguidade com clareza."
   }
 ]
