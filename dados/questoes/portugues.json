@@ -13098,5 +13098,2005 @@
     },
     "correta": "E",
     "explicacao": "OD = 'o livro'; OI = 'ao amigo'."
+  },
+  {
+    "id": "PT-ART-001",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "identificar tese",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Trecho: \"Com a expansão do uso de celulares na escola, defende-se que regras claras e pedagógicas são indispensáveis.\" Identifique a tese.",
+    "alternativas": {
+      "A": "Regras claras e pedagógicas são indispensáveis.",
+      "B": "O uso de celulares se expandiu.",
+      "C": "Escolas têm celulares.",
+      "D": "A tecnologia é moderna.",
+      "E": "Os alunos gostam de celulares."
+    },
+    "correta": "A",
+    "explicacao": "A tese é a opinião defendida: a necessidade de regras claras e pedagógicas."
+  },
+  {
+    "id": "PT-ART-002",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "estrutura (função do parágrafo)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Trecho: \"Em primeiro lugar, a educação financeira escolar favorece escolhas de consumo; exemplo disso são projetos que simulam orçamento familiar.\" Qual a função do trecho?",
+    "alternativas": {
+      "A": "Introdução (apresenta a tese)",
+      "B": "Desenvolvimento (argumento + exemplo)",
+      "C": "Conclusão (síntese)",
+      "D": "Narração (relato pessoal)",
+      "E": "Descrição (caracterização estática)"
+    },
+    "correta": "B",
+    "explicacao": "Há um argumento explícito seguido de exemplificação."
+  },
+  {
+    "id": "PT-ART-003",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "relação lógica (contraste)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O conectivo 'entretanto' indica qual relação semântica?",
+    "alternativas": {
+      "A": "Contraste",
+      "B": "Adição",
+      "C": "Causa",
+      "D": "Consequência",
+      "E": "Finalidade"
+    },
+    "correta": "A",
+    "explicacao": "'Entretanto' opõe ideias (contraste)."
+  },
+  {
+    "id": "PT-ART-004",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "escolha de conectivo (consequência)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete: \"Os dados mostram queda na leitura; __, a escola deve incentivar clubes do livro.\"",
+    "alternativas": {
+      "A": "portanto",
+      "B": "porque",
+      "C": "embora",
+      "D": "a fim de",
+      "E": "como"
+    },
+    "correta": "A",
+    "explicacao": "A lacuna pede consequência/conclusão: 'portanto'."
+  },
+  {
+    "id": "PT-ART-005",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "recurso argumentativo (dados/autoridade)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Segundo o IBGE, adolescentes dedicam menos tempo à leitura que à internet.\" O recurso predominante é:",
+    "alternativas": {
+      "A": "Exemplificação cotidiana",
+      "B": "Analogia",
+      "C": "Apelo emocional",
+      "D": "Citação de autoridade/dados",
+      "E": "Ironia"
+    },
+    "correta": "D",
+    "explicacao": "A menção a IBGE é um apelo à autoridade/dados."
+  },
+  {
+    "id": "PT-ART-006",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "coesão (variação de conectivos de adição)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Para evitar repetir 'além disso', escolha outro conectivo de adição equivalente:",
+    "alternativas": {
+      "A": "ademais",
+      "B": "porém",
+      "C": "portanto",
+      "D": "embora",
+      "E": "para que"
+    },
+    "correta": "A",
+    "explicacao": "'Ademais' também indica adição."
+  },
+  {
+    "id": "PT-ART-007",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "estrutura (reconhecer conclusão)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Trecho: \"Portanto, cabe à escola e à família mediar criticamente o consumo de mídia.\" A função é:",
+    "alternativas": {
+      "A": "Introdução",
+      "B": "Desenvolvimento",
+      "C": "Conclusão",
+      "D": "Narração",
+      "E": "Descrição"
+    },
+    "correta": "C",
+    "explicacao": "Marcador conclusivo ('portanto') e encaminhamento."
+  },
+  {
+    "id": "PT-ART-008",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "adequação ao gênero (impessoalidade)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Trecho: \"Eu acho que a solução é proibir tudo.\" Segundo a aula, o principal problema é:",
+    "alternativas": {
+      "A": "Falta de impessoalidade",
+      "B": "Erro de ortografia",
+      "C": "Uso de números",
+      "D": "Excesso de metáforas",
+      "E": "Quebra da norma culta"
+    },
+    "correta": "A",
+    "explicacao": "Recomenda-se linguagem impessoal em artigo de opinião."
+  },
+  {
+    "id": "PT-ART-009",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "norma-padrão (crase em expressão exigida por regência)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a forma adequada à norma-padrão: \"acesso __ informação\".",
+    "alternativas": {
+      "A": "a",
+      "B": "à",
+      "C": "ao",
+      "D": "às",
+      "E": "de"
+    },
+    "correta": "B",
+    "explicacao": "Regência exige 'a'; antes de feminino determinado: crase ('à informação')."
+  },
+  {
+    "id": "PT-ART-010",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "relação lógica (concessão)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em: \"Embora os jogos tragam benefícios, é preciso equilíbrio\", 'Embora' indica:",
+    "alternativas": {
+      "A": "Concessão",
+      "B": "Causa",
+      "C": "Consequência",
+      "D": "Finalidade",
+      "E": "Condição"
+    },
+    "correta": "A",
+    "explicacao": "Concessão: admite um ponto e sustenta outro."
+  },
+  {
+    "id": "PT-ART-011",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "identificar argumento",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual enunciado apresenta argumento, não apenas tema?",
+    "alternativas": {
+      "A": "Uso de celulares na escola.",
+      "B": "Consumismo entre adolescentes.",
+      "C": "Redes sociais e educação.",
+      "D": "Redes sociais distraem em aula e reduzem foco.",
+      "E": "Saúde mental dos estudantes."
+    },
+    "correta": "D",
+    "explicacao": "Só D expressa uma proposição opinativa/causal que sustenta a tese."
+  },
+  {
+    "id": "PT-ART-012",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "conectivo (finalidade)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Escolha o conectivo de finalidade: \"____ promover leitura, escolas podem criar clubes do livro.\"",
+    "alternativas": {
+      "A": "Para",
+      "B": "Porém",
+      "C": "Logo",
+      "D": "Porque",
+      "E": "Embora"
+    },
+    "correta": "A",
+    "explicacao": "'Para' indica finalidade."
+  },
+  {
+    "id": "PT-ART-013",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "repertório sociocultural (pertinência)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em um artigo sobre consumo e publicidade infantil, qual repertório é mais pertinente?",
+    "alternativas": {
+      "A": "ECA",
+      "B": "Teoria da evolução",
+      "C": "Tabela periódica",
+      "D": "Gramática histórica",
+      "E": "Tragédias gregas"
+    },
+    "correta": "A",
+    "explicacao": "O ECA trata de proteção à criança/adolescente, pertinente ao tema."
+  },
+  {
+    "id": "PT-ART-014",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "estrutura (tese na introdução)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Segundo a aula, a tese deve aparecer preferencialmente:",
+    "alternativas": {
+      "A": "No título",
+      "B": "No primeiro parágrafo (introdução)",
+      "C": "Somente na conclusão",
+      "D": "Espalhada sem frase-síntese",
+      "E": "Em notas de rodapé"
+    },
+    "correta": "B",
+    "explicacao": "A orientação é explicitar a tese na introdução."
+  },
+  {
+    "id": "PT-ART-015",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "coesão referencial (retomada)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em: \"As séries criam padrões irreais. Essas produções influenciam comportamentos\", 'Essas produções' retoma:",
+    "alternativas": {
+      "A": "Comportamentos",
+      "B": "Padrões irreais",
+      "C": "Séries",
+      "D": "Influências",
+      "E": "Juventude"
+    },
+    "correta": "C",
+    "explicacao": "O demonstrativo retoma o referente anterior 'séries'."
+  },
+  {
+    "id": "PT-ART-016",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "estratégia de prova (leitura de motivadores)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "De acordo com a estratégia proposta, o primeiro passo é:",
+    "alternativas": {
+      "A": "Revisar pontuação",
+      "B": "Escrever a conclusão",
+      "C": "Ler tema e motivadores, sublinhando palavras-chave",
+      "D": "Inventar dados",
+      "E": "Contar uma história pessoal"
+    },
+    "correta": "C",
+    "explicacao": "A leitura atenta e marcação do tema vêm primeiro."
+  },
+  {
+    "id": "PT-ART-017",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "conectivo (causa)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale o conectivo de causa:",
+    "alternativas": {
+      "A": "porque",
+      "B": "portanto",
+      "C": "porém",
+      "D": "a fim de",
+      "E": "embora"
+    },
+    "correta": "A",
+    "explicacao": "'Porque' introduz causa/explicação em muitos contextos."
+  },
+  {
+    "id": "PT-ART-018",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "tipologia (reconhecer argumentação)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual das opções caracteriza um trecho argumentativo?",
+    "alternativas": {
+      "A": "Descrição de um lugar sem juízo de valor",
+      "B": "Relato de viagem em 1ª pessoa",
+      "C": "Defesa de um ponto de vista com razões",
+      "D": "Lista de compras",
+      "E": "Diálogo informal"
+    },
+    "correta": "C",
+    "explicacao": "Argumentar é defender uma tese com razões."
+  },
+  {
+    "id": "PT-ART-019",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "uso de título (diretriz CTI)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Sobre o uso de título, a orientação é:",
+    "alternativas": {
+      "A": "Sempre usar título chamativo",
+      "B": "Nunca usar título",
+      "C": "Usar título apenas se solicitado pelo enunciado",
+      "D": "Usar título com emojis",
+      "E": "Usar dois títulos alternativos"
+    },
+    "correta": "C",
+    "explicacao": "A aula destaca: título só se o enunciado pedir."
+  },
+  {
+    "id": "PT-ART-020",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "relação lógica (condição)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O conectivo que introduz condição é:",
+    "alternativas": {
+      "A": "se",
+      "B": "logo",
+      "C": "porém",
+      "D": "ainda que",
+      "E": "tal como"
+    },
+    "correta": "A",
+    "explicacao": "'Se' é prototípico de condição."
+  },
+  {
+    "id": "PT-ART-021",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "planejamento (itens do esqueleto)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "No planejamento, deve-se listar:",
+    "alternativas": {
+      "A": "Três parágrafos narrativos",
+      "B": "Tese + 2–3 argumentos + exemplo/dado para cada",
+      "C": "Apenas exemplos",
+      "D": "Somente conectivos",
+      "E": "Referências bibliográficas"
+    },
+    "correta": "B",
+    "explicacao": "A aula recomenda tese explícita e 2–3 argumentos com exemplos."
+  },
+  {
+    "id": "PT-ART-022",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "relação lógica (comparação)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Conectivo típico de comparação:",
+    "alternativas": {
+      "A": "como",
+      "B": "portanto",
+      "C": "contudo",
+      "D": "visto que",
+      "E": "para que"
+    },
+    "correta": "A",
+    "explicacao": "'Como' pode introduzir comparação."
+  },
+  {
+    "id": "PT-ART-023",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "encaminhamento (conclusão propositiva)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual opção apresenta encaminhamento viável na conclusão?",
+    "alternativas": {
+      "A": "Punir todos sem critérios.",
+      "B": "Campanhas educativas e projetos de mediação escolar.",
+      "C": "Ignorar o problema.",
+      "D": "Aguardar que se resolva sozinho.",
+      "E": "Culpar indivíduos genericamente."
+    },
+    "correta": "B",
+    "explicacao": "Encaminhamento deve ser exequível e coerente com a tese."
+  },
+  {
+    "id": "PT-ART-024",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "conectivo (conclusão)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual conectivo é adequado para concluir?",
+    "alternativas": {
+      "A": "em síntese",
+      "B": "porém",
+      "C": "visto que",
+      "D": "para",
+      "E": "ainda que"
+    },
+    "correta": "A",
+    "explicacao": "'Em síntese' sinaliza conclusão/recapitulação."
+  },
+  {
+    "id": "PT-ART-025",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "coerência (evitar contradição)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual par de frases é contraditório dentro do mesmo artigo?",
+    "alternativas": {
+      "A": "Deve-se mediar o uso de celulares. — A escola pode orientar o uso.",
+      "B": "Leitura é fundamental. — Projetos de leitura ajudam.",
+      "C": "Fake news são perigosas. — Verificar fontes é dispensável.",
+      "D": "Educação financeira é útil. — Pais podem participar.",
+      "E": "Séries influenciam. — É preciso senso crítico."
+    },
+    "correta": "C",
+    "explicacao": "Chamar fake news de perigosas e dispensar verificação contraria a tese."
+  },
+  {
+    "id": "PT-ART-026",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "exemplificação (marcadores)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Marcador típico para introduzir exemplo:",
+    "alternativas": {
+      "A": "por exemplo",
+      "B": "contudo",
+      "C": "logo",
+      "D": "desde que",
+      "E": "embora"
+    },
+    "correta": "A",
+    "explicacao": "'Por exemplo' explicita a exemplificação."
+  },
+  {
+    "id": "PT-ART-027",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "adequação ao tema (fuga temática)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Tema: 'Uso de celulares na escola'. Qual trecho foge ao tema?",
+    "alternativas": {
+      "A": "Regras claras orientam o uso pedagógico.",
+      "B": "Apps podem apoiar atividades.",
+      "C": "A história da pólvora na Idade Média.",
+      "D": "Mediação familiar e escolar é necessária.",
+      "E": "Distrações exigem limites."
+    },
+    "correta": "C",
+    "explicacao": "A história da pólvora não se relaciona ao tema proposto."
+  },
+  {
+    "id": "PT-ART-028",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "progressão (evitar repetição de ideias)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual parágrafo indica progressão, não repetição?",
+    "alternativas": {
+      "A": "Repetir a tese com as mesmas palavras.",
+      "B": "Repetir o exemplo do parágrafo anterior.",
+      "C": "Apresentar novo argumento com dado diferente.",
+      "D": "Voltar ao mesmo ponto sem novidade.",
+      "E": "Trocar 'além disso' por 'ademais' sem mudar o conteúdo."
+    },
+    "correta": "C",
+    "explicacao": "Progessão envolve novo argumento/dado."
+  },
+  {
+    "id": "PT-ART-029",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "conectivo (concessão x contraste)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'Embora' e 'porém' marcam, respectivamente:",
+    "alternativas": {
+      "A": "Concessão e contraste",
+      "B": "Causa e consequência",
+      "C": "Finalidade e adição",
+      "D": "Condição e comparação",
+      "E": "Conclusão e exemplificação"
+    },
+    "correta": "A",
+    "explicacao": "Embora = concessão; porém = contraste."
+  },
+  {
+    "id": "PT-ART-030",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "norma-padrão (vírgula entre sujeito e verbo)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a frase adequada:",
+    "alternativas": {
+      "A": "O uso de celulares, prejudica a concentração.",
+      "B": "O uso de celulares prejudica a concentração.",
+      "C": "O uso de celulares prejudica, a concentração.",
+      "D": "O uso de celulares prejudica a, concentração.",
+      "E": "O uso de celulares, prejudica, a concentração."
+    },
+    "correta": "B",
+    "explicacao": "Evita-se vírgula entre sujeito e verbo."
+  },
+  {
+    "id": "PT-ART-031",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "coesão (retomada por sinônimo/hipônimo)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em: \"A desinformação cresce online. As fake news, em particular, ...\", 'As fake news' funciona como:",
+    "alternativas": {
+      "A": "Sinonímia perfeita",
+      "B": "Hipônimo (caso específico)",
+      "C": "Metáfora",
+      "D": "Antônimo",
+      "E": "Pleonasmo"
+    },
+    "correta": "B",
+    "explicacao": "Fake news são um tipo específico de desinformação."
+  },
+  {
+    "id": "PT-ART-032",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "conectivo (adição)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Conectivo adequado para adicionar ideia:",
+    "alternativas": {
+      "A": "outrossim",
+      "B": "entretanto",
+      "C": "todavia",
+      "D": "por conseguinte",
+      "E": "desde que"
+    },
+    "correta": "A",
+    "explicacao": "'Outrossim' indica adição (registro mais formal)."
+  },
+  {
+    "id": "PT-ART-033",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "conectivo (causa x explicação)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em \"... favorece escolhas, visto que orienta o planejamento\", 'visto que' indica:",
+    "alternativas": {
+      "A": "Causa/explicação",
+      "B": "Tempo",
+      "C": "Finalidade",
+      "D": "Comparação",
+      "E": "Condição"
+    },
+    "correta": "A",
+    "explicacao": "'Visto que' apresenta justificativa (explicação)."
+  },
+  {
+    "id": "PT-ART-034",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "macroestrutura (4 parágrafos)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "No modelo de 4 parágrafos, o P2 deve conter:",
+    "alternativas": {
+      "A": "A tese",
+      "B": "Argumento 1 + explicação + exemplo",
+      "C": "Retomada e encaminhamento",
+      "D": "Somente citações",
+      "E": "Resumo do tema"
+    },
+    "correta": "B",
+    "explicacao": "P2 desenvolve o primeiro argumento."
+  },
+  {
+    "id": "PT-ART-035",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "registro (evitar coloquialismo)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual expressão evitar em artigo de opinião segundo a aula?",
+    "alternativas": {
+      "A": "defende-se que",
+      "B": "sustenta-se",
+      "C": "entende-se",
+      "D": "tipo assim",
+      "E": "conclui-se que"
+    },
+    "correta": "D",
+    "explicacao": "Coloquialismo 'tipo assim' fere o registro formal."
+  },
+  {
+    "id": "PT-ART-036",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "organização (ordem dos parágrafos)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual ordem está correta para o artigo?",
+    "alternativas": {
+      "A": "Conclusão → Introdução → Desenvolvimento",
+      "B": "Introdução → Desenvolvimento 1 → Desenvolvimento 2 → Conclusão",
+      "C": "Tema → Título → Bibliografia",
+      "D": "Desenvolvimento 1 → Desenvolvimento 2 → Introdução",
+      "E": "Resumo → Abstract → Referências"
+    },
+    "correta": "B",
+    "explicacao": "Modelo clássico proposto na aula."
+  },
+  {
+    "id": "PT-ART-037",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "relação lógica (consequência)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale o conectivo de consequência:",
+    "alternativas": {
+      "A": "logo",
+      "B": "ainda que",
+      "C": "como",
+      "D": "desde que",
+      "E": "porém"
+    },
+    "correta": "A",
+    "explicacao": "'Logo' expressa conclusão/consequência."
+  },
+  {
+    "id": "PT-ART-038",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "norma-padrão (crase: obrigação)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete conforme a regência: \"assistir __ aulas exige atenção\" (sentido ver).",
+    "alternativas": {
+      "A": "a",
+      "B": "à",
+      "C": "ao",
+      "D": "às",
+      "E": "de"
+    },
+    "correta": "D",
+    "explicacao": "Assistir a (ver) + plural feminino → 'às aulas'."
+  },
+  {
+    "id": "PT-ART-039",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "coerência (exemplo pertinente)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Para defender 'educação midiática na escola', qual exemplo é mais pertinente?",
+    "alternativas": {
+      "A": "Campeonato de xadrez de 1997",
+      "B": "Projeto de checagem de fatos em sala",
+      "C": "Receita de bolo da avó",
+      "D": "Cronologia da Guerra Fria",
+      "E": "Descrição de um pôr do sol"
+    },
+    "correta": "B",
+    "explicacao": "Exemplo diretamente ligado ao tema e tese."
+  },
+  {
+    "id": "PT-ART-040",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "conectivo (concessão)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Escolha um conectivo de concessão:",
+    "alternativas": {
+      "A": "ainda que",
+      "B": "pois",
+      "C": "logo",
+      "D": "assim",
+      "E": "tal como"
+    },
+    "correta": "A",
+    "explicacao": "'Ainda que' marca concessão."
+  },
+  {
+    "id": "PT-ART-041",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "checklist (itens essenciais)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual item faz parte do checklist CTI?",
+    "alternativas": {
+      "A": "Tese explícita",
+      "B": "Rimas ricas",
+      "C": "Metros e estrofes",
+      "D": "Desenhos na página",
+      "E": "Assinatura no final"
+    },
+    "correta": "A",
+    "explicacao": "Tese explícita é cobrada; demais itens são inadequados."
+  },
+  {
+    "id": "PT-ART-042",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "uso de dados (sem inventar números)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Se você não lembra o percentual exato, a atitude recomendada é:",
+    "alternativas": {
+      "A": "Inventar um número convincente",
+      "B": "Evitar mencionar fonte",
+      "C": "Citar órgãos como IBGE/UNICEF sem porcentuais",
+      "D": "Usar 'acho que é uns 80%'",
+      "E": "Ignorar dados"
+    },
+    "correta": "C",
+    "explicacao": "Prefira referência genérica confiável quando não lembrar números."
+  },
+  {
+    "id": "PT-ART-043",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "coerência (evitar apelo emocional puro)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual opção indica apelo emocional sem suporte argumentativo?",
+    "alternativas": {
+      "A": "Dados do IBGE apontam queda na leitura.",
+      "B": "Especialistas defendem mediação crítica.",
+      "C": "É óbvio que isso é horrível e pronto!",
+      "D": "Projetos escolares mostraram melhora.",
+      "E": "Pesquisas sugerem relação entre uso e foco."
+    },
+    "correta": "C",
+    "explicacao": "Apelo emocional isolado prejudica a consistência."
+  },
+  {
+    "id": "PT-ART-044",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "conectivo (exemplificação x comparação)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual marcador introduz exemplo, não comparação?",
+    "alternativas": {
+      "A": "por exemplo",
+      "B": "como",
+      "C": "tal qual",
+      "D": "assim como",
+      "E": "tal como"
+    },
+    "correta": "A",
+    "explicacao": "'Por exemplo' explicita exemplificação."
+  },
+  {
+    "id": "PT-ART-045",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "foco no tema (delimitação)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual recorte mantém foco no tema 'desinformação e escola'?",
+    "alternativas": {
+      "A": "História do rádio no Brasil inteiro",
+      "B": "Tipos de rochas sedimentares",
+      "C": "Práticas de checagem de fatos em sala",
+      "D": "Biografia de um ator",
+      "E": "Receitas de culinária"
+    },
+    "correta": "C",
+    "explicacao": "Foco na prática escolar contra desinformação."
+  },
+  {
+    "id": "PT-ART-046",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "coesão (variação de contraste)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Para variar 'porém', escolha outro conectivo de contraste:",
+    "alternativas": {
+      "A": "contudo",
+      "B": "portanto",
+      "C": "assim",
+      "D": "logo",
+      "E": "para"
+    },
+    "correta": "A",
+    "explicacao": "'Contudo' mantém relação de oposição."
+  },
+  {
+    "id": "PT-ART-047",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "estrutura (modelo 3 parágrafos)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "No modelo de 3 parágrafos, o P2 deve conter:",
+    "alternativas": {
+      "A": "Apenas a tese",
+      "B": "Apenas a conclusão",
+      "C": "Argumento 1 (com exemplo) + argumento 2 (com contraste breve)",
+      "D": "Lista de definições",
+      "E": "Somente citações longas"
+    },
+    "correta": "C",
+    "explicacao": "P2 concentra os argumentos, otimizando o espaço."
+  },
+  {
+    "id": "PT-ART-048",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "norma-padrão (regência: preferir)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete: \"Prefiro argumentos baseados em dados __ opiniões vagas.\"",
+    "alternativas": {
+      "A": "do que",
+      "B": "a",
+      "C": "que",
+      "D": "de",
+      "E": "para"
+    },
+    "correta": "B",
+    "explicacao": "Regência: preferir X a Y."
+  },
+  {
+    "id": "PT-ART-049",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "coesão sequencial (ordenação)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ordene logicamente: (1) Portanto, (2) Em primeiro lugar, (3) Além disso). Qual sequência coesa?",
+    "alternativas": {
+      "A": "2 → 3 → 1",
+      "B": "1 → 2 → 3",
+      "C": "3 → 2 → 1",
+      "D": "2 → 1 → 3",
+      "E": "1 → 3 → 2"
+    },
+    "correta": "A",
+    "explicacao": "Argumento 1, argumento 2 (adição) e conclusão (portanto)."
+  },
+  {
+    "id": "PT-ART-050",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "tipo de suporte (gênero e apresentação)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Segundo a aula, qual prática deve ser evitada na folha de redação?",
+    "alternativas": {
+      "A": "Letra legível",
+      "B": "Respeito às margens",
+      "C": "Desenhos/assinaturas",
+      "D": "Parágrafos bem marcados",
+      "E": "Linguagem impessoal"
+    },
+    "correta": "C",
+    "explicacao": "Desenhos/assinaturas podem anular a prova; mantenha apresentação adequada."
+  },
+  {
+    "id": "PT-ART-051",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "identificar tese",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Trecho: \"Diante do uso de celulares em sala, defende-se que a integração pedagógica, com regras claras, é preferível à proibição total.\" Identifique a tese.",
+    "alternativas": {
+      "A": "A integração pedagógica com regras é preferível à proibição total.",
+      "B": "Há uso de celulares em sala.",
+      "C": "Celulares são aparelhos digitais.",
+      "D": "A escola tem regras.",
+      "E": "A proibição total é comum."
+    },
+    "correta": "A",
+    "explicacao": "A tese é a posição defendida: uso pedagógico com regras, não proibição."
+  },
+  {
+    "id": "PT-ART-052",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "relação lógica (contraste)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O conectivo 'por outro lado' indica qual relação semântica?",
+    "alternativas": {
+      "A": "Contraste",
+      "B": "Causa",
+      "C": "Adição",
+      "D": "Finalidade",
+      "E": "Condição"
+    },
+    "correta": "A",
+    "explicacao": "Assim como 'contudo' e 'entretanto', introduz oposição entre ideias."
+  },
+  {
+    "id": "PT-ART-053",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "escolha de conectivo (causa/explicação)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete: \"A leitura crítica é necessária, __ as redes difundem boatos rapidamente.\"",
+    "alternativas": {
+      "A": "visto que",
+      "B": "porém",
+      "C": "logo",
+      "D": "apesar de",
+      "E": "por outro lado"
+    },
+    "correta": "A",
+    "explicacao": "‘Visto que’ introduz causa/explicação; os demais não expressam causalidade."
+  },
+  {
+    "id": "PT-ART-054",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "escolha de conectivo (finalidade)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Selecione a opção que expressa finalidade: \"As regras foram criadas __ orientar o uso pedagógico do celular.\"",
+    "alternativas": {
+      "A": "a fim de",
+      "B": "contudo",
+      "C": "logo",
+      "D": "embora",
+      "E": "como"
+    },
+    "correta": "A",
+    "explicacao": "'A fim de' sinaliza propósito."
+  },
+  {
+    "id": "PT-ART-055",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "concordância verbal (sujeito coletivo)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a concordância adequada: \"A maioria dos estudantes __ que a escola adote mediação crítica.\"",
+    "alternativas": {
+      "A": "defende",
+      "B": "defendem",
+      "C": "defendera",
+      "D": "defenderam",
+      "E": "defendesse"
+    },
+    "correta": "A",
+    "explicacao": "Sujeito 'a maioria' (núcleo no singular) pede verbo no singular: 'defende'."
+  },
+  {
+    "id": "PT-ART-056",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "crase por regência (acesso a + feminino)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete conforme a norma-padrão: \"acesso __ educação\".",
+    "alternativas": {
+      "A": "a",
+      "B": "à",
+      "C": "ao",
+      "D": "às",
+      "E": "de"
+    },
+    "correta": "B",
+    "explicacao": "Regência exige 'a' + artigo feminino 'a' = crase: 'à educação'."
+  },
+  {
+    "id": "PT-ART-057",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "regência (visar a + objetivo)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a opção correta: \"O projeto visa __ formar leitores.\"",
+    "alternativas": {
+      "A": "a",
+      "B": "à",
+      "C": "ao",
+      "D": "de",
+      "E": "em"
+    },
+    "correta": "A",
+    "explicacao": "No sentido de 'ter por objetivo', 'visar a' dispensa artigo: 'a formar'."
+  },
+  {
+    "id": "PT-ART-058",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "regência (referir-se a) + crase",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete: \"O texto refere-se __ BNCC ao tratar de repertório.\"",
+    "alternativas": {
+      "A": "a",
+      "B": "à",
+      "C": "ao",
+      "D": "às",
+      "E": "de"
+    },
+    "correta": "B",
+    "explicacao": "'Referir-se a' + feminino determinado: 'à BNCC'."
+  },
+  {
+    "id": "PT-ART-059",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "relação lógica (consequência)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O conector que melhor indica consequência é:",
+    "alternativas": {
+      "A": "desse modo",
+      "B": "embora",
+      "C": "porém",
+      "D": "como",
+      "E": "desde que"
+    },
+    "correta": "A",
+    "explicacao": "'Desse modo' e 'portanto' sinalizam desfecho/consequência."
+  },
+  {
+    "id": "PT-ART-060",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "coerência (selecionar argumento compatível com a tese)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Tese: 'É melhor integrar o celular às atividades com regras do que proibir'. Qual argumento é coerente?",
+    "alternativas": {
+      "A": "Aplicativos podem apoiar pesquisas em tempo real quando orientados.",
+      "B": "Proibir resolve todos os problemas de aprendizagem.",
+      "C": "Celulares são populares desde 2008.",
+      "D": "As salas têm carteiras novas.",
+      "E": "A internet tem muitos vídeos engraçados."
+    },
+    "correta": "A",
+    "explicacao": "Apoia o uso pedagógico com orientação, alinhado à tese."
+  },
+  {
+    "id": "PT-ART-061",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "coerência (evitar generalização indevida)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale o trecho com generalização indevida (que prejudica a coerência):",
+    "alternativas": {
+      "A": "Alguns estudantes se distraem com notificações.",
+      "B": "Projetos de mediação reduzem conflitos em certos contextos.",
+      "C": "Todos os jovens são irresponsáveis online.",
+      "D": "Dados de órgãos oficiais sugerem queda na leitura.",
+      "E": "Há casos em que o uso pedagógico melhora o engajamento."
+    },
+    "correta": "C",
+    "explicacao": "Afirmar 'todos' sem base é generalização apressada."
+  },
+  {
+    "id": "PT-ART-062",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "coesão referencial (retomada por demonstrativo)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em: \"Família e escola devem mediar o uso. Essas instituições compartilham responsabilidades\", 'Essas instituições' retoma:",
+    "alternativas": {
+      "A": "Uso",
+      "B": "Família e escola",
+      "C": "Responsabilidades",
+      "D": "Mídia",
+      "E": "Projetos"
+    },
+    "correta": "B",
+    "explicacao": "O demonstrativo plural retoma o par 'família e escola'."
+  },
+  {
+    "id": "PT-ART-063",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "registro (impessoalidade)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual reescrita atende melhor ao registro impessoal do artigo?",
+    "alternativas": {
+      "A": "Eu acho que tem que proibir celular.",
+      "B": "Na minha opinião, proíbe e pronto.",
+      "C": "Defende-se que regras pedagógicas são preferíveis à proibição.",
+      "D": "Tipo assim, é melhor proibir mesmo.",
+      "E": "Sério, não dá pra usar."
+    },
+    "correta": "C",
+    "explicacao": "A forma impessoal ('defende-se que') adequa-se ao gênero e à norma."
+  },
+  {
+    "id": "PT-ART-064",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "exemplificação (marcador frasal)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Marcador típico para introduzir exemplo, segundo a aula:",
+    "alternativas": {
+      "A": "como se observa em",
+      "B": "porém",
+      "C": "contudo",
+      "D": "não obstante",
+      "E": "desde que"
+    },
+    "correta": "A",
+    "explicacao": "Expressão recorrente para exemplificar sem perder formalidade."
+  },
+  {
+    "id": "PT-ART-065",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "escolha de conectivo (contraste)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete: \"Alguns defendem proibir celulares; __, tal medida pode gerar efeitos colaterais.\"",
+    "alternativas": {
+      "A": "todavia",
+      "B": "logo",
+      "C": "por exemplo",
+      "D": "a fim de",
+      "E": "assim como"
+    },
+    "correta": "A",
+    "explicacao": "'Todavia' marca oposição/contraste."
+  },
+  {
+    "id": "PT-ART-066",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "estrutura (reconhecer conclusão propositiva)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Trecho: \"Portanto, para enfrentar o problema, é preciso investir em projetos de análise de mídia.\" A função é:",
+    "alternativas": {
+      "A": "Introdução",
+      "B": "Desenvolvimento",
+      "C": "Conclusão com encaminhamento",
+      "D": "Descrição",
+      "E": "Narração"
+    },
+    "correta": "C",
+    "explicacao": "Marcador conclusivo ('Portanto') + proposta (encaminhamento)."
+  },
+  {
+    "id": "PT-ART-067",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "repertório sociocultural (CDC)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Para sustentar um texto sobre publicidade e proteção do consumidor juvenil, o repertório mais pertinente é:",
+    "alternativas": {
+      "A": "CDC (Código de Defesa do Consumidor)",
+      "B": "Tabela periódica",
+      "C": "Teorema de Pitágoras",
+      "D": "Carta do Caminho de Santiago",
+      "E": "Roteiro de viagem"
+    },
+    "correta": "A",
+    "explicacao": "O CDC trata da proteção contra publicidade enganosa e informação clara."
+  },
+  {
+    "id": "PT-ART-068",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "repertório sociocultural (DUDH art. 19)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ao discutir direito à informação e desinformação, é pertinente citar:",
+    "alternativas": {
+      "A": "Declaração Universal dos Direitos Humanos (art. 19)",
+      "B": "Manual de jardinagem",
+      "C": "Regra de três simples",
+      "D": "Receitas culinárias",
+      "E": "Mapa físico do Brasil"
+    },
+    "correta": "A",
+    "explicacao": "O art. 19 trata do direito à informação/opinião."
+  },
+  {
+    "id": "PT-ART-069",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "uso de dados (sem inventar números)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Sem lembrar o percentual exato, a prática recomendada na aula é:",
+    "alternativas": {
+      "A": "Citar órgãos como IBGE/UNICEF sem inventar números",
+      "B": "Chutar um número convincente",
+      "C": "Omitir qualquer referência",
+      "D": "Usar 'tipo uns 80%'",
+      "E": "Inserir porcentagens aleatórias"
+    },
+    "correta": "A",
+    "explicacao": "Evite números inventados; use referência confiável de forma genérica."
+  },
+  {
+    "id": "PT-ART-070",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "tema x tese (delimitação)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual alternativa apresenta apenas o tema (e não uma tese)?",
+    "alternativas": {
+      "A": "Uso de celulares na escola.",
+      "B": "Celulares devem ser integrados com regras claras.",
+      "C": "É preferível proibir celulares.",
+      "D": "Devem-se criar clubes de leitura.",
+      "E": "Escolas precisam de mediação crítica."
+    },
+    "correta": "A",
+    "explicacao": "Apenas nomeia o assunto; as demais expressam posicionamento."
+  },
+  {
+    "id": "PT-ART-071",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "tipologia (reconhecer argumentação)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale o trecho mais característico do texto argumentativo:",
+    "alternativas": {
+      "A": "\"O pôr do sol era alaranjado e silencioso.\"",
+      "B": "\"Passei a infância num sítio.\"",
+      "C": "\"Defende-se que a educação midiática reduza a desinformação, pois ensina checagem de fontes.\"",
+      "D": "\"Em 2010, viajei ao sul do país.\"",
+      "E": "\"A sala tinha paredes azuis e frias.\""
+    },
+    "correta": "C",
+    "explicacao": "Há tese + justificativa ('pois...'), próprio da argumentação."
+  },
+  {
+    "id": "PT-ART-072",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "relação lógica (condição)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Conectivo que pode introduzir condição:",
+    "alternativas": {
+      "A": "desde que",
+      "B": "por isso",
+      "C": "entretanto",
+      "D": "assim como",
+      "E": "por exemplo"
+    },
+    "correta": "A",
+    "explicacao": "'Desde que' marca condição para que algo se realize."
+  },
+  {
+    "id": "PT-ART-073",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "pontuação (enumeração simples)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual enumeração está corretamente pontuada no padrão culto?",
+    "alternativas": {
+      "A": "Projetos de leitura, formação docente, e participação da família.",
+      "B": "Projetos de leitura formação docente participação da família.",
+      "C": "Projetos de leitura, formação docente e participação da família.",
+      "D": "Projetos de leitura e, formação docente, e participação da família.",
+      "E": "Projetos de leitura; formação docente e participação da família."
+    },
+    "correta": "C",
+    "explicacao": "Separação por vírgulas e sem vírgula antes de 'e' na enumeração simples."
+  },
+  {
+    "id": "PT-ART-074",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "relação lógica (contraste: no entanto)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale o conectivo de contraste:",
+    "alternativas": {
+      "A": "no entanto",
+      "B": "por conseguinte",
+      "C": "por isso",
+      "D": "assim",
+      "E": "para"
+    },
+    "correta": "A",
+    "explicacao": "'No entanto' equivale a 'porém/contudo'."
+  },
+  {
+    "id": "PT-ART-075",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "relação lógica (comparação)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Conectivo típico de comparação:",
+    "alternativas": {
+      "A": "assim como",
+      "B": "portanto",
+      "C": "contudo",
+      "D": "visto que",
+      "E": "para que"
+    },
+    "correta": "A",
+    "explicacao": "'Assim como' estabelece comparação entre termos/ideias."
+  },
+  {
+    "id": "PT-ART-076",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "paráfrase (tese equivalente)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual frase reescreve, sem mudar o sentido, \"Defende-se que o uso do celular deve ser mediado pedagogicamente\"?",
+    "alternativas": {
+      "A": "Sustenta-se que o celular, em contexto escolar, requer mediação pedagógica.",
+      "B": "É óbvio que celular na escola é sempre bom.",
+      "C": "A escola precisa de celulares novos.",
+      "D": "Proibir celulares é a única saída.",
+      "E": "Deve-se permitir tudo, sem regras."
+    },
+    "correta": "A",
+    "explicacao": "Mantém tese e registro; as demais alteram ou descaracterizam a posição."
+  },
+  {
+    "id": "PT-ART-077",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "uso de dados (autoridade)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Dados do IBGE indicam queda na leitura entre jovens.\" O recurso argumentativo predominante é:",
+    "alternativas": {
+      "A": "apelo à autoridade",
+      "B": "ironia",
+      "C": "hipérbole",
+      "D": "metáfora",
+      "E": "exemplo fictício"
+    },
+    "correta": "A",
+    "explicacao": "Citação de órgão oficial como suporte."
+  },
+  {
+    "id": "PT-ART-078",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "concordância verbal (dados + verbo)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a forma correta:",
+    "alternativas": {
+      "A": "Os dados indicam queda na leitura.",
+      "B": "Os dados indica queda na leitura.",
+      "C": "Os dado indicam queda na leitura.",
+      "D": "Os dados indica queda na leituras.",
+      "E": "Os dados indicam queda na leituras."
+    },
+    "correta": "A",
+    "explicacao": "Sujeito plural ('dados') exige verbo no plural ('indicam')."
+  },
+  {
+    "id": "PT-ART-079",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "coesão (retomada por sinônimo)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em: \"A desinformação circula amplamente. Essa prática desvirtua o debate\", 'Essa prática' retoma por sinônimo:",
+    "alternativas": {
+      "A": "Circulação",
+      "B": "Desinformação",
+      "C": "Debate",
+      "D": "Ampla",
+      "E": "Prática"
+    },
+    "correta": "B",
+    "explicacao": "Prática = ato de divulgar/desinformar (retomada sem repetir a palavra)."
+  },
+  {
+    "id": "PT-ART-080",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "regência (assistir a, sentido ver) + crase",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete: \"Assistir __ filmes exige postura crítica.\" (sentido ver)",
+    "alternativas": {
+      "A": "a",
+      "B": "às",
+      "C": "ao",
+      "D": "os",
+      "E": "de"
+    },
+    "correta": "A",
+    "explicacao": "Plural indeterminado ('filmes' no geral) sem artigo: 'assistir a filmes'."
+  },
+  {
+    "id": "PT-ART-081",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "registro (evitar coloquialismo)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual expressão deve ser evitada no registro do artigo?",
+    "alternativas": {
+      "A": "entende-se",
+      "B": "sustenta-se",
+      "C": "tipo assim",
+      "D": "defende-se",
+      "E": "conclui-se"
+    },
+    "correta": "C",
+    "explicacao": "Coloquialismo inadequado à norma-padrão."
+  },
+  {
+    "id": "PT-ART-082",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "uso de motivadores (sem copiar)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Segundo a aula, ao usar os textos motivadores, deve-se:",
+    "alternativas": {
+      "A": "Copiar trechos literalmente",
+      "B": "Parafrasear e integrar ideias sem plágio",
+      "C": "Ignorar completamente",
+      "D": "Usar apenas frases soltas",
+      "E": "Assinar o nome do autor"
+    },
+    "correta": "B",
+    "explicacao": "Integre informações com suas palavras e com fonte quando cabível."
+  },
+  {
+    "id": "PT-ART-083",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "coesão (sequência: argumento 1 → argumento 2 → conclusão)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual sequência de marcadores favorece a progressão típica?",
+    "alternativas": {
+      "A": "Em primeiro lugar → Além disso → Portanto",
+      "B": "Portanto → Em primeiro lugar → Além disso",
+      "C": "Além disso → Portanto → Em primeiro lugar",
+      "D": "Por exemplo → Em primeiro lugar → Portanto",
+      "E": "Entretanto → Como → Para"
+    },
+    "correta": "A",
+    "explicacao": "Apresenta argumento 1, soma argumento 2 e conclui."
+  },
+  {
+    "id": "PT-ART-084",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "encaminhamento (proposta viável)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual encaminhamento é plausível em conclusão sobre desinformação?",
+    "alternativas": {
+      "A": "Censurar toda a internet.",
+      "B": "Criar projetos escolares de checagem de fatos.",
+      "C": "Punir todos os usuários sem critério.",
+      "D": "Proibir o uso de bibliotecas.",
+      "E": "Ignorar o tema."
+    },
+    "correta": "B",
+    "explicacao": "É exequível e compatível com a tese de educação midiática."
+  },
+  {
+    "id": "PT-ART-085",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "coesão (retomada por hiperônimo/hipônimo)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em: \"As mídias digitais cresceram. As redes sociais, em especial, ...\", 'As redes sociais' funciona como:",
+    "alternativas": {
+      "A": "hipônimo (caso específico de mídias digitais)",
+      "B": "hiperônimo",
+      "C": "metonímia",
+      "D": "sinônimo perfeito",
+      "E": "antônimo"
+    },
+    "correta": "A",
+    "explicacao": "Redes sociais são um tipo específico de mídia digital."
+  },
+  {
+    "id": "PT-ART-086",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "crase (regência + artigo)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete: \"direito __ informação clara\" (regência do CDC).",
+    "alternativas": {
+      "A": "a",
+      "B": "à",
+      "C": "ao",
+      "D": "às",
+      "E": "de"
+    },
+    "correta": "B",
+    "explicacao": "‘Direito a’ + feminino determinado: crase ('à informação clara')."
+  },
+  {
+    "id": "PT-ART-087",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "norma-padrão (evitar vírgula entre sujeito e verbo)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Marque a frase adequada:",
+    "alternativas": {
+      "A": "A educação midiática, reduz a desinformação.",
+      "B": "A educação midiática reduz a desinformação.",
+      "C": "A educação midiática reduz, a desinformação.",
+      "D": "A educação, midiática, reduz a desinformação.",
+      "E": "A educação midiática reduz a, desinformação."
+    },
+    "correta": "B",
+    "explicacao": "Não se intercala vírgula entre sujeito e verbo."
+  },
+  {
+    "id": "PT-ART-088",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "estrutura (papel da introdução)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Na introdução, recomenda-se:",
+    "alternativas": {
+      "A": "Apresentar a tese de forma explícita.",
+      "B": "Contar uma história pessoal longa.",
+      "C": "Listar bibliografia.",
+      "D": "Antecipar a conclusão detalhada.",
+      "E": "Usar somente perguntas retóricas."
+    },
+    "correta": "A",
+    "explicacao": "A tese orienta a leitura e a argumentação."
+  },
+  {
+    "id": "PT-ART-089",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "coesão (substitutos para 'além disso')",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Para variar 'além disso', escolha um conector de adição:",
+    "alternativas": {
+      "A": "ademais",
+      "B": "entretanto",
+      "C": "logo",
+      "D": "por conseguinte",
+      "E": "embora"
+    },
+    "correta": "A",
+    "explicacao": "'Ademais' cumpre a mesma função de somar ideias."
+  },
+  {
+    "id": "PT-ART-090",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "relação lógica (causa: uma vez que)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale o conectivo causal:",
+    "alternativas": {
+      "A": "uma vez que",
+      "B": "todavia",
+      "C": "assim",
+      "D": "por exemplo",
+      "E": "para que"
+    },
+    "correta": "A",
+    "explicacao": "'Uma vez que' introduz justificativa/causa."
+  },
+  {
+    "id": "PT-ART-091",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "uso de repertório (Marco Civil da Internet)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ao discutir cidadania digital e regras de uso da rede, é pertinente mencionar:",
+    "alternativas": {
+      "A": "Marco Civil da Internet",
+      "B": "Tabela periódica",
+      "C": "Código Florestal",
+      "D": "Conjugação verbal",
+      "E": "Épica clássica"
+    },
+    "correta": "A",
+    "explicacao": "Traz princípios de uso responsável da internet (pertinente ao tema)."
+  },
+  {
+    "id": "PT-ART-092",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "adequação ao gênero (não narrar experiência pessoal)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual opção está mais alinhada ao gênero artigo de opinião?",
+    "alternativas": {
+      "A": "Relatar um sonho pessoal em detalhes.",
+      "B": "Defender uma tese com argumentos e dados.",
+      "C": "Descrever uma paisagem campestre.",
+      "D": "Escrever um poema sobre celulares.",
+      "E": "Contar uma piada."
+    },
+    "correta": "B",
+    "explicacao": "O foco é a defesa de uma tese com razões consistentes."
+  },
+  {
+    "id": "PT-ART-093",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "conectivo (conclusão: logo/portanto)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Para concluir, é adequado empregar:",
+    "alternativas": {
+      "A": "portanto",
+      "B": "embora",
+      "C": "conquanto",
+      "D": "tal como",
+      "E": "desde que"
+    },
+    "correta": "A",
+    "explicacao": "Marcador conclusivo clássico."
+  },
+  {
+    "id": "PT-ART-094",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "coesão (evitar repetição: pronomes/expressões anafóricas)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Para evitar repetir 'os estudantes', a melhor retomada no período seguinte é:",
+    "alternativas": {
+      "A": "esses alunos",
+      "B": "esses isso",
+      "C": "alunos estudantes",
+      "D": "eles os alunos",
+      "E": "os mesmo"
+    },
+    "correta": "A",
+    "explicacao": "Retomada coesa por sinônimo/demonstrativo: 'esses alunos'."
+  },
+  {
+    "id": "PT-ART-095",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "checagem de pertinência do exemplo",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Para defender 'educação financeira escolar', qual exemplo é mais pertinente?",
+    "alternativas": {
+      "A": "Simulação de orçamento familiar em matemática.",
+      "B": "Campeonato de futebol local.",
+      "C": "Descrição de um filme de ação.",
+      "D": "Receita de pão de queijo.",
+      "E": "História da arquitetura gótica."
+    },
+    "correta": "A",
+    "explicacao": "Exemplo diretamente relacionado ao tema."
+  },
+  {
+    "id": "PT-ART-096",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "coesão (ordem de parágrafos no modelo 4P)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "No modelo de 4 parágrafos, a macroestrutura adequada é:",
+    "alternativas": {
+      "A": "Introdução → Desenvolvimento 1 → Desenvolvimento 2 → Conclusão",
+      "B": "Conclusão → Desenvolvimento 1 → Introdução → Desenvolvimento 2",
+      "C": "Desenvolvimento 2 → Conclusão → Introdução → Desenvolvimento 1",
+      "D": "Introdução → Conclusão → Desenvolvimento 1 → Desenvolvimento 2",
+      "E": "Desenvolvimento 1 → Introdução → Conclusão → Desenvolvimento 2"
+    },
+    "correta": "A",
+    "explicacao": "Ordem padrão proposta na aula."
+  },
+  {
+    "id": "PT-ART-097",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "coerência (evitar contradição interna)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual par de frases apresenta contradição?",
+    "alternativas": {
+      "A": "Propõe-se mediação. — Projetos escolares podem ajudar.",
+      "B": "Redes sociais distraem. — É preciso orientar seu uso.",
+      "C": "Educação midiática é importante. — Verificar fontes é essencial.",
+      "D": "Proibir tudo é ineficaz. — Defende-se mediação como alternativa.",
+      "E": "Proibir tudo é eficaz. — Defende-se mediação como alternativa."
+    },
+    "correta": "E",
+    "explicacao": "Afirma eficácia da proibição e, ao mesmo tempo, propõe alternativa, negando a primeira."
+  },
+  {
+    "id": "PT-ART-098",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "conectivo (exemplificação)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Marque o marcador de exemplificação:",
+    "alternativas": {
+      "A": "por exemplo",
+      "B": "todavia",
+      "C": "logo",
+      "D": "por conseguinte",
+      "E": "desde que"
+    },
+    "correta": "A",
+    "explicacao": "Sinaliza introdução de um caso ilustrativo."
+  },
+  {
+    "id": "PT-ART-099",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "finalidade (para que)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Escolha a opção que completa com finalidade: \"Organizam-se campanhas __ promover a leitura.\"",
+    "alternativas": {
+      "A": "para",
+      "B": "porém",
+      "C": "logo",
+      "D": "entretanto",
+      "E": "visto que"
+    },
+    "correta": "A",
+    "explicacao": "'Para' e 'a fim de' indicam propósito."
+  },
+  {
+    "id": "PT-ART-100",
+    "disciplina": "portugues",
+    "area": "leitura",
+    "tema": "Artigo de opinião",
+    "habilidade": "checklist (itens essenciais CTI)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Segundo o checklist da aula, qual item é essencial?",
+    "alternativas": {
+      "A": "Tese explícita na introdução",
+      "B": "Rimas e estrofes",
+      "C": "Desenhos e assinaturas",
+      "D": "Relato pessoal longo",
+      "E": "Linguagem coloquial"
+    },
+    "correta": "A",
+    "explicacao": "A tese orienta a argumentação e é critério de avaliação."
   }
 ]
