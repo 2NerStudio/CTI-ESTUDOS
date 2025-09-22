@@ -4,37 +4,38 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Gramática — CTI 2026</title>
-  <meta name="description" content="Gramática essencial para o Vestibulinho CTI: pontuação, concordância verbal e nominal, regência e crase. Dicas práticas, tabelas, exemplos resolvidos e exercícios com gabarito." />
+  <meta name="description" content="Aula completa e prática: pontuação, concordância, regência e crase para o Vestibulinho CTI. Passo a passo, árvores de decisão, exemplos comentados e exercícios com gabarito." />
   <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
   <link rel="canonical" href="https://SEU-DOMINIO/aulas/portugues/gramatica.html" />
 
-  <!-- Favicons / PWA -->
   <link rel="icon" href="/favicon.ico" />
-  <link rel="apple-touch-icon" href="/assets/img/icon-192.png" sizes="192x192" />
-  <link rel="manifest" href="/site.webmanifest" />
-  <meta name="theme-color" content="#0b5fff" />
-
-  <!-- Open Graph -->
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="Gramática — CTI 2026" />
-  <meta property="og:description" content="Pontuação, concordância, regência e crase com foco no Vestibulinho CTI. Exemplos resolvidos, quadros-resumo e exercícios com gabarito." />
-  <meta property="og:url" content="https://SEU-DOMINIO/aulas/portugues/gramatica.html" />
-  <meta property="og:site_name" content="CTI 2026" />
-  <meta property="og:image" content="https://SEU-DOMINIO/assets/img/og-gramatica.png" />
-  <meta property="og:locale" content="pt_BR" />
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Gramática — CTI 2026" />
-  <meta name="twitter:description" content="Resumo enxuto e prático de gramática para o CTI: pontuação, concordância, regência e crase." />
-  <meta name="twitter:image" content="https://SEU-DOMINIO/assets/img/og-gramatica.png" />
-
-  <!-- CSS -->
   <link rel="stylesheet" href="/assets/css/base.css" />
   <link rel="stylesheet" href="/assets/css/layout.css" />
   <link rel="stylesheet" href="/assets/css/componentes.css" />
   <link rel="stylesheet" href="/assets/css/aulas.css" />
   <link rel="stylesheet" href="/assets/css/dark.css" media="(prefers-color-scheme: dark)" />
+  <style>
+    /* Realça partes da frase nas análises */
+    mark.sujeito { background: #fff2a8; }
+    mark.verbo { background: #c9f7f5; }
+    mark.obj { background: #e6d8ff; }
+    mark.aposto, mark.exp { background: #ffd6d1; }
+    mark.adj { background: #d9f7be; }
+    .howto { border-left: 4px solid var(--color-primary, #0b5fff); padding-left: .75rem; margin: .75rem 0; }
+    .exemplo { background: var(--bg-elev-1, #fafafa); padding: .75rem; border-radius: .5rem; border: 1px solid #eee; }
+    .errado { color: #b00020; font-weight: 600; }
+    .certo { color: #00875a; font-weight: 600; }
+    .tabela-compacta table { width: 100%; border-collapse: collapse; }
+    .tabela-compacta th, .tabela-compacta td { border: 1px solid #e5e5e5; padding: .5rem; vertical-align: top; }
+    .nota { font-size: .95rem; color: #555; }
+    .pill.tip { background: #eef7ff; color: #0b5fff; border: 1px solid #cfe6ff; }
+    .callout { border: 1px solid #e5e5e5; padding: .75rem; border-radius: .5rem; background: #fbfbfb; }
+    .callout.att { border-left: 4px solid #b00020; }
+    .callout.tip { border-left: 4px solid #0b5fff; }
+    details summary { cursor: pointer; font-weight: 600; margin: .25rem 0; }
+    .grid-2 { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+    @media (min-width: 840px) { .grid-2 { grid-template-columns: 1fr 1fr; } }
+  </style>
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
@@ -78,243 +79,501 @@
 
   <main id="conteudo" class="section" role="main">
     <div class="container">
-      <article class="lesson-hero" itemscope itemtype="https://schema.org/Article">
-        <meta itemprop="inLanguage" content="pt-BR" />
-        <h1 itemprop="headline">Gramática</h1>
+      <article class="lesson-hero">
+        <h1>Gramática</h1>
         <div class="lesson-meta">
           <span class="pill">Tema: Português</span>
           <span class="pill">Dificuldade: intermediário</span>
-          <span>Tempo estimado: 45–60 min</span>
-          <span class="pill" title="Última atualização">
-            Atualizado em <time datetime="2025-09-22" itemprop="dateModified">22 set 2025</time>
-          </span>
+          <span>Tempo estimado: 60–90 min</span>
+          <span class="pill tip">Modo: passo a passo</span>
         </div>
-        <p class="text-muted" itemprop="description">
-          Pontuação, concordância, regência e uso da crase — o que mais cai e mais gera erro no Vestibulinho CTI. Com quadros-resumo, exemplos típicos de prova e exercícios com gabarito.
-        </p>
-
-        <div class="hero-actions" style="display:flex; gap:.5rem; flex-wrap:wrap;">
-          <button class="btn btn--outline" type="button" id="btn-imprimir" aria-label="Imprimir ou salvar em PDF">🖨️ Imprimir/Salvar PDF</button>
-          <a class="btn btn--ghost" href="#exercicios">🧪 Ir para exercícios</a>
-        </div>
-
-        <meta itemprop="author" content="Equipe CTI 2026" />
-        <meta itemprop="mainEntityOfPage" content="https://SEU-DOMINIO/aulas/portugues/gramatica.html" />
+        <p class="text-muted">Aula prática para prova: estratégias, árvores de decisão e exemplos comentados. Você aprende o “como pensar” (e não só a regra).</p>
       </article>
 
       <div class="lesson-layout">
         <div class="lesson-content">
-          <section id="objetivos" class="section-block">
-            <h2>Objetivos da aula</h2>
-            <ul>
-              <li>Aplicar regras essenciais de pontuação sem vírgulas indevidas.</li>
-              <li>Acertar concordância verbal e nominal nos casos mais cobrados.</li>
-              <li>Dominar regência de verbos-problema (assistir, preferir, implicar, aspirar...).</li>
-              <li>Reconhecer quando usar (e quando não usar) crase — incluindo casos facultativos.</li>
-            </ul>
+
+          <section id="como-estudar" class="section-block">
+            <h2>Como usar esta aula</h2>
+            <ol class="howto">
+              <li>Leia a estratégia de cada tema (o “passo a passo”).</li>
+              <li>Veja os exemplos com marcações (Sujeito, Verbo, Objeto...).</li>
+              <li>Tente resolver as miniatitudes (Você decide) antes de abrir o gabarito.</li>
+              <li>Finalize com os exercícios e o checklist.</li>
+            </ol>
           </section>
 
-          <section id="prerequisitos" class="section-block">
-            <h2>Pré-requisitos</h2>
-            <p class="note">Revise <a href="/aulas/portugues/vocabulario.html">Vocabulário</a> (polissemia, pronomes) e <a href="/aulas/portugues/sintaxe.html">Sintaxe</a> (termos da oração).</p>
-          </section>
+          <section id="pontuacao" class="section-block">
+            <h2>1) Pontuação — como decidir a vírgula em 5 perguntas</h2>
 
-          <section id="teoria" class="section-block">
-            <h2>Teoria</h2>
+            <div class="howto">
+              <strong>Mapa mental da vírgula</strong>
+              <ol>
+                <li>O trecho antes do verbo é <strong>sujeito</strong>? Se sim, <u>sem vírgula</u> entre sujeito e verbo.</li>
+                <li>É um <strong>aposto</strong> (explicação extra) ou <strong>vocativo</strong> (chamado)? Use vírgulas.</li>
+                <li>É uma <strong>oração adjetiva</strong>? Explicativa leva vírgulas; restritiva não.</li>
+                <li>É uma <strong>oração adverbial</strong> no início? Normalmente leva vírgula. No fim, a vírgula é opcional (use em frases longas).</li>
+                <li>Há <strong>coordenativas</strong>? Adversativas pedem vírgula (“mas, porém, contudo”); aditivas só levam vírgula quando houver mudança de sujeito, contraste ou membros longos.</li>
+              </ol>
+            </div>
 
-            <h3 id="pontuacao">1) Pontuação (o essencial para prova)</h3>
-            <ul>
-              <li><strong>Vírgula</strong> separa: itens em enumeração; orações coordenadas independentes; <em>aposto</em> e <em>vocativo</em>; adjuntos adverbiais longos deslocados; expressões como “por sua vez”, “no entanto”, “além disso”.</li>
-              <li><strong>Não</strong> se usa vírgula entre <em>sujeito</em> e <em>verbo</em> nem entre <em>verbo</em> e <em>objeto</em>: “Os alunos chegaram cedo.”</li>
-              <li><strong>Orações explicativas</strong> (valor de comentário) vão entre vírgulas: “Os estudantes, <em>que já haviam treinado</em>, foram bem.” Já as <strong>restritivas</strong> não levam vírgula.</li>
-              <li><strong>Adversativas</strong> (mas, porém, contudo): vírgula antes. Com <strong>e</strong>, use vírgula se houver mudança de sujeito, valor adversativo ou orações longas.</li>
-            </ul>
-            <details>
-              <summary>Quando usar vírgula antes do “e”?</summary>
-              <ul>
-                <li><em>E</em> com ideia de contraste: “Quis ajudar, <strong>e</strong> ninguém ouviu.”</li>
-                <li>Sujeitos diferentes: “O time venceu, <strong>e</strong> a torcida comemorou.”</li>
-                <li>Orações extensas/complexas, para clareza.</li>
-              </ul>
-            </details>
-            <ul>
-              <li><strong>Dois-pontos</strong>: introduzem citação, enumeração ou explicação. <strong>Travessões/parênteses</strong>: comentários; <strong>ponto e vírgula</strong>: separa partes extensas de uma enumeração.</li>
-              <li><strong>Etc.</strong> vem precedido de vírgula e seguido de ponto se fechar a frase: “Comprei lápis, canetas, cadernos, etc.”</li>
-            </ul>
+            <h3>1.1 Sujeito e verbo: não separe</h3>
+            <div class="exemplo">
+              <p><span class="errado">Errado:</span> <mark class="sujeito">Os estudantes</mark>, <mark class="verbo">chegaram</mark> cedo.</p>
+              <p><span class="certo">Certo:</span> <mark class="sujeito">Os estudantes</mark> <mark class="verbo">chegaram</mark> cedo.</p>
+              <p class="nota">Entre <em>sujeito</em> e <em>verbo</em>, não há vírgula.</p>
+            </div>
 
-            <h3 id="conc-verbal">2) Concordância verbal (casos que mais caem)</h3>
+            <h3>1.2 Aposto e vocativo</h3>
+            <div class="exemplo">
+              <p>Aposto explicativo: <mark class="sujeito">O CTI</mark>, <mark class="aposto">uma escola tradicional</mark>, <mark class="verbo">oferece</mark> bons cursos.</p>
+              <p>Vocativo: <mark class="aposto">Alunos</mark>, <mark class="verbo">atenção</mark> às instruções.</p>
+            </div>
+
+            <h3>1.3 Adjetivas: explicativa x restritiva</h3>
+            <div class="exemplo">
+              <p>Explicativa (vírgulas): Os candidatos, <mark class="exp">que estudaram bastante</mark>, foram bem. [Comentário sobre todos]</p>
+              <p>Restritiva (sem vírgulas): Os candidatos <mark class="exp">que estudaram bastante</mark> foram bem. [Restringe: só os que estudaram]</p>
+            </div>
+
+            <h3>1.4 Adverbiais (tempo, causa, condição...)</h3>
+            <div class="exemplo">
+              <p>Anteposta: <mark class="adj">Quando a prova começou</mark>, <mark class="sujeito">os alunos</mark> <mark class="verbo">se concentraram</mark>.</p>
+              <p>Posposta longa: <mark class="sujeito">Os alunos</mark> <mark class="verbo">se concentraram</mark>, <mark class="adj">quando a prova começou</mark>. [vírgula melhora a clareza]</p>
+            </div>
+
+            <h3>1.5 Coordenadas e vírgula antes do “e”</h3>
             <ul>
-              <li>Regra-mãe: o verbo concorda com o <strong>sujeito</strong> (núcleo). Identifique-o antes de pontuar ou concordar.</li>
-              <li><strong>Haver</strong> existencial: <strong>singular</strong>. “Há muitos motivos.” “Houve erros.”</li>
-              <li><strong>Fazer</strong> indicando tempo decorrido: <strong>singular</strong>. “Faz dois anos.”</li>
-              <li><strong>Ser</strong> com horas/datas: “<strong>É</strong> uma hora”; “<strong>São</strong> duas horas”; “<strong>É</strong> dia 2.”</li>
-              <li>Sujeito composto com <strong>e</strong>: plural. Composto <strong>posposto</strong> pode admitir singular por atração do núcleo mais próximo em linguagem formal: “Chegou/chegaram João e Maria.”</li>
-              <li>Com <strong>ou</strong>:
+              <li>Adversativas: vírgula antes de “mas, porém, contudo, todavia, entretanto”.</li>
+              <li>Vírgula antes do “e”:
                 <ul>
-                  <li>Valor excludente: singular. “Maria ou João <strong>vai</strong>.”</li>
-                  <li>Valor inclusivo: plural. “Cafezinho ou água <strong>são</strong> bem-vindos.”</li>
+                  <li>Há <strong>contraste</strong>: “Quis ajudar, <strong>e</strong> ninguém ouviu.”</li>
+                  <li><strong>Mudança de sujeito</strong>: “O time venceu, <strong>e</strong> a torcida comemorou.”</li>
+                  <li><strong>Orações longas</strong> (clareza).</li>
                 </ul>
               </li>
-              <li><strong>Nem... nem</strong>: plural. “Nem o professor nem os alunos <strong>sabiam</strong>.”</li>
-              <li><strong>Porcentagem</strong>: concorda com o núcleo: “10% dos candidatos <strong>acertaram</strong>.” “10% da prova <strong>foi</strong> cobrada.”</li>
-              <li>Expressões partitivas: “A maioria dos alunos <strong>foi</strong> bem.” No plural é possível quando há ideia de coletividade ativa: “A maioria <strong>foram</strong> embora.”</li>
-              <li>Verbos <em>dar, bater, soar</em> com horas: plural com plural: “Deram duas horas.”</li>
             </ul>
 
-            <h3 id="conc-nominal">3) Concordância nominal (pegadinhas)</h3>
+            <h3>1.6 Dois-pontos, travessão, parênteses e ponto e vírgula</h3>
             <ul>
-              <li>Adjetivo concorda com o <strong>núcleo</strong>: “provas difíceis”. Com núcleos de gêneros diferentes, adjetivo no <strong>masculino plural</strong>: “leitura e cálculo complexos”.</li>
-              <li><strong>É proibido/permitido/necessário</strong>: no <strong>singular</strong> sem artigo: “É proibido entrada”; no <strong>gênero e número</strong> com artigo: “É proibida a entrada”.</li>
-              <li><strong>Anexo, incluso, obrigado</strong> concordam: “Documentos anexos”; “Obrigada” (se quem fala é mulher).</li>
-              <li><strong>Bastante</strong> quantificador varia (“bastantes exercícios”); como advérbio, é invariável (“estudou bastante”).</li>
-              <li><strong>Meio</strong> advérbio é invariável (“está meio cansado”); adjetivo varia (“meia laranja”).</li>
-              <li><strong>Mesmo, próprio</strong> como reforço pronominal concordam: “Ela <em>mesma</em> fez.” “O diretor <em>próprio</em> confirmou.”</li>
+              <li><strong>Dois-pontos</strong>: explicação, citação, enumeração. Ex.: Ele foi claro: estudem.</li>
+              <li><strong>Travessões</strong>: comentários mais fortes. Ex.: A banca — como sempre — cobrou leitura.</li>
+              <li><strong>Parênteses</strong>: informação acessória. Ex.: O edital (publicado em maio) mudou pouco.</li>
+              <li><strong>Ponto e vírgula</strong>: separa itens longos de uma enumeração. Ex.: Leve: caneta azul; documento com foto; água.</li>
             </ul>
 
-            <h3 id="regencia">4) Regência verbal (o que derruba nota)</h3>
-            <ul>
-              <li><strong>Assistir a</strong> (ver): “Assisti <strong>ao</strong> jogo.” / “Assisti <strong>à</strong> peça.” No sentido de “dar assistência”: “O médico assistiu o paciente.”</li>
-              <li><strong>Preferir X a Y</strong>: “Prefiro estudo <strong>a</strong> improviso.” Nunca “do que”.</li>
-              <li><strong>Aspirar a</strong> (desejar): “Aspirava <strong>ao</strong> cargo.” / <strong>Aspirar</strong> (sorver): “Aspirou o ar.”</li>
-              <li><strong>Implicar</strong> (acarretar): “Sua atitude implicou <strong>punição</strong>.” / (antipatia) “Implicou <strong>com</strong> ele.”</li>
-              <li><strong>Visar a</strong> (ter como objetivo): “O projeto visa <strong>à</strong> inclusão.” / <strong>Visar</strong> (pôr visto): “O gerente visou o documento.”</li>
-              <li><strong>Informar/avisar</strong> <em>algo a alguém</em>: “Informei o horário <strong>ao</strong> candidato.”</li>
-              <li><strong>Obedecer a</strong>, <strong>agradar a</strong> (ser agradável a): “O aluno agradou <strong>ao</strong> professor.”</li>
-              <li><strong>Namorar</strong> alguém (sem preposição): “Ela namora <strong>o</strong> colega.”</li>
-              <li><strong>Chegar/ir</strong> normalmente com <strong>a</strong> (norma culta): “Cheguei <strong>a</strong> Bauru”; “Fui <strong>à</strong> escola.”</li>
-              <li><strong>Gostar de</strong>: “Gosta <strong>de</strong> gramática.”</li>
-            </ul>
-
-            <h3 id="crase">5) Crase (à): quando usar e como testar</h3>
-            <ul>
-              <li>Crase = <strong>a</strong> (preposição) + <strong>a</strong> (artigo ou inicial de pronome demonstrativo): “Fui <strong>à</strong> biblioteca.” Teste do masculino: troque por “ao” (“Fui <strong>ao</strong> museu”).</li>
-              <li><strong>Locuções femininas</strong> pedem crase: “<strong>À</strong> medida que”, “<strong>À</strong> tarde”, “<strong>À</strong> vista”, “<strong>À</strong> toa”, “<strong>À</strong> distância”.</li>
-              <li><strong>Demonstrativos</strong>: há crase em <strong>àquele, àquela, àquilo</strong> (a + aquele/aquela/aquilo). Ex.: “Fui <strong>àquele</strong> curso.”</li>
-              <li><strong>Casos proibidos</strong>: antes de verbo; antes de pronomes pessoais (ele, ela, você), indefinidos (alguém, ninguém) e de tratamento (exceto <em>senhora(s)</em> e <em>dona(s)</em>); antes de palavras masculinas; nomes de cidade sem artigo (“Fui a Bauru”); “casa/terra” sem especificador (“Cheguei a casa”).</li>
-              <li><strong>Facultativa</strong>: antes de nome próprio feminino definido (“Entreguei a/à Maria”); antes de possessivo feminino (“à sua irmã” é facultativo, conforme ênfase/definição).</li>
-              <li><strong>À moda de</strong> (implícito): “Bife <strong>à</strong> milanesa” (= à moda de Milão); “frango <strong>à</strong> passarinho”.</li>
-            </ul>
-            <p class="note">Corrija mentalmente no masculino: se vira “ao”, há crase; se vira “aos”, então “às”. Se não cabe artigo no masculino, não há crase.</p>
-
-            <h3 id="ortografia">6) Ortografia e acentuação (pontos de atenção)</h3>
-            <ul>
-              <li>Acordo Ortográfico: sem trema (<em>linguiça</em>), sem acento em <em>ideia, jiboia, heroico</em>.</li>
-              <li>Acento diferencial mantido: <em>pôr</em> (verbo) x <em>por</em> (preposição); <em>pôde</em> (passado) x <em>pode</em> (presente); <em>têm/vêm</em> no plural.</li>
-            </ul>
             <details>
-              <summary>Parônimos e homófonos muito cobrados</summary>
-              <div class="table-wrap">
-                <table>
-                  <thead>
-                    <tr><th>Forma</th><th>Uso</th><th>Exemplo</th></tr>
-                  </thead>
-                  <tbody>
-                    <tr><td>descrição × discrição</td><td>descrever × reserva</td><td>Fez a <strong>descrição</strong> com <strong>discrição</strong>.</td></tr>
-                    <tr><td>ratificar × retificar</td><td>confirmar × corrigir</td><td>O diretor <strong>ratificou</strong> a decisão, depois <strong>retificou</strong> um dado.</td></tr>
-                    <tr><td>sessão × seção × cessão</td><td>evento × parte × ato de ceder</td><td>A <strong>sessão</strong> ocorreu na <strong>seção</strong>; houve <strong>cessão</strong> de livros.</td></tr>
-                    <tr><td>mal × mau</td><td>advérbio × adjetivo</td><td>Comeu <strong>mal</strong> e ficou de <strong>mau</strong> humor.</td></tr>
-                    <tr><td>a × há</td><td>preposição × verbo haver (tempo)</td><td>Cheguei <strong>há</strong> duas horas; vou <strong>a</strong> Bauru.</td></tr>
-                    <tr><td>senão × se não</td><td>caso contrário/excepto × conjunção + adv.</td><td>Estude, <strong>senão</strong> cai nota; <strong>se não</strong> estudar, complica.</td></tr>
-                    <tr><td>por que × porque × por quê × porquê</td><td>preposição + pronome × conjunção × final de frase × substantivo</td><td><em>Por que</em> faltou? Não veio <em>porque</em> choveu? E o <em>porquê</em> disso?</td></tr>
-                    <tr><td>traz × trás</td><td>verbo trazer × posição posterior</td><td>Ele <strong>traz</strong> o livro nas <strong>trás</strong>… (errado! É “atrás”).</td></tr>
-                  </tbody>
-                </table>
+              <summary>Você decide (pontuação)</summary>
+              <div class="exemplo">
+                <p>a) <span class="errado">Porém</span> os alunos não desistiram.</p>
+                <p>b) <span class="certo">Porém,</span> os alunos não desistiram.</p>
+                <p>c) Os alunos, no entanto, não desistiram.</p>
+                <p class="nota">“Porém” no início: vírgula após. “No entanto” pode vir entre vírgulas.</p>
               </div>
             </details>
+          </section>
 
-            <h3 id="erros-comuns">Erros comuns</h3>
+          <section id="concordancia-verbal" class="section-block">
+            <h2>2) Concordância verbal — descubra o sujeito primeiro</h2>
+
+            <div class="howto">
+              <ol>
+                <li>Marque o <strong>verbo</strong>.</li>
+                <li>Pergunte: “Quem é que + verbo?” → esse é o <strong>sujeito</strong> (núcleo).</li>
+                <li>Faça o verbo concordar em número e pessoa com o <strong>núcleo do sujeito</strong>.</li>
+              </ol>
+            </div>
+
+            <h3>2.1 Impessoais (ficam no singular)</h3>
             <ul>
-              <li>Separar sujeito e verbo com vírgula.</li>
-              <li>Usar crase por “achismo” (faça o teste do masculino).</li>
-              <li>Concordar com termo atrativo (e não com o sujeito real).</li>
-              <li>Confundir regência (“assistir o filme”, “preferir do que”).</li>
-              <li>Trocar parônimos (sessão/seção/cessão; descrição/discrição).</li>
+              <li><strong>Haver</strong> com sentido de existir: “<strong>Há</strong> muitos motivos”; “<strong>Houve</strong> erros”.</li>
+              <li><strong>Fazer</strong> indicando tempo decorrido: “<strong>Faz</strong> dois anos.”</li>
+              <li><strong>Verbos atmosféricos</strong> (quando sem sujeito expresso): “<strong>Choveu</strong> ontem.”</li>
+            </ul>
+
+            <h3>2.2 Sujeito composto</h3>
+            <div class="exemplo">
+              <p>Sujeito composto antes: <mark class="sujeito">João e Maria</mark> <mark class="verbo">chegaram</mark> cedo.</p>
+              <p>Sujeito composto depois (variação estilística): <mark class="verbo">Chegou</mark>/<mark class="verbo">Chegaram</mark> <mark class="sujeito">João e Maria</mark>.</p>
+            </div>
+
+            <h3>2.3 Conjunções ou e nem... nem</h3>
+            <ul>
+              <li><strong>Ou</strong> excludente → singular: “Maria ou João <strong>vai</strong>”.</li>
+              <li><strong>Ou</strong> inclusivo → plural: “Café ou água <strong>são</strong> bem-vindos”.</li>
+              <li><strong>Nem... nem</strong> → plural: “Nem o professor nem os alunos <strong>sabiam</strong>”.</li>
+            </ul>
+
+            <h3>2.4 Porcentagens, coletivos e partitivas</h3>
+            <ul>
+              <li>Porcentagem concorda com o núcleo: “10% <strong>dos candidatos</strong> <strong>acertaram</strong>”; “10% <strong>da prova</strong> <strong>foi</strong> cobrada”.</li>
+              <li>Coletivos: “O grupo <strong>decidiu</strong> (singular)”.</li>
+              <li>Partitivas: “A maioria <strong>foi</strong> bem (preferível)”; “A maioria <strong>foram</strong> embora” (aceito na ideia de coletividade ativa, menos formal).</li>
+              <li>“Mais de um” geralmente no <strong>singular</strong>: “Mais de um aluno <strong>faltou</strong>.” Com reciprocidade, admite plural: “Mais de um aluno <strong>se abraçaram</strong>.”</li>
+            </ul>
+
+            <h3>2.5 Casos clássicos</h3>
+            <div class="exemplo">
+              <p><mark class="sujeito">Um dos alunos que</mark> <mark class="verbo">estudam</mark> bastante veio hoje.</p>
+              <p class="nota">O “que” retoma “os alunos” → plural: estudam. (Embora se veja “estuda”, prefira <strong>estudam</strong>.)</p>
+            </div>
+
+            <details>
+              <summary>Você decide (concordância verbal)</summary>
+              <p>a) <span class="certo">Faz</span> cinco anos que estudo. [tempo decorrido → singular]</p>
+              <p>b) <span class="errado">Houveram</span> questões difíceis. → <strong>Houve</strong> questões difíceis.</p>
+              <p>c) 30% dos textos <strong>foram</strong> revisados. [núcleo “textos” → plural]</p>
+            </details>
+          </section>
+
+          <section id="concordancia-nominal" class="section-block">
+            <h2>3) Concordância nominal — pegue o núcleo</h2>
+            <ul>
+              <li>Adjetivo concorda com o <strong>núcleo</strong> do substantivo: “provas <strong>difíceis</strong>”.</li>
+              <li>Núcleos de gêneros diferentes → adjetivo no <strong>masculino plural</strong>: “leitura e cálculo <strong>complexos</strong>”.</li>
+              <li><strong>É proibido/permitido/necessário</strong>:
+                <ul>
+                  <li>Sem artigo → <strong>singular</strong>: “É proibido entrada”.</li>
+                  <li>Com artigo → concorda: “É proibida a entrada”.</li>
+                </ul>
+              </li>
+              <li><strong>Anexo, incluso, incluso, obrigado</strong> variam: “documentos anexos”; “segue anexa a lista”; “Obrigada” (mulher).</li>
+              <li><strong>Bastante</strong> quantificador varia (“bastantes exercícios”); como advérbio é invariável (“estudou bastante”).</li>
+              <li><strong>Meio</strong> advérbio é invariável (“está meio cansado”); adjetivo varia (“meia laranja”).</li>
+              <li><strong>Mesmo, próprio</strong> (reforço pronominal) concordam: “Ela mesma fez”; “O diretor próprio confirmou”.</li>
+              <li><strong>Alerta</strong> costuma ser invariável como estado: “os soldados ficaram alerta”.</li>
+            </ul>
+
+            <details>
+              <summary>Você decide (concordância nominal)</summary>
+              <p>a) É proibida entrada. → Preferível: <strong>É proibido entrada</strong> (sem artigo).</p>
+              <p>b) É proibida <strong>a</strong> entrada. → Correto (com artigo).</p>
+              <p>c) As alunas ficaram <strong>meio</strong> nervosas. → Correto (advérbio invariável).</p>
+            </details>
+          </section>
+
+          <section id="regencia" class="section-block">
+            <h2>4) Regência verbal — a dúvida que mais derruba</h2>
+
+            <div class="howto">
+              <strong>Passo a passo</strong>
+              <ol>
+                <li>Descubra o <strong>sentido</strong> exato do verbo.</li>
+                <li>Cheque se ele pede <strong>preposição</strong> (e qual).</li>
+                <li>Se houver preposição “a” + termo feminino com artigo → pode haver <strong>crase</strong>.</li>
+              </ol>
+            </div>
+
+            <div class="tabela-compacta">
+              <table>
+                <thead>
+                  <tr><th>Verbo</th><th>Sentido</th><th>Regência</th><th>Exemplo</th><th>Observação</th></tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>assistir</td>
+                    <td>ver</td>
+                    <td>assistir <strong>a</strong></td>
+                    <td>Assisti <strong>ao</strong> jogo.</td>
+                    <td>“a + o” = ao; “a + a” = à.</td>
+                  </tr>
+                  <tr>
+                    <td>assistir</td>
+                    <td>dar assistência</td>
+                    <td>OD (sem prep.)</td>
+                    <td>O médico assistiu o paciente.</td>
+                    <td>Sentido muda a regência.</td>
+                  </tr>
+                  <tr>
+                    <td>preferir</td>
+                    <td>comparar</td>
+                    <td>X <strong>a</strong> Y</td>
+                    <td>Prefiro estudo <strong>a</strong> improviso.</td>
+                    <td>Nunca “do que”.</td>
+                  </tr>
+                  <tr>
+                    <td>aspirar</td>
+                    <td>desejar</td>
+                    <td>aspirar <strong>a</strong></td>
+                    <td>Aspirava <strong>ao</strong> cargo.</td>
+                    <td>“a + o” = ao.</td>
+                  </tr>
+                  <tr>
+                    <td>aspirar</td>
+                    <td>sorver</td>
+                    <td>OD</td>
+                    <td>Aspirou o ar.</td>
+                    <td>Sem preposição.</td>
+                  </tr>
+                  <tr>
+                    <td>visar</td>
+                    <td>ter por objetivo</td>
+                    <td>visar <strong>a</strong></td>
+                    <td>O projeto visa <strong>à</strong> inclusão.</td>
+                    <td>Locução nominal feminina → crase.</td>
+                  </tr>
+                  <tr>
+                    <td>visar</td>
+                    <td>pôr visto</td>
+                    <td>OD</td>
+                    <td>O gerente visou o passaporte.</td>
+                    <td>Sentido literal.</td>
+                  </tr>
+                  <tr>
+                    <td>informar/avisar</td>
+                    <td>comunicar</td>
+                    <td>informar <em>algo</em> <strong>a</strong> <em>alguém</em></td>
+                    <td>Informei o horário <strong>ao</strong> candidato.</td>
+                    <td>Seguro para prova. (“Avisar alguém de algo” também é aceito.)</td>
+                  </tr>
+                  <tr>
+                    <td>obedecer / desobedecer</td>
+                    <td>submeter-se</td>
+                    <td><strong>a</strong></td>
+                    <td>Obedeceu <strong>às</strong> regras.</td>
+                    <td>Crase se “regras” exigir artigo.</td>
+                  </tr>
+                  <tr>
+                    <td>agradar</td>
+                    <td>ser agradável</td>
+                    <td><strong>a</strong></td>
+                    <td>A música agradou <strong>ao</strong> público.</td>
+                    <td>“Agradar alguém” = fazer carinho (OD).</td>
+                  </tr>
+                  <tr>
+                    <td>namorar</td>
+                    <td>relacionar-se</td>
+                    <td>OD</td>
+                    <td>Ela namora <strong>o</strong> colega.</td>
+                    <td>Sem preposição.</td>
+                  </tr>
+                  <tr>
+                    <td>simpatizar / antipatizar</td>
+                    <td>estimar/desgostar</td>
+                    <td><strong>com</strong></td>
+                    <td>Simpatiza <strong>com</strong> a ideia.</td>
+                    <td>“Simpatizar a” está errado.</td>
+                  </tr>
+                  <tr>
+                    <td>gostar</td>
+                    <td>apreciar</td>
+                    <td><strong>de</strong></td>
+                    <td>Gosta <strong>de</strong> gramática.</td>
+                    <td>Artigo se o termo pedir: “de <u>o</u> livro” → “do”.</td>
+                  </tr>
+                  <tr>
+                    <td>responder</td>
+                    <td>replicar</td>
+                    <td><strong>a</strong></td>
+                    <td>Respondeu <strong>ao</strong> e-mail.</td>
+                    <td>“Responder o e-mail” é coloquial.</td>
+                  </tr>
+                  <tr>
+                    <td>chegar / ir / voltar</td>
+                    <td>movimento</td>
+                    <td>preferencialmente <strong>a</strong></td>
+                    <td>Cheguei <strong>a</strong> Bauru; fui <strong>à</strong> escola.</td>
+                    <td>“Chegar em” é comum, mas evite em prova.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <details>
+              <summary>Você decide (regência)</summary>
+              <p>a) Assisti o filme. → <strong>Assisti ao filme</strong>. [assistir a]</p>
+              <p>b) Prefiro celular do que livro. → <strong>Prefiro celular a livro</strong>.</p>
+              <p>c) Aspirava o cargo. → <strong>Aspirava ao cargo</strong>. [desejar → a]</p>
+            </details>
+          </section>
+
+          <section id="crase" class="section-block">
+            <h2>5) Crase (à) — árvore de decisão infalível</h2>
+
+            <div class="howto">
+              <ol>
+                <li>Há <strong>preposição “a”</strong>? (verbo ou expressão exige “a”?)</li>
+                <li>A palavra seguinte <strong>admite artigo “a/as”</strong>?</li>
+                <li>Se SIM + SIM → <strong>crase</strong>: a + a(s) = à/às.</li>
+              </ol>
+              <p class="nota">Teste do masculino: troque o termo por masculino; se virar “ao/aos”, então no feminino será “à/às”.</p>
+            </div>
+
+            <h3>5.1 Casos certos</h3>
+            <ul>
+              <li>Antes de <strong>feminino com artigo</strong>: “Fui <strong>à</strong> biblioteca” (→ ao museu).</li>
+              <li><strong>Locuções femininas</strong> (adverbiais, prepositivas, conjuntivas): <br>
+                <em>Às vezes, à tarde, à noite, à vontade, às pressas, à distância, à procura de, à medida que, à exceção de, à beira de</em>.</li>
+              <li>Com demonstrativos: <strong>àquele, àquela, àquilo</strong> (a + aquele/aquela/aquilo): “Fui <strong>àquele</strong> curso”.</li>
+              <li>Horas: “A prova começa <strong>às</strong> 8h.”</li>
+              <li>“À moda de” (mesmo implícito): “bife <strong>à</strong> milanesa”.</li>
+            </ul>
+
+            <h3>5.2 Casos proibidos</h3>
+            <ul>
+              <li>Antes de <strong>verbo</strong>: “Começou a estudar.”</li>
+              <li>Antes de <strong>pronomes pessoais</strong> (ele, ela, você), de <strong>tratamento</strong> (exceto <em>senhora/dona</em>) e de <strong>indefinidos</strong> (alguém, ninguém): “Entreguei a ela” (sem crase).</li>
+              <li>Antes de <strong>palavra masculina</strong>: “Vou a pé”.</li>
+              <li>Topônimo <strong>sem artigo</strong>: “Fui a Bauru” (→ Fui <u>ao</u> Rio; logo “à” Rio? não, porque “Rio” é masculino; serve apenas para o teste de artigo).</li>
+              <li><strong>Palavras repetidas</strong>: “cara a cara”, “frente a frente”.</li>
+              <li><strong>Casa / terra</strong> sem especificação: “Cheguei a casa cedo”; “Voltou a terra” (do mar). Com especificação → crase: “Cheguei <strong>à</strong> casa da Ana”.</li>
+            </ul>
+
+            <h3>5.3 Casos facultativos</h3>
+            <ul>
+              <li>Antes de nome próprio feminino, quando houver <strong>artigo subentendido</strong>: “Entreguei a/à Maria”.</li>
+              <li>Antes de possessivo feminino, quando houver valor <strong>definido</strong>: “Escrevi a/à sua irmã”.</li>
+            </ul>
+
+            <div class="callout att">
+              <strong>Armadiha clássica:</strong> “Fui <u>à aquele</u> curso” está errado; o certo é <strong>àquele</strong>.
+            </div>
+
+            <details>
+              <summary>Você decide (crase)</summary>
+              <p>a) Cheguei <u>às</u> 8h. [correto: horas]</p>
+              <p>b) Vou <u>a</u> escola. → <strong>Vou à escola</strong>. [verbo “ir” pede “a” + “a escola” tem artigo]</p>
+              <p>c) Assisti <u>à</u> palestra. [assistir a + palestra com artigo → crase]</p>
+              <p>d) Voltei <u>a</u> casa. [sem especificação → sem crase]</p>
+            </details>
+          </section>
+
+          <section id="ortografia" class="section-block">
+            <h2>6) Ortografia e acentuação — o que mais cai</h2>
+            <ul>
+              <li>Sem trema: <em>linguiça, aguentar</em>.</li>
+              <li>Sem acento: <em>ideia, jiboia, heroico, feiura</em>.</li>
+              <li>Acento diferencial mantido: <em>pôr</em> (verbo) × <em>por</em> (prep.); <em>pôde</em> (passado) × <em>pode</em> (presente); <em>têm/vêm</em> no plural.</li>
+            </ul>
+
+            <div class="tabela-compacta">
+              <table>
+                <thead><tr><th>Pares problemáticos</th><th>Como lembrar</th><th>Exemplo</th></tr></thead>
+                <tbody>
+                  <tr><td>descrição × discrição</td><td>Escrever × segredo</td><td>Fez a <strong>descrição</strong> com <strong>discrição</strong>.</td></tr>
+                  <tr><td>ratificar × retificar</td><td>Confirmar × corrigir</td><td>Ratificou a decisão; retificou o dado.</td></tr>
+                  <tr><td>sessão × seção × cessão</td><td>Evento × parte × ceder</td><td>Sessão no cinema; seção infantil; cessão de livros.</td></tr>
+                  <tr><td>mal × mau</td><td>Advérbio × adjetivo</td><td>Comeu <strong>mal</strong> e ficou de <strong>mau</strong> humor.</td></tr>
+                  <tr><td>a × há</td><td>Direção × tempo decorrido</td><td>Vou <strong>a</strong> Bauru; cheguei <strong>há</strong> 2 horas.</td></tr>
+                  <tr><td>senão × se não</td><td>caso contrário/ exceto × conjunção + adv.</td><td>Estude, <strong>senão</strong> cai; <strong>se não</strong> estudar, complica.</td></tr>
+                  <tr><td>por que × porque × por quê × porquê</td><td>pergunta × explicação × final de frase × motivo (substantivo)</td><td><em>Por que</em> faltou? Não veio <em>porque</em> choveu. E o <em>por quê</em>? O <em>porquê</em> é justo.</td></tr>
+                  <tr><td>trás × traz × atrás</td><td>posição × verbo × advérbio</td><td>Ele <strong>traz</strong> o livro <strong>atrás</strong> da pasta; olhou para <strong>trás</strong>.</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section id="erros-comuns" class="section-block">
+            <h2>7) Erros comuns (e como evitar)</h2>
+            <ul>
+              <li>Separar sujeito e verbo com vírgula → identifique o núcleo do sujeito antes de pontuar.</li>
+              <li>Crase por “achismo” → aplique a árvore de decisão e o teste do masculino.</li>
+              <li>Concordar com termo atrativo (e não com o sujeito) → pergunte “quem é que + verbo?”.</li>
+              <li>Regência trocada em verbos-problema → memorize a tabela (assistir a; preferir a; aspirar a; visar a; obedecer a; gostar de...).</li>
+              <li>Parônimos trocados → associe “macetes” (sessão=evento; seção=parte; cessão=ceder).</li>
             </ul>
           </section>
 
           <section id="exemplos" class="section-block">
-            <h2>Exemplos resolvidos</h2>
+            <h2>Exemplos comentados (passo a passo)</h2>
 
-            <div class="example">
-              <strong>Exemplo 1 — Vírgula indevida.</strong><br />
-              <span>“Os estudantes, chegaram cedo.”</span><br />
-              Correção: <strong>“Os estudantes chegaram cedo.”</strong> (não se separa sujeito do verbo).
-            </div>
+            <div class="grid-2">
+              <div class="exemplo">
+                <strong>Ex. 1 — Descubra o sujeito antes da vírgula</strong>
+                <p><span class="errado">Os candidatos,</span> estudaram muito.</p>
+                <p>Marcação: <mark class="sujeito">Os candidatos</mark> <mark class="verbo">estudaram</mark> muito.</p>
+                <p>Entre sujeito e verbo, não use vírgula.</p>
+                <p><span class="certo">Os candidatos estudaram muito.</span></p>
+              </div>
 
-            <div class="example" style="margin-top:.5rem;">
-              <strong>Exemplo 2 — Haver existencial.</strong><br />
-              <span>“Houveram erros.”</span><br />
-              Correção: <strong>“Houve erros.”</strong> (verbo no singular).
-            </div>
+              <div class="exemplo">
+                <strong>Ex. 2 — Adjetiva explicativa vs restritiva</strong>
+                <p>Todos foram bem? → “Os candidatos, <mark class="exp">que estudaram</mark>, foram bem.” [explicativa]</p>
+                <p>Só um grupo foi bem? → “Os candidatos <mark class="exp">que estudaram</mark> foram bem.” [restritiva]</p>
+              </div>
 
-            <div class="example" style="margin-top:.5rem;">
-              <strong>Exemplo 3 — Regência.</strong><br />
-              <span>“Assisti o filme.”</span><br />
-              Correção: <strong>“Assisti ao filme.”</strong> (assistir a).
-            </div>
+              <div class="exemplo">
+                <strong>Ex. 3 — Haver existencial</strong>
+                <p><span class="errado">Houveram</span> falhas na prova.</p>
+                <p>Verbo impessoal no singular: <span class="certo">Houve</span> falhas na prova.</p>
+              </div>
 
-            <div class="example" style="margin-top:.5rem;">
-              <strong>Exemplo 4 — Crase com demonstrativo.</strong><br />
-              <span>“Fui à aquele curso.”</span><br />
-              Correção: <strong>“Fui àquele curso.”</strong> (a + aquele = <em>àquele</em>).
-            </div>
+              <div class="exemplo">
+                <strong>Ex. 4 — Preferir</strong>
+                <p>Estrutura: preferir X <strong>a</strong> Y.</p>
+                <p><span class="errado">Prefiro celular do que livro.</span></p>
+                <p><span class="certo">Prefiro celular a livro.</span></p>
+              </div>
 
-            <div class="example" style="margin-top:.5rem;">
-              <strong>Exemplo 5 — Concordância nominal (é proibido).</strong><br />
-              <span>“É proibida entrada.”</span><br />
-              Correção: <strong>“É proibido entrada.”</strong> (sem artigo → predicativo invariável).
-            </div>
+              <div class="exemplo">
+                <strong>Ex. 5 — Crase com demonstrativo</strong>
+                <p><span class="errado">Fui à aquele curso.</span></p>
+                <p>a + aquele = <strong>àquele</strong>. → <span class="certo">Fui àquele curso.</span></p>
+              </div>
 
-            <div class="example" style="margin-top:.5rem;">
-              <strong>Exemplo 6 — Preferir.</strong><br />
-              <span>“Prefiro celular do que livro.”</span><br />
-              Correção: <strong>“Prefiro celular a livro.”</strong>
+              <div class="exemplo">
+                <strong>Ex. 6 — “É proibido/É proibida”</strong>
+                <p>Sem artigo: <span class="certo">É proibido entrada.</span></p>
+                <p>Com artigo: <span class="certo">É proibida a entrada.</span></p>
+              </div>
             </div>
           </section>
 
           <section id="exercicios" class="section-block">
-            <h2>Exercícios</h2>
-            <p class="text-muted">Marque a alternativa correta. Veja o gabarito e a explicação no final de cada questão.</p>
+            <h2>Exercícios com gabarito explicado</h2>
 
             <div class="exercise">
-              <strong>1)</strong> Assinale a opção correta.<br />
-              A) A maioria dos alunos <em>foram</em> bem. B) A maioria dos alunos <em>foi</em> bem. C) Houveram provas fáceis. D) Assisti o jogo.
+              <strong>1)</strong> Assinale a opção correta:
+              <br/>A) A maioria dos alunos foram bem.
+              <br/>B) A maioria dos alunos foi bem.
+              <br/>C) Houveram provas fáceis.
+              <br/>D) Assisti o jogo.
               <details>
                 <summary>Gabarito e explicação</summary>
-                <p><strong>Resposta: B.</strong> “A maioria” (partitiva) admite singular preferencial. “Houveram” (existencial) está errado; “assistir” pede preposição: “ao”.</p>
+                <p><strong>Resposta: B.</strong> Partitiva → singular preferível (“A maioria foi”). “Houveram” (existencial) é incorreto; “assistir” (ver) pede “a”: “Assisti ao jogo”.</p>
               </details>
             </div>
 
             <div class="exercise" style="margin-top:.5rem;">
-              <strong>2)</strong> Marque a frase com vírgula adequada.<br />
-              A) Os candidatos estudaram e praticaram e revisaram. B) Os candidatos, estudaram e praticaram. C) Os candidatos estudaram, praticaram e revisaram.
+              <strong>2)</strong> Pontuação correta:
+              <br/>A) Os candidatos estudaram e praticaram e revisaram.
+              <br/>B) Os candidatos, estudaram e praticaram.
+              <br/>C) Os candidatos estudaram, praticaram e revisaram.
               <details>
                 <summary>Gabarito e explicação</summary>
-                <p><strong>Resposta: C.</strong> Enumeração com vírgulas; não se separa sujeito do verbo (B está errada).</p>
+                <p><strong>Resposta: C.</strong> Enumeração com vírgulas. Em B, vírgula separando sujeito e verbo (erro).</p>
               </details>
             </div>
 
             <div class="exercise" style="margin-top:.5rem;">
-              <strong>3)</strong> Crase: escolha a correta.<br />
-              A) Vou a escola. B) Vou à cidade. C) Entreguei a diretora. D) Cheguei à as 8h.
+              <strong>3)</strong> Crase:
+              <br/>A) Vou a escola.
+              <br/>B) Vou à cidade.
+              <br/>C) Entreguei a diretora.
+              <br/>D) Cheguei à as 8h.
               <details>
                 <summary>Gabarito e explicação</summary>
-                <p><strong>Resposta: B.</strong> “Cidade” admite artigo: vou <strong>à</strong> cidade. Em A falta artigo; em C, “à diretora” seria possível, mas sem artigo explícito, a banca costuma esperar a regência + artigo — aqui a construção isolada induz erro; em D, não há crase antes de “as” artigo que forma “às” somente quando indica hora: “Cheguei <strong>às</strong> 8h”.</p>
+                <p><strong>Resposta: B.</strong> “Ir” pede “a”; “cidade” aceita artigo → à. Em A falta artigo; em C, a forma esperada é <strong>à diretora</strong> (a + a); do jeito que está, pode soar como OD (“entreguei a diretora” = sentido absurdo). Em D, a forma correta é <strong>às 8h</strong> (a + as).</p>
               </details>
             </div>
 
             <div class="exercise" style="margin-top:.5rem;">
-              <strong>4)</strong> Regência de “preferir”.<br />
-              A) Prefiro celular do que livro. B) Prefiro celular a livro. C) Prefiro do que livro o celular.
+              <strong>4)</strong> Regência de “preferir”:
+              <br/>A) Prefiro celular do que livro.
+              <br/>B) Prefiro celular a livro.
+              <br/>C) Prefiro do que livro o celular.
               <details>
                 <summary>Gabarito e explicação</summary>
-                <p><strong>Resposta: B.</strong> Estrutura: preferir X <strong>a</strong> Y.</p>
+                <p><strong>Resposta: B.</strong> Estrutura fixa: X <strong>a</strong> Y. Evite “do que”.</p>
               </details>
             </div>
 
             <div class="exercise" style="margin-top:.5rem;">
-              <strong>5)</strong> Assinale a opção grafada corretamente.<br />
-              A) discrição B) descrevição C) descrição D) descição
+              <strong>5)</strong> Grafia correta:
+              <br/>A) discrição
+              <br/>B) descrevição
+              <br/>C) descrição
+              <br/>D) descição
               <details>
                 <summary>Gabarito e explicação</summary>
                 <p><strong>Resposta: C.</strong> Descrição = ato de descrever; discrição = reserva.</p>
@@ -322,29 +581,54 @@
             </div>
 
             <div class="exercise" style="margin-top:.5rem;">
-              <strong>6)</strong> Concordância nominal.<br />
-              A) Leitura e cálculo <em>complexa</em>. B) Leitura e cálculo <em>complexos</em>. C) Leitura e cálculo <em>complexo</em>.
+              <strong>6)</strong> Concordância nominal:
+              <br/>A) Leitura e cálculo complexa.
+              <br/>B) Leitura e cálculo complexos.
+              <br/>C) Leitura e cálculo complexo.
               <details>
                 <summary>Gabarito e explicação</summary>
                 <p><strong>Resposta: B.</strong> Núcleos de gêneros diferentes → adjetivo no masculino plural.</p>
               </details>
             </div>
+
+            <div class="exercise" style="margin-top:.5rem;">
+              <strong>7)</strong> Pontuação: marque a alternativa correta.
+              <br/>A) Os alunos que treinaram, foram bem.
+              <br/>B) Os alunos, que treinaram, foram bem. 
+              <br/>C) Os alunos que treinaram foram bem.
+              <details>
+                <summary>Gabarito e explicação</summary>
+                <p><strong>Resposta: C.</strong> Aqui a oração é restritiva (só “os que treinaram”); sem vírgulas. Em B seria explicativa, mudando o sentido.</p>
+              </details>
+            </div>
+
+            <div class="exercise" style="margin-top:.5rem;">
+              <strong>8)</strong> Regência:
+              <br/>A) O aluno simpatiza a o projeto.
+              <br/>B) O aluno simpatiza com o projeto.
+              <br/>C) O aluno simpatiza o projeto.
+              <details>
+                <summary>Gabarito e explicação</summary>
+                <p><strong>Resposta: B.</strong> “Simpatizar <strong>com</strong>”.</p>
+              </details>
+            </div>
           </section>
 
           <section id="checklist" class="section-block">
-            <h2>Checklist rápido antes da prova</h2>
+            <h2>Checklist rápido (prova)</h2>
             <ul>
-              <li>Há vírgula entre sujeito e verbo? Se sim, retire.</li>
-              <li>“Haver” com sentido de existir está no singular? “Fazer” de tempo também?</li>
-              <li>Testou a crase com o masculino (“ao”/“aos”) e com locuções femininas?</li>
-              <li>“Preferir X a Y”, “assistir a”, “gostar de”, “aspirar a”, “implicar (acarretar) OD”?</li>
-              <li>Parônimos: sessão/seção/cessão; mal/mau; a/há; porque/por que/porquê/por quê?</li>
+              <li>Há vírgula entre sujeito e verbo? Remova.</li>
+              <li>“Haver” (existir) e “fazer” (tempo) estão no singular?</li>
+              <li>Adjetiva explicativa/restritiva: as vírgulas mudam o sentido?</li>
+              <li>Regência: assistir a; preferir X a Y; aspirar a; visar a; obedecer a; gostar de; responder a.</li>
+              <li>Crase: verifique preposição + artigo/locução/demonstrativo; teste do masculino (“ao/aos”).</li>
+              <li>Parônimos: sessão/seção/cessão; mal/mau; a/há; por que/porque/porquê/por quê.</li>
             </ul>
           </section>
 
           <section id="questoes-reais" class="section-block">
             <h2>Questões de provas</h2>
-            <p>Em breve: links para questões do CTI e similares, com comentários e estatísticas de acerto.</p>
+            <p>Em breve: caderno com questões do CTI e afins (com comentários de cada alternativa e taxa de erro por item).</p>
             <a class="btn btn--outline" href="/simulados/">Ver simulados</a>
           </section>
 
@@ -353,8 +637,8 @@
             <ul>
               <li>BECHARA, Evanildo. Moderna Gramática Portuguesa.</li>
               <li>CUNHA, Celso; CINTRA, Lindley. Nova Gramática do Português Contemporâneo.</li>
-              <li>ABL — VOLP (Vocabulário Ortográfico da Língua Portuguesa).</li>
-              <li>Gramáticas práticas e listas de parônimos frequentemente cobrados em vestibulares.</li>
+              <li>VOLP — ABL (Vocabulário Ortográfico da Língua Portuguesa).</li>
+              <li>Guias práticos de pontuação e regência para vestibulares.</li>
             </ul>
           </section>
 
@@ -362,30 +646,23 @@
             <a class="btn btn--outline" href="/aulas/portugues/figuras-de-linguagem.html">← Figuras de linguagem</a>
             <a class="btn btn--primary" href="/aulas/portugues/sintaxe.html">Sintaxe →</a>
           </nav>
-
-          <p style="margin-top:1rem;"><a href="#conteudo" class="btn btn--ghost">⬆️ Voltar ao topo</a></p>
         </div>
 
         <aside class="lesson-toc" aria-label="Sumário da aula">
           <h4>Conteúdo</h4>
           <ol>
-            <li><a href="#objetivos">Objetivos</a></li>
-            <li><a href="#prerequisitos">Pré-requisitos</a></li>
-            <li><a href="#teoria">Teoria</a>
-              <ol>
-                <li><a href="#pontuacao">Pontuação</a></li>
-                <li><a href="#conc-verbal">Concordância verbal</a></li>
-                <li><a href="#conc-nominal">Concordância nominal</a></li>
-                <li><a href="#regencia">Regência</a></li>
-                <li><a href="#crase">Crase</a></li>
-                <li><a href="#ortografia">Ortografia</a></li>
-                <li><a href="#erros-comuns">Erros comuns</a></li>
-              </ol>
-            </li>
+            <li><a href="#como-estudar">Como usar</a></li>
+            <li><a href="#pontuacao">Pontuação</a></li>
+            <li><a href="#concordancia-verbal">Concordância verbal</a></li>
+            <li><a href="#concordancia-nominal">Concordância nominal</a></li>
+            <li><a href="#regencia">Regência</a></li>
+            <li><a href="#crase">Crase</a></li>
+            <li><a href="#ortografia">Ortografia</a></li>
+            <li><a href="#erros-comuns">Erros comuns</a></li>
             <li><a href="#exemplos">Exemplos</a></li>
             <li><a href="#exercicios">Exercícios</a></li>
             <li><a href="#checklist">Checklist</a></li>
-            <li><a href="#questoes-reais">Questões de provas</a></li>
+            <li><a href="#questoes-reais">Questões</a></li>
             <li><a href="#referencias">Referências</a></li>
           </ol>
         </aside>
@@ -406,62 +683,5 @@
       </nav>
     </div>
   </footer>
-
-  <!-- JSON-LD: Breadcrumb + Article + FAQ -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {"@type": "ListItem","position": 1,"name": "Início","item": "https://SEU-DOMINIO/"},
-          {"@type": "ListItem","position": 2,"name": "Aulas","item": "https://SEU-DOMINIO/aulas/"},
-          {"@type": "ListItem","position": 3,"name": "Português","item": "https://SEU-DOMINIO/aulas/portugues/"},
-          {"@type": "ListItem","position": 4,"name": "Gramática","item": "https://SEU-DOMINIO/aulas/portugues/gramatica.html"}
-        ]
-      },
-      {
-        "@type": "Article",
-        "headline": "Gramática — CTI 2026",
-        "inLanguage": "pt-BR",
-        "author": {"@type": "Organization","name": "Equipe CTI 2026"},
-        "dateModified": "2025-09-22",
-        "mainEntityOfPage": "https://SEU-DOMINIO/aulas/portugues/gramatica.html",
-        "about": "Gramática para Vestibulinho CTI: pontuação, concordância, regência, crase.",
-        "timeRequired": "PT50M"
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Quando usar crase em àquele/àquela/àquilo?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Quando houver preposição a + o pronome demonstrativo (aquele/aquela/aquilo). Ex.: Fui àquele curso."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Haver com sentido de existir vai para o plural?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Não. É impessoal e fica no singular: Há/Houve/Havia muitos motivos."
-            }
-          }
-        ]
-      }
-    ]
-  }
-  </script>
-
-  <!-- JS leve: imprimir -->
-  <script>
-    (function() {
-      var btn = document.getElementById('btn-imprimir');
-      if (btn) btn.addEventListener('click', function(){ window.print(); });
-    })();
-  </script>
 </body>
 </html>
