@@ -11098,5 +11098,2005 @@
     },
     "correta": "A",
     "explicacao": "Atribuição de ação humana a um elemento abstrato: personificação."
+  },
+  {
+    "id": "PT-TRV-001",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "classificação (VTD/VTI/VI/VL)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O pesquisador analisou a amostra com cuidado. Classifique o verbo 'analisou'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "B",
+    "explicacao": "Exige OD: 'a amostra'. 'com cuidado' é adjunto; admite passiva: 'A amostra foi analisada...'."
+  },
+  {
+    "id": "PT-TRV-002",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "classificação (VTD/VTI/VI/VL)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ela precisa de ajuda imediatamente. Classifique o verbo 'precisa'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "C",
+    "explicacao": "Quem 'precisa', precisa DE algo. OI com preposição 'de'; não forma passiva analítica."
+  },
+  {
+    "id": "PT-TRV-003",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "classificação (VTD/VTI/VI/VL)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Os alunos dormiram profundamente. Classifique o verbo 'dormiram'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "A",
+    "explicacao": "'Dormir' não exige complemento. 'profundamente' é adjunto de modo."
+  },
+  {
+    "id": "PT-TRV-004",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "classificação (VTD/VTI/VI/VL)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O ambiente permaneceu tranquilo durante a prova. Classifique o verbo 'permaneceu'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "D",
+    "explicacao": "Liga o sujeito a um estado: 'tranquilo' é predicativo do sujeito."
+  },
+  {
+    "id": "PT-TRV-005",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "classificação (VTD/VTI/VI/VL) + regência (assistir)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assistimos ao filme ontem (sentido de 'ver'). Classifique o verbo 'assistimos'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "C",
+    "explicacao": "No sentido de 'ver', 'assistir' rege preposição A: OI ('assistir a algo')."
+  },
+  {
+    "id": "PT-TRV-006",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "regência (assistir) + classificação",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A enfermeira assistiu o paciente durante a noite (dar assistência). Classifique 'assistiu'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "B",
+    "explicacao": "No sentido de 'dar assistência', é VTD: OD = 'o paciente'."
+  },
+  {
+    "id": "PT-TRV-007",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "regência (aspirar) + classificação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ele aspirou o pó do tapete. Classifique 'aspirou'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "B",
+    "explicacao": "No sentido de inalar, 'aspirar' é VTD: OD = 'o pó'."
+  },
+  {
+    "id": "PT-TRV-008",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "regência (aspirar) + classificação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ela aspira a um cargo de liderança. Classifique 'aspira'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "C",
+    "explicacao": "No sentido de almejar, 'aspirar' rege preposição A: OI = 'a um cargo...'."
+  },
+  {
+    "id": "PT-TRV-009",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "regência (preferir) + classificação",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Preferimos chá a café. Classifique 'preferimos'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "B",
+    "explicacao": "OD = 'chá'; o segundo termo comparativo vem com 'a': 'a café'. Não forma passiva natural do par comparativo."
+  },
+  {
+    "id": "PT-TRV-010",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "classificação (intransitivo)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ele chegou tarde ao trabalho. Classifique 'chegou'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "A",
+    "explicacao": "Não exige complemento. 'tarde' e 'ao trabalho' são adjuntos (tempo/lugar)."
+  },
+  {
+    "id": "PT-TRV-011",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "classificação (VTD) + passiva",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O vento derrubou a árvore. Classifique 'derrubou'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "B",
+    "explicacao": "OD = 'a árvore'. Passiva: 'A árvore foi derrubada (pelo vento)'."
+  },
+  {
+    "id": "PT-TRV-012",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "regência (precisar) + classificação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Os estudantes precisam de materiais novos. Classifique 'precisam'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "C",
+    "explicacao": "Exige a preposição 'de': OI = 'de materiais novos'."
+  },
+  {
+    "id": "PT-TRV-013",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "verbo de ligação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O céu ficou nublado. Classifique 'ficou'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "D",
+    "explicacao": "Liga o sujeito a 'nublado' (predicativo do sujeito)."
+  },
+  {
+    "id": "PT-TRV-014",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "regência (simpatizar) + classificação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ela simpatiza com a vizinha. Classifique 'simpatiza'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "C",
+    "explicacao": "Regência: 'simpatizar com'. OI = 'com a vizinha'."
+  },
+  {
+    "id": "PT-TRV-015",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "regência (gostar) + classificação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Gostamos de música instrumental. Classifique 'gostamos'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "C",
+    "explicacao": "'Gostar de' exige OI com 'de'."
+  },
+  {
+    "id": "PT-TRV-016",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "bitransitividade (informar)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O gerente informou o cliente do atraso. Classifique 'informou'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "E",
+    "explicacao": "VTD + OI: OD = 'o cliente'; OI = 'do atraso'. Alterna com 'informar algo a alguém'."
+  },
+  {
+    "id": "PT-TRV-017",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "regência (agradar) + classificação",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A notícia agradou ao público. Classifique 'agradou'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "C",
+    "explicacao": "No sentido de 'causar prazer a', 'agradar' rege preposição A: OI = 'ao público'."
+  },
+  {
+    "id": "PT-TRV-018",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "classificação (VTD)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A equipe limpou a sala inteira. Classifique 'limpou'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "B",
+    "explicacao": "OD = 'a sala inteira'. Admite passiva."
+  },
+  {
+    "id": "PT-TRV-019",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "verbo de ligação (tornar-se)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ela se tornou famosa. Classifique 'tornou (se)'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "D",
+    "explicacao": "Liga o sujeito a 'famosa' (predicativo do sujeito)."
+  },
+  {
+    "id": "PT-TRV-020",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "classificação (VI)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Os meninos correram pelo parque. Classifique 'correram'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "A",
+    "explicacao": "Não exige complemento. 'pelo parque' é adjunto de lugar."
+  },
+  {
+    "id": "PT-TRV-021",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "bitransitividade (lembrar alguém de algo)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O professor lembrou os alunos da tarefa. Classifique 'lembrou'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "E",
+    "explicacao": "OD = 'os alunos'; OI = 'da tarefa'. Estrutura bitransitiva típica."
+  },
+  {
+    "id": "PT-TRV-022",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "regência (lembrar-se de) + classificação",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O professor lembrou da tarefa. Classifique 'lembrou'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "C",
+    "explicacao": "No uso 'lembrar(-se) de', funciona como VTI: OI = 'da tarefa'."
+  },
+  {
+    "id": "PT-TRV-023",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "regência (lembrar algo) + classificação",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Lembrei o número rapidamente. Classifique 'lembrei'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "B",
+    "explicacao": "VTD: OD = 'o número'."
+  },
+  {
+    "id": "PT-TRV-024",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "regência (visar: pôr visto) + classificação",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O agente visou o documento. Classifique 'visou'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "B",
+    "explicacao": "No sentido de 'pôr visto', é VTD: OD = 'o documento'."
+  },
+  {
+    "id": "PT-TRV-025",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "regência (visar a) + classificação",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O projeto visa a reduzir custos. Classifique 'visa'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "C",
+    "explicacao": "No sentido de 'ter por objetivo', 'visar' rege preposição A: OI = 'a reduzir custos'."
+  },
+  {
+    "id": "PT-TRV-026",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "regência (confiar em) + classificação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ele confia em você. Classifique 'confia'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "C",
+    "explicacao": "'Confiar em' exige OI com 'em você'."
+  },
+  {
+    "id": "PT-TRV-027",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "predicativo do objeto (chamar)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Maria chamou o irmão de mentiroso. Classifique 'chamou'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "B",
+    "explicacao": "VTD: OD = 'o irmão'; 'de mentiroso' é predicativo do objeto, não OI."
+  },
+  {
+    "id": "PT-TRV-028",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "predicativo do objeto (considerar)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ele considerou a proposta inviável. Classifique 'considerou'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "B",
+    "explicacao": "VTD: OD = 'a proposta'; 'inviável' = predicativo do objeto."
+  },
+  {
+    "id": "PT-TRV-029",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "intransitivo + predicativo do sujeito",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Os trabalhadores chegaram exaustos. Classifique 'chegaram'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "A",
+    "explicacao": "VI; 'exaustos' funciona como predicativo do sujeito (termo acessório), não torna 'chegar' VL."
+  },
+  {
+    "id": "PT-TRV-030",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "verbo de ligação (parecer)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A aula parece difícil. Classifique 'parece'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "D",
+    "explicacao": "'difícil' é predicativo do sujeito; 'parecer' atua como VL."
+  },
+  {
+    "id": "PT-TRV-031",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "pronomes oblíquos (o/a/os/as x lhe)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Substitua 'o cliente' por um pronome: 'O gerente atendeu ____ rapidamente.'",
+    "alternativas": {
+      "A": "o",
+      "B": "lhe",
+      "C": "nos",
+      "D": "a ele",
+      "E": "lhes"
+    },
+    "correta": "A",
+    "explicacao": "'Atender (alguém)' é VTD ('atender o cliente'): usa OD = 'o'. 'lhe' marca OI."
+  },
+  {
+    "id": "PT-TRV-032",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "pronomes oblíquos (OI)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Substitua 'aos alunos' por um pronome: 'A professora obedeceu ____.'",
+    "alternativas": {
+      "A": "os",
+      "B": "lhes",
+      "C": "nos",
+      "D": "o",
+      "E": "lhe"
+    },
+    "correta": "B",
+    "explicacao": "'Obedecer a' exige OI. Plural: 'lhes'."
+  },
+  {
+    "id": "PT-TRV-033",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "pronomes oblíquos (OI)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Substitua 'ao diretor' por pronome: 'Respondi ____ por e-mail.'",
+    "alternativas": {
+      "A": "lhe",
+      "B": "o",
+      "C": "ao",
+      "D": "lo",
+      "E": "nos"
+    },
+    "correta": "A",
+    "explicacao": "'Responder a' → OI: 'lhe'."
+  },
+  {
+    "id": "PT-TRV-034",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "pronomes oblíquos (OD)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Substitua 'o relatório' por pronome: 'Enviei ____ ontem.'",
+    "alternativas": {
+      "A": "o",
+      "B": "lhe",
+      "C": "no",
+      "D": "le",
+      "E": "lhes"
+    },
+    "correta": "A",
+    "explicacao": "'Enviar (algo)' tem OD: 'o'."
+  },
+  {
+    "id": "PT-TRV-035",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "regência (assistir: ver)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete: 'Assisti ___ documentário ontem (ver)'.",
+    "alternativas": {
+      "A": "ao",
+      "B": "o",
+      "C": "aos",
+      "D": "de",
+      "E": "em"
+    },
+    "correta": "A",
+    "explicacao": "Regência: 'assistir a': 'ao documentário'."
+  },
+  {
+    "id": "PT-TRV-036",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "regência (preferir)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Escolha a forma correta: 'Prefiro chá ___ café.'",
+    "alternativas": {
+      "A": "a",
+      "B": "do que",
+      "C": "que",
+      "D": "de",
+      "E": "para"
+    },
+    "correta": "A",
+    "explicacao": "Preferir X a Y (sem 'do que')."
+  },
+  {
+    "id": "PT-TRV-037",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "regência (gostar de)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete: 'Ele gosta ___ música clássica.'",
+    "alternativas": {
+      "A": "de",
+      "B": "a",
+      "C": "com",
+      "D": "em",
+      "E": "para"
+    },
+    "correta": "A",
+    "explicacao": "'Gostar de' exige 'de'."
+  },
+  {
+    "id": "PT-TRV-038",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "regência (aspirar a)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete: 'Ele aspira ___ excelência profissional.'",
+    "alternativas": {
+      "A": "a",
+      "B": "de",
+      "C": "com",
+      "D": "em",
+      "E": "por"
+    },
+    "correta": "A",
+    "explicacao": "No sentido de 'almejar', 'aspirar a'."
+  },
+  {
+    "id": "PT-TRV-039",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "regência (simpatizar com)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Complete: 'A moça simpatiza ___ a vizinha.'",
+    "alternativas": {
+      "A": "com",
+      "B": "a",
+      "C": "de",
+      "D": "em",
+      "E": "para"
+    },
+    "correta": "A",
+    "explicacao": "'Simpatizar com' exige 'com'."
+  },
+  {
+    "id": "PT-TRV-040",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "pronomes oblíquos (telefonar a)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Substitua 'ao amigo' por pronome: 'Telefonei ____ à noite.'",
+    "alternativas": {
+      "A": "lhe",
+      "B": "o",
+      "C": "no",
+      "D": "lhes",
+      "E": "os"
+    },
+    "correta": "A",
+    "explicacao": "'Telefonar a' → OI: 'lhe'."
+  },
+  {
+    "id": "PT-TRV-041",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "voz passiva (transformação)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Transforme em voz passiva analítica: 'A equipe corrigiu as provas.'",
+    "alternativas": {
+      "A": "As provas foram corrigidas pela equipe.",
+      "B": "As provas foram corrigido pela equipe.",
+      "C": "Corrigiram-se as provas pela equipe.",
+      "D": "As provas tinham corrigidas pela equipe.",
+      "E": "A equipe foi corrigida pelas provas."
+    },
+    "correta": "A",
+    "explicacao": "OD vira sujeito da passiva: 'As provas foram corrigidas (pela equipe)'."
+  },
+  {
+    "id": "PT-TRV-042",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "voz passiva (transformação)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Transforme: 'O artista pintará o mural.'",
+    "alternativas": {
+      "A": "O mural será pintado pelo artista.",
+      "B": "O mural foi pintado pelo artista.",
+      "C": "O mural é pintado pelo artista ontem.",
+      "D": "Pintou-se o artista pelo mural.",
+      "E": "O artista será pintado o mural."
+    },
+    "correta": "A",
+    "explicacao": "Passiva no futuro: 'será pintado'."
+  },
+  {
+    "id": "PT-TRV-043",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "voz passiva (reconhecimento)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Qual admite voz passiva analítica?",
+    "alternativas": {
+      "A": "Ele precisa de ajuda.",
+      "B": "Os alunos assistiram ao jogo.",
+      "C": "A diretora analisou os relatórios.",
+      "D": "O céu ficou nublado.",
+      "E": "Chegaram cedo."
+    },
+    "correta": "C",
+    "explicacao": "Apenas VTD forma passiva analítica: 'Os relatórios foram analisados...'."
+  },
+  {
+    "id": "PT-TRV-044",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "voz passiva (transformação)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Transforme: 'Eles construíram uma ponte nova.'",
+    "alternativas": {
+      "A": "Uma ponte nova foi construída por eles.",
+      "B": "Uma ponte nova era construída por eles.",
+      "C": "Eles foram construídos uma ponte nova.",
+      "D": "Construiu-se eles uma ponte nova.",
+      "E": "Uma ponte nova tinha por eles construída."
+    },
+    "correta": "A",
+    "explicacao": "OD → sujeito da passiva: 'Uma ponte nova foi construída...'."
+  },
+  {
+    "id": "PT-TRV-045",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "voz passiva (limitações com VTI)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'Marcos obedeceu ao treinador.' Sobre a voz passiva, assinale a correta.",
+    "alternativas": {
+      "A": "O treinador foi obedecido por Marcos. (aceita-se sempre)",
+      "B": "Ao treinador foi obedecido por Marcos. (obrigatória)",
+      "C": "Não se forma voz passiva analítica com 'obedecer'.",
+      "D": "Marcos foi obedecido pelo treinador. (equivalente)",
+      "E": "O treinador tinha sido obedecido por Marcos. (obrigatória)"
+    },
+    "correta": "C",
+    "explicacao": "'Obedecer' é VTI (OI com 'a'): não admite passiva analítica canônica."
+  },
+  {
+    "id": "PT-TRV-046",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "voz passiva (transformação)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Transforme: 'O chefe aprovou a proposta ontem.'",
+    "alternativas": {
+      "A": "A proposta foi aprovada pelo chefe ontem.",
+      "B": "A proposta era aprovada pelo chefe ontem.",
+      "C": "Ontem o chefe foi aprovado a proposta.",
+      "D": "A proposta foi aprovar pelo chefe ontem.",
+      "E": "A proposta tinha pelo chefe aprovada ontem."
+    },
+    "correta": "A",
+    "explicacao": "VTD → passiva analítica correta em A."
+  },
+  {
+    "id": "PT-TRV-047",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "voz passiva (reconhecimento)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'Os técnicos instalaram o sistema.' Qual é a passiva correta?",
+    "alternativas": {
+      "A": "O sistema foi instalado pelos técnicos.",
+      "B": "Os técnicos foram instalados pelo sistema.",
+      "C": "Instalou-se pelos técnicos o sistema.",
+      "D": "O sistema tinha instalados pelos técnicos.",
+      "E": "O sistema está instalar pelos técnicos."
+    },
+    "correta": "A",
+    "explicacao": "OD 'o sistema' vira sujeito: 'foi instalado'."
+  },
+  {
+    "id": "PT-TRV-048",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "voz passiva (reconhecimento)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Assinale a única frase cuja transformação para a voz passiva é possível.",
+    "alternativas": {
+      "A": "Eles chegaram cedo.",
+      "B": "Ela precisa de descanso.",
+      "C": "O autor escreveu o livro.",
+      "D": "Gosto de filmes.",
+      "E": "A sala ficou fria."
+    },
+    "correta": "C",
+    "explicacao": "Só VTD admite passiva: 'O livro foi escrito (pelo autor)'."
+  },
+  {
+    "id": "PT-TRV-049",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "voz passiva (transformação)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Transforme: 'O aluno fez a lição.'",
+    "alternativas": {
+      "A": "A lição foi feita pelo aluno.",
+      "B": "A lição era feita pelo aluno ontem.",
+      "C": "A lição foi fazer pelo aluno.",
+      "D": "A lição foi feita ao aluno.",
+      "E": "O aluno foi feito a lição."
+    },
+    "correta": "A",
+    "explicacao": "Passiva correta: 'foi feita'."
+  },
+  {
+    "id": "PT-TRV-050",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "voz passiva (reconhecimento/transformação)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'O vento derrubou a árvore.' A alternativa que mantém sentido e correção é:",
+    "alternativas": {
+      "A": "A árvore foi derrubada pelo vento.",
+      "B": "A árvore foi derrubado pelo vento.",
+      "C": "O vento foi derrubado pela árvore.",
+      "D": "A árvore se derrubou pelo vento.",
+      "E": "A árvore era derrubada pelo vento ontem."
+    },
+    "correta": "A",
+    "explicacao": "Construção correta da passiva: 'foi derrubada'."
+  },
+  {
+    "id": "PT-TRV-051",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "classificação (VTD)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ele abriu a janela rapidamente. Classifique o verbo 'abriu'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "B",
+    "explicacao": "OD = 'a janela'; 'rapidamente' é adjunto de modo. Passiva: 'A janela foi aberta...'."
+  },
+  {
+    "id": "PT-TRV-052",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "regência (confiar em) + classificação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Eles confiam nos resultados. Classifique 'confiam'.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VI",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "C",
+    "explicacao": "'Confiar em' exige OI com preposição: 'em (nos) resultados'."
+  },
+  {
+    "id": "PT-TRV-053",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "classificação (VI)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "As crianças brincaram no pátio. Classifique 'brincaram'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "A",
+    "explicacao": "Não há complemento exigido; 'no pátio' é adjunto de lugar."
+  },
+  {
+    "id": "PT-TRV-054",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "verbo de ligação (estar)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O aluno está motivado. Classifique 'está'.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "D",
+    "explicacao": "Liga o sujeito a 'motivado' (predicativo do sujeito)."
+  },
+  {
+    "id": "PT-TRV-055",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "classificação (VTD) + passiva",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O pianista tocou a mesma peça. Classifique 'tocou'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTI",
+      "C": "VTD",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "C",
+    "explicacao": "OD = 'a mesma peça'. Passiva: 'A mesma peça foi tocada...'."
+  },
+  {
+    "id": "PT-TRV-056",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "regência (assistir a) + classificação",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O juiz assistiu ao jogo. Classifique 'assistiu'.",
+    "alternativas": {
+      "A": "VTI",
+      "B": "VTD",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "A",
+    "explicacao": "No sentido de 'ver', 'assistir a': OI com 'a'."
+  },
+  {
+    "id": "PT-TRV-057",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "regência (atender alguém) + classificação",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A médica atendeu o paciente. Classifique 'atendeu'.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "A",
+    "explicacao": "VTD: OD = 'o paciente'."
+  },
+  {
+    "id": "PT-TRV-058",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "verbo de ligação (continuar)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O projeto continua atrasado. Classifique 'continua'.",
+    "alternativas": {
+      "A": "VL",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VI",
+      "E": "bitransitivo"
+    },
+    "correta": "A",
+    "explicacao": "'atrasado' é predicativo do sujeito; 'continuar' como VL."
+  },
+  {
+    "id": "PT-TRV-059",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "classificação (VI)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O avião decolou às oito. Classifique 'decolou'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "A",
+    "explicacao": "Não pede complemento; 'às oito' = adjunto de tempo."
+  },
+  {
+    "id": "PT-TRV-060",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "classificação (VTD)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Eles homenagearam o professor. Classifique 'homenagearam'.",
+    "alternativas": {
+      "A": "VTI",
+      "B": "VI",
+      "C": "VTD",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "C",
+    "explicacao": "OD = 'o professor'."
+  },
+  {
+    "id": "PT-TRV-061",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "pronomes oblíquos (OI) + regência (pagar a)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Substitua 'ao cliente' por pronome: 'Paguei ____ ontem.'",
+    "alternativas": {
+      "A": "o",
+      "B": "lhe",
+      "C": "me",
+      "D": "te",
+      "E": "nos"
+    },
+    "correta": "B",
+    "explicacao": "'Pagar algo a alguém' → OI = 'lhe'."
+  },
+  {
+    "id": "PT-TRV-062",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "pronomes oblíquos (OI) + regência (entregar a)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Substitua 'ao gerente' por pronome: 'Entreguei o relatório ____.'",
+    "alternativas": {
+      "A": "lhe",
+      "B": "o",
+      "C": "a ele",
+      "D": "no",
+      "E": "lhes"
+    },
+    "correta": "A",
+    "explicacao": "OI de 'entregar algo a alguém' = 'lhe'."
+  },
+  {
+    "id": "PT-TRV-063",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "voz passiva sintética (se apassivador)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'Vendem-se casas.' Classifique a construção.",
+    "alternativas": {
+      "A": "voz passiva sintética",
+      "B": "índice de indeterminação do sujeito",
+      "C": "voz ativa",
+      "D": "reflexiva",
+      "E": "pronominal"
+    },
+    "correta": "A",
+    "explicacao": "'se' apassivador; sujeito paciente = 'casas'. Analítica: 'Casas são vendidas'."
+  },
+  {
+    "id": "PT-TRV-064",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "índice de indeterminação do sujeito (VTI + se)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'Precisa-se de voluntários.' Classifique a construção.",
+    "alternativas": {
+      "A": "voz passiva sintética",
+      "B": "índice de indeterminação do sujeito",
+      "C": "voz ativa",
+      "D": "reflexiva",
+      "E": "pronominal"
+    },
+    "correta": "B",
+    "explicacao": "Com VTI ('precisar de'), o 'se' indetermina o sujeito; 'de voluntários' = OI."
+  },
+  {
+    "id": "PT-TRV-065",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "relação ativa/passiva (classificação do verbo)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'As provas foram corrigidas pela banca.' Na voz ativa, o verbo 'corrigir' é:",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "B",
+    "explicacao": "Ativa: 'A banca corrigiu as provas.' OD = 'as provas' → VTD."
+  },
+  {
+    "id": "PT-TRV-066",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "transformação (passiva sintética → analítica)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'Alugam-se apartamentos.' A forma equivalente é:",
+    "alternativas": {
+      "A": "Apartamentos são alugados.",
+      "B": "Apartamentos foram alugados.",
+      "C": "Alugam-se por apartamentos.",
+      "D": "Os apartamentos se alugam pessoas.",
+      "E": "Apartamentos está alugando."
+    },
+    "correta": "A",
+    "explicacao": "Passiva analítica no presente: 'são alugados'."
+  },
+  {
+    "id": "PT-TRV-067",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "transformação (passiva sintética → analítica)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "'Compram-se frutas frescas aqui.' A alternativa equivalente é:",
+    "alternativas": {
+      "A": "Frutas frescas são compradas aqui.",
+      "B": "Frutas frescas foram compradas aqui.",
+      "C": "Compram-se aqui por frutas frescas.",
+      "D": "Aqui compra-se pessoas frutas frescas.",
+      "E": "Frutas frescas está comprando aqui."
+    },
+    "correta": "A",
+    "explicacao": "'se' apassivador; sujeito = 'frutas frescas'."
+  },
+  {
+    "id": "PT-TRV-068",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "regência (concordar com) + classificação",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O diretor concordou com a proposta. Classifique 'concordou'.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VI",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "C",
+    "explicacao": "'Concordar com' → OI com 'com'."
+  },
+  {
+    "id": "PT-TRV-069",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "classificação (VI)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A turma saiu em silêncio. Classifique 'saiu'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "A",
+    "explicacao": "Não exige complemento. 'em silêncio' = adjunto de modo."
+  },
+  {
+    "id": "PT-TRV-070",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "verbo de ligação (parecer)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Os dados parecem confiáveis. Classifique 'parecem'.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "D",
+    "explicacao": "'confiáveis' = predicativo do sujeito; 'parecer' atua como VL."
+  },
+  {
+    "id": "PT-TRV-071",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "OD elíptico (estudar)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Estudou muito. Classifique 'estudou'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "B",
+    "explicacao": "VTD com OD subentendido (a matéria). 'muito' = adjunto de intensidade."
+  },
+  {
+    "id": "PT-TRV-072",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "intransitivo (almoçar)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ele almoçou cedo. Classifique 'almoçou'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "A",
+    "explicacao": "Uso comum sem OD. 'cedo' = adjunto de tempo."
+  },
+  {
+    "id": "PT-TRV-073",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "OD elíptico (ler)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ele leu. Classifique 'leu'.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VI",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "A",
+    "explicacao": "VTD com OD subentendido (um texto, livro etc.)."
+  },
+  {
+    "id": "PT-TRV-074",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "intransitivo (chover)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Choveu durante a tarde. Classifique 'choveu'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "A",
+    "explicacao": "Verbo impessoal; 'durante a tarde' = adjunto."
+  },
+  {
+    "id": "PT-TRV-075",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "polissemia (proceder) + classificação",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Isso não procede. Classifique 'procede'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "A",
+    "explicacao": "No sentido de 'ter fundamento', é intransitivo."
+  },
+  {
+    "id": "PT-TRV-076",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "verbo de ligação (andar + adjetivo)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Andou cansado o dia todo. Classifique 'andou'.",
+    "alternativas": {
+      "A": "VL",
+      "B": "VI",
+      "C": "VTD",
+      "D": "VTI",
+      "E": "bitransitivo"
+    },
+    "correta": "A",
+    "explicacao": "Com adjetivo de estado ('cansado'), 'andar' funciona como VL."
+  },
+  {
+    "id": "PT-TRV-077",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "intransitivo (andar + lugar)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Andou pela cidade inteira. Classifique 'andou'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "A",
+    "explicacao": "'pela cidade' = adjunto de lugar; não há complemento exigido."
+  },
+  {
+    "id": "PT-TRV-078",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "verbo de ligação (virar + predicativo)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Virou líder da equipe. Classifique 'virou'.",
+    "alternativas": {
+      "A": "VL",
+      "B": "VI",
+      "C": "VTD",
+      "D": "VTI",
+      "E": "bitransitivo"
+    },
+    "correta": "A",
+    "explicacao": "'líder' = predicativo do sujeito; 'virar' com valor de 'tornar-se'."
+  },
+  {
+    "id": "PT-TRV-079",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "polissemia (virar) + classificação (VTD)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Virou a página do livro. Classifique 'virou'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTI",
+      "C": "VTD",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "C",
+    "explicacao": "OD = 'a página'."
+  },
+  {
+    "id": "PT-TRV-080",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "verbo de ligação (chamar-se)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ele se chama Carlos. Classifique 'se chama'.",
+    "alternativas": {
+      "A": "VL",
+      "B": "VI",
+      "C": "VTD",
+      "D": "VTI",
+      "E": "bitransitivo"
+    },
+    "correta": "A",
+    "explicacao": "'Carlos' atua como predicativo do sujeito (nome)."
+  },
+  {
+    "id": "PT-TRV-081",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "diferenciar adjunto x predicativo (ficar)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ela ficou três dias em casa. Classifique 'ficou'.",
+    "alternativas": {
+      "A": "VL",
+      "B": "VI",
+      "C": "VTD",
+      "D": "VTI",
+      "E": "bitransitivo"
+    },
+    "correta": "B",
+    "explicacao": "Sem predicativo; 'três dias' (tempo) e 'em casa' (lugar) são adjuntos."
+  },
+  {
+    "id": "PT-TRV-082",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "verbo de ligação (ficar + adjetivo)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ela ficou cansada após a maratona. Classifique 'ficou'.",
+    "alternativas": {
+      "A": "VL",
+      "B": "VI",
+      "C": "VTD",
+      "D": "VTI",
+      "E": "bitransitivo"
+    },
+    "correta": "A",
+    "explicacao": "'cansada' = predicativo do sujeito."
+  },
+  {
+    "id": "PT-TRV-083",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "polissemia (chegar) + VTI",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Chegamos a um acordo. Classifique 'chegamos'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "C",
+    "explicacao": "Na locução 'chegar a um acordo', há OI com 'a'."
+  },
+  {
+    "id": "PT-TRV-084",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "intransitivo (chegar + adjuntos)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Chegamos cedo. Classifique 'chegamos'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "VTD",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "A",
+    "explicacao": "'cedo' = adjunto de tempo; verbo não exige complemento."
+  },
+  {
+    "id": "PT-TRV-085",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "predicativo do objeto (considerar) + VTD",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O gerente considera o plano arriscado. Classifique 'considera'.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VI",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "A",
+    "explicacao": "VTD: OD = 'o plano'; 'arriscado' = predicativo do objeto."
+  },
+  {
+    "id": "PT-TRV-086",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "regência (reparar em) + VTI",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Reparei no detalhe da foto. Classifique 'reparei'.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VI",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "C",
+    "explicacao": "'Reparar em' (notar) exige OI com 'em'."
+  },
+  {
+    "id": "PT-TRV-087",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "polissemia (reparar: consertar) + VTD",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "O técnico reparou o computador. Classifique 'reparou'.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VI",
+      "C": "VTI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "A",
+    "explicacao": "No sentido de 'consertar', é VTD (OD = 'o computador')."
+  },
+  {
+    "id": "PT-TRV-088",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "verbo de ligação (tornar-se)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ele se tornou referência na área. Classifique 'se tornou'.",
+    "alternativas": {
+      "A": "VL",
+      "B": "VI",
+      "C": "VTD",
+      "D": "VTI",
+      "E": "bitransitivo"
+    },
+    "correta": "A",
+    "explicacao": "'referência' = predicativo do sujeito."
+  },
+  {
+    "id": "PT-TRV-089",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "bitransitividade (informar algo a alguém)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Eles informaram o atraso aos clientes. Classifique 'informaram'.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "bitransitivo",
+      "D": "VI",
+      "E": "VL"
+    },
+    "correta": "C",
+    "explicacao": "OD = 'o atraso'; OI = 'aos clientes'."
+  },
+  {
+    "id": "PT-TRV-090",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "bitransitividade (informar alguém de algo)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Eles informaram os clientes do atraso. Classifique 'informaram'.",
+    "alternativas": {
+      "A": "VI",
+      "B": "bitransitivo",
+      "C": "VTD",
+      "D": "VTI",
+      "E": "VL"
+    },
+    "correta": "B",
+    "explicacao": "OD = 'os clientes'; OI = 'do atraso'."
+  },
+  {
+    "id": "PT-TRV-091",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "regência (carecer de) + VTI",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "A empresa carece de recursos. Classifique 'carece'.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "B",
+    "explicacao": "'carecer de' exige OI com 'de'."
+  },
+  {
+    "id": "PT-TRV-092",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "polissemia (pagar algo) + VTD",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ele pagou a conta. Classifique 'pagou'.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "A",
+    "explicacao": "OD = 'a conta'."
+  },
+  {
+    "id": "PT-TRV-093",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "polissemia (pagar a alguém) + VTI",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ele pagou ao garçom. Classifique 'pagou'.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "B",
+    "explicacao": "OI = 'ao garçom' (a quem se paga)."
+  },
+  {
+    "id": "PT-TRV-094",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "bitransitividade (pagar algo a alguém)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ele pagou a conta ao garçom. Classifique 'pagou'.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "bitransitivo",
+      "D": "VI",
+      "E": "VL"
+    },
+    "correta": "C",
+    "explicacao": "OD = 'a conta'; OI = 'ao garçom'."
+  },
+  {
+    "id": "PT-TRV-095",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "bitransitividade (oferecer)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Oferecemos bolsas aos alunos. Classifique 'oferecemos'.",
+    "alternativas": {
+      "A": "VL",
+      "B": "VI",
+      "C": "bitransitivo",
+      "D": "VTD",
+      "E": "VTI"
+    },
+    "correta": "C",
+    "explicacao": "OD = 'bolsas'; OI = 'aos alunos'."
+  },
+  {
+    "id": "PT-TRV-096",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "bitransitividade (ensinar)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ensinaram matemática aos calouros. Classifique 'ensinaram'.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "bitransitivo",
+      "E": "VL"
+    },
+    "correta": "D",
+    "explicacao": "OD = 'matemática'; OI = 'aos calouros'."
+  },
+  {
+    "id": "PT-TRV-097",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "bitransitividade (doar)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Doaram alimentos ao abrigo. Classifique 'doaram'.",
+    "alternativas": {
+      "A": "VL",
+      "B": "bitransitivo",
+      "C": "VTD",
+      "D": "VTI",
+      "E": "VI"
+    },
+    "correta": "B",
+    "explicacao": "OD = 'alimentos'; OI = 'ao abrigo'."
+  },
+  {
+    "id": "PT-TRV-098",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "bitransitividade (explicar)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Explicou a regra ao colega. Classifique 'explicou'.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "VL",
+      "E": "bitransitivo"
+    },
+    "correta": "E",
+    "explicacao": "OD = 'a regra'; OI = 'ao colega'."
+  },
+  {
+    "id": "PT-TRV-099",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "bitransitividade (perguntar)",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Perguntei a data da prova ao professor. Classifique 'perguntei'.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VI",
+      "D": "bitransitivo",
+      "E": "VL"
+    },
+    "correta": "D",
+    "explicacao": "OD = 'a data da prova'; OI = 'ao professor'."
+  },
+  {
+    "id": "PT-TRV-100",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "Transitividade verbal",
+    "habilidade": "bitransitividade (emprestar)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Emprestou o livro ao amigo. Classifique 'emprestou'.",
+    "alternativas": {
+      "A": "VTD",
+      "B": "VTI",
+      "C": "VL",
+      "D": "VI",
+      "E": "bitransitivo"
+    },
+    "correta": "E",
+    "explicacao": "OD = 'o livro'; OI = 'ao amigo'."
   }
 ]
