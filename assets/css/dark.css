@@ -4,22 +4,182 @@
 */
 :root {
   color-scheme: dark;
+
+  /* Paleta base */
   --bg: #0b1220;
   --surface: #0f172a;
   --text: #e5e7eb;
   --muted: #94a3b8;
   --border: #22314d;
 
-  --accent: #5da2ff;         /* azul mais claro para contraste no escuro */
+  --accent: #5da2ff;           /* azul mais claro para contraste no escuro */
   --accent-contrast: #ffffff;
   --accent-soft: #0b213f;
+
   --success: #22c55e;
   --warning: #fbbf24;
   --danger:  #ef4444;
+
+  /* Elevações e componentes (dark) */
+  --surface-2: #0b213f;
+  --elev-1: #111a2e;           /* levemente acima de --surface */
+  --elev-2: #0f1c32;
+
+  --exemplo-bg: var(--elev-1);
+  --exemplo-border: var(--border);
+
+  --details-bg: var(--elev-2);
+  --details-border: var(--border);
+
+  --callout-bg: #0f1a2b;
+  --callout-border: var(--border);
+  --callout-tip: var(--accent);
+  --callout-att: #ff7686;
+
+  --pill-tip-bg: var(--accent-soft);
+  --pill-tip-fg: #a8cdfc;
+  --pill-tip-border: #1d3a59;
+
+  --table-th-bg: var(--surface);
+  --table-td-bg: #0e1627;
+  --table-border: var(--border);
+
+  --ok: var(--success);
+  --error: #ff6b7a;
+
+  /* Destaques (mark) — tokens para gramática */
+  --mk-sujeito-bg: #3c3205;  --mk-sujeito-fg: #ffe18a;  --mk-sujeito-stroke: #6a5700;
+  --mk-verbo-bg:   #0b2f30;  --mk-verbo-fg:   #bdf0ed;  --mk-verbo-stroke:   #145b58;
+  --mk-obj-bg:     #291a45;  --mk-obj-fg:     #e5d9ff;  --mk-obj-stroke:     #4e3082;
+  --mk-aposto-bg:  #3a1510;  --mk-aposto-fg:  #ffd1c9;  --mk-aposto-stroke:  #6a2a22;
+  --mk-adj-bg:     #102f0c;  --mk-adj-fg:     #c3f0ad;  --mk-adj-stroke:     #1f5f17;
 }
 
-/* Ajustes específicos no escuro (opcionais) */
-.nav-link:hover { background: rgba(255,255,255,.04); }
+/* Base (se o tema claro não faz override por variáveis, garantimos aqui) */
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* Links em dark */
+a { color: var(--accent); }
+a:hover { color: #9fc8ff; }
+
+/* Bordas e superfícies comuns */
+hr { border-color: var(--border); }
 .card { background: #0f172a; border-color: #1f2a44; }
 .card--soft { background: #0b213f; border-color: #1f3a6b; }
+
+/* Navegação/Rodapé (como estava) */
+.nav-link:hover { background: rgba(255,255,255,.04); }
 .site-footer { background: #0b1220; border-top-color: #1f2a44; }
+
+/* Breadcrumb, cápsulas, etc. (suave para dark) */
+.breadcrumb { border-bottom: 1px solid var(--border); }
+.pill { background: #0d1a31; color: var(--text); border: 1px solid var(--border); }
+.pill.tip { background: var(--pill-tip-bg); color: var(--pill-tip-fg); border-color: var(--pill-tip-border); }
+
+/* Botões (ajuste leve, se necessário) */
+.btn--primary { background: var(--accent); color: var(--accent-contrast); }
+.btn--primary:hover { background: #80b8ff; }
+.btn--outline { color: var(--text); border-color: var(--border); }
+.btn--outline:hover { background: rgba(255,255,255,.06); }
+.btn--ghost { color: var(--accent); }
+.btn--ghost:hover { background: rgba(93,162,255,.12); }
+
+/* Tabelas (especial p/ aula) */
+.table-wrap { background: transparent; }
+.table-wrap table { border-color: var(--table-border); }
+.table-wrap thead th { background: var(--table-th-bg); color: var(--text); }
+.table-wrap tbody td { background: var(--table-td-bg); color: var(--text); border-color: var(--table-border); }
+
+/* Exercícios/Exemplos — caixas e feedback */
+.lesson-content .exemplo {
+  background: var(--exemplo-bg);
+  border: 1px solid var(--exemplo-border);
+  color: var(--text);
+  border-radius: .5rem;
+}
+.lesson-content .exemplo p { color: var(--text); }
+.lesson-content .exemplo .nota { color: var(--muted); }
+
+.lesson-content .certo { color: var(--ok); font-weight: 600; }
+.lesson-content .errado { color: var(--error); font-weight: 600; }
+
+/* Details (gabaritos/explicações) */
+.lesson-content details {
+  background: var(--details-bg);
+  border: 1px solid var(--details-border);
+  border-radius: .5rem;
+  padding: .5rem .75rem;
+}
+.lesson-content details[open] { background: #0d1b2f; }
+.lesson-content details summary {
+  cursor: pointer;
+  color: var(--text);
+  font-weight: 600;
+}
+.lesson-content details p { color: var(--text); }
+.lesson-content details .nota { color: var(--muted); }
+
+/* Callouts */
+.lesson-content .callout {
+  background: var(--callout-bg);
+  border: 1px solid var(--callout-border);
+  color: var(--text);
+  border-radius: .5rem;
+}
+.lesson-content .callout.tip { border-left: 4px solid var(--callout-tip); }
+.lesson-content .callout.att { border-left: 4px solid var(--callout-att); }
+
+/* Destaques (mark.*) para análise sintática — contraste adequado no dark */
+.lesson-content mark {
+  padding: 0 .125em;
+  border-radius: .2em;
+  box-shadow: none;
+}
+.lesson-content mark.sujeito {
+  background: var(--mk-sujeito-bg);
+  color: var(--mk-sujeito-fg);
+  box-shadow: inset 0 0 0 1px var(--mk-sujeito-stroke);
+}
+.lesson-content mark.verbo {
+  background: var(--mk-verbo-bg);
+  color: var(--mk-verbo-fg);
+  box-shadow: inset 0 0 0 1px var(--mk-verbo-stroke);
+}
+.lesson-content mark.obj {
+  background: var(--mk-obj-bg);
+  color: var(--mk-obj-fg);
+  box-shadow: inset 0 0 0 1px var(--mk-obj-stroke);
+}
+.lesson-content mark.aposto,
+.lesson-content mark.exp {
+  background: var(--mk-aposto-bg);
+  color: var(--mk-aposto-fg);
+  box-shadow: inset 0 0 0 1px var(--mk-aposto-stroke);
+}
+.lesson-content mark.adj {
+  background: var(--mk-adj-bg);
+  color: var(--mk-adj-fg);
+  box-shadow: inset 0 0 0 1px var(--mk-adj-stroke);
+}
+
+/* Sumário lateral (TOC) e navegação da lição (suaviza bordas) */
+.lesson-toc { border: 1px solid var(--border); background: var(--surface); }
+.lesson-nav .btn { border-color: var(--border); }
+
+/* Notas e textos secundários */
+.text-muted, .nota { color: var(--muted) !important; }
+
+/* Inputs/Focus visível em dark (acessibilidade) */
+:focus-visible {
+  outline: 2px solid rgba(93,162,255,.65);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Breadcrumb e headings — leve realce em dark */
+.breadcrumb a { color: #b3cdfa; }
+.breadcrumb a:hover { color: #d6e5ff; }
+h1, h2, h3, h4, h5, h6 { color: var(--text); }
