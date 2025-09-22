@@ -626,10 +626,174 @@
             </ul>
           </section>
 
-          <section id="questoes-reais" class="section-block">
-            <h2>Questões de provas</h2>
-            <p>Em breve: caderno com questões do CTI e afins (com comentários de cada alternativa e taxa de erro por item).</p>
-            <a class="btn btn--outline" href="/simulados/">Ver simulados</a>
+          <section id="pratica" class="section-block">
+            <h2>Pratique este tema</h2>
+            <div id="lesson-quiz-gramatica"></div>
+
+            <div class="btn-row" style="margin-top:.5rem;">
+              <a class="btn btn--ghost" id="les-adaptativo" href="/simulados/adaptativo.html?disc=portugues&tema=Pontua%C3%A7%C3%A3o&add=20&start=1" target="_blank" rel="noopener">
+                Adaptativo: +20 deste tema e começar →
+              </a>
+            </div>
+
+            <!-- Script de prática integrado ao motor CTIQuiz (se presente) -->
+            <script>
+              document.addEventListener('DOMContentLoaded', () => {
+                const root = document.querySelector('#lesson-quiz-gramatica');
+                if (!root) return;
+
+                // Temas desta aula
+                const TEMAS = [
+                  'Pontuação',
+                  'Concordância verbal',
+                  'Concordância nominal',
+                  'Regência verbal',
+                  'Crase',
+                  'Ortografia'
+                ];
+
+                // UI base
+                root.innerHTML = `
+                  <div class="card">
+                    <div style="display:flex; gap:.5rem; align-items:center; flex-wrap:wrap;">
+                      <strong>Treine Gramática</strong>
+                      <span class="chip">Português</span>
+
+                      <label for="les-tema" style="margin-left:auto;">Tema:</label>
+                      <select id="les-tema" class="select">
+                        ${TEMAS.map(t => `<option value="${t}">${t}</option>`).join('')}
+                      </select>
+
+                      <div class="btn-row" style="display:flex; gap:.5rem;">
+                        <button class="btn btn--primary" id="les-btn-10" type="button">10 questões</button>
+                        <button class="btn btn--outline" id="les-btn-20" type="button">20 questões</button>
+                      </div>
+                    </div>
+                    <div id="les-out" style="margin-top:.75rem;"></div>
+                  </div>
+                `;
+
+                const $out = root.querySelector('#les-out');
+                const $tema = root.querySelector('#les-tema');
+                const $btn10 = root.querySelector('#les-btn-10');
+                const $btn20 = root.querySelector('#les-btn-20');
+                const $adapt = document.getElementById('les-adaptativo');
+
+                // Helpers
+                const slug = s => (s || '')
+                  .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+                  .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+
+                const norm = s => (s || '')
+                  .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+                  .toLowerCase().trim();
+
+                const updateAdaptLink = () => {
+                  const tema = $tema.value;
+                  const href = `/simulados/adaptativo.html?disc=portugues&tema=${encodeURIComponent(tema)}&add=20&start=1`;
+                  if ($adapt) $adapt.href = href;
+                };
+
+                async function start(limit) {
+                  const tema = $tema.value;
+                  updateAdaptLink();
+
+                  $out.innerHTML = `<div class="card card--soft">Carregando questões de <strong>${tema}</strong>…</div>`;
+
+                  try {
+                    const res = await fetch('/dados/questoes/portugues.json', { credentials: 'same-origin', cache: 'no-store' });
+                    if (!res.ok) throw new Error('Falha ao carregar questões.');
+                    const data = await res.json();
+
+                    const alvo = norm(tema);
+                    const filtered = (data || []).filter(q => {
+                      const t = norm(q.tema || '');
+                      const area = norm(q.area || '');
+                      const cat = norm(q.categoria || '');
+                      // Mantém se tema bate exatamente ou por inclusão (robusto para bancos diferentes)
+                      return t === alvo || t.includes(alvo) || area.includes(alvo) || cat.includes(alvo);
+                    });
+
+                    if (!filtered.length) {
+                      $out.innerHTML = `<div class="card card--soft">Ainda não há questões cadastradas para <strong>${tema}</strong>. Tente outro tema ou use os <a href="/simulados/">simulados</a>.</div>`;
+                      return;
+                    }
+
+                    // Embaralha e recorta
+                    const subset = filtered.sort(() => Math.random() - 0.5).slice(0, limit || 10);
+
+                    // Se o motor não estiver disponível, exibe fallback
+                    if (!window.CTIQuiz || typeof window.CTIQuiz.startWithData !== 'function') {
+                      $out.innerHTML = `<div class="card card--soft">
+                        Para praticar aqui, carregue os scripts de simulado do site (CTIQuiz).
+                        Enquanto isso, use os <a href="/simulados/">simulados</a> ou o modo adaptativo.
+                      </div>`;
+                      return;
+                    }
+
+                    $out.innerHTML = '';
+                    const persistKey = `quiz:les:port:gramatica:${slug(tema)}:v1`;
+
+                    const app = await window.CTIQuiz.startWithData(subset, {
+                      container: '#les-out',
+                      limit: subset.length,
+                      shuffleAlternatives: true,
+                      shuffleQuestions: true,
+                      persistKey,
+                      showExplainOnCheck: true
+                    });
+
+                    // Integra favoritos/coleções (se houver)
+                    if (window.CTICollections && typeof window.CTICollections.mount === 'function') {
+                      window.CTICollections.mount(app);
+                    }
+
+                    // Histórico básico (compatível com painel)
+                    const HIST_KEY = 'simulado:cti2026:history';
+                    const origFinish = app.finish?.bind(app);
+                    app.finish = function () {
+                      if (origFinish) origFinish();
+                      try {
+                        const qs = app.state.questions || [];
+                        const ans = app.state.answers || {};
+                        const correct = qs.filter(q => ans[q.id] && ans[q.id].isCorrect).length;
+                        const payload = {
+                          id: 'sess-les-' + Date.now(),
+                          timestamp: Date.now(),
+                          mode: `aula:portugues:gramatica:${slug(tema)}`,
+                          total: qs.length,
+                          correct,
+                          pct: qs.length ? Math.round((correct / qs.length) * 100) : 0,
+                          durationSeconds: Math.max(1, Math.round((Date.now() - (app.state.startTime || Date.now())) / 1000)),
+                          items: qs.map(q => {
+                            const a = ans[q.id] || {};
+                            return { id: q.id, disciplina: q.disciplina, area: q.area || null, tema: q.tema || null, correct: !!a.isCorrect, time: typeof a.time === 'number' ? a.time : null };
+                          }),
+                          questions: qs.map(q => q.id)
+                        };
+                        if (window.AppStorage) {
+                          const hist = window.AppStorage.get(HIST_KEY) || [];
+                          hist.unshift(payload);
+                          window.AppStorage.set(HIST_KEY, hist);
+                        }
+                      } catch (e) { console.warn('Histórico (aula) não registrado:', e); }
+                    };
+
+                  } catch (e) {
+                    console.error(e);
+                    $out.innerHTML = `<div class="card card--soft">Não foi possível iniciar a prática agora. Tente mais tarde.</div>`;
+                  }
+                }
+
+                // Eventos
+                $btn10?.addEventListener('click', () => start(10));
+                $btn20?.addEventListener('click', () => start(20));
+                $tema?.addEventListener('change', updateAdaptLink);
+
+                // Inicializa link do Adaptativo com o primeiro tema
+                updateAdaptLink();
+              });
+            </script>
           </section>
 
           <section id="referencias" class="section-block">
