@@ -12099,5 +12099,1005 @@
     },
     "correta": "B",
     "explicacao": "Não há crase antes de pronomes pessoais: ‘a ela’, ‘a ele’, ‘a vocês’."
+  },
+  {
+    "id": "PT-GRA-051",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Pontuação",
+    "habilidade": "norma-padrão",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Vocativo no início: assinale a alternativa corretamente pontuada.",
+    "alternativas": {
+      "A": "Alunos, abram os cadernos.",
+      "B": "Alunos abram, os cadernos.",
+      "C": "Alunos abram os, cadernos.",
+      "D": "Alunos — abram os cadernos,",
+      "E": ",Alunos abram os cadernos."
+    },
+    "correta": "A",
+    "explicacao": "Vocativo deve ser isolado por vírgula: Alunos, abram os cadernos."
+  },
+  {
+    "id": "PT-GRA-052",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Pontuação",
+    "habilidade": "norma-padrão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Aposto explicativo: assinale a opção correta.",
+    "alternativas": {
+      "A": "Bauru uma cidade do interior paulista sediará a prova.",
+      "B": "Bauru, uma cidade do interior paulista sediará a prova.",
+      "C": "Bauru, uma cidade do interior paulista, sediará a prova.",
+      "D": "Bauru — uma cidade do interior paulista, sediará a prova.",
+      "E": "Bauru uma cidade do interior paulista, sediará a prova."
+    },
+    "correta": "C",
+    "explicacao": "O aposto explicativo fica entre vírgulas: Bauru, uma cidade do interior paulista, sediará..."
+  },
+  {
+    "id": "PT-GRA-053",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Pontuação",
+    "habilidade": "norma-padrão",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Conectivo adversativo intercalado: assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os alunos estudaram, no entanto erraram a questão.",
+      "B": "Os alunos estudaram no entanto, erraram a questão.",
+      "C": "Os alunos estudaram; no entanto, erraram a questão.",
+      "D": "Os alunos estudaram no entanto erraram a questão.",
+      "E": "Os alunos estudaram, porém erraram a questão."
+    },
+    "correta": "C",
+    "explicacao": "‘No entanto’ pede pausa; a construção mais clara é com ponto e vírgula antes e vírgula após: ‘...; no entanto, ...’"
+  },
+  {
+    "id": "PT-GRA-054",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Pontuação",
+    "habilidade": "norma-padrão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Vírgula antes do ‘e’ com mudança de sujeito: assinale a correta.",
+    "alternativas": {
+      "A": "A equipe treinou bastante e o desempenho melhorou.",
+      "B": "A equipe treinou bastante, e o desempenho melhorou.",
+      "C": "A equipe treinou bastante e, o desempenho melhorou.",
+      "D": "A equipe, treinou bastante e o desempenho, melhorou.",
+      "E": "A equipe treinou bastante e o desempenho, melhorou."
+    },
+    "correta": "B",
+    "explicacao": "Quando há mudança de sujeito, é adequada a vírgula antes do ‘e’: ‘..., e o desempenho...’"
+  },
+  {
+    "id": "PT-GRA-055",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Pontuação",
+    "habilidade": "norma-padrão",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Parênteses para informação acessória: assinale a correta.",
+    "alternativas": {
+      "A": "O edital publicado em maio mudou pouco.",
+      "B": "O edital (publicado em maio) mudou pouco.",
+      "C": "O edital ( publicado em maio mudou pouco.",
+      "D": "O edital publicado em maio) mudou pouco.",
+      "E": "O edital — publicado em maio) mudou pouco."
+    },
+    "correta": "B",
+    "explicacao": "Informação acessória pode vir entre parênteses: O edital (publicado em maio) mudou pouco."
+  },
+  {
+    "id": "PT-GRA-056",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Pontuação",
+    "habilidade": "norma-padrão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Orações adverbiais: assinale a pontuação correta.",
+    "alternativas": {
+      "A": "Os alunos se concentraram, quando a prova começou.",
+      "B": "Quando a prova começou os alunos se concentraram.",
+      "C": "Os alunos se concentraram quando, a prova começou.",
+      "D": "Quando a prova, começou, os alunos se concentraram.",
+      "E": "Os alunos se concentraram, quando, a prova começou."
+    },
+    "correta": "B",
+    "explicacao": "Adverbial anteposta normalmente leva vírgula: ‘Quando a prova começou, ...’. Sem a vírgula, a frase fica inadequada."
+  },
+  {
+    "id": "PT-GRA-057",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Pontuação",
+    "habilidade": "norma-padrão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Reduzida de gerúndio: escolha a opção correta.",
+    "alternativas": {
+      "A": "Estudando bastante os alunos melhoraram.",
+      "B": "Estudando bastante, os alunos melhoraram.",
+      "C": "Estudando, bastante os alunos, melhoraram.",
+      "D": "Estudando bastante os, alunos melhoraram.",
+      "E": "Estudando, bastante, os alunos melhoraram."
+    },
+    "correta": "B",
+    "explicacao": "A oração reduzida anteposta deve ser separada por vírgula: ‘Estudando bastante, os alunos...’"
+  },
+  {
+    "id": "PT-GRA-058",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Pontuação",
+    "habilidade": "norma-padrão",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Adversativa ‘mas’: assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Estudaram mas, erraram.",
+      "B": "Estudaram, mas erraram.",
+      "C": "Estudaram mas erraram.",
+      "D": "Estudaram; mas erraram.",
+      "E": "Estudaram — mas erraram."
+    },
+    "correta": "B",
+    "explicacao": "Antes de ‘mas’ usa-se vírgula: ‘Estudaram, mas erraram.’"
+  },
+  {
+    "id": "PT-GRA-059",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Pontuação",
+    "habilidade": "norma-padrão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Exemplificação com ‘isto é’: assinale a correta.",
+    "alternativas": {
+      "A": "Precisamos revisar isto é gramática básica.",
+      "B": "Precisamos revisar, isto é, gramática básica.",
+      "C": "Precisamos revisar; isto é gramática básica.",
+      "D": "Precisamos revisar isto é, gramática básica.",
+      "E": "Precisamos revisar — isto é gramática básica."
+    },
+    "correta": "B",
+    "explicacao": "Expressões explicativas como ‘isto é’ ficam entre vírgulas quando intercaladas."
+  },
+  {
+    "id": "PT-GRA-060",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Pontuação",
+    "habilidade": "norma-padrão",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Vocativo no fim: assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Atenção alunos.",
+      "B": "Atenção, alunos.",
+      "C": "Atenção alunos,",
+      "D": "Atenção — alunos",
+      "E": "Atenção; alunos"
+    },
+    "correta": "B",
+    "explicacao": "Vocativo deve ser separado por vírgula: ‘Atenção, alunos.’"
+  },
+  {
+    "id": "PT-GRA-061",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Concordância verbal",
+    "habilidade": "norma-padrão",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Sujeito posposto: escolha a concordância correta.",
+    "alternativas": {
+      "A": "Chegou os documentos.",
+      "B": "Chegaram os documentos.",
+      "C": "Chegaram o documento.",
+      "D": "Chegou os documento.",
+      "E": "Chegou-se os documentos."
+    },
+    "correta": "B",
+    "explicacao": "O verbo concorda com o núcleo do sujeito (‘documentos’, plural), mesmo quando posposto: Chegaram os documentos."
+  },
+  {
+    "id": "PT-GRA-062",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Concordância verbal",
+    "habilidade": "norma-padrão",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Verbo existir: assinale a opção correta.",
+    "alternativas": {
+      "A": "Existe muitas razões para estudar.",
+      "B": "Existem muitas razões para estudar.",
+      "C": "Existe muitos razão para estudar.",
+      "D": "Existem muita razão para estudar.",
+      "E": "Existe razões para estudar."
+    },
+    "correta": "B",
+    "explicacao": "‘Existir’ concorda com o sujeito: ‘razões’ (plural) → ‘existem’."
+  },
+  {
+    "id": "PT-GRA-063",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Concordância verbal",
+    "habilidade": "norma-padrão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Impessoalidade de ‘haver’ (existencial): assinale a correta.",
+    "alternativas": {
+      "A": "Houveram erros na correção.",
+      "B": "Houve erros na correção.",
+      "C": "Houveram muitos problemas.",
+      "D": "Houveram problema na correção.",
+      "E": "Houveram-se erros na correção."
+    },
+    "correta": "B",
+    "explicacao": "‘Haver’ no sentido de existir é impessoal e fica no singular: ‘Houve erros’."
+  },
+  {
+    "id": "PT-GRA-064",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Concordância verbal",
+    "habilidade": "norma-padrão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Tempo decorrido com ‘fazer’: assinale a correta.",
+    "alternativas": {
+      "A": "Fazem quatro meses que treino.",
+      "B": "Faz quatro meses que treino.",
+      "C": "Fizeram quatro meses que treino.",
+      "D": "Está fazendo quatro meses que treino.",
+      "E": "Tem quatro meses que treino (norma-padrão)."
+    },
+    "correta": "B",
+    "explicacao": "‘Fazer’ indicando tempo é impessoal: ‘Faz quatro meses...’"
+  },
+  {
+    "id": "PT-GRA-065",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Concordância verbal",
+    "habilidade": "norma-padrão",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "‘Nem um nem outro’: escolha a concordância adequada.",
+    "alternativas": {
+      "A": "Nem um nem outro aluno faltaram.",
+      "B": "Nem um nem outro aluno faltou.",
+      "C": "Nem um nem outro alunos faltaram.",
+      "D": "Nem um, nem outro aluno, faltaram.",
+      "E": "Nem um nem outro aluno faltastes."
+    },
+    "correta": "B",
+    "explicacao": "Com ‘nem um nem outro’, usa-se geralmente o singular: ‘faltou’."
+  },
+  {
+    "id": "PT-GRA-066",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Concordância verbal",
+    "habilidade": "norma-padrão",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Sujeito composto com núcleo distante: assinale a correta.",
+    "alternativas": {
+      "A": "Falta organização e bons horários.",
+      "B": "Faltam organização e bons horários.",
+      "C": "Faltam a organização e bons horários.",
+      "D": "Falta a organização e bons horários.",
+      "E": "Falta bons horários e organização, apenas."
+    },
+    "correta": "B",
+    "explicacao": "Sujeito composto (‘organização e bons horários’) → plural: ‘Faltam...’"
+  },
+  {
+    "id": "PT-GRA-067",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Concordância verbal",
+    "habilidade": "norma-padrão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Porcentagem: escolha a correta.",
+    "alternativas": {
+      "A": "15% dos itens foi revisado.",
+      "B": "15% dos itens foram revisados.",
+      "C": "15% das provas foram aplicado.",
+      "D": "15% da prova foram aplicados.",
+      "E": "15% do prova foi revisadas."
+    },
+    "correta": "B",
+    "explicacao": "Concorda com o núcleo: ‘dos itens’ (plural) → ‘foram revisados’."
+  },
+  {
+    "id": "PT-GRA-068",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Concordância verbal",
+    "habilidade": "norma-padrão",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Concordância com ‘um dos que’: assinale a opção correta.",
+    "alternativas": {
+      "A": "Ele é um dos alunos que estuda muito.",
+      "B": "Ele é um dos alunos que estudam muito.",
+      "C": "Ele é um dos aluno que estudam muito.",
+      "D": "Ele é um dos alunos que estudam muito foram aprovados.",
+      "E": "Ele é um dos alunos que estuda muito foram aprovados."
+    },
+    "correta": "B",
+    "explicacao": "O ‘que’ retoma ‘alunos’ (plural): ‘que estudam’. O verbo da oração principal concorda com ‘Ele’."
+  },
+  {
+    "id": "PT-GRA-069",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Concordância verbal",
+    "habilidade": "norma-padrão",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "‘Ser’ com horas/datas: assinale a correta.",
+    "alternativas": {
+      "A": "É duas horas.",
+      "B": "São duas horas.",
+      "C": "É duas hora.",
+      "D": "São uma horas.",
+      "E": "Foi duas hora."
+    },
+    "correta": "B",
+    "explicacao": "Com horas, ‘ser’ concorda com o numeral: ‘São duas horas’; ‘É uma hora’."
+  },
+  {
+    "id": "PT-GRA-070",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Concordância verbal",
+    "habilidade": "norma-padrão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "‘Tanto ... quanto’: assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Tanto o professor quanto os alunos concordou.",
+      "B": "Tanto o professor quanto os alunos concordaram.",
+      "C": "Tanto o professor, quanto os alunos concordaram.",
+      "D": "Tanto o professor quanto os alunos concorda.",
+      "E": "Tanto o professor quanto os alunos, concordaram."
+    },
+    "correta": "B",
+    "explicacao": "Estrutura correlativa com sujeito composto → verbo no plural: ‘concordaram’."
+  },
+  {
+    "id": "PT-GRA-071",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Concordância nominal",
+    "habilidade": "norma-padrão",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Adjetivo com dois núcleos de gêneros diferentes: assinale a correta.",
+    "alternativas": {
+      "A": "Leitura e cálculo complexa.",
+      "B": "Leitura e cálculo complexos.",
+      "C": "Leitura e cálculo complexo.",
+      "D": "Leitura e cálculo complexas.",
+      "E": "Leitura e cálculos complexa."
+    },
+    "correta": "B",
+    "explicacao": "Com núcleos de gêneros diferentes, o adjetivo vai ao masculino plural: ‘complexos’."
+  },
+  {
+    "id": "PT-GRA-072",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Concordância nominal",
+    "habilidade": "norma-padrão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Predicativo invariável: ‘é necessário/é necessário a’. Assinale a correta.",
+    "alternativas": {
+      "A": "É necessária estudo.",
+      "B": "É necessário estudo.",
+      "C": "É necessários o estudo.",
+      "D": "É necessária o estudo.",
+      "E": "São necessário estudo."
+    },
+    "correta": "B",
+    "explicacao": "Sem artigo, o predicativo fica invariável: ‘É necessário estudo’. Com artigo: ‘É necessário o estudo’ ou ‘É necessária a análise’."
+  },
+  {
+    "id": "PT-GRA-073",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Concordância nominal",
+    "habilidade": "norma-padrão",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "‘Anexo/Anexa’: assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Segue anexo as provas.",
+      "B": "Seguem anexo as provas.",
+      "C": "Seguem anexas as provas.",
+      "D": "Segue anexa as provas.",
+      "E": "Seguem anexa as prova."
+    },
+    "correta": "C",
+    "explicacao": "‘Anexo’ concorda com o nome: ‘as provas’ → ‘anexas’; verbo no plural: ‘Seguem...’"
+  },
+  {
+    "id": "PT-GRA-074",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Concordância nominal",
+    "habilidade": "norma-padrão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "‘Mesmo/Próprio’ como reforço pronominal: assinale a correta.",
+    "alternativas": {
+      "A": "Os diretores próprio confirmaram.",
+      "B": "As alunas mesmo terminaram.",
+      "C": "As alunas mesmas terminaram.",
+      "D": "As alunas próprios terminaram.",
+      "E": "As alunas mesmo terminou."
+    },
+    "correta": "C",
+    "explicacao": "‘Mesmo/Próprio’ concordam com o termo a que se referem: ‘as alunas mesmas’."
+  },
+  {
+    "id": "PT-GRA-075",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Concordância nominal",
+    "habilidade": "norma-padrão",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "‘Bastante’: advérbio x quantificador. Assinale a correta.",
+    "alternativas": {
+      "A": "Ela fez bastantes.",
+      "B": "Ela estudou bastante.",
+      "C": "Ela estudou bastantes.",
+      "D": "Ela estudou bastanta.",
+      "E": "Ela estudou bastante de conteúdos."
+    },
+    "correta": "B",
+    "explicacao": "Como advérbio, é invariável: ‘estudou bastante’. Como quantificador nominal, varia: ‘bastantes exercícios’."
+  },
+  {
+    "id": "PT-GRA-076",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Concordância nominal",
+    "habilidade": "norma-padrão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "‘Meio’: advérbio x adjetivo. Escolha a correta.",
+    "alternativas": {
+      "A": "Ficaram meia cansadas.",
+      "B": "Ficaram meio cansadas.",
+      "C": "Ficaram meios cansadas.",
+      "D": "Ficaram meias cansadas.",
+      "E": "Ficaram meio cansada (plural)."
+    },
+    "correta": "B",
+    "explicacao": "‘Meio’ como advérbio é invariável: ‘meio cansadas’."
+  },
+  {
+    "id": "PT-GRA-077",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Concordância nominal",
+    "habilidade": "norma-padrão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "‘Alerta’ como estado: assinale a correta.",
+    "alternativas": {
+      "A": "Os soldados ficaram alertas.",
+      "B": "Os soldados ficaram alerta.",
+      "C": "Os soldado ficaram alertas.",
+      "D": "Os soldado ficou alerta.",
+      "E": "Os soldados ficou alerta."
+    },
+    "correta": "B",
+    "explicacao": "Em ‘ficar alerta’, a forma tende a ser invariável: ‘ficaram alerta’."
+  },
+  {
+    "id": "PT-GRA-078",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Concordância nominal",
+    "habilidade": "norma-padrão",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Concordância com ‘Estados Unidos’: assinale a opção correta.",
+    "alternativas": {
+      "A": "Os Estados Unidos é um país da América do Norte.",
+      "B": "Os Estados Unidos são um país da América do Norte.",
+      "C": "Estados Unidos são um país da América do Norte.",
+      "D": "Os Estados Unidos é uma países da América do Norte.",
+      "E": "Os Estados Unidos é um países da América do Norte."
+    },
+    "correta": "B",
+    "explicacao": "Com artigos no plural e nome próprio plural, usa-se verbo no plural: ‘Os Estados Unidos são...’"
+  },
+  {
+    "id": "PT-GRA-079",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Regência verbal",
+    "habilidade": "norma-padrão",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Obedecer/Desobedecer: assinale a correta.",
+    "alternativas": {
+      "A": "Obedeceu as regras.",
+      "B": "Obedeceu às regras.",
+      "C": "Obedeceu com as regras.",
+      "D": "Obedeceu pelas regras.",
+      "E": "Obedeceu em as regras."
+    },
+    "correta": "B",
+    "explicacao": "‘Obedecer’ rege ‘a’: obedeceu às regras."
+  },
+  {
+    "id": "PT-GRA-080",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Regência verbal",
+    "habilidade": "norma-padrão",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Desobedecer: assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Desobedeceu o regulamento.",
+      "B": "Desobedeceu ao regulamento.",
+      "C": "Desobedeceu do regulamento.",
+      "D": "Desobedeceu no regulamento.",
+      "E": "Desobedeceu pelo regulamento."
+    },
+    "correta": "B",
+    "explicacao": "‘Desobedecer’ também rege ‘a’: desobedeceu ao regulamento."
+  },
+  {
+    "id": "PT-GRA-081",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Regência verbal",
+    "habilidade": "norma-padrão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Lembrar/Lembrar-se: assinale a correta segundo a norma.",
+    "alternativas": {
+      "A": "Lembrei do recado ao colega.",
+      "B": "Lembrei-me do recado.",
+      "C": "Lembrei-me o recado.",
+      "D": "Lembrei de o recado.",
+      "E": "Lembrei ao recado."
+    },
+    "correta": "B",
+    "explicacao": "Verbo pronominal: ‘lembrar-se de’ algo: Lembrei-me do recado. Sem pronome, pode ser transitivo direto (‘Lembrei o recado ao colega’)."
+  },
+  {
+    "id": "PT-GRA-082",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Regência verbal",
+    "habilidade": "norma-padrão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Esquecer/Esquecer-se: assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Esqueci-me do livro.",
+      "B": "Esqueci-me o livro.",
+      "C": "Esqueci do livro (obrigatório).",
+      "D": "Esqueci de o livro.",
+      "E": "Esqueci-me de ao livro."
+    },
+    "correta": "A",
+    "explicacao": "Pronominal: ‘esquecer-se de’: Esqueci-me do livro. Sem pronome, é transitivo direto: ‘Esqueci o livro’ (também correto)."
+  },
+  {
+    "id": "PT-GRA-083",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Regência verbal",
+    "habilidade": "norma-padrão",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Comparecer: assinale a regência correta.",
+    "alternativas": {
+      "A": "Compareceu na reunião.",
+      "B": "Compareceu a reunião.",
+      "C": "Compareceu à reunião.",
+      "D": "Compareceu de reunião.",
+      "E": "Compareceu com reunião."
+    },
+    "correta": "C",
+    "explicacao": "‘Comparecer’ rege ‘a’: compareceu à reunião (a + a)."
+  },
+  {
+    "id": "PT-GRA-084",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Regência verbal",
+    "habilidade": "norma-padrão",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Visar (por objetivo) x visar (pôr visto): assinale a correta.",
+    "alternativas": {
+      "A": "O gerente visou ao documento (pôs visto).",
+      "B": "O gerente visou o documento (pôs visto).",
+      "C": "O projeto visou inclusão (objetivo).",
+      "D": "O projeto visou a inclusão (objetivo).",
+      "E": "O projeto visou com inclusão (objetivo)."
+    },
+    "correta": "D",
+    "explicacao": "Objetivo → ‘visar a’: visou à/à inclusão (com artigo). Pôr visto → transitivo direto: visou o documento."
+  },
+  {
+    "id": "PT-GRA-085",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Regência verbal",
+    "habilidade": "norma-padrão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Informar/Avisar: assinale a alternativa correta segundo a construção mais segura.",
+    "alternativas": {
+      "A": "Informei o candidato do horário.",
+      "B": "Informei ao candidato o horário.",
+      "C": "Informei sobre o candidato o horário.",
+      "D": "Informei de o candidato o horário.",
+      "E": "Informei pelo candidato o horário."
+    },
+    "correta": "B",
+    "explicacao": "Construção segura: informar/avisar algo a alguém. (‘Informei o candidato do horário’ também é consagrada.)"
+  },
+  {
+    "id": "PT-GRA-086",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Regência verbal",
+    "habilidade": "norma-padrão",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Responder: assinale a opção adequada à norma culta.",
+    "alternativas": {
+      "A": "Respondeu o e-mail.",
+      "B": "Respondeu ao e-mail.",
+      "C": "Respondeu pelo e-mail (obrigatório).",
+      "D": "Respondeu no e-mail (obrigatório).",
+      "E": "Respondeu do e-mail."
+    },
+    "correta": "B",
+    "explicacao": "‘Responder’ rege ‘a’: respondeu ao e-mail."
+  },
+  {
+    "id": "PT-GRA-087",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Regência verbal",
+    "habilidade": "norma-padrão",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Preferir: escolha a alternativa correta.",
+    "alternativas": {
+      "A": "Prefiro teoria do que prática.",
+      "B": "Prefiro teoria a prática.",
+      "C": "Prefiro a teoria do prática.",
+      "D": "Prefiro por teoria a prática.",
+      "E": "Prefiro de teoria a prática."
+    },
+    "correta": "B",
+    "explicacao": "Estrutura fixa: preferir X a Y."
+  },
+  {
+    "id": "PT-GRA-088",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Regência verbal",
+    "habilidade": "norma-padrão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Implicar (acarretar): assinale a correta.",
+    "alternativas": {
+      "A": "O erro implicou em atraso.",
+      "B": "O erro implicou atraso.",
+      "C": "O erro implicou com atraso.",
+      "D": "O erro implicou ao atraso.",
+      "E": "O erro implicou pelo atraso."
+    },
+    "correta": "B",
+    "explicacao": "No sentido de ‘acarretar’, ‘implicar’ é transitivo direto: implicou atraso."
+  },
+  {
+    "id": "PT-GRA-089",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Crase",
+    "habilidade": "norma-padrão",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Locução feminina: assinale a opção correta.",
+    "alternativas": {
+      "A": "Às vezes estudo pela manhã.",
+      "B": "As vezes estudo pela manhã.",
+      "C": "A vezes estudo pela manhã.",
+      "D": "Ás vezes estudo pela manhã.",
+      "E": "As, vezes estudo pela manhã."
+    },
+    "correta": "A",
+    "explicacao": "Locução adverbial feminina: ‘às vezes’."
+  },
+  {
+    "id": "PT-GRA-090",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Crase",
+    "habilidade": "norma-padrão",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Conjunção ‘à medida que’: assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A medida que estudava, melhorava.",
+      "B": "À medida que estudava, melhorava.",
+      "C": "À medida que estudava melhorava.",
+      "D": "A medida que, estudava, melhorava.",
+      "E": "A medida em que estudava, melhorava."
+    },
+    "correta": "B",
+    "explicacao": "Locução conjuntiva: ‘à medida que’ (com crase)."
+  },
+  {
+    "id": "PT-GRA-091",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Crase",
+    "habilidade": "norma-padrão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Expressão ‘à toa’: assinale a correta.",
+    "alternativas": {
+      "A": "Fez a toa.",
+      "B": "Fez à toa.",
+      "C": "Fez á toa.",
+      "D": "Fez a, toa.",
+      "E": "Fez à, toa."
+    },
+    "correta": "B",
+    "explicacao": "Locução adverbial feminina: ‘à toa’."
+  },
+  {
+    "id": "PT-GRA-092",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Crase",
+    "habilidade": "norma-padrão",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "‘À exceção de’: assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A exceção de dois, todos vieram.",
+      "B": "À exceção de dois, todos vieram.",
+      "C": "À exceção de dois todos vieram.",
+      "D": "A, exceção de dois, todos vieram.",
+      "E": "À exceção, de dois, todos vieram."
+    },
+    "correta": "B",
+    "explicacao": "Locução prepositiva feminina: ‘à exceção de’."
+  },
+  {
+    "id": "PT-GRA-093",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Crase",
+    "habilidade": "norma-padrão",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Casos proibidos: assinale a opção correta.",
+    "alternativas": {
+      "A": "Começou à estudar cedo.",
+      "B": "Entreguei à ele os documentos.",
+      "C": "Cheguei à casa cedo (sem especificação).",
+      "D": "Voltei a casa cedo (sem especificação).",
+      "E": "Vou à pé para a escola."
+    },
+    "correta": "D",
+    "explicacao": "Sem especificação, ‘casa’ não leva artigo → ‘a casa’ (sem crase). Não há crase antes de verbo nem de pronomes pessoais; ‘a pé’ é masculino."
+  },
+  {
+    "id": "PT-GRA-094",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Crase",
+    "habilidade": "norma-padrão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Facultativa com nome próprio feminino: assinale a correta.",
+    "alternativas": {
+      "A": "Entreguei à Maria o documento (obrigatório).",
+      "B": "Entreguei a Maria o documento (correto).",
+      "C": "Entreguei à a Maria o documento.",
+      "D": "Entreguei a à Maria o documento.",
+      "E": "Entreguei á Maria o documento."
+    },
+    "correta": "B",
+    "explicacao": "Antes de nome próprio feminino, o artigo pode ser facultativo conforme o uso: ‘a Maria’/‘à Maria’. Ambas ocorrem; aqui, a forma sem crase é plenamente correta."
+  },
+  {
+    "id": "PT-GRA-095",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Crase",
+    "habilidade": "norma-padrão",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Demonstrativos: assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Entreguei o livro à aquela aluna.",
+      "B": "Entreguei o livro a aquele aluna.",
+      "C": "Entreguei o livro àquela aluna.",
+      "D": "Entreguei o livro àaquele aluna.",
+      "E": "Entreguei o livro à aquela a aluna."
+    },
+    "correta": "C",
+    "explicacao": "a + aquela = ‘àquela’."
+  },
+  {
+    "id": "PT-GRA-096",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Crase",
+    "habilidade": "norma-padrão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Horas e artigo definido: assinale a correta.",
+    "alternativas": {
+      "A": "Cheguei à uma hora.",
+      "B": "Cheguei a uma hora.",
+      "C": "Cheguei às uma hora.",
+      "D": "Cheguei á uma hora.",
+      "E": "Cheguei a às uma hora."
+    },
+    "correta": "B",
+    "explicacao": "Antes de ‘uma’ (singular), não há artigo plural; forma adequada: ‘a uma hora’. A crase ocorre com ‘as’ (plural): ‘às 8h’."
+  },
+  {
+    "id": "PT-GRA-097",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Ortografia",
+    "habilidade": "norma-padrão",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Acento diferencial e homófonos: assinale a correta.",
+    "alternativas": {
+      "A": "Ele pôde vir ontem, mas hoje não pode.",
+      "B": "Ele pode vir ontem, mas hoje não pôde.",
+      "C": "Ele pôde vir ontem, mas hoje não pôde.",
+      "D": "Ele pode vir ontem, mas hoje não pode.",
+      "E": "Ele pude vir ontem, mas hoje não pode."
+    },
+    "correta": "C",
+    "explicacao": "Passado: ‘pôde’; presente: ‘pode’. Correto: ‘Ele pôde vir ontem, mas hoje não pôde.’"
+  },
+  {
+    "id": "PT-GRA-098",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Ortografia",
+    "habilidade": "norma-padrão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Pôr x por; têm/vêm x tem/vem: assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Ele quer por a culpa em mim; eles tem razão.",
+      "B": "Ele quer pôr a culpa em mim; eles têm razão.",
+      "C": "Ele quer pôr a culpa em mim; eles tem razão.",
+      "D": "Ele quer por a culpa em mim; eles têm razão.",
+      "E": "Ele quer pôr a culpa em mim; eles vem razão."
+    },
+    "correta": "B",
+    "explicacao": "Verbo ‘pôr’ tem acento; 3ª pessoa do plural de ‘ter’ leva acento: ‘têm’. ‘Vêm’ (3ª plural) também é acentuado."
+  },
+  {
+    "id": "PT-GRA-099",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Ortografia",
+    "habilidade": "norma-padrão",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Por que/Porque/Por quê/Porquê: assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Não veio por que chovia.",
+      "B": "Não veio porque chovia.",
+      "C": "Não veio por quê chovia.",
+      "D": "Não veio porquê chovia.",
+      "E": "Não veio por-que chovia."
+    },
+    "correta": "B",
+    "explicacao": "Em respostas explicativas, usa-se ‘porque’: ‘Não veio porque chovia.’"
+  },
+  {
+    "id": "PT-GRA-100",
+    "disciplina": "portugues",
+    "area": "gramática",
+    "tema": "Ortografia",
+    "habilidade": "norma-padrão",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Parônimos: assinale a alternativa grafada e usada corretamente.",
+    "alternativas": {
+      "A": "O diretor ratificou o erro (corrigiu).",
+      "B": "O diretor retificou a decisão (confirmou).",
+      "C": "O diretor retificou o erro (corrigiu).",
+      "D": "O diretor ratificou a decisão (corrigiu).",
+      "E": "O diretor ratificou o erro (corrigiu e confirmou)."
+    },
+    "correta": "C",
+    "explicacao": "Retificar = corrigir; ratificar = confirmar. Correto: ‘retificou o erro’ ou ‘ratificou a decisão’."
   }
 ]
