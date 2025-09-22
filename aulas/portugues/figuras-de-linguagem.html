@@ -1,737 +1,518 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Figuras de linguagem — CTI 2026</title>
-  <meta name="description" content="Uma aula prática e completa: metáfora, comparação, metonímia, sinédoque, hipérbole, eufemismo, ironia, antítese, paradoxo, personificação e mais. Pistas de reconhecimento, efeitos de sentido, armadilhas de prova, exercícios interativos e aplicação na redação." />
-  <link rel="canonical" href="https://SEU-DOMINIO/aulas/portugues/figuras-de-linguagem.html" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Figuras de linguagem — CTI 2026</title>
+    <meta
+      name="description"
+      content="As figuras de linguagem mais cobradas no CTI: metáfora, comparação, metonímia, sinédoque, hipérbole, eufemismo, ironia, antítese, paradoxo, personificação, gradação, pleonasmo, catacrese, perífrase, além de anáfora, elipse, zeugma, hipérbato, assíndeto, polissíndeto, aliteração, assonância, onomatopeia e paronomásia. Conceitos, pistas e exemplos."
+    />
+    <link rel="canonical" href="https://SEU-DOMINIO/aulas/portugues/figuras-de-linguagem.html" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="stylesheet" href="/assets/css/base.css" />
+    <link rel="stylesheet" href="/assets/css/layout.css" />
+    <link rel="stylesheet" href="/assets/css/componentes.css" />
+    <link rel="stylesheet" href="/assets/css/aulas.css" />
+    <link rel="stylesheet" href="/assets/css/dark.css" media="(prefers-color-scheme: dark)" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
-  <link rel="icon" href="/favicon.ico" />
-  <link rel="stylesheet" href="/assets/css/base.css" />
-  <link rel="stylesheet" href="/assets/css/layout.css" />
-  <link rel="stylesheet" href="/assets/css/componentes.css" />
-  <link rel="stylesheet" href="/assets/css/aulas.css" />
-  <link rel="stylesheet" href="/assets/css/dark.css" media="(prefers-color-scheme: dark)" />
+    <header class="site-header">
+      <div class="container header-wrap">
+        <a class="brand" href="/" aria-label="Página inicial">
+          <img
+            src="/assets/img/logo.svg"
+            alt="Logotipo do site"
+            width="36"
+            height="36"
+            decoding="async"
+            fetchpriority="high"
+          />
+          <span class="brand-name">CTI 2026</span>
+        </a>
 
-  <!-- Estilos mínimos para novos componentes (não conflitam com sua base) -->
-  <style>
-    :root{
-      --surface: #fff; --border:#e5e7eb; --muted:#6b7280; --accent:#2563eb; --accent-2:#0ea5e9;
-    }
-    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
-    .small{font-size:.9rem;color:var(--muted)}
-    .grid-2{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
-    .fig-grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
-    .card{border:1px solid var(--border);border-radius:10px;background:var(--surface);padding:1rem}
-    .card h4{margin:.25rem 0 .5rem 0}
-    .badge{display:inline-block;padding:.2rem .5rem;border-radius:999px;background:#eef6ff;color:#1f3b82;font-size:.72rem;margin-right:.25rem}
-    .pill--accent{background:#e0f2fe;color:#0c4a6e}
-    .tip{border-left:4px solid #3b82f6;background:#eff6ff;padding:.75rem 1rem;border-radius:6px}
-    .warn{border-left:4px solid #f59e0b;background:#fff7ed;padding:.75rem 1rem;border-radius:6px}
-    .ok{border-left:4px solid #10b981;background:#ecfdf5;padding:.75rem 1rem;border-radius:6px}
-    .example, .exercise{border:1px dashed var(--border);padding:.75rem;border-radius:8px;background:#fafafa}
-    blockquote.exam{border-left:4px solid #94a3b8;padding:.75rem 1rem;background:#f8fafc;border-radius:6px}
-    details.summary-card{border:1px solid var(--border);border-radius:10px;background:var(--surface);padding:.75rem 1rem;margin:.5rem 0}
-    details.summary-card > summary{cursor:pointer;font-weight:600}
-    .exercise-grid{display:grid;gap:1rem}
-    .quiz form label{display:block;margin:.25rem 0}
-    .quiz .feedback{margin-top:.5rem;font-weight:600}
-    .feedback.is-correct{color:#0a7f3f}
-    .feedback.is-incorrect{color:#b91c1c}
-    .feedback.is-warn{color:#92400e}
-    .btn--ghost{border:1px solid var(--border);background:transparent;border-radius:8px;padding:.4rem .7rem}
-    .kbd{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;border:1px solid #d1d5db;border-bottom-width:2px;border-radius:4px;padding:.1rem .3rem;background:#f9fafb}
-    .hr{height:1px;background:var(--border);margin:1rem 0}
-    .keyline{border-top:1px solid var(--border);padding-top:1rem;margin-top:1rem}
-    .media{border:1px solid var(--border);border-radius:8px;padding:.5rem;background:#f8fafc}
-    .checklist li{margin:.35rem 0}
-  </style>
-</head>
-<body>
-  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
-
-  <header class="site-header" role="banner">
-    <div class="container header-wrap">
-      <a class="brand" href="/" aria-label="Página inicial">
-        <img src="/assets/img/logo.svg" alt="Logotipo do site" width="36" height="36" decoding="async" />
-        <span class="brand-name">CTI 2026</span>
-      </a>
-      <nav class="site-nav site-nav--desktop" aria-label="Seções principais">
-        <ul>
-          <li><a href="/aulas/" class="nav-link" aria-current="page">Aulas</a></li>
-          <li><a href="/simulados/" class="nav-link">Simulados</a></li>
-          <li><a href="/redacao/" class="nav-link">Redação</a></li>
-          <li><a href="/recursos/" class="nav-link">Recursos</a></li>
-        </ul>
-      </nav>
-      <nav class="site-nav--mobile nav-mobile" aria-label="Menu principal (mobile)">
-        <details class="menu">
-          <summary class="nav-toggle" aria-label="Abrir menu">Menu</summary>
-          <ul class="menu-list">
-            <li><a href="/aulas/" class="nav-link" aria-current="page">Aulas</a></li>
+        <nav class="site-nav site-nav--desktop" aria-label="Seções principais">
+          <ul>
+            <li><a href="/aulas/" class="nav-link" aria-current="location">Aulas</a></li>
             <li><a href="/simulados/" class="nav-link">Simulados</a></li>
             <li><a href="/redacao/" class="nav-link">Redação</a></li>
             <li><a href="/recursos/" class="nav-link">Recursos</a></li>
           </ul>
-        </details>
-      </nav>
-    </div>
-  </header>
+        </nav>
 
-  <nav class="breadcrumb" aria-label="Caminho de navegação">
-    <ol>
-      <li><a href="/">Início</a></li>
-      <li><a href="/aulas/">Aulas</a></li>
-      <li><a href="/aulas/portugues/">Português</a></li>
-      <li aria-current="page">Figuras de linguagem</li>
-    </ol>
-  </nav>
-
-  <main id="conteudo" class="section">
-    <div class="container">
-      <article class="lesson-hero">
-        <h1>Figuras de linguagem</h1>
-        <div class="lesson-meta">
-          <span class="pill">Tema: Português</span>
-          <span class="pill">Dificuldade: intermediário</span>
-          <span>Tempo estimado: 60–80 min</span>
-        </div>
-        <p class="text-muted">Uma aula completa e prática. Você vai aprender a identificar as figuras mais cobradas, diferenciar as parecidas, entender o efeito de sentido e usar com segurança em provas e redações.</p>
-      </article>
-
-      <div class="lesson-layout">
-        <div class="lesson-content">
-          <section id="objetivos" class="section-block">
-            <h2>Objetivos da aula</h2>
-            <ul>
-              <li>Reconhecer e nomear as figuras mais frequentes (metáfora, comparação, metonímia/sinédoque, hipérbole, eufemismo, ironia, antítese, paradoxo/oxímoro, personificação, etc.).</li>
-              <li>Diferenciar pares “pegadinha”: metáfora × comparação; metonímia × sinédoque; antítese × paradoxo; eufemismo × ironia × litote.</li>
-              <li>Explicar o efeito de sentido em contexto (ênfase, humor, crítica, amenização, contraste).</li>
-              <li>Aplicar figuras com propósito na redação, evitando clichês e exageros desnecessários.</li>
+        <nav class="site-nav--mobile nav-mobile" aria-label="Menu principal (mobile)">
+          <details class="menu">
+            <summary class="nav-toggle" aria-label="Abrir menu">Menu</summary>
+            <ul class="menu-list">
+              <li><a href="/aulas/" class="nav-link" aria-current="location">Aulas</a></li>
+              <li><a href="/simulados/" class="nav-link">Simulados</a></li>
+              <li><a href="/redacao/" class="nav-link">Redação</a></li>
+              <li><a href="/recursos/" class="nav-link">Recursos</a></li>
             </ul>
-          </section>
-
-          <section id="prerequisitos" class="section-block">
-            <h2>Pré-requisitos</h2>
-            <p class="note">Se possível, revise <a href="/aulas/portugues/funcoes-da-linguagem.html">Funções da linguagem</a> (ajuda a perceber intenção e efeito).</p>
-          </section>
-
-          <section id="aquecimento" class="section-block">
-            <h2>Aquecimento (3 desafios rápidos)</h2>
-            <div class="grid-2">
-              <div class="example">
-                <strong>A)</strong> “Hoje a escola virou um <em>caldeirão</em>.”<br />
-                <button class="btn--ghost" data-reveal="#rev-a" aria-expanded="false">Mostrar pista</button>
-                <div id="rev-a" hidden class="small keyline">Sem “como”; transferência por semelhança. Metáfora.</div>
-              </div>
-              <div class="example">
-                <strong>B)</strong> “Os <em>números</em> não <em>mentem</em>.”<br />
-                <button class="btn--ghost" data-reveal="#rev-b" aria-expanded="false">Mostrar pista</button>
-                <div id="rev-b" hidden class="small keyline">Atribui ação humana a seres abstratos. Personificação.</div>
-              </div>
-              <div class="example">
-                <strong>C)</strong> “Ele <em>engoliu</em> dois <em>pratos</em>.”<br />
-                <button class="btn--ghost" data-reveal="#rev-c" aria-expanded="false">Mostrar pista</button>
-                <div id="rev-c" hidden class="small keyline">“Pratos” = comida (continente pelo conteúdo). Metonímia.</div>
-              </div>
-            </div>
-          </section>
-
-          <section id="mapa" class="section-block">
-            <h2>Mapa mental das figuras</h2>
-            <div class="tip">
-              Comece perguntando: o efeito vem de semelhança, de proximidade, de oposição, de estrutura ou de som?
-            </div>
-            <p>
-              <span class="badge">Semânticas (tropos)</span> metáfora, comparação, metonímia, sinédoque, hipérbole, eufemismo, litote, ironia, antítese, paradoxo, personificação<br />
-              <span class="badge">Construção/estilo</span> elipse, zeugma, anáfora, hipérbato, polissíndeto, assíndeto, pleonasmo, anacoluto, silepse<br />
-              <span class="badge">Sonoras</span> aliteração, assonância, onomatopeia, paronomásia
-            </p>
-          </section>
-
-          <section id="teoria" class="section-block">
-            <h2>Teoria com pistas e efeitos</h2>
-
-            <h3>1) Figuras semânticas (tropos) — as mais cobradas</h3>
-            <div class="fig-grid">
-              <div class="card">
-                <h4>Metáfora</h4>
-                <p class="small">Transferência de sentido por semelhança, sem conectivo comparativo.</p>
-                <ul>
-                  <li><strong>Pistas:</strong> “X é Y”; verbo ou nome em sentido figurado forte; ausência de “como”.</li>
-                  <li><strong>Efeito:</strong> concretiza ideias abstratas, intensifica.</li>
-                  <li><strong>Ex.:</strong> “Meu feed é um <em>vórtice</em> de distrações.”</li>
-                </ul>
-                <p class="small"><em>Não confunda</em> com comparação: se houver “como/tal qual”, tende a ser comparação.</p>
-              </div>
-
-              <div class="card">
-                <h4>Comparação (símile)</h4>
-                <p class="small">Aproximação explícita por conectivo.</p>
-                <ul>
-                  <li><strong>Pistas:</strong> “como”, “tal qual”, “feito”.</li>
-                  <li><strong>Ex.:</strong> “Rápido <em>como</em> um raio.”</li>
-                </ul>
-              </div>
-
-              <div class="card">
-                <h4>Metonímia</h4>
-                <p class="small">Substituição por proximidade real (autor/obra, marca/produto, continente/conteúdo etc.).</p>
-                <ul>
-                  <li><strong>Pistas:</strong> relação de parte do mundo real, não semelhança.</li>
-                  <li><strong>Ex.:</strong> “Bebi um <em>copo</em> de água.” (continente pelo conteúdo) • “Li <em>Machado</em>.”</li>
-                </ul>
-              </div>
-
-              <div class="card">
-                <h4>Sinédoque</h4>
-                <p class="small">Caso particular de metonímia: parte ↔ todo; singular ↔ plural.</p>
-                <ul>
-                  <li><strong>Ex.:</strong> “<em>Muitas mãos</em> ajudaram.” (parte pelo todo)</li>
-                </ul>
-              </div>
-
-              <div class="card">
-                <h4>Hipérbole</h4>
-                <p class="small">Exagero expressivo.</p>
-                <ul>
-                  <li><strong>Pistas:</strong> quantificadores absolutos, impossíveis.</li>
-                  <li><strong>Ex.:</strong> “Esperei <em>um século</em>.”</li>
-                </ul>
-              </div>
-
-              <div class="card">
-                <h4>Eufemismo</h4>
-                <p class="small">Suavização de uma ideia dura.</p>
-                <ul>
-                  <li><strong>Ex.:</strong> “Ele <em>partiu</em> cedo.”</li>
-                </ul>
-              </div>
-
-              <div class="card">
-                <h4>Ironia</h4>
-                <p class="small">Dizer o contrário do que se pensa, com pistas textuais ou contextuais.</p>
-                <ul>
-                  <li><strong>Pistas:</strong> contexto de contrariedade, aspas, hipérbole, tom de crítica.</li>
-                  <li><strong>Ex.:</strong> “Que <em>show</em> quebrar a tela ontem!”</li>
-                </ul>
-              </div>
-
-              <div class="card">
-                <h4>Antítese</h4>
-                <p class="small">Oposição de ideias num mesmo contexto.</p>
-                <ul>
-                  <li><strong>Ex.:</strong> “Riso e <em>lágrima</em>.”</li>
-                </ul>
-              </div>
-
-              <div class="card">
-                <h4>Paradoxo (oxímoro)</h4>
-                <p class="small">Termos contraditórios lado a lado, produzindo sentido novo.</p>
-                <ul>
-                  <li><strong>Ex.:</strong> “<em>Silêncio ensurdecedor</em>.”</li>
-                </ul>
-              </div>
-
-              <div class="card">
-                <h4>Personificação (prosopopeia)</h4>
-                <p class="small">Atribuição de traços humanos a seres inanimados/abstratos.</p>
-                <ul>
-                  <li><strong>Ex.:</strong> “O vento <em>sussurrou</em> segredos.”</li>
-                </ul>
-              </div>
-
-              <div class="card">
-                <h4>Litote</h4>
-                <p class="small">Afirmação atenuada pela negação do contrário.</p>
-                <ul>
-                  <li><strong>Ex.:</strong> “Não é <em>pouco</em> inteligente.” (= é muito inteligente)</li>
-                </ul>
-              </div>
-
-              <div class="card">
-                <h4>Metáfora visual</h4>
-                <p class="small">Em charge/cartum, a imagem “diz” por semelhança.</p>
-                <div class="media small">
-                  Ex.: celular amarrado por correntes = dependência. Leia imagem + legenda para achar a crítica/ironia.
-                </div>
-              </div>
-            </div>
-
-            <h3>2) Figuras de construção/estilo</h3>
-            <div class="fig-grid">
-              <div class="card">
-                <h4>Elipse</h4>
-                <p class="small">Omissão de termo subentendido.</p>
-                <p>“Na sala, (há) três alunos.”</p>
-              </div>
-              <div class="card">
-                <h4>Zeugma</h4>
-                <p class="small">Elipse de termo já mencionado.</p>
-                <p>“Eu fui à feira; ela, (foi) ao mercado.”</p>
-              </div>
-              <div class="card">
-                <h4>Anáfora</h4>
-                <p class="small">Repetição no início de versos/frases.</p>
-                <p>“<em>Estude</em>, <em>estude</em>, <em>estude</em>.”</p>
-              </div>
-              <div class="card">
-                <h4>Hipérbato</h4>
-                <p class="small">Inversão da ordem direta.</p>
-                <p>“Do aluno a dedicação, admira-se.”</p>
-              </div>
-              <div class="card">
-                <h4>Polissíndeto</h4>
-                <p class="small">Repetição de conectivos.</p>
-                <p>“E leu, <em>e</em> revisou, <em>e</em> descansou.”</p>
-              </div>
-              <div class="card">
-                <h4>Assíndeto</h4>
-                <p class="small">Ausência de conectivos.</p>
-                <p>“Leu, revisou, descansou.”</p>
-              </div>
-              <div class="card">
-                <h4>Pleonasmo</h4>
-                <p class="small">Reforço por redundância (pode ser vicioso ou expressivo).</p>
-                <p>“Vi com <em>meus próprios</em> olhos.”</p>
-              </div>
-              <div class="card">
-                <h4>Anacoluto</h4>
-                <p class="small">Quebra sintática no início da frase.</p>
-                <p>“Eu, a prova… olha, foi difícil.”</p>
-              </div>
-              <div class="card">
-                <h4>Silepse</h4>
-                <p class="small">Concordância ideológica.</p>
-                <p>“A gente <em>vamos</em> tentar.” (silepse de pessoa)</p>
-              </div>
-            </div>
-
-            <h3>3) Figuras sonoras</h3>
-            <ul>
-              <li><strong>Aliteração:</strong> repetição de consoantes. “<em>R</em>uido do <em>r</em>io.”</li>
-              <li><strong>Assonância:</strong> repetição de vogais. “C<u>a</u>nt<u>a</u> m<u>a</u>r<u>a</u> m<u>a</u>nh<u>ã</u>.”</li>
-              <li><strong>Onomatopeia:</strong> imitação de sons. “Tic-tac”, “plim”.</li>
-              <li><strong>Paronomásia:</strong> jogo com palavras parecidas. “<em>Preço</em> e <em>prece</em>.”</li>
-            </ul>
-
-            <h3 id="comparativos">Quadros comparativos (evite confusões)</h3>
-            <div class="grid-2">
-              <details class="summary-card">
-                <summary>Metáfora × Comparação</summary>
-                <ul>
-                  <li>Metáfora: sem conectivo. “O tempo é <em>ladrão</em>.”</li>
-                  <li>Comparação: com “como/tal qual”. “O tempo <em>é como</em> um ladrão.”</li>
-                </ul>
-              </details>
-              <details class="summary-card">
-                <summary>Metonímia × Sinédoque</summary>
-                <ul>
-                  <li>Metonímia: proximidade ampla (autor/obra; lugar/produto etc.).</li>
-                  <li>Sinédoque: parte ↔ todo. “<em>Cabeças</em> de gado.”</li>
-                </ul>
-              </details>
-              <details class="summary-card">
-                <summary>Antítese × Paradoxo</summary>
-                <ul>
-                  <li>Antítese: ideias opostas convivem (“amor e ódio”).</li>
-                  <li>Paradoxo: contradição aparente no mesmo referente (“silêncio ensurdecedor”).</li>
-                </ul>
-              </details>
-              <details class="summary-card">
-                <summary>Eufemismo × Ironia × Litote</summary>
-                <ul>
-                  <li>Eufemismo: suaviza (“<em>partiu</em>”).</li>
-                  <li>Ironia: sentido invertido com pista (“Que <em>ótimo</em> perder…”).</li>
-                  <li>Litote: nega o contrário (“não é <em>pouco</em> fácil” = é difícil).</li>
-                </ul>
-              </details>
-            </div>
-
-            <h3>Armadilhas de prova</h3>
-            <ul>
-              <li>Chamar qualquer exagero de ironia. Ironia exige pista de contrariedade.</li>
-              <li>Confundir eufemismo (suavização) com metáfora (semelhança).</li>
-              <li>Em charges, tratar metáfora visual como metonímia sem analisar a imagem + legenda.</li>
-              <li>Ver antítese quando há apenas enumeração sem oposição real.</li>
-            </ul>
-          </section>
-
-          <section id="exemplos" class="section-block">
-            <h2>Exemplos resolvidos (com raciocínio)</h2>
-
-            <div class="example">
-              <strong>1.</strong> “O celular me <em>prendeu</em> a noite toda.”<br />
-              Alternativas: A) Metonímia B) Hipérbole C) Metáfora D) Eufemismo E) Ironia<br />
-              <div class="small keyline">
-                “Prender” em sentido figurado por semelhança de efeito (aprisionar a atenção). Logo, <strong>Metáfora</strong> (C).
-              </div>
-            </div>
-
-            <div class="example" style="margin-top:.5rem;">
-              <strong>2.</strong> “A sala tinha <em>quarenta cabeças</em> atentas.”<br />
-              A) Sinédoque B) Metonímia (autor/obra) C) Antítese D) Paradoxo E) Elipse<br />
-              <div class="small keyline">
-                Parte pelo todo (cabeças → pessoas). <strong>Sinédoque</strong> (A).
-              </div>
-            </div>
-
-            <div class="example" style="margin-top:.5rem;">
-              <strong>3.</strong> “Que <em>lindo</em> tomar chuva no ponto!” (tom de irritação)<br />
-              A) Hipérbole B) Ironia C) Eufemismo D) Metáfora E) Polissíndeto<br />
-              <div class="small keyline">
-                Elogio invertido com pista de contrariedade. <strong>Ironia</strong> (B).
-              </div>
-            </div>
-
-            <div class="example" style="margin-top:.5rem;">
-              <strong>4.</strong> “Ele <em>dorme</em> um sono <em>de pedra</em>.”<br />
-              <div class="small keyline">
-                “Sono de pedra” é comparação metafórica cristalizada (metáfora). Efeito: intensidade do sono.
-              </div>
-            </div>
-
-            <div class="example" style="margin-top:.5rem;">
-              <strong>5.</strong> “Não foi <em>nada</em> fácil.”<br />
-              <div class="small keyline">
-                Negação do oposto para reforçar a ideia. <strong>Litote</strong>.
-              </div>
-            </div>
-          </section>
-
-          <section id="exercicios" class="section-block">
-            <h2>Exercícios interativos</h2>
-            <p class="small text-muted">Marque a alternativa e clique em Verificar para receber feedback. Seus dados não são armazenados.</p>
-
-            <div class="exercise-grid">
-              <!-- Q1 -->
-              <div class="exercise quiz" data-answer="A">
-                <form aria-label="Questão 1">
-                  <p><strong>1)</strong> “Tenho <em>mil</em> coisas para estudar.”</p>
-                  <label><input type="radio" name="q1" value="A"> A) Hipérbole</label>
-                  <label><input type="radio" name="q1" value="B"> B) Metáfora</label>
-                  <label><input type="radio" name="q1" value="C"> C) Metonímia</label>
-                  <label><input type="radio" name="q1" value="D"> D) Eufemismo</label>
-                  <label><input type="radio" name="q1" value="E"> E) Antítese</label>
-                  <button class="btn btn--primary check" type="button">Verificar</button>
-                </form>
-                <div class="explain sr-only" data-option="A">“Mil” = exagero para intensificar. Hipérbole.</div>
-                <div class="explain sr-only" data-option="B">Não há transferência por semelhança.</div>
-                <div class="feedback" aria-live="polite"></div>
-              </div>
-
-              <!-- Q2 -->
-              <div class="exercise quiz" data-answer="A">
-                <form aria-label="Questão 2">
-                  <p><strong>2)</strong> “Os muros <em>ouviram</em> a conversa.”</p>
-                  <label><input type="radio" name="q2" value="A"> A) Personificação</label>
-                  <label><input type="radio" name="q2" value="B"> B) Sinédoque</label>
-                  <label><input type="radio" name="q2" value="C"> C) Paronomásia</label>
-                  <label><input type="radio" name="q2" value="D"> D) Onomatopeia</label>
-                  <label><input type="radio" name="q2" value="E"> E) Anáfora</label>
-                  <button class="btn btn--primary check" type="button">Verificar</button>
-                </form>
-                <div class="explain sr-only" data-option="A">Ação humana atribuída a objeto inanimado. Personificação.</div>
-                <div class="feedback" aria-live="polite"></div>
-              </div>
-
-              <!-- Q3 -->
-              <div class="exercise quiz" data-answer="B">
-                <form aria-label="Questão 3">
-                  <p><strong>3)</strong> “Rápido <em>como</em> um raio.”</p>
-                  <label><input type="radio" name="q3" value="A"> A) Metáfora</label>
-                  <label><input type="radio" name="q3" value="B"> B) Comparação</label>
-                  <label><input type="radio" name="q3" value="C"> C) Antítese</label>
-                  <label><input type="radio" name="q3" value="D"> D) Paradoxo</label>
-                  <label><input type="radio" name="q3" value="E"> E) Metonímia</label>
-                  <button class="btn btn--primary check" type="button">Verificar</button>
-                </form>
-                <div class="explain sr-only" data-option="B">Conectivo explícito “como” indica comparação.</div>
-                <div class="feedback" aria-live="polite"></div>
-              </div>
-
-              <!-- Q4 -->
-              <div class="exercise quiz" data-answer="B">
-                <form aria-label="Questão 4">
-                  <p><strong>4)</strong> “Bebi um <em>copo</em> de água.”</p>
-                  <label><input type="radio" name="q4" value="A"> A) Eufemismo</label>
-                  <label><input type="radio" name="q4" value="B"> B) Metonímia</label>
-                  <label><input type="radio" name="q4" value="C"> C) Sinédoque</label>
-                  <label><input type="radio" name="q4" value="D"> D) Elipse</label>
-                  <label><input type="radio" name="q4" value="E"> E) Hipérbato</label>
-                  <button class="btn btn--primary check" type="button">Verificar</button>
-                </form>
-                <div class="explain sr-only" data-option="B">Continente pelo conteúdo (copo → água). Metonímia.</div>
-                <div class="feedback" aria-live="polite"></div>
-              </div>
-
-              <!-- Q5 -->
-              <div class="exercise quiz" data-answer="B">
-                <form aria-label="Questão 5">
-                  <p><strong>5)</strong> “Estude e revise <em>e</em> pratique <em>e</em> descanse.”</p>
-                  <label><input type="radio" name="q5" value="A"> A) Assíndeto</label>
-                  <label><input type="radio" name="q5" value="B"> B) Polissíndeto</label>
-                  <label><input type="radio" name="q5" value="C"> C) Anáfora</label>
-                  <label><input type="radio" name="q5" value="D"> D) Paronomásia</label>
-                  <label><input type="radio" name="q5" value="E"> E) Aliteração</label>
-                  <button class="btn btn--primary check" type="button">Verificar</button>
-                </form>
-                <div class="explain sr-only" data-option="B">Repetição do conectivo “e”: polissíndeto.</div>
-                <div class="feedback" aria-live="polite"></div>
-              </div>
-
-              <!-- Q6 -->
-              <div class="exercise quiz" data-answer="D">
-                <form aria-label="Questão 6">
-                  <p><strong>6)</strong> “Doce dúvida de um dia.”</p>
-                  <label><input type="radio" name="q6" value="A"> A) Assonância</label>
-                  <label><input type="radio" name="q6" value="B"> B) Ironia</label>
-                  <label><input type="radio" name="q6" value="C"> C) Eufemismo</label>
-                  <label><input type="radio" name="q6" value="D"> D) Aliteração</label>
-                  <label><input type="radio" name="q6" value="E"> E) Onomatopeia</label>
-                  <button class="btn btn--primary check" type="button">Verificar</button>
-                </form>
-                <div class="explain sr-only" data-option="D">Repetição do som /d/: aliteração.</div>
-                <div class="feedback" aria-live="polite"></div>
-              </div>
-
-              <!-- Q7 -->
-              <div class="exercise quiz" data-answer="E">
-                <form aria-label="Questão 7">
-                  <p><strong>7)</strong> “Ele é <em>um leão</em> em quadra.”</p>
-                  <label><input type="radio" name="q7" value="A"> A) Comparação</label>
-                  <label><input type="radio" name="q7" value="B"> B) Eufemismo</label>
-                  <label><input type="radio" name="q7" value="C"> C) Hipérbole</label>
-                  <label><input type="radio" name="q7" value="D"> D) Metonímia</label>
-                  <label><input type="radio" name="q7" value="E"> E) Metáfora</label>
-                  <button class="btn btn--primary check" type="button">Verificar</button>
-                </form>
-                <div class="explain sr-only" data-option="E">Sem “como”; transferência por semelhança de força/garra. Metáfora.</div>
-                <div class="feedback" aria-live="polite"></div>
-              </div>
-
-              <!-- Q8 -->
-              <div class="exercise quiz" data-answer="C">
-                <form aria-label="Questão 8">
-                  <p><strong>8)</strong> “O Brasil <em>chorou</em> a tragédia.”</p>
-                  <label><input type="radio" name="q8" value="A"> A) Metonímia (continente pelo conteúdo)</label>
-                  <label><input type="radio" name="q8" value="B"> B) Paradoxo</label>
-                  <label><input type="radio" name="q8" value="C"> C) Silepse (de número) + Personificação</label>
-                  <label><input type="radio" name="q8" value="D"> D) Antítese</label>
-                  <label><input type="radio" name="q8" value="E"> E) Elipse</label>
-                  <button class="btn btn--primary check" type="button">Verificar</button>
-                </form>
-                <div class="explain sr-only" data-option="C">“Brasil” = coletivo singular representando a população (silepse); “chorou” personifica o país.</div>
-                <div class="feedback" aria-live="polite"></div>
-              </div>
-
-              <!-- Q9 -->
-              <div class="exercise quiz" data-answer="A">
-                <form aria-label="Questão 9">
-                  <p><strong>9)</strong> “Não é <em>nada</em> bobo.”</p>
-                  <label><input type="radio" name="q9" value="A"> A) Litote</label>
-                  <label><input type="radio" name="q9" value="B"> B) Eufemismo</label>
-                  <label><input type="radio" name="q9" value="C"> C) Ironia</label>
-                  <label><input type="radio" name="q9" value="D"> D) Hipérbole</label>
-                  <label><input type="radio" name="q9" value="E"> E) Metáfora</label>
-                  <button class="btn btn--primary check" type="button">Verificar</button>
-                </form>
-                <div class="explain sr-only" data-option="A">Nega o contrário para afirmar com força. Litote.</div>
-                <div class="feedback" aria-live="polite"></div>
-              </div>
-
-              <!-- Q10 -->
-              <div class="exercise quiz" data-answer="D">
-                <form aria-label="Questão 10">
-                  <p><strong>10)</strong> “A esperança é um <em>fio</em> que não se parte.”</p>
-                  <label><input type="radio" name="q10" value="A"> A) Metonímia</label>
-                  <label><input type="radio" name="q10" value="B"> B) Comparação</label>
-                  <label><input type="radio" name="q10" value="C"> C) Antítese</label>
-                  <label><input type="radio" name="q10" value="D"> D) Metáfora</label>
-                  <label><input type="radio" name="q10" value="E"> E) Eufemismo</label>
-                  <button class="btn btn--primary check" type="button">Verificar</button>
-                </form>
-                <div class="explain sr-only" data-option="D">“Esperança” ≈ “fio” por semelhança simbólica. Metáfora.</div>
-                <div class="feedback" aria-live="polite"></div>
-              </div>
-            </div>
-
-            <p class="note" style="margin-top:.5rem;">Em charges, sempre leia a imagem + legenda/balões: metáforas visuais e ironias dependem do conjunto.</p>
-          </section>
-
-          <section id="texto" class="section-block">
-            <h2>Leitura guiada (texto curto + análise)</h2>
-            <blockquote class="exam">
-              Quando a prova chegou, a sala virou um aquário: olhos nadavam de questão em questão. O relógio, cruel, corria. No quadro, um silêncio ensurdecedor.
-            </blockquote>
-            <ol>
-              <li>Identifique 3 figuras diferentes no texto.</li>
-              <li>Explique o efeito de sentido de “silêncio ensurdecedor”.</li>
-              <li>Há personificação? Onde?</li>
-            </ol>
-            <button class="btn--ghost" data-reveal="#resp-texto" aria-expanded="false" aria-controls="resp-texto">Mostrar respostas</button>
-            <div id="resp-texto" hidden class="ok" tabindex="-1">
-              <ul>
-                <li>Metáfora: “sala virou um aquário”; Metáfora/Personificação: “olhos nadavam”; Personificação: “relógio corria”; Paradoxo: “silêncio ensurdecedor”.</li>
-                <li>Paradoxo/oxímoro: une termos contraditórios para intensificar a ideia de um silêncio tenso.</li>
-                <li>Sim: o relógio “corre” (atribuição humana a objeto).</li>
-              </ul>
-            </div>
-          </section>
-
-          <section id="redacao" class="section-block">
-            <h2>Aplicação na redação (sem forçar a barra)</h2>
-            <div class="grid-2">
-              <div class="tip">
-                Use figuras para:
-                <ul>
-                  <li>Introduzir uma tese com imagem forte (metáfora breve e original).</li>
-                  <li>Marcar contraste de ideias (antítese) na argumentação.</li>
-                  <li>Suavizar temas sensíveis (eufemismo) quando necessário.</li>
-                </ul>
-              </div>
-              <div class="warn">
-                Evite:
-                <ul>
-                  <li>Clichês (“Brasil, país do futebol”, “choveu de críticas”).</li>
-                  <li>Ironia sem controle (pode soar desrespeitosa na banca).</li>
-                  <li>Forçar figuras em todos os parágrafos (polui a clareza).</li>
-                </ul>
-              </div>
-            </div>
-            <div class="keyline">
-              <strong>Modelo rápido (tese com metáfora):</strong><br />
-              “A desinformação é <em>um vírus</em>: espalha-se rápido, adoece decisões e exige <em>vacina</em> — educação midiática.”<br />
-              <span class="small">Metáfora controlada + paralelismo lexical ampliam a força argumentativa.</span>
-            </div>
-          </section>
-
-          <section id="questoes-reais" class="section-block">
-            <h2>Questões no estilo de prova</h2>
-
-            <div class="example">
-              <strong>Modelo 1.</strong> “Ele saiu <em>de fininho</em> da discussão.” O efeito de “de fininho” é:<br />
-              A) hipérbole B) eufemismo C) ironia D) metáfora E) metonímia<br />
-              <button class="btn--ghost" data-reveal="#resp-qm1" aria-expanded="false" aria-controls="resp-qm1">Ver resposta</button>
-              <div id="resp-qm1" hidden class="small keyline">B) Eufemismo: suaviza a ideia de “sair sem encarar / fugiu”.</div>
-            </div>
-
-            <div class="example" style="margin-top:.5rem;">
-              <strong>Modelo 2.</strong> Em “As <em>máquinas</em> decidiram por nós.” assinale a alternativa CORRETA:<br />
-              A) hipérbole • B) personificação • C) sinédoque • D) metonímia • E) antítese<br />
-              <button class="btn--ghost" data-reveal="#resp-qm2" aria-expanded="false" aria-controls="resp-qm2">Ver resposta</button>
-              <div id="resp-qm2" hidden class="small keyline">B) Personificação (atribui decidir a máquinas).</div>
-            </div>
-
-            <p class="small text-muted">Quando seu banco de questões estiver pronto, substitua esta seção por links reais do CTI e similares.</p>
-          </section>
-
-          <section id="checklist" class="section-block">
-            <h2>Checklist de revisão (3 minutos)</h2>
-            <ul class="checklist">
-              <li>Reconheço as pistas de metáfora × comparação?</li>
-              <li>Sei diferenciar metonímia de sinédoque por relação parte ↔ todo?</li>
-              <li>Consigo justificar ironia com base em pistas do texto?</li>
-              <li>Identifico figuras sonoras em versos curtos?</li>
-              <li>Na redação, uso figuras com propósito (sem clichê/ironia gratuita)?</li>
-            </ul>
-          </section>
-
-          <section id="referencias" class="section-block">
-            <h2>Referências e estudo adicional</h2>
-            <ul>
-              <li>Bechara, Evanildo. Moderna gramática portuguesa (tópicos de semântica e estilística).</li>
-              <li>Cegalla, Domingos Paschoal. Novíssima gramática da língua portuguesa (figuras de linguagem).</li>
-              <li>Koch, Ingedore & Elias, Vanda. Ler e compreender: os sentidos do texto (efeitos de sentido em contexto).</li>
-              <li>Coleções didáticas de leitura crítica e produção textual (capítulos de linguagem figurada).</li>
-            </ul>
-          </section>
-
-          <nav class="lesson-nav">
-            <a class="btn btn--outline" href="/aulas/portugues/funcoes-da-linguagem.html">← Funções da linguagem</a>
-            <a class="btn btn--primary" href="/aulas/portugues/gramatica.html">Gramática →</a>
-          </nav>
-        </div>
-
-        <aside class="lesson-toc" aria-label="Sumário da aula">
-          <h4>Conteúdo</h4>
-          <ol>
-            <li><a href="#objetivos">Objetivos</a></li>
-            <li><a href="#prerequisitos">Pré-requisitos</a></li>
-            <li><a href="#aquecimento">Aquecimento</a></li>
-            <li><a href="#mapa">Mapa mental</a></li>
-            <li><a href="#teoria">Teoria</a></li>
-            <li><a href="#comparativos">Comparativos</a></li>
-            <li><a href="#exemplos">Exemplos</a></li>
-            <li><a href="#exercicios">Exercícios</a></li>
-            <li><a href="#texto">Leitura guiada</a></li>
-            <li><a href="#redacao">Redação</a></li>
-            <li><a href="#questoes-reais">Questões de prova</a></li>
-            <li><a href="#checklist">Checklist</a></li>
-            <li><a href="#referencias">Referências</a></li>
-          </ol>
-        </aside>
+          </details>
+        </nav>
       </div>
-    </div>
-  </main>
+    </header>
 
-  <footer class="site-footer">
-    <div class="container footer-wrap">
-      <p>© 2025–2026 • Projeto de estudos para o Vestibulinho CTI UNESP Bauru.</p>
-      <nav class="footer-nav" aria-label="Rodapé">
-        <ul>
-          <li><a href="/recursos/cronograma-de-estudos.html">Cronograma</a></li>
-          <li><a href="/recursos/como-preencher-gabarito.html">Gabarito</a></li>
-          <li><a href="/recursos/dicas-rapidas.html">Dicas</a></li>
-          <li><a href="/recursos/normas-da-prova.html">Normas</a></li>
-        </ul>
-      </nav>
-    </div>
-  </footer>
+    <nav class="breadcrumb" aria-label="Caminho de navegação">
+      <div class="container">
+        <ol>
+          <li><a href="/">Início</a></li>
+          <li><a href="/aulas/">Aulas</a></li>
+          <li><a href="/aulas/portugues/">Português</a></li>
+          <li aria-current="page">Figuras de linguagem</li>
+        </ol>
+      </div>
+    </nav>
 
-  <!-- Script leve para interatividade (acessível) -->
-  <script>
-    (function(){
-      // Botões de revelar
-      document.querySelectorAll('[data-reveal]').forEach(btn=>{
-        btn.addEventListener('click', ()=>{
-          const id = btn.getAttribute('data-reveal');
-          const target = document.querySelector(id);
-          const expanded = btn.getAttribute('aria-expanded') === 'true';
-          btn.setAttribute('aria-expanded', String(!expanded));
-          if(target){ target.hidden = expanded; if(!expanded) target.focus?.(); }
-        });
-      });
+    <main id="conteudo" class="section" tabindex="-1">
+      <div class="container">
+        <article class="lesson-hero">
+          <h1>Figuras de linguagem</h1>
+          <div class="lesson-meta">
+            <span class="pill">Português</span>
+            <span class="pill">Foco CTI</span>
+            <span>Tempo estimado: 40–60 min</span>
+          </div>
+          <p class="text-muted">
+            Seleção direta do que costuma cair no CTI. Conceitos rápidos, pistas para reconhecer e exemplos típicos de prova.
+          </p>
+        </article>
 
-      // Quiz: verificação de respostas com feedback
-      document.querySelectorAll('.quiz').forEach(q=>{
-        const btn = q.querySelector('button.check');
-        const form = q.querySelector('form');
-        const feedback = q.querySelector('.feedback');
-        btn?.addEventListener('click', e=>{
-          e.preventDefault();
-          const correct = q.dataset.answer;
-          const selected = form.querySelector('input[type="radio"]:checked');
-          if(!selected){
-            feedback.textContent = 'Selecione uma alternativa.';
-            feedback.className = 'feedback is-warn';
-            feedback.setAttribute('aria-live','polite');
-            return;
-          }
-          const val = selected.value;
-          const explain = q.querySelector(`.explain[data-option="${val}"]`);
-          if(val === correct){
-            feedback.textContent = 'Correto! ' + (explain?.textContent || '');
-            feedback.className = 'feedback is-correct';
-          } else {
-            feedback.textContent = 'Não é isso. ' + (explain?.textContent || 'Revise as pistas no quadro teórico.');
-            feedback.className = 'feedback is-incorrect';
-          }
-          feedback.setAttribute('aria-live','polite');
-        });
-      });
-    })();
-  </script>
-</body>
+        <div class="lesson-layout">
+          <div class="lesson-content">
+            <section id="objetivos" class="section-block">
+              <h2>Objetivos da aula</h2>
+              <ul>
+                <li>Reconhecer as figuras mais cobradas no CTI em textos verbais e em tirinhas/charges.</li>
+                <li>
+                  Diferenciar pares que geram confusão (metáfora × comparação; metonímia × sinédoque; antítese × paradoxo;
+                  pleonasmo estilístico × vício).
+                </li>
+                <li>
+                  Identificar o efeito de sentido (ênfase, humor, crítica, suavização, exagero, musicalidade) para marcar a alternativa
+                  correta.
+                </li>
+              </ul>
+              <div class="callout tip" style="margin-top:.75rem;">
+                <p>
+                  <strong>Checklist para a prova:</strong> procure conectivos (“como”), exageros, suavizações, trocas parte↔todo,
+                  repetições de som/palavra, inversões de ordem e contrastes semânticos.
+                </p>
+              </div>
+            </section>
+
+            <section id="prerequisitos" class="section-block">
+              <h2>Pré-requisitos</h2>
+              <p class="nota">
+                Revise
+                <a href="/aulas/portugues/funcoes-da-linguagem.html">Funções da linguagem</a>
+                para relacionar intenção e efeito de sentido.
+              </p>
+            </section>
+
+            <section id="mapa-do-cti" class="section-block">
+              <h2>O que cai no CTI (mapa)</h2>
+              <p class="text-muted">Lista curada para o Vestibulinho/CTI:</p>
+              <ul>
+                <li>
+                  <strong>Tropos/semânticas:</strong> metáfora, comparação (símile), metonímia, sinédoque, hipérbole, eufemismo, ironia,
+                  antítese, paradoxo (oxímoro), personificação (prosopopeia), gradação (clímax/anticlímax), pleonasmo (estilístico),
+                  catacrese, perífrase (antonomásia).
+                </li>
+                <li><strong>Construção/estilo:</strong> elipse, zeugma, anáfora, hipérbato, assíndeto, polissíndeto.</li>
+                <li><strong>Sonoras:</strong> aliteração, assonância, onomatopeia, paronomásia.</li>
+              </ul>
+              <div class="callout att" style="margin-top:.5rem;">
+                <p>
+                  <strong>Atenção:</strong> em tirinhas/charges, é comum a cobrança de <em>ironia</em> e <em>metáfora</em> (inclusive
+                  visual), além de <em>hipérbole</em> para criar humor.
+                </p>
+              </div>
+            </section>
+
+            <section id="teoria" class="section-block">
+              <h2>Teoria com pistas e exemplos</h2>
+
+              <h3>1) Figuras semânticas (tropos)</h3>
+              <div class="table-wrap" role="region" aria-label="Figuras semânticas — tabela de consulta rápida">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Figura</th>
+                      <th>Como reconhecer</th>
+                      <th>Exemplo (efeito)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>Metáfora</strong></td>
+                      <td>Sentido por semelhança sem conectivo explícito.</td>
+                      <td>“As notícias <em>pescam</em> nossa atenção.” (imagem de captura/atração)</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Comparação (símile)</strong></td>
+                      <td>Aproximação com <em>como</em>, <em>tal qual</em>, <em>feito</em>.</td>
+                      <td>“Rápido <em>como</em> um raio.” (semelhança explícita)</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Metonímia</strong></td>
+                      <td>Troca por proximidade (autor/obra; continente/conteúdo; marca/produto).</td>
+                      <td>“Bebi um <em>copo</em> de água.” (continente pelo conteúdo)</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Sinédoque</strong></td>
+                      <td>Parte pelo todo ou todo pela parte (caso específico de metonímia).</td>
+                      <td>“<em>Quarenta cabeças</em> atentas na sala.” (parte → pessoas)</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Hipérbole</strong></td>
+                      <td>Exagero intencional para ênfase/humor.</td>
+                      <td>“Esperei <em>um século</em> na fila.”</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Eufemismo</strong></td>
+                      <td>Suaviza uma ideia desagradável.</td>
+                      <td>“Ele <em>partiu</em> cedo.” (morte suavizada)</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Ironia</strong></td>
+                      <td>Dizer o contrário com pista de crítica/humor/contraste contextual.</td>
+                      <td>“Que <em>ótimo</em> ficar preso no trânsito!”</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Antítese</strong></td>
+                      <td>Termos/ideias opostas no mesmo contexto.</td>
+                      <td>“Riso e <em>lágrima</em>.”</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Paradoxo (oxímoro)</strong></td>
+                      <td>Contradição aparente no mesmo referente.</td>
+                      <td>“Silêncio <em>ensurdecedor</em>.”</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Personificação (prosopopeia)</strong></td>
+                      <td>Atributos humanos a seres inanimados/abstratos.</td>
+                      <td>“O vento <em>sussurrou</em> no ouvido.”</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Gradação</strong></td>
+                      <td>Sequência crescente (clímax) ou decrescente (anticlímax).</td>
+                      <td>“Sussurrou, falou, <em>gritou</em>.” (cresce a intensidade)</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Pleonasmo (estilístico)</strong></td>
+                      <td>Reforço expressivo por redundância consciente.</td>
+                      <td>“Eu <em>vi com meus próprios olhos</em>.” (ênfase)</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Catacrese</strong></td>
+                      <td>Metáfora “cristalizada” no uso comum.</td>
+                      <td>“<em>Pé</em> da mesa”, “<em>braço</em> do sofá”.</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Perífrase (antonomásia)</strong></td>
+                      <td>Substituição por expressão conhecida/descritiva.</td>
+                      <td>“O <em>Rei do Futebol</em>” (Pelé), “A <em>Terra da Garoa</em>” (SP).</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <h3>2) Figuras de construção/estilo</h3>
+              <div class="table-wrap" role="region" aria-label="Figuras de construção — tabela de consulta rápida">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Figura</th>
+                      <th>Como reconhecer</th>
+                      <th>Exemplo (efeito)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>Elipse</strong></td>
+                      <td>Omissão de termo subentendido.</td>
+                      <td>“Na sala, (há) três alunos.” (agilidade)</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Zeugma</strong></td>
+                      <td>Elipse de termo já mencionado antes.</td>
+                      <td>“Eu fui à feira; ela, (foi) ao mercado.”</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Anáfora</strong></td>
+                      <td>Repetição no início de versos/frases.</td>
+                      <td>“<em>Estude</em> com foco; <em>estude</em> com método.”</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Hipérbato</strong></td>
+                      <td>Inversão da ordem direta.</td>
+                      <td>“Da prova, <em>o medo</em> o tomou.” (destaque)</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Assíndeto</strong></td>
+                      <td>Ausência de conectivos.</td>
+                      <td>“Leu, resolveu, revisou.” (dinamismo)</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Polissíndeto</strong></td>
+                      <td>Repetição de conectivos.</td>
+                      <td>“E leu, <em>e</em> resolveu, <em>e</em> revisou.” (acúmulo/insistência)</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <h3>3) Figuras sonoras</h3>
+              <div class="table-wrap" role="region" aria-label="Figuras sonoras — tabela de consulta rápida">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Figura</th>
+                      <th>Como reconhecer</th>
+                      <th>Exemplo (efeito)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>Aliteração</strong></td>
+                      <td>Repetição de consoantes.</td>
+                      <td>“<em>R</em>io <em>r</em>ápido <em>r</em>ola.” (ritmo)</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Assonância</strong></td>
+                      <td>Repetição de vogais.</td>
+                      <td>“A <em>a</em>lma f<em>a</em>la b<em>a</em>ixa.” (sonoridade)</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Onomatopeia</strong></td>
+                      <td>Imitação de sons.</td>
+                      <td>“Tic-tac”, “plim”, “zzz”.</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Paronomásia</strong></td>
+                      <td>Jogo com palavras parecidas.</td>
+                      <td>“Tem <em>preço</em> a <em>prece</em>?” (humor/duplo sentido)</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="callout tip" style="margin-top:.75rem;">
+                <p>
+                  <strong>Metáfora visual em charges:</strong> imagens podem funcionar como metáfora (ex.: cadeado no celular ⇒
+                  dependência). Leia imagem + legenda para captar o efeito.
+                </p>
+              </div>
+            </section>
+
+            <section id="diferenciar" class="section-block">
+              <h2>Dicas para diferenciar</h2>
+              <ul>
+                <li><strong>Metáfora × comparação:</strong> comparação usa <em>como/tal qual</em>; metáfora não usa conectivo.</li>
+                <li>
+                  <strong>Metonímia × sinédoque:</strong> metonímia = proximidade ampla (autor/obra, marca/produto); sinédoque = parte↔todo.
+                </li>
+                <li>
+                  <strong>Antítese × paradoxo:</strong> antítese = opostos convivem; paradoxo = contradição no mesmo referente
+                  (“doce amargura”).
+                </li>
+                <li>
+                  <strong>Pleonasmo estilístico × vício:</strong> estilístico reforça sentido (“vi com meus próprios olhos”); vício é
+                  redundância inútil em texto dissertativo.
+                </li>
+                <li>
+                  <strong>Catacrese × metáfora:</strong> catacrese virou uso comum (pé da mesa); metáfora é criação expressiva no contexto.
+                </li>
+                <li>
+                  <strong>Assíndeto × polissíndeto:</strong> falta de conectivo × excesso de conectivo para efeito de ritmo/ênfase.
+                </li>
+              </ul>
+            </section>
+
+            <section id="erros-comuns" class="section-block">
+              <h2>Erros comuns</h2>
+              <ul>
+                <li>
+                  Marcar “ironia” por qualquer exagero. Sem pista de contraste/criticismo, é provável <em>hipérbole</em>, não ironia.
+                </li>
+                <li>
+                  Confundir <em>eufemismo</em> com <em>metáfora</em>: eufemismo suaviza; metáfora transfere sentido por semelhança.
+                </li>
+                <li>
+                  Chamar “parte pelo todo” de metonímia genérica quando a questão quer <em>sinédoque</em> (parte↔todo).
+                </li>
+                <li>
+                  Ignorar o <em>contexto</em> na tirinha: o mesmo enunciado pode ser literal ou irônico dependendo da situação/expressões
+                  dos personagens.
+                </li>
+              </ul>
+            </section>
+
+            <section id="exemplos" class="section-block">
+              <h2>Exemplos resolvidos (estilo CTI)</h2>
+
+              <div class="exemplo" style="padding:.75rem; margin-bottom:.5rem;">
+                <p><strong>Ex. 1</strong> “O celular me <em>prendeu</em> a noite toda.”</p>
+                <details>
+                  <summary>Ver resolução</summary>
+                  <p>Uso figurado por semelhança (não há prisão real): <strong>metáfora</strong>. Efeito: crítica à dependência.</p>
+                </details>
+              </div>
+
+              <div class="exemplo" style="padding:.75rem; margin-bottom:.5rem;">
+                <p><strong>Ex. 2</strong> “A sala tinha <em>quarenta cabeças</em> atentas.”</p>
+                <details>
+                  <summary>Ver resolução</summary>
+                  <p>Parte (cabeças) pelo todo (pessoas): <strong>sinédoque</strong>.</p>
+                </details>
+              </div>
+
+              <div class="exemplo" style="padding:.75rem; margin-bottom:.5rem;">
+                <p><strong>Ex. 3</strong> “Que <em>lindo</em> tomar chuva no ponto!” (falado com raiva)</p>
+                <details>
+                  <summary>Ver resolução</summary>
+                  <p>Elogio invertido com pista de contrariedade: <strong>ironia</strong>.</p>
+                </details>
+              </div>
+
+              <div class="exemplo" style="padding:.75rem; margin-bottom:.5rem;">
+                <p><strong>Ex. 4</strong> “Li <em>Machado</em> ontem.”</p>
+                <details>
+                  <summary>Ver resolução</summary>
+                  <p>Autor pela obra: <strong>metonímia</strong>.</p>
+                </details>
+              </div>
+
+              <div class="exemplo" style="padding:.75rem; margin-bottom:.5rem;">
+                <p><strong>Ex. 5</strong> “<em>Pé</em> da montanha”, “<em>braço</em> do rio”.</p>
+                <details>
+                  <summary>Ver resolução</summary>
+                  <p>Metáforas cristalizadas no uso: <strong>catacrese</strong>.</p>
+                </details>
+              </div>
+
+              <div class="exemplo" style="padding:.75rem;">
+                <p><strong>Ex. 6</strong> “Sussurrou, falou, <em>gritou</em>.”</p>
+                <details>
+                  <summary>Ver resolução</summary>
+                  <p>Sequência ascendente de intensidade: <strong>gradação (clímax)</strong>.</p>
+                </details>
+              </div>
+            </section>
+
+            <section id="exercicios" class="section-block">
+              <h2>Exercícios</h2>
+
+              <div class="exercicio" style="margin-bottom:.75rem;">
+                <p><strong>1)</strong> “Tenho <em>mil</em> coisas para estudar.”</p>
+                <details><summary>Ver resposta</summary><p><strong>Hipérbole</strong>.</p></details>
+              </div>
+
+              <div class="exercicio" style="margin-bottom:.75rem;">
+                <p><strong>2)</strong> “Os muros <em>ouviram</em> a conversa.”</p>
+                <details><summary>Ver resposta</summary><p><strong>Personificação</strong>.</p></details>
+              </div>
+
+              <div class="exercicio" style="margin-bottom:.75rem;">
+                <p><strong>3)</strong> “Rápido <em>como</em> um raio.”</p>
+                <details><summary>Ver resposta</summary><p><strong>Comparação</strong>.</p></details>
+              </div>
+
+              <div class="exercicio" style="margin-bottom:.75rem;">
+                <p><strong>4)</strong> “Bebi um <em>copo</em> de água.”</p>
+                <details><summary>Ver resposta</summary><p><strong>Metonímia</strong> (continente pelo conteúdo).</p></details>
+              </div>
+
+              <div class="exercicio" style="margin-bottom:.75rem;">
+                <p><strong>5)</strong> “Estude <em>e</em> revise <em>e</em> pratique <em>e</em> descanse.”</p>
+                <details><summary>Ver resposta</summary><p><strong>Polissíndeto</strong>.</p></details>
+              </div>
+
+              <div class="exercicio" style="margin-bottom:.75rem;">
+                <p><strong>6)</strong> “<em>Doce</em> dúvida de um <em>dia</em>.” (foco no som “d”)</p>
+                <details><summary>Ver resposta</summary><p><strong>Aliteração</strong>.</p></details>
+              </div>
+
+              <div class="exercicio" style="margin-bottom:.75rem;">
+                <p><strong>7)</strong> “Vi com <em>meus próprios olhos</em>.”</p>
+                <details><summary>Ver resposta</summary><p><strong>Pleonasmo (estilístico)</strong>.</p></details>
+              </div>
+
+              <div class="exercicio" style="margin-bottom:.75rem;">
+                <p><strong>8)</strong> “O <em>Rei do Futebol</em> participou do evento.”</p>
+                <details><summary>Ver resposta</summary><p><strong>Perífrase (antonomásia)</strong>.</p></details>
+              </div>
+
+              <div class="exercicio" style="margin-bottom:.75rem;">
+                <p><strong>9)</strong> “Eu li o texto; ela, (leu) o poema.”</p>
+                <details><summary>Ver resposta</summary><p><strong>Zeugma</strong>.</p></details>
+              </div>
+
+              <div class="exercicio">
+                <p><strong>10)</strong> “De repente, <em>bum</em>! A luz apagou.”</p>
+                <details><summary>Ver resposta</summary><p><strong>Onomatopeia</strong>.</p></details>
+              </div>
+
+              <p class="nota" style="margin-top:.75rem;">
+                Dica: em tirinhas, observe expressões faciais e o desfecho para confirmar <em>ironia</em> ou <em>hipérbole</em>.
+              </p>
+            </section>
+
+            <section id="questoes-reais" class="section-block">
+              <h2>Questões de provas</h2>
+              <p>Em breve, links para questões do CTI e similares quando o banco estiver pronto.</p>
+            </section>
+
+            <section id="referencias" class="section-block">
+              <h2>Referências</h2>
+              <ul>
+                <li>Gramáticas e manuais de estilística focados em leitura e interpretação.</li>
+                <li>Provas anteriores de vestibulinhos e material de revisão de figuras de linguagem.</li>
+              </ul>
+            </section>
+
+            <nav class="lesson-nav" aria-label="Navegação da lição">
+              <a class="btn btn--outline" href="/aulas/portugues/funcoes-da-linguagem.html">← Funções da linguagem</a>
+              <a class="btn btn--primary" href="/aulas/portugues/gramatica.html">Gramática →</a>
+            </nav>
+          </div>
+
+          <aside class="lesson-toc" aria-label="Sumário da aula">
+            <h4>Conteúdo</h4>
+            <ol>
+              <li><a href="#objetivos">Objetivos</a></li>
+              <li><a href="#prerequisitos">Pré-requisitos</a></li>
+              <li><a href="#mapa-do-cti">O que cai</a></li>
+              <li><a href="#teoria">Teoria</a></li>
+              <li><a href="#diferenciar">Diferenciar</a></li>
+              <li><a href="#erros-comuns">Erros comuns</a></li>
+              <li><a href="#exemplos">Exemplos</a></li>
+              <li><a href="#exercicios">Exercícios</a></li>
+              <li><a href="#questoes-reais">Questões</a></li>
+              <li><a href="#referencias">Referências</a></li>
+            </ol>
+          </aside>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© 2025–2026 • Projeto de estudos para o Vestibulinho CTI UNESP Bauru.</p>
+        <nav class="footer-nav" aria-label="Rodapé">
+          <ul>
+            <li><a href="/recursos/cronograma-de-estudos.html">Cronograma</a></li>
+            <li><a href="/recursos/como-preencher-gabarito.html">Gabarito</a></li>
+            <li><a href="/recursos/dicas-rapidas.html">Dicas</a></li>
+            <li><a href="/recursos/normas-da-prova.html">Normas</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
 </html>
