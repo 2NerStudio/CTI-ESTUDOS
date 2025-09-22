@@ -41,26 +41,6 @@
     "explicacao": "Convite/imperativo direcionado ao leitor caracteriza função conativa."
   },
   {
-    "id": "PT-FIG-003",
-    "disciplina": "portugues",
-    "area": "estilo",
-    "tema": "figuras de linguagem",
-    "habilidade": "reconhecer figura",
-    "nivel": "medio",
-    "ano": 2025,
-    "fonte": "Autoral",
-    "enunciado": "No trecho \"As notícias pescam nossa atenção\", identifica-se:",
-    "alternativas": {
-      "A": "metonímia",
-      "B": "metáfora",
-      "C": "eufemismo",
-      "D": "antítese",
-      "E": "hipérbole"
-    },
-    "correta": "B",
-    "explicacao": "Uso figurado por semelhança (\"pescar\" atenção) = metáfora."
-  },
-  {
     "id": "PT-REF-004",
     "disciplina": "portugues",
     "area": "coesão",
@@ -439,126 +419,6 @@
     },
     "correta": "C",
     "explicacao": "Verifica/estabelece o canal de comunicação."
-  },
-  {
-    "id": "PT-FIG-011",
-    "disciplina": "portugues",
-    "area": "estilo",
-    "tema": "figuras de linguagem",
-    "habilidade": "metáfora x comparação",
-    "nivel": "facil",
-    "ano": 2025,
-    "fonte": "Autoral",
-    "enunciado": "\"Ele é um leão em campo.\" Trata-se de:",
-    "alternativas": {
-      "A": "comparação",
-      "B": "metáfora",
-      "C": "metonímia",
-      "D": "hipérbole",
-      "E": "antítese"
-    },
-    "correta": "B",
-    "explicacao": "Transfere por semelhança sem conectivo 'como'."
-  },
-  {
-    "id": "PT-FIG-012",
-    "disciplina": "portugues",
-    "area": "estilo",
-    "tema": "figuras de linguagem",
-    "habilidade": "comparação (símile)",
-    "nivel": "facil",
-    "ano": 2025,
-    "fonte": "Autoral",
-    "enunciado": "\"Rápido como um raio\" é exemplo de:",
-    "alternativas": {
-      "A": "metáfora",
-      "B": "comparação",
-      "C": "hipérbole",
-      "D": "paradoxo",
-      "E": "ironia"
-    },
-    "correta": "B",
-    "explicacao": "Há conectivo de comparação (como)."
-  },
-  {
-    "id": "PT-FIG-013",
-    "disciplina": "portugues",
-    "area": "estilo",
-    "tema": "figuras de linguagem",
-    "habilidade": "metonímia (autor/obra)",
-    "nivel": "medio",
-    "ano": 2025,
-    "fonte": "Autoral",
-    "enunciado": "\"Li Machado ontem\" (referindo-se à obra). Ocorre:",
-    "alternativas": {
-      "A": "metáfora",
-      "B": "metonímia",
-      "C": "paranomásia",
-      "D": "antítese",
-      "E": "eufemismo"
-    },
-    "correta": "B",
-    "explicacao": "Autor pela obra: metonímia."
-  },
-  {
-    "id": "PT-FIG-014",
-    "disciplina": "portugues",
-    "area": "estilo",
-    "tema": "figuras de linguagem",
-    "habilidade": "hipérbole (exagero)",
-    "nivel": "facil",
-    "ano": 2025,
-    "fonte": "Autoral",
-    "enunciado": "\"Esperei um século na fila\" é:",
-    "alternativas": {
-      "A": "eufemismo",
-      "B": "hipérbole",
-      "C": "ironia",
-      "D": "metáfora",
-      "E": "antítese"
-    },
-    "correta": "B",
-    "explicacao": "Exagero intencional."
-  },
-  {
-    "id": "PT-FIG-015",
-    "disciplina": "portugues",
-    "area": "estilo",
-    "tema": "figuras de linguagem",
-    "habilidade": "personificação (prosopopeia)",
-    "nivel": "facil",
-    "ano": 2025,
-    "fonte": "Autoral",
-    "enunciado": "\"A cidade acordou cedo\" exemplifica:",
-    "alternativas": {
-      "A": "metáfora",
-      "B": "metonímia",
-      "C": "personificação",
-      "D": "sinestesia",
-      "E": "assonância"
-    },
-    "correta": "C",
-    "explicacao": "Atribui ato humano a algo inanimado."
-  },
-  {
-    "id": "PT-FIG-016",
-    "disciplina": "portugues",
-    "area": "estilo",
-    "tema": "figuras de linguagem",
-    "habilidade": "antítese x paradoxo",
-    "nivel": "medio",
-    "ano": 2025,
-    "fonte": "Autoral",
-    "enunciado": "\"O silêncio ensurdecedor\" é:",
-    "alternativas": {
-      "A": "antítese",
-      "B": "paradoxo (oxímoro)",
-      "C": "metonímia",
-      "D": "hipérbato",
-      "E": "elipse"
-    },
-    "correta": "B",
-    "explicacao": "Contradição aparente em um mesmo referente (oxímoro)."
   },
   {
     "id": "PT-REF-011",
@@ -13099,5 +12959,2005 @@
     },
     "correta": "C",
     "explicacao": "Retificar = corrigir; ratificar = confirmar. Correto: ‘retificou o erro’ ou ‘ratificou a decisão’."
+  },
+  {
+    "id": "PT-FIG-001",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar figura de linguagem",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"O tempo é um ladrão.\" A figura de linguagem predominante é:",
+    "alternativas": {
+      "A": "metáfora",
+      "B": "comparação",
+      "C": "metonímia",
+      "D": "eufemismo",
+      "E": "ironia"
+    },
+    "correta": "A",
+    "explicacao": "Transferência por semelhança (tempo associado a ladrão): metáfora."
+  },
+  {
+    "id": "PT-FIG-002",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar figura de linguagem",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Rápido como um raio.\" A figura de linguagem predominante é:",
+    "alternativas": {
+      "A": "comparação",
+      "B": "metáfora",
+      "C": "hipérbole",
+      "D": "metonímia",
+      "E": "sinédoque"
+    },
+    "correta": "A",
+    "explicacao": "Uso de conectivo \"como\" explicitando a semelhança define comparação."
+  },
+  {
+    "id": "PT-FIG-003",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar figura de linguagem",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Bebi um copo de água.\" A figura predominante é:",
+    "alternativas": {
+      "A": "metonímia",
+      "B": "sinédoque",
+      "C": "pleonasmo (estilístico)",
+      "D": "elipse",
+      "E": "paradoxo (oxímoro)"
+    },
+    "correta": "A",
+    "explicacao": "Continente pelo conteúdo: metonímia."
+  },
+  {
+    "id": "PT-FIG-004",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar figura de linguagem",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"A sala tinha quarenta cabeças atentas.\" A figura predominante é:",
+    "alternativas": {
+      "A": "sinédoque",
+      "B": "metonímia",
+      "C": "metáfora",
+      "D": "personificação",
+      "E": "antítese"
+    },
+    "correta": "A",
+    "explicacao": "Parte pelo todo (cabeças por pessoas) é sinédoque."
+  },
+  {
+    "id": "PT-FIG-005",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar figura de linguagem",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Esperei um século na fila.\" A figura predominante é:",
+    "alternativas": {
+      "A": "hipérbole",
+      "B": "eufemismo",
+      "C": "ironia",
+      "D": "metáfora",
+      "E": "paronomásia"
+    },
+    "correta": "A",
+    "explicacao": "Exagero intencional para ênfase: hipérbole."
+  },
+  {
+    "id": "PT-FIG-006",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar figura de linguagem",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Ele partiu cedo.\" (para se referir à morte). A figura predominante é:",
+    "alternativas": {
+      "A": "eufemismo",
+      "B": "metáfora",
+      "C": "elipse",
+      "D": "antítese",
+      "E": "gradação"
+    },
+    "correta": "A",
+    "explicacao": "Suavização de ideia desagradável (morte): eufemismo."
+  },
+  {
+    "id": "PT-FIG-007",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar figura de linguagem em contexto",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Que maravilha perder a prova!\" (dito com irritação). A figura predominante é:",
+    "alternativas": {
+      "A": "ironia",
+      "B": "hipérbole",
+      "C": "metonímia",
+      "D": "comparação",
+      "E": "paradoxo (oxímoro)"
+    },
+    "correta": "A",
+    "explicacao": "Dizer o contrário com pista de contrariedade: ironia."
+  },
+  {
+    "id": "PT-FIG-008",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "diferenciar figuras de oposição",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Dia e noite, estudo sem parar.\" A figura predominante é:",
+    "alternativas": {
+      "A": "antítese",
+      "B": "paradoxo (oxímoro)",
+      "C": "gradação",
+      "D": "anáfora",
+      "E": "personificação"
+    },
+    "correta": "A",
+    "explicacao": "Oposição de ideias (dia × noite): antítese."
+  },
+  {
+    "id": "PT-FIG-009",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "diferenciar figuras de oposição",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Silêncio ensurdecedor na prova.\" A figura predominante é:",
+    "alternativas": {
+      "A": "paradoxo (oxímoro)",
+      "B": "antítese",
+      "C": "hipérbato",
+      "D": "metáfora",
+      "E": "pleonasmo (estilístico)"
+    },
+    "correta": "A",
+    "explicacao": "Contradição aparente no mesmo referente: paradoxo/oxímoro."
+  },
+  {
+    "id": "PT-FIG-010",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar personificação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"As paredes ouviram o segredo.\" A figura predominante é:",
+    "alternativas": {
+      "A": "personificação",
+      "B": "metáfora",
+      "C": "metonímia",
+      "D": "catacrese",
+      "E": "assíndeto"
+    },
+    "correta": "A",
+    "explicacao": "Atribuição de ação humana a objeto inanimado: personificação."
+  },
+  {
+    "id": "PT-FIG-011",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer gradação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Sussurrou, falou, gritou.\" A figura predominante é:",
+    "alternativas": {
+      "A": "gradação",
+      "B": "polissíndeto",
+      "C": "anáfora",
+      "D": "assíndeto",
+      "E": "zeugma"
+    },
+    "correta": "A",
+    "explicacao": "Sequência crescente de intensidade: gradação (clímax)."
+  },
+  {
+    "id": "PT-FIG-012",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer pleonasmo estilístico",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Vi com meus próprios olhos.\" A figura predominante é:",
+    "alternativas": {
+      "A": "pleonasmo (estilístico)",
+      "B": "eufemismo",
+      "C": "metonímia",
+      "D": "metáfora",
+      "E": "assonância"
+    },
+    "correta": "A",
+    "explicacao": "Redundância expressiva de reforço: pleonasmo estilístico."
+  },
+  {
+    "id": "PT-FIG-013",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer catacrese",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"O pé da mesa quebrou.\" A figura predominante é:",
+    "alternativas": {
+      "A": "catacrese",
+      "B": "metáfora",
+      "C": "sinédoque",
+      "D": "perífrase (antonomásia)",
+      "E": "paronomásia"
+    },
+    "correta": "A",
+    "explicacao": "Metáfora cristalizada no uso: catacrese."
+  },
+  {
+    "id": "PT-FIG-014",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer perífrase",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"A Terra da Garoa acordou cinza.\" A figura predominante é:",
+    "alternativas": {
+      "A": "perífrase (antonomásia)",
+      "B": "metáfora",
+      "C": "metonímia",
+      "D": "eufemismo",
+      "E": "personificação"
+    },
+    "correta": "A",
+    "explicacao": "Expressão descritiva que substitui o nome (São Paulo): perífrase."
+  },
+  {
+    "id": "PT-FIG-015",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer perífrase/antonomásia",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"O Rei do Futebol participou do evento.\" A figura predominante é:",
+    "alternativas": {
+      "A": "perífrase (antonomásia)",
+      "B": "metonímia",
+      "C": "catacrese",
+      "D": "hipérbole",
+      "E": "paradoxo (oxímoro)"
+    },
+    "correta": "A",
+    "explicacao": "Expressão que substitui um nome próprio (Pelé): perífrase/antonomásia."
+  },
+  {
+    "id": "PT-FIG-016",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer elipse",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Na sala, três alunos.\" A figura predominante é:",
+    "alternativas": {
+      "A": "elipse",
+      "B": "zeugma",
+      "C": "assíndeto",
+      "D": "anáfora",
+      "E": "hipérbato"
+    },
+    "correta": "A",
+    "explicacao": "Omissão de termo subentendido (há/existem): elipse."
+  },
+  {
+    "id": "PT-FIG-017",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer zeugma",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Eu li o texto; ela, o poema.\" A figura predominante é:",
+    "alternativas": {
+      "A": "zeugma",
+      "B": "elipse",
+      "C": "assíndeto",
+      "D": "anáfora",
+      "E": "polissíndeto"
+    },
+    "correta": "A",
+    "explicacao": "Omissão de termo já mencionado (leu): zeugma."
+  },
+  {
+    "id": "PT-FIG-018",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer anáfora",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Estude com foco, estude com método, estude todo dia.\" A figura predominante é:",
+    "alternativas": {
+      "A": "anáfora",
+      "B": "gradação",
+      "C": "paronomásia",
+      "D": "assíndeto",
+      "E": "hipérbato"
+    },
+    "correta": "A",
+    "explicacao": "Repetição no início das frases: anáfora."
+  },
+  {
+    "id": "PT-FIG-019",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar hipérbato",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"De grandes feitos, é capaz este povo.\" A figura predominante é:",
+    "alternativas": {
+      "A": "hipérbato",
+      "B": "assíndeto",
+      "C": "metáfora",
+      "D": "antítese",
+      "E": "elipse"
+    },
+    "correta": "A",
+    "explicacao": "Inversão da ordem direta: hipérbato."
+  },
+  {
+    "id": "PT-FIG-020",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar assíndeto/polissíndeto",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Corri, caí, levantei, sorri.\" A figura de construção predominante é:",
+    "alternativas": {
+      "A": "assíndeto",
+      "B": "polissíndeto",
+      "C": "anáfora",
+      "D": "zeugma",
+      "E": "gradação"
+    },
+    "correta": "A",
+    "explicacao": "Ausência de conectivos coordenativos: assíndeto."
+  },
+  {
+    "id": "PT-FIG-021",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar assíndeto/polissíndeto",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"E leu, e escreveu, e revisou, e entregou.\" A figura de construção predominante é:",
+    "alternativas": {
+      "A": "polissíndeto",
+      "B": "assíndeto",
+      "C": "anáfora",
+      "D": "hipérbato",
+      "E": "paradoxo (oxímoro)"
+    },
+    "correta": "A",
+    "explicacao": "Repetição de conectivos: polissíndeto."
+  },
+  {
+    "id": "PT-FIG-022",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar aliteração",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"O rato roeu a roupa do rei de Roma.\" A figura sonora predominante é:",
+    "alternativas": {
+      "A": "aliteração",
+      "B": "assonância",
+      "C": "onomatopeia",
+      "D": "paronomásia",
+      "E": "metáfora"
+    },
+    "correta": "A",
+    "explicacao": "Repetição de consoantes (principalmente /r/): aliteração."
+  },
+  {
+    "id": "PT-FIG-023",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar assonância",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"A casa amarela abrigava a abelha.\" A figura sonora predominante é:",
+    "alternativas": {
+      "A": "assonância",
+      "B": "aliteração",
+      "C": "onomatopeia",
+      "D": "paronomásia",
+      "E": "pleonasmo (estilístico)"
+    },
+    "correta": "A",
+    "explicacao": "Repetição de vogal /a/: assonância."
+  },
+  {
+    "id": "PT-FIG-024",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar onomatopeia",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Tic-tac: o tempo está passando.\" A figura sonora predominante é:",
+    "alternativas": {
+      "A": "onomatopeia",
+      "B": "assonância",
+      "C": "aliteração",
+      "D": "paronomásia",
+      "E": "metonímia"
+    },
+    "correta": "A",
+    "explicacao": "Imitação de som real: onomatopeia."
+  },
+  {
+    "id": "PT-FIG-025",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar paronomásia",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Tem preço a prece?\" A figura sonora predominante é:",
+    "alternativas": {
+      "A": "paronomásia",
+      "B": "assonância",
+      "C": "aliteração",
+      "D": "metáfora",
+      "E": "antítese"
+    },
+    "correta": "A",
+    "explicacao": "Jogo com palavras de som parecido e sentido diferente: paronomásia."
+  },
+  {
+    "id": "PT-FIG-026",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "aplicar leitura de metáfora visual",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Na charge, um celular aparece acorrentado ao pulso do usuário. A figura implícita é:",
+    "alternativas": {
+      "A": "metáfora",
+      "B": "metonímia",
+      "C": "personificação",
+      "D": "hipérbole",
+      "E": "antítese"
+    },
+    "correta": "A",
+    "explicacao": "Imagem representa dependência como prisão: metáfora (visual)."
+  },
+  {
+    "id": "PT-FIG-027",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "diferenciar hipérbole e metáfora",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Morri de rir com a piada.\" A figura predominante é:",
+    "alternativas": {
+      "A": "hipérbole",
+      "B": "metáfora",
+      "C": "eufemismo",
+      "D": "ironia",
+      "E": "gradação"
+    },
+    "correta": "A",
+    "explicacao": "Exagero intencional (não morreu de fato): hipérbole."
+  },
+  {
+    "id": "PT-FIG-028",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "diferenciar metonímia e sinédoque",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Comprei um Nescau para o lanche.\" A figura predominante é:",
+    "alternativas": {
+      "A": "metonímia",
+      "B": "sinédoque",
+      "C": "metáfora",
+      "D": "catacrese",
+      "E": "perífrase (antonomásia)"
+    },
+    "correta": "A",
+    "explicacao": "Marca pelo produto: metonímia."
+  },
+  {
+    "id": "PT-FIG-029",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "diferenciar antítese e paradoxo",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Doce amargura da despedida.\" A figura predominante é:",
+    "alternativas": {
+      "A": "paradoxo (oxímoro)",
+      "B": "antítese",
+      "C": "metáfora",
+      "D": "eufemismo",
+      "E": "personificação"
+    },
+    "correta": "A",
+    "explicacao": "Termos contraditórios fundidos no mesmo referente: oxímoro."
+  },
+  {
+    "id": "PT-FIG-030",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer antítese",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Pobre e rico, todos aguardavam a decisão.\" A figura predominante é:",
+    "alternativas": {
+      "A": "antítese",
+      "B": "paradoxo (oxímoro)",
+      "C": "metonímia",
+      "D": "gradação",
+      "E": "anáfora"
+    },
+    "correta": "A",
+    "explicacao": "Oposição de ideias (pobre × rico): antítese."
+  },
+  {
+    "id": "PT-FIG-031",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar metáfora",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Sua voz é música para meus ouvidos.\" A figura predominante é:",
+    "alternativas": {
+      "A": "metáfora",
+      "B": "comparação",
+      "C": "eufemismo",
+      "D": "metonímia",
+      "E": "paronomásia"
+    },
+    "correta": "A",
+    "explicacao": "Identificação por semelhança sem conectivo: metáfora."
+  },
+  {
+    "id": "PT-FIG-032",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "aplicar leitura contextual",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em uma tirinha, o personagem olha o boletim e diz: \"Maravilha!\" com expressão de choro. A figura é:",
+    "alternativas": {
+      "A": "ironia",
+      "B": "hipérbole",
+      "C": "metáfora",
+      "D": "antítese",
+      "E": "assíndeto"
+    },
+    "correta": "A",
+    "explicacao": "Contraste entre a palavra e a situação (nota ruim): ironia."
+  },
+  {
+    "id": "PT-FIG-033",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer personificação",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"O relógio correu naquele dia.\" A figura predominante é:",
+    "alternativas": {
+      "A": "personificação",
+      "B": "metáfora",
+      "C": "hipérbole",
+      "D": "catacrese",
+      "E": "gradação"
+    },
+    "correta": "A",
+    "explicacao": "Ação humana (correr) atribuída a objeto: personificação."
+  },
+  {
+    "id": "PT-FIG-034",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "diferenciar comparação e metáfora",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Ele é valente como um leão.\" A figura predominante é:",
+    "alternativas": {
+      "A": "comparação",
+      "B": "metáfora",
+      "C": "metonímia",
+      "D": "hipérbole",
+      "E": "eufemismo"
+    },
+    "correta": "A",
+    "explicacao": "Semelhança com conectivo \"como\": comparação."
+  },
+  {
+    "id": "PT-FIG-035",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "diferenciar metonímia e sinédoque",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"A sala aplaudiu de pé.\" A figura predominante é:",
+    "alternativas": {
+      "A": "metonímia",
+      "B": "sinédoque",
+      "C": "metáfora",
+      "D": "antítese",
+      "E": "paradoxo (oxímoro)"
+    },
+    "correta": "A",
+    "explicacao": "Lugar pelas pessoas que estão nele: metonímia."
+  },
+  {
+    "id": "PT-FIG-036",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "aplicar no reconhecimento de som",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Bate baixo o breve bongo\". A figura sonora predominante é:",
+    "alternativas": {
+      "A": "aliteração",
+      "B": "assonância",
+      "C": "onomatopeia",
+      "D": "paronomásia",
+      "E": "anáfora"
+    },
+    "correta": "A",
+    "explicacao": "Repetição de /b/: aliteração."
+  },
+  {
+    "id": "PT-FIG-037",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "aplicar no reconhecimento de som",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"O ouro do tolo consola o sono do povo.\" A figura sonora predominante é:",
+    "alternativas": {
+      "A": "assonância",
+      "B": "aliteração",
+      "C": "paronomásia",
+      "D": "onomatopeia",
+      "E": "pleonasmo (estilístico)"
+    },
+    "correta": "A",
+    "explicacao": "Repetição da vogal /o/: assonância."
+  },
+  {
+    "id": "PT-FIG-038",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "diferenciar ironia e hipérbole",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Após tirar nota baixa, o aluno comenta: \"Arrasei!\" A figura é:",
+    "alternativas": {
+      "A": "ironia",
+      "B": "hipérbole",
+      "C": "metáfora",
+      "D": "metonímia",
+      "E": "eufemismo"
+    },
+    "correta": "A",
+    "explicacao": "Contraste entre a fala e o contexto indica ironia."
+  },
+  {
+    "id": "PT-FIG-039",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer gradação decrescente",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Gritou, falou, sussurrou.\" A figura predominante é:",
+    "alternativas": {
+      "A": "gradação",
+      "B": "assíndeto",
+      "C": "polissíndeto",
+      "D": "anáfora",
+      "E": "hipérbato"
+    },
+    "correta": "A",
+    "explicacao": "Sequência de intensidade (agora decrescente): gradação (anticlímax)."
+  },
+  {
+    "id": "PT-FIG-040",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "diferenciar metonímia e metáfora",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Bebi um Bordeaux no jantar.\" A figura predominante é:",
+    "alternativas": {
+      "A": "metonímia",
+      "B": "metáfora",
+      "C": "sinédoque",
+      "D": "perífrase (antonomásia)",
+      "E": "catacrese"
+    },
+    "correta": "A",
+    "explicacao": "Lugar de origem pelo produto (vinho): metonímia."
+  },
+  {
+    "id": "PT-FIG-041",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar catacrese",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"O dente de alho perfumou o molho.\" A figura predominante é:",
+    "alternativas": {
+      "A": "catacrese",
+      "B": "metáfora",
+      "C": "metonímia",
+      "D": "sinédoque",
+      "E": "perífrase (antonomásia)"
+    },
+    "correta": "A",
+    "explicacao": "Nome por analogia já cristalizada (dente): catacrese."
+  },
+  {
+    "id": "PT-FIG-042",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer anáfora",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Sem pão, sem teto, sem paz.\" A figura predominante é:",
+    "alternativas": {
+      "A": "anáfora",
+      "B": "assíndeto",
+      "C": "polissíndeto",
+      "D": "gradação",
+      "E": "hipérbato"
+    },
+    "correta": "A",
+    "explicacao": "Repetição do termo inicial (sem): anáfora."
+  },
+  {
+    "id": "PT-FIG-043",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "diferenciar pleonasmo e vício",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Subir para cima é...\" No uso literário com ênfase, seria:",
+    "alternativas": {
+      "A": "pleonasmo (estilístico)",
+      "B": "hipérbole",
+      "C": "eufemismo",
+      "D": "metonímia",
+      "E": "paradoxo (oxímoro)"
+    },
+    "correta": "A",
+    "explicacao": "Como recurso expressivo, a redundância pode ser pleonasmo estilístico (embora comum como vício)."
+  },
+  {
+    "id": "PT-FIG-044",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "aplicar leitura visual",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em cartaz, um cérebro com halteres sugere: \"Treine sua mente\". A figura implícita é:",
+    "alternativas": {
+      "A": "metáfora",
+      "B": "personificação",
+      "C": "ironía",
+      "D": "metonímia",
+      "E": "comparação"
+    },
+    "correta": "A",
+    "explicacao": "Associação por semelhança (treino físico = estudo): metáfora."
+  },
+  {
+    "id": "PT-FIG-045",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar eufemismo",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Fulano não disse a verdade.\" (para 'mentiu') A figura é:",
+    "alternativas": {
+      "A": "eufemismo",
+      "B": "ironia",
+      "C": "metáfora",
+      "D": "paradoxo (oxímoro)",
+      "E": "metonímia"
+    },
+    "correta": "A",
+    "explicacao": "Suaviza 'mentiu' para 'não disse a verdade': eufemismo."
+  },
+  {
+    "id": "PT-FIG-046",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar metonímia (autor pela obra)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Estou lendo Machado este mês.\" A figura é:",
+    "alternativas": {
+      "A": "metonímia",
+      "B": "metáfora",
+      "C": "sinédoque",
+      "D": "perífrase (antonomásia)",
+      "E": "catacrese"
+    },
+    "correta": "A",
+    "explicacao": "Autor pela obra: metonímia."
+  },
+  {
+    "id": "PT-FIG-047",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer hipérbole",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Tenho mil exercícios para fazer hoje.\" A figura é:",
+    "alternativas": {
+      "A": "hipérbole",
+      "B": "metáfora",
+      "C": "comparação",
+      "D": "ironia",
+      "E": "antítese"
+    },
+    "correta": "A",
+    "explicacao": "Exagero numérico: hipérbole."
+  },
+  {
+    "id": "PT-FIG-048",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer hipérbato",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"De livros, gosto eu, nas noites de frio.\" A figura é:",
+    "alternativas": {
+      "A": "hipérbato",
+      "B": "elipse",
+      "C": "anáfora",
+      "D": "polissíndeto",
+      "E": "gradação"
+    },
+    "correta": "A",
+    "explicacao": "Inversão da ordem canônica: hipérbato."
+  },
+  {
+    "id": "PT-FIG-049",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "aplicar reconhecimento em humor",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Em meme: \"Adoro quando a internet cai na aula online\" (com cara de tédio). A figura é:",
+    "alternativas": {
+      "A": "ironia",
+      "B": "hipérbole",
+      "C": "metáfora",
+      "D": "metonímia",
+      "E": "pleonasmo (estilístico)"
+    },
+    "correta": "A",
+    "explicacao": "Enunciado elogioso, mas contexto negativo: ironia."
+  },
+  {
+    "id": "PT-FIG-050",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "aplicar leitura de oposição",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Entre risos e lágrimas, seguimos.\" A figura é:",
+    "alternativas": {
+      "A": "antítese",
+      "B": "paradoxo (oxímoro)",
+      "C": "metáfora",
+      "D": "eufemismo",
+      "E": "personificação"
+    },
+    "correta": "A",
+    "explicacao": "Oposição de ideias (riso × lágrimas): antítese."
+  },
+  {
+    "id": "PT-FIG-051",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar metáfora",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Minha mente é um furacão.\" A figura predominante é:",
+    "alternativas": {
+      "A": "metáfora",
+      "B": "comparação",
+      "C": "metonímia",
+      "D": "eufemismo",
+      "E": "hipérbole"
+    },
+    "correta": "A",
+    "explicacao": "Identificação por semelhança sem conectivo: metáfora."
+  },
+  {
+    "id": "PT-FIG-052",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "diferenciar metáfora e comparação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Firme como uma rocha.\" A figura predominante é:",
+    "alternativas": {
+      "A": "comparação",
+      "B": "metáfora",
+      "C": "sinédoque",
+      "D": "metonímia",
+      "E": "hipérbato"
+    },
+    "correta": "A",
+    "explicacao": "Uso de conectivo de semelhança (como): comparação."
+  },
+  {
+    "id": "PT-FIG-053",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar metonímia (autor pela obra)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Assisti a um Spielberg ontem.\" A figura predominante é:",
+    "alternativas": {
+      "A": "metonímia",
+      "B": "metáfora",
+      "C": "perífrase (antonomásia)",
+      "D": "sinédoque",
+      "E": "catacrese"
+    },
+    "correta": "A",
+    "explicacao": "Autor pela obra: metonímia."
+  },
+  {
+    "id": "PT-FIG-054",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "diferenciar metonímia e sinédoque",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Precisamos de mais braços no projeto.\" A figura predominante é:",
+    "alternativas": {
+      "A": "sinédoque",
+      "B": "metonímia",
+      "C": "metáfora",
+      "D": "pleonasmo (estilístico)",
+      "E": "eufemismo"
+    },
+    "correta": "A",
+    "explicacao": "Parte (braços) pelo todo (trabalhadores): sinédoque."
+  },
+  {
+    "id": "PT-FIG-055",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar hipérbole",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Chorei litros.\" A figura predominante é:",
+    "alternativas": {
+      "A": "hipérbole",
+      "B": "metáfora",
+      "C": "eufemismo",
+      "D": "ironia",
+      "E": "comparação"
+    },
+    "correta": "A",
+    "explicacao": "Exagero expressivo: hipérbole."
+  },
+  {
+    "id": "PT-FIG-056",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar eufemismo",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Ele faltou com a verdade.\" A figura predominante é:",
+    "alternativas": {
+      "A": "eufemismo",
+      "B": "pleonasmo (estilístico)",
+      "C": "metáfora",
+      "D": "antítese",
+      "E": "ironia"
+    },
+    "correta": "A",
+    "explicacao": "Suaviza 'mentiu' com expressão mais branda: eufemismo."
+  },
+  {
+    "id": "PT-FIG-057",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer ironia em contexto",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Ao chegar 1h atrasado, o colega ouve: \"Parabéns pela pontualidade!\" A figura é:",
+    "alternativas": {
+      "A": "ironia",
+      "B": "hipérbole",
+      "C": "eufemismo",
+      "D": "metáfora",
+      "E": "comparação"
+    },
+    "correta": "A",
+    "explicacao": "Louvor invertido com pista de contrariedade: ironia."
+  },
+  {
+    "id": "PT-FIG-058",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer antítese",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Luz e sombra disputavam a sala.\" A figura predominante é:",
+    "alternativas": {
+      "A": "antítese",
+      "B": "paradoxo (oxímoro)",
+      "C": "hipérbato",
+      "D": "metonímia",
+      "E": "personificação"
+    },
+    "correta": "A",
+    "explicacao": "Oposição de ideias (luz × sombra): antítese."
+  },
+  {
+    "id": "PT-FIG-059",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "diferenciar antítese e paradoxo",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Doce prisão do trabalho remoto.\" A figura predominante é:",
+    "alternativas": {
+      "A": "paradoxo (oxímoro)",
+      "B": "antítese",
+      "C": "metáfora",
+      "D": "eufemismo",
+      "E": "hipérbole"
+    },
+    "correta": "A",
+    "explicacao": "Termos contraditórios no mesmo referente (doce × prisão): oxímoro."
+  },
+  {
+    "id": "PT-FIG-060",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar personificação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"A cidade acordou cedo.\" A figura predominante é:",
+    "alternativas": {
+      "A": "personificação",
+      "B": "metonímia",
+      "C": "metáfora",
+      "D": "perífrase (antonomásia)",
+      "E": "sinédoque"
+    },
+    "correta": "A",
+    "explicacao": "Atribui ação humana a um lugar: personificação."
+  },
+  {
+    "id": "PT-FIG-061",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer gradação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Pequeno, médio, grande.\" A figura predominante é:",
+    "alternativas": {
+      "A": "gradação",
+      "B": "polissíndeto",
+      "C": "assíndeto",
+      "D": "anáfora",
+      "E": "pleonasmo (estilístico)"
+    },
+    "correta": "A",
+    "explicacao": "Sequência crescente de intensidade: gradação (clímax)."
+  },
+  {
+    "id": "PT-FIG-062",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer pleonasmo estilístico",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Saiu para fora correndo.\" A figura predominante é:",
+    "alternativas": {
+      "A": "pleonasmo (estilístico)",
+      "B": "eufemismo",
+      "C": "hipérbato",
+      "D": "metáfora",
+      "E": "anáfora"
+    },
+    "correta": "A",
+    "explicacao": "Redundância expressiva (para fora) reforça a ideia: pleonasmo estilístico."
+  },
+  {
+    "id": "PT-FIG-063",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer catacrese",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"A asa da xícara quebrou.\" A figura predominante é:",
+    "alternativas": {
+      "A": "catacrese",
+      "B": "metáfora",
+      "C": "metonímia",
+      "D": "sinédoque",
+      "E": "perífrase (antonomásia)"
+    },
+    "correta": "A",
+    "explicacao": "Metáfora cristalizada no uso (asa da xícara): catacrese."
+  },
+  {
+    "id": "PT-FIG-064",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer perífrase/antonomásia",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"A Cidade Maravilhosa brilhou no réveillon.\" A figura predominante é:",
+    "alternativas": {
+      "A": "perífrase (antonomásia)",
+      "B": "metonímia",
+      "C": "catacrese",
+      "D": "hipérbole",
+      "E": "elipse"
+    },
+    "correta": "A",
+    "explicacao": "Expressão descritiva substitui o nome (Rio de Janeiro): perífrase."
+  },
+  {
+    "id": "PT-FIG-065",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer elipse",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"No pátio, apenas risos.\" A figura predominante é:",
+    "alternativas": {
+      "A": "elipse",
+      "B": "hipérbato",
+      "C": "assíndeto",
+      "D": "anáfora",
+      "E": "zeugma"
+    },
+    "correta": "A",
+    "explicacao": "Verbo subentendido (havia): elipse."
+  },
+  {
+    "id": "PT-FIG-066",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer zeugma",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"O professor corrigiu o texto; a aluna, o esboço.\" A figura predominante é:",
+    "alternativas": {
+      "A": "zeugma",
+      "B": "elipse",
+      "C": "anáfora",
+      "D": "polissíndeto",
+      "E": "assíndeto"
+    },
+    "correta": "A",
+    "explicacao": "Omissão de termo já citado (corrigiu): zeugma."
+  },
+  {
+    "id": "PT-FIG-067",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer anáfora",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Sem medo, sem pausa, sem desculpa.\" A figura predominante é:",
+    "alternativas": {
+      "A": "anáfora",
+      "B": "gradação",
+      "C": "assíndeto",
+      "D": "hipérbato",
+      "E": "pleonasmo (estilístico)"
+    },
+    "correta": "A",
+    "explicacao": "Repetição do termo inicial (sem): anáfora."
+  },
+  {
+    "id": "PT-FIG-068",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar hipérbato",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Do passado, pouco disse o autor.\" A figura predominante é:",
+    "alternativas": {
+      "A": "hipérbato",
+      "B": "elipse",
+      "C": "metáfora",
+      "D": "antítese",
+      "E": "ironia"
+    },
+    "correta": "A",
+    "explicacao": "Inversão da ordem direta: hipérbato."
+  },
+  {
+    "id": "PT-FIG-069",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar assíndeto",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Cheguei, vi, venci.\" A figura de construção predominante é:",
+    "alternativas": {
+      "A": "assíndeto",
+      "B": "polissíndeto",
+      "C": "gradação",
+      "D": "anáfora",
+      "E": "zeugma"
+    },
+    "correta": "A",
+    "explicacao": "Ausência de conectivos coordenativos: assíndeto."
+  },
+  {
+    "id": "PT-FIG-070",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar polissíndeto",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"E estudei, e revisei, e descansei.\" A figura de construção predominante é:",
+    "alternativas": {
+      "A": "polissíndeto",
+      "B": "assíndeto",
+      "C": "anáfora",
+      "D": "gradação",
+      "E": "catacrese"
+    },
+    "correta": "A",
+    "explicacao": "Repetição do conectivo 'e': polissíndeto."
+  },
+  {
+    "id": "PT-FIG-071",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar aliteração",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Velhos ventos varreram vales.\" A figura sonora predominante é:",
+    "alternativas": {
+      "A": "aliteração",
+      "B": "assonância",
+      "C": "onomatopeia",
+      "D": "paronomásia",
+      "E": "metáfora"
+    },
+    "correta": "A",
+    "explicacao": "Repetição de consoantes (v): aliteração."
+  },
+  {
+    "id": "PT-FIG-072",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar assonância",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"A alma ama a calma da casa.\" A figura sonora predominante é:",
+    "alternativas": {
+      "A": "assonância",
+      "B": "aliteração",
+      "C": "onomatopeia",
+      "D": "paronomásia",
+      "E": "pleonasmo (estilístico)"
+    },
+    "correta": "A",
+    "explicacao": "Repetição da vogal /a/: assonância."
+  },
+  {
+    "id": "PT-FIG-073",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar onomatopeia",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Tsc, tsc... que bagunça!\" A figura sonora predominante é:",
+    "alternativas": {
+      "A": "onomatopeia",
+      "B": "aliteração",
+      "C": "assonância",
+      "D": "paronomásia",
+      "E": "metáfora"
+    },
+    "correta": "A",
+    "explicacao": "Imitação de som (reprovação/chiado): onomatopeia."
+  },
+  {
+    "id": "PT-FIG-074",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar paronomásia",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Conserto marcado após o concerto.\" A figura sonora predominante é:",
+    "alternativas": {
+      "A": "paronomásia",
+      "B": "assonância",
+      "C": "aliteração",
+      "D": "metáfora",
+      "E": "ironia"
+    },
+    "correta": "A",
+    "explicacao": "Palavras de som parecido e sentido distinto: paronomásia."
+  },
+  {
+    "id": "PT-FIG-075",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar metáfora",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Ele é uma rocha.\" A figura predominante é:",
+    "alternativas": {
+      "A": "metáfora",
+      "B": "comparação",
+      "C": "eufemismo",
+      "D": "metonímia",
+      "E": "personificação"
+    },
+    "correta": "A",
+    "explicacao": "Equivalência por semelhança sem conectivo: metáfora."
+  },
+  {
+    "id": "PT-FIG-076",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar metonímia (país pelo povo)",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"O Brasil chorou a derrota.\" A figura predominante é:",
+    "alternativas": {
+      "A": "metonímia",
+      "B": "sinédoque",
+      "C": "metáfora",
+      "D": "perífrase (antonomásia)",
+      "E": "catacrese"
+    },
+    "correta": "A",
+    "explicacao": "País pelo conjunto de seus habitantes: metonímia."
+  },
+  {
+    "id": "PT-FIG-077",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "diferenciar metonímia e sinédoque",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Temos quatro bocas para alimentar.\" A figura predominante é:",
+    "alternativas": {
+      "A": "sinédoque",
+      "B": "metonímia",
+      "C": "metáfora",
+      "D": "eufemismo",
+      "E": "ironia"
+    },
+    "correta": "A",
+    "explicacao": "Parte (bocas) pelo todo (pessoas): sinédoque."
+  },
+  {
+    "id": "PT-FIG-078",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar eufemismo",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Foi-se desta para melhor.\" A figura predominante é:",
+    "alternativas": {
+      "A": "eufemismo",
+      "B": "hipérbole",
+      "C": "pleonasmo (estilístico)",
+      "D": "perífrase (antonomásia)",
+      "E": "metáfora"
+    },
+    "correta": "A",
+    "explicacao": "Suavização de 'morreu': eufemismo."
+  },
+  {
+    "id": "PT-FIG-079",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "interpretar ironia em discurso",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Após perder o alarme e se atrasar, alguém comenta: \"Excelente ideia desligar o alarme!\" A figura é:",
+    "alternativas": {
+      "A": "ironia",
+      "B": "hipérbole",
+      "C": "eufemismo",
+      "D": "metonímia",
+      "E": "comparação"
+    },
+    "correta": "A",
+    "explicacao": "Elogio invertido com crítica implícita: ironia."
+  },
+  {
+    "id": "PT-FIG-080",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "diferenciar antítese e outras figuras",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Entre o sim e o não, ficou o talvez.\" A figura predominante é:",
+    "alternativas": {
+      "A": "antítese",
+      "B": "paradoxo (oxímoro)",
+      "C": "gradação",
+      "D": "pleonasmo (estilístico)",
+      "E": "metáfora"
+    },
+    "correta": "A",
+    "explicacao": "Oposição direta (sim × não) no mesmo contexto: antítese."
+  },
+  {
+    "id": "PT-FIG-081",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer paradoxo/oxímoro",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Doce veneno do sucesso.\" A figura predominante é:",
+    "alternativas": {
+      "A": "paradoxo (oxímoro)",
+      "B": "ironia",
+      "C": "metonímia",
+      "D": "sinédoque",
+      "E": "hipérbole"
+    },
+    "correta": "A",
+    "explicacao": "União de termos contraditórios (doce × veneno): oxímoro."
+  },
+  {
+    "id": "PT-FIG-082",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar personificação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"O vento sussurra segredos.\" A figura predominante é:",
+    "alternativas": {
+      "A": "personificação",
+      "B": "metáfora",
+      "C": "metonímia",
+      "D": "catacrese",
+      "E": "onomatopeia"
+    },
+    "correta": "A",
+    "explicacao": "Ação humana (sussurrar) atribuída ao vento: personificação."
+  },
+  {
+    "id": "PT-FIG-083",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer gradação",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Andou, correu, voou.\" A figura predominante é:",
+    "alternativas": {
+      "A": "gradação",
+      "B": "assíndeto",
+      "C": "polissíndeto",
+      "D": "hipérbato",
+      "E": "anáfora"
+    },
+    "correta": "A",
+    "explicacao": "Sequência ascendente de velocidade: gradação (clímax)."
+  },
+  {
+    "id": "PT-FIG-084",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer pleonasmo estilístico",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Vi com estes meus olhos.\" A figura predominante é:",
+    "alternativas": {
+      "A": "pleonasmo (estilístico)",
+      "B": "eufemismo",
+      "C": "metáfora",
+      "D": "antítese",
+      "E": "perífrase (antonomásia)"
+    },
+    "correta": "A",
+    "explicacao": "Redundância de reforço expressivo: pleonasmo estilístico."
+  },
+  {
+    "id": "PT-FIG-085",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer catacrese",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"O braço do sofá rasgou.\" A figura predominante é:",
+    "alternativas": {
+      "A": "catacrese",
+      "B": "metonímia",
+      "C": "metáfora",
+      "D": "sinédoque",
+      "E": "elipse"
+    },
+    "correta": "A",
+    "explicacao": "Termo por analogia cristalizado (braço do sofá): catacrese."
+  },
+  {
+    "id": "PT-FIG-086",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer perífrase/antonomásia",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"O Pai da Aviação é orgulho nacional.\" A figura predominante é:",
+    "alternativas": {
+      "A": "perífrase (antonomásia)",
+      "B": "catacrese",
+      "C": "metonímia",
+      "D": "metáfora",
+      "E": "eufemismo"
+    },
+    "correta": "A",
+    "explicacao": "Expressão que substitui Santos Dumont: perífrase/antonomásia."
+  },
+  {
+    "id": "PT-FIG-087",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer elipse",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"No fim da rua, só silêncio.\" A figura predominante é:",
+    "alternativas": {
+      "A": "elipse",
+      "B": "zeugma",
+      "C": "hipérbato",
+      "D": "assíndeto",
+      "E": "polissíndeto"
+    },
+    "correta": "A",
+    "explicacao": "Omissão do verbo (havia): elipse."
+  },
+  {
+    "id": "PT-FIG-088",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "diferenciar elipse e zeugma",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Compramos cadernos; você, canetas.\" A figura predominante é:",
+    "alternativas": {
+      "A": "zeugma",
+      "B": "elipse",
+      "C": "assíndeto",
+      "D": "polissíndeto",
+      "E": "anáfora"
+    },
+    "correta": "A",
+    "explicacao": "Omissão de 'comprou' já inferido do primeiro membro: zeugma."
+  },
+  {
+    "id": "PT-FIG-089",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "reconhecer anáfora",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"É preciso foco, é preciso método, é preciso constância.\" A figura predominante é:",
+    "alternativas": {
+      "A": "anáfora",
+      "B": "aliteração",
+      "C": "assonância",
+      "D": "gradação",
+      "E": "pleonasmo (estilístico)"
+    },
+    "correta": "A",
+    "explicacao": "Repetição do segmento inicial: anáfora."
+  },
+  {
+    "id": "PT-FIG-090",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar hipérbato",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Da paz fugiu-lhe o sonho.\" A figura predominante é:",
+    "alternativas": {
+      "A": "hipérbato",
+      "B": "elipse",
+      "C": "metáfora",
+      "D": "personificação",
+      "E": "antítese"
+    },
+    "correta": "A",
+    "explicacao": "Inversão da ordem usual dos termos: hipérbato."
+  },
+  {
+    "id": "PT-FIG-091",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar assíndeto",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Leu, marcou, revisou, entregou.\" A figura de construção predominante é:",
+    "alternativas": {
+      "A": "assíndeto",
+      "B": "polissíndeto",
+      "C": "gradação",
+      "D": "anáfora",
+      "E": "zeugma"
+    },
+    "correta": "A",
+    "explicacao": "Enumeração sem conectivos: assíndeto."
+  },
+  {
+    "id": "PT-FIG-092",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar polissíndeto",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"E canta, e ri, e dança, e brinca.\" A figura de construção predominante é:",
+    "alternativas": {
+      "A": "polissíndeto",
+      "B": "assíndeto",
+      "C": "anáfora",
+      "D": "hipérbato",
+      "E": "gradação"
+    },
+    "correta": "A",
+    "explicacao": "Repetição do conectivo coordenativo: polissíndeto."
+  },
+  {
+    "id": "PT-FIG-093",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar aliteração",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Brisa breve beija a beira do lago.\" A figura sonora predominante é:",
+    "alternativas": {
+      "A": "aliteração",
+      "B": "assonância",
+      "C": "onomatopeia",
+      "D": "paronomásia",
+      "E": "metáfora"
+    },
+    "correta": "A",
+    "explicacao": "Repetição do som /b/: aliteração."
+  },
+  {
+    "id": "PT-FIG-094",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar paronomásia com palavras parônimas",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"É preciso ratificar, não retificar, o acordo.\" A figura sonora predominante é:",
+    "alternativas": {
+      "A": "paronomásia",
+      "B": "assonância",
+      "C": "aliteração",
+      "D": "metonímia",
+      "E": "ironia"
+    },
+    "correta": "A",
+    "explicacao": "Parônimos (ratificar/retificar) em jogo de palavras: paronomásia."
+  },
+  {
+    "id": "PT-FIG-095",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar assonância",
+    "nivel": "dificil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Vi invisíveis fios finíssimos.\" A figura sonora predominante é:",
+    "alternativas": {
+      "A": "assonância",
+      "B": "aliteração",
+      "C": "onomatopeia",
+      "D": "paronomásia",
+      "E": "pleonasmo (estilístico)"
+    },
+    "correta": "A",
+    "explicacao": "Repetição destacada da vogal /i/: assonância."
+  },
+  {
+    "id": "PT-FIG-096",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "identificar onomatopeia",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Bang!\" e o portão fechou. A figura sonora predominante é:",
+    "alternativas": {
+      "A": "onomatopeia",
+      "B": "aliteração",
+      "C": "assonância",
+      "D": "paronomásia",
+      "E": "metáfora"
+    },
+    "correta": "A",
+    "explicacao": "Imitação de som de estrondo: onomatopeia."
+  },
+  {
+    "id": "PT-FIG-097",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "aplicar leitura de eufemismo",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Ele está enfrentando uma doença delicada.\" (por 'está gravemente doente') A figura é:",
+    "alternativas": {
+      "A": "eufemismo",
+      "B": "ironia",
+      "C": "hipérbole",
+      "D": "metonímia",
+      "E": "perífrase (antonomásia)"
+    },
+    "correta": "A",
+    "explicacao": "Suavização do conteúdo negativo: eufemismo."
+  },
+  {
+    "id": "PT-FIG-098",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "interpretar ironia em contexto",
+    "nivel": "medio",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "Após perder o arquivo do colega, alguém diz: \"Amei quando você apagou meu arquivo.\" A figura é:",
+    "alternativas": {
+      "A": "ironia",
+      "B": "hipérbole",
+      "C": "eufemismo",
+      "D": "metáfora",
+      "E": "sinédoque"
+    },
+    "correta": "A",
+    "explicacao": "Elogio/afeição usados ao contrário da intenção real: ironia."
+  },
+  {
+    "id": "PT-FIG-099",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "aplicar metonímia (continente pelo conteúdo)",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"Comi um prato de feijoada.\" A figura predominante é:",
+    "alternativas": {
+      "A": "metonímia",
+      "B": "sinédoque",
+      "C": "metáfora",
+      "D": "catacrese",
+      "E": "pleonasmo (estilístico)"
+    },
+    "correta": "A",
+    "explicacao": "Continente (prato) pelo conteúdo (comida): metonímia."
+  },
+  {
+    "id": "PT-FIG-100",
+    "disciplina": "portugues",
+    "area": "linguagem",
+    "tema": "figuras de linguagem",
+    "habilidade": "aplicar personificação",
+    "nivel": "facil",
+    "ano": 2025,
+    "fonte": "Autoral",
+    "enunciado": "\"A noite abraçou a cidade.\" A figura predominante é:",
+    "alternativas": {
+      "A": "personificação",
+      "B": "metáfora",
+      "C": "metonímia",
+      "D": "antítese",
+      "E": "eufemismo"
+    },
+    "correta": "A",
+    "explicacao": "Atribuição de ação humana a um elemento abstrato: personificação."
   }
 ]

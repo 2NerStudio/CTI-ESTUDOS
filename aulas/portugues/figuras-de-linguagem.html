@@ -463,11 +463,110 @@
               </p>
             </section>
 
-            <section id="questoes-reais" class="section-block">
-              <h2>Questões de provas</h2>
-              <p>Em breve, links para questões do CTI e similares quando o banco estiver pronto.</p>
-            </section>
+            <section id="pratique" class="section-block">
+              <h2>Pratique este tema</h2>
+              <div id="lesson-quiz-figuras"></div>
+              <div class="btn-row" style="margin-top:.5rem;">
+                <a class="btn btn--ghost" href="/simulados/adaptativo.html?disc=portugues&tema=Figuras%20de%20linguagem&add=20&start=1" target="_blank" rel="noopener">
+                  Adaptativo: +20 deste tema e começar →
+                </a>
+              </div>
+              <!-- Script de prática integrado ao motor CTIQuiz (se presente) -->
+              <script>
+                document.addEventListener('DOMContentLoaded', () => {
+                  const root = document.querySelector('#lesson-quiz-figuras');
+                  if (!root) return;
+                  // UI base
+                  root.innerHTML = `
+                    <div class="card">
+                      <div style="display:flex; gap:.5rem; align-items:center; flex-wrap:wrap;">
+                        <strong>Treine “Figuras de linguagem”</strong>
+                        <span class="pill">Português</span>
+                        <div class="btn-row" style="margin-left:auto;">
+                          <button class="btn btn--primary" id="les-btn-10" type="button">10 questões</button>
+                          <button class="btn btn--outline" id="les-btn-20" type="button">20 questões</button>
+                        </div>
+                      </div>
+                      <div id="les-out" style="margin-top:.75rem;"></div>
+                    </div>
+                  `;
+                  const $out = root.querySelector('#les-out');
 
+                  async function start(limit) {
+                    try {
+                      const res = await fetch('/dados/questoes/portugues.json', { credentials: 'same-origin', cache: 'no-store' });
+                      if (!res.ok) throw new Error('Falha ao carregar questões.');
+                      const data = await res.json();
+                      const tema = 'Figuras de linguagem';
+                      const filtered = data.filter(q => (q.tema || '').toLowerCase() === tema.toLowerCase());
+                      if (!filtered.length) {
+                        $out.innerHTML = `<div class="card card--soft">Ainda não há questões cadastradas para este tema.</div>`;
+                        return;
+                      }
+                      const subset = filtered.sort(() => Math.random() - 0.5).slice(0, limit || 10);
+                      if (!window.CTIQuiz) {
+                        $out.innerHTML = `<div class="card card--soft">Para praticar aqui, carregue os scripts de simulado do site. Enquanto isso, use os <a href="/simulados/">simulados</a>.</div>`;
+                        return;
+                      }
+                      $out.innerHTML = '';
+                      const persistKey = 'quiz:les:port:figuras:v1';
+
+                      const app = await window.CTIQuiz.startWithData(subset, {
+                        container: '#les-out',
+                        limit: subset.length,
+                        shuffleAlternatives: true,
+                        shuffleQuestions: true,
+                        persistKey,
+                        showExplainOnCheck: true
+                      });
+
+                      // Integra favoritos/nota se disponível
+                      if (window.CTICollections && typeof window.CTICollections.mount === 'function') {
+                        window.CTICollections.mount(app);
+                      }
+
+                      // Registrar histórico no Analytics (compatível com seu painel)
+                      const HIST_KEY = 'simulado:cti2026:history';
+                      const origFinish = app.finish.bind(app);
+                      app.finish = function () {
+                        origFinish();
+                        try {
+                          const qs = app.state.questions || [];
+                          const ans = app.state.answers || {};
+                          const correct = qs.filter(q => ans[q.id] && ans[q.id].isCorrect).length;
+                          const payload = {
+                            id: 'sess-les-' + Date.now(),
+                            timestamp: Date.now(),
+                            mode: 'aula:portugues:figuras-de-linguagem',
+                            total: qs.length,
+                            correct,
+                            pct: qs.length ? Math.round((correct / qs.length) * 100) : 0,
+                            durationSeconds: Math.max(1, Math.round((Date.now() - (app.state.startTime || Date.now())) / 1000)),
+                            items: qs.map(q => {
+                              const a = ans[q.id] || {};
+                              return { id: q.id, disciplina: q.disciplina, area: q.area || null, tema: q.tema || null, correct: !!a.isCorrect, time: typeof a.time === 'number' ? a.time : null };
+                            }),
+                            questions: qs.map(q => q.id)
+                          };
+                          if (window.AppStorage) {
+                            const hist = window.AppStorage.get(HIST_KEY) || [];
+                            hist.unshift(payload);
+                            window.AppStorage.set(HIST_KEY, hist);
+                          }
+                        } catch (e) { console.warn('Histórico (aula) não registrado:', e); }
+                      };
+
+                    } catch (e) {
+                      console.error(e);
+                      $out.innerHTML = `<div class="card card--soft">Não foi possível iniciar a prática agora. Tente mais tarde.</div>`;
+                    }
+                  }
+
+                  root.querySelector('#les-btn-10')?.addEventListener('click', () => start(10));
+                  root.querySelector('#les-btn-20')?.addEventListener('click', () => start(20));
+                });
+              </script>
+            </section>
             <section id="referencias" class="section-block">
               <h2>Referências</h2>
               <ul>
