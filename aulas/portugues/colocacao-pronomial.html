@@ -1,0 +1,626 @@
+<!doctype html>
+<html lang="pt-BR" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Colocação Pronomial — CTI 2026</title>
+  <meta name="description" content="Aula prática e completa: próclise, ênclise e mesóclise para o Vestibulinho CTI. Passo a passo, árvore de decisão, exemplos comentados e exercícios com gabarito." />
+  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
+  <link rel="canonical" href="https://SEU-DOMINIO/aulas/portugues/colocacao-pronomial.html" />
+
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/layout.css" />
+  <link rel="stylesheet" href="/assets/css/componentes.css" />
+  <link rel="stylesheet" href="/assets/css/aulas.css" />
+  <link rel="stylesheet" href="/assets/css/dark.css" media="(prefers-color-scheme: dark)" />
+  <style>
+    /* Realça partes na análise */
+    mark.atrativo { background: #fff2a8; }
+    mark.verbo { background: #c9f7f5; }
+    mark.pronome { background: #ffd6d1; }
+    mark.comb { background: #e6d8ff; }
+    .howto { border-left: 4px solid var(--color-primary, #0b5fff); padding-left: .75rem; margin: .75rem 0; }
+    .exemplo { background: var(--bg-elev-1, #fafafa); padding: .75rem; border-radius: .5rem; border: 1px solid #eee; }
+    .errado { color: #b00020; font-weight: 600; }
+    .certo { color: #00875a; font-weight: 600; }
+    .tabela-compacta table { width: 100%; border-collapse: collapse; }
+    .tabela-compacta th, .tabela-compacta td { border: 1px solid #e5e5e5; padding: .5rem; vertical-align: top; }
+    .nota { font-size: .95rem; color: #555; }
+    .pill.tip { background: #eef7ff; color: #0b5fff; border: 1px solid #cfe6ff; }
+    .callout { border: 1px solid #e5e5e5; padding: .75rem; border-radius: .5rem; background: #fbfbfb; }
+    .callout.att { border-left: 4px solid #b00020; }
+    .callout.tip { border-left: 4px solid #0b5fff; }
+    details summary { cursor: pointer; font-weight: 600; margin: .25rem 0; }
+    .grid-2 { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+    @media (min-width: 840px) { .grid-2 { grid-template-columns: 1fr 1fr; } }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-wrap">
+      <a class="brand" href="/" aria-label="Página inicial">
+        <img src="/assets/img/logo.svg" alt="Logotipo do site" width="36" height="36" decoding="async" loading="eager" />
+        <span class="brand-name">CTI 2026</span>
+      </a>
+      <nav class="site-nav site-nav--desktop" aria-label="Seções principais">
+        <ul>
+          <li><a href="/aulas/" class="nav-link" aria-current="page">Aulas</a></li>
+          <li><a href="/simulados/" class="nav-link">Simulados</a></li>
+          <li><a href="/redacao/" class="nav-link">Redação</a></li>
+          <li><a href="/recursos/" class="nav-link">Recursos</a></li>
+        </ul>
+      </nav>
+      <nav class="site-nav--mobile nav-mobile" aria-label="Menu principal (mobile)">
+        <details class="menu">
+          <summary class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">Menu</summary>
+          <ul class="menu-list">
+            <li><a href="/aulas/" class="nav-link" aria-current="page">Aulas</a></li>
+            <li><a href="/simulados/" class="nav-link">Simulados</a></li>
+            <li><a href="/redacao/" class="nav-link">Redação</a></li>
+            <li><a href="/recursos/" class="nav-link">Recursos</a></li>
+          </ul>
+        </details>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="breadcrumb" aria-label="Caminho de navegação">
+    <ol>
+      <li><a href="/">Início</a></li>
+      <li><a href="/aulas/">Aulas</a></li>
+      <li><a href="/aulas/portugues/">Português</a></li>
+      <li aria-current="page">Colocação Pronomial</li>
+    </ol>
+  </nav>
+
+  <main id="conteudo" class="section" role="main">
+    <div class="container">
+      <article class="lesson-hero">
+        <h1>Colocação Pronomial</h1>
+        <div class="lesson-meta">
+          <span class="pill">Tema: Português</span>
+          <span class="pill">Dificuldade: intermediário</span>
+          <span>Tempo estimado: 60–80 min</span>
+          <span class="pill tip">Modo: passo a passo</span>
+        </div>
+        <p class="text-muted">Aprenda, de forma estratégica, quando usar próclise, ênclise e mesóclise. Você vai dominar a lógica por trás das regras e evitar as armadilhas mais comuns de prova.</p>
+      </article>
+
+      <div class="lesson-layout">
+        <div class="lesson-content">
+
+          <section id="como-estudar" class="section-block">
+            <h2>Como usar esta aula</h2>
+            <ol class="howto">
+              <li>Siga a <strong>árvore de decisão</strong> para decidir a posição do pronome.</li>
+              <li>Veja os <strong>exemplos marcados</strong> (atrativo, pronome, verbo).</li>
+              <li>Resolva as <strong>miniatividades</strong> (Você decide) antes de abrir o gabarito.</li>
+              <li>Finalize com os <strong>exercícios</strong> e o <strong>checklist</strong>.</li>
+            </ol>
+          </section>
+
+          <section id="conceito" class="section-block">
+            <h2>O que é colocação pronomial?</h2>
+            <p>É a posição dos pronomes oblíquos átonos (<em>me, te, se, o, a, lhe, nos, vos, os, as, lhes</em>) em relação ao verbo:</p>
+            <ul>
+              <li><strong>Próclise</strong>: pronome <u>antes</u> do verbo. Ex.: <mark class="atrativo">Não</mark> <mark class="pronome">me</mark> <mark class="verbo">avisaram</mark>.</li>
+              <li><strong>Ênclise</strong>: pronome <u>depois</u> do verbo. Ex.: <mark class="verbo">Avisaram</mark>-<mark class="pronome">me</mark>.</li>
+              <li><strong>Mesóclise</strong>: pronome <u>no meio</u> do verbo (futuros). Ex.: <mark class="verbo">Avisar</mark>-<mark class="pronome">me</mark>-<mark class="verbo">ão</mark>.</li>
+            </ul>
+          </section>
+
+          <section id="mapa-mental" class="section-block">
+            <h2>Árvore de decisão em 3 passos</h2>
+            <div class="howto">
+              <ol>
+                <li><strong>Tem palavra atrativa antes do verbo?</strong> (não, nunca, já, quem, que, se, quando, embora...) → <strong>Próclise</strong>.</li>
+                <li><strong>Sem atrativo, o verbo está no Futuro?</strong> (fará, faria) → <strong>Mesóclise</strong>.</li>
+                <li><strong>Se não for nenhum dos casos</strong> → <strong>Ênclise</strong> (especialmente no início de oração e no imperativo afirmativo).</li>
+              </ol>
+              <p class="nota">Em provas, evite iniciar oração com “Me disseram...”. Prefira “Disseram-me...”, salvo quando houver palavra atrativa que force a próclise.</p>
+            </div>
+          </section>
+
+          <section id="proclise" class="section-block">
+            <h2>1) Próclise — quando é obrigatória</h2>
+            <p>A próclise ocorre quando há <strong>palavra atrativa</strong> antes do verbo.</p>
+            <h3>Principais atrativos</h3>
+            <ul>
+              <li><strong>Negativas:</strong> não, nunca, jamais, ninguém, nada...
+                <div class="exemplo">
+                  <p><span class="certo"><mark class="atrativo">Nunca</mark> <mark class="pronome">me</mark> <mark class="verbo">esqueço</mark> disso.</span> • <span class="errado">Nunca esqueço-me disso.</span></p>
+                </div>
+              </li>
+              <li><strong>Advérbios (sem pausa):</strong> já, sempre, aqui, agora, talvez, apenas...
+                <div class="exemplo">
+                  <p><span class="certo"><mark class="atrativo">Talvez</mark> <mark class="pronome">o</mark> <mark class="verbo">encontre</mark> amanhã.</span> • <span class="errado">Talvez encontre-o amanhã.</span></p>
+                  <p class="nota">Se o advérbio vier entre vírgulas, a ênclise pode ocorrer: “Os alunos, <em>geralmente</em>, preparam-se bem.”</p>
+                </div>
+              </li>
+              <li><strong>Pronomes relativos:</strong> que, quem, onde, cujo...
+                <div class="exemplo">
+                  <p>O livro <mark class="atrativo">que</mark> <mark class="pronome">me</mark> <mark class="verbo">deram</mark> é ótimo.</p>
+                </div>
+              </li>
+              <li><strong>Pronomes e palavras interrogativas/exclamativas:</strong> quem, que, quanto, como...
+                <div class="exemplo">
+                  <p><mark class="atrativo">Quem</mark> <mark class="pronome">te</mark> <mark class="verbo">disse</mark> isso?</p>
+                  <p><mark class="atrativo">Como</mark> <mark class="pronome">se</mark> <mark class="verbo">esforçam</mark>!</p>
+                </div>
+              </li>
+              <li><strong>Conjunções/subordinativas:</strong> se, quando, porque, embora, conforme...
+                <div class="exemplo">
+                  <p><mark class="atrativo">Se</mark> <mark class="pronome">me</mark> <mark class="verbo">permitir</mark>, explico melhor.</p>
+                </div>
+              </li>
+              <li><strong>Expressões fixas:</strong> em se tratando de..., uma vez que se..., nada se...</li>
+            </ul>
+
+            <details>
+              <summary>Você decide (próclise)</summary>
+              <div class="exemplo">
+                <p>a) “<u>Não</u> ___ avisaram.” → <strong>me</strong> (Próclise: Não <strong>me</strong> avisaram.)</p>
+                <p>b) “<u>Quem</u> ___ contou?” → <strong>te</strong> (Próclise: Quem <strong>te</strong> contou?)</p>
+                <p>c) “<u>Talvez</u> ___ encontremos.” → <strong>o</strong> (Próclise: Talvez <strong>o</strong> encontremos.)</p>
+              </div>
+            </details>
+          </section>
+
+          <section id="enclise" class="section-block">
+            <h2>2) Ênclise — quando usar</h2>
+            <p>Use ênclise quando <strong>não houver atrativo</strong> e <strong>o verbo não estiver no futuro</strong>.</p>
+            <h3>Casos frequentes</h3>
+            <ul>
+              <li><strong>Verbo iniciando oração:</strong> <span class="certo"><mark class="verbo">Diga</mark>-<mark class="pronome">me</mark> a verdade.</span> • <span class="errado">Me diga a verdade.</span></li>
+              <li><strong>Imperativo afirmativo:</strong> <span class="certo"><mark class="verbo">Preparem</mark>-<mark class="pronome">se</mark> para a prova!</span> • <span class="errado">Não preparem-se... (negativa exige próclise: Não <strong>se</strong> preparem)</span></li>
+              <li><strong>Gerúndio (sem “em”):</strong> Saiu, <mark class="verbo">despedindo</mark>-<mark class="pronome">se</mark> de todos.</li>
+              <li><strong>Infinitivo impessoal isolado:</strong> É preciso <mark class="verbo">concentrar</mark>-<mark class="pronome">se</mark>.</li>
+            </ul>
+
+            <details>
+              <summary>Você decide (ênclise)</summary>
+              <div class="exemplo">
+                <p>a) “___ mostre o comprovante.” → <strong>Mostre-me</strong> (ou ênclise: Mostre-me; evitar “Me mostre” em prova).</p>
+                <p>b) “___ entreguem as provas!” → <strong>Entreguem-nas</strong> (imperativo afirmativo).</p>
+                <p>c) “É fundamental ___ organizar.” → <strong>organizar-se</strong> (infinitivo impessoal).</p>
+              </div>
+            </details>
+          </section>
+
+          <section id="mesoclise" class="section-block">
+            <h2>3) Mesóclise — quando aparece</h2>
+            <p>A mesóclise ocorre com <strong>futuros</strong> (do presente e do pretérito), <u>sem</u> palavra atrativa.</p>
+            <div class="tabela-compacta">
+              <table>
+                <thead>
+                  <tr><th>Tempo</th><th>Sem atrativo (mesóclise)</th><th>Com atrativo (próclise)</th></tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Futuro do Presente</td>
+                    <td><mark class="verbo">Entregar</mark>-<mark class="pronome">lhe</mark>-<mark class="verbo">ei</mark> o resultado.</td>
+                    <td><mark class="atrativo">Não</mark> <mark class="pronome">lhe</mark> <mark class="verbo">entregarei</mark> o resultado.</td>
+                  </tr>
+                  <tr>
+                    <td>Futuro do Pretérito</td>
+                    <td><mark class="verbo">Convidar</mark>-<mark class="pronome">te</mark>-<mark class="verbo">ia</mark> para o evento.</td>
+                    <td><mark class="atrativo">Talvez</mark> <mark class="pronome">te</mark> <mark class="verbo">convidaria</mark>.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="nota">Como formar: infinitivo do verbo + pronome + terminação do futuro (“-ei/-ia”): <em>avisar + lhe + ei → avisar-lhe-ei</em>.</p>
+          </section>
+
+          <section id="locucoes" class="section-block">
+            <h2>4) Locuções verbais — onde vai o pronome?</h2>
+            <p>Locução = <strong>auxiliar</strong> + <strong>principal</strong> (infinitivo, gerúndio ou particípio).</p>
+            <ul>
+              <li><strong>Principal no infinitivo/gerúndio</strong>:
+                <ul>
+                  <li><u>Sem atrativo:</u> pronome depois do auxiliar ou do principal.
+                    <div class="exemplo"><p><span class="certo">Quero <mark class="verbo">dizer</mark>-<mark class="pronome">lhe</mark>.</span> • <span class="certo">Quero-<mark class="pronome">lhe</mark> <mark class="verbo">dizer</mark>.</span></p></div>
+                  </li>
+                  <li><u>Com atrativo:</u> pronome antes do auxiliar ou depois do principal.
+                    <div class="exemplo"><p><span class="certo"><mark class="atrativo">Não</mark> <mark class="pronome">lhe</mark> <mark class="verbo">quero</mark> dizer.</span> • <span class="certo"><mark class="atrativo">Não</mark> quero <mark class="verbo">dizer</mark>-<mark class="pronome">lhe</mark>.</span></p></div>
+                  </li>
+                </ul>
+              </li>
+              <li><strong>Principal no particípio</strong> (ado/ido):
+                <ul>
+                  <li><strong>Não</strong> use pronome depois do particípio.
+                    <div class="exemplo"><p><span class="errado">Tinha contado-lhe.</span> → <span class="certo">Tinha-<mark class="pronome">lhe</mark> <mark class="verbo">contado</mark>.</span> ou <span class="certo"><mark class="pronome">Lhe</mark> <mark class="verbo">tinha</mark> contado.</span></p></div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <div class="callout att">
+              <strong>Armadilha:</strong> Depois de particípio, ênclise é inadequada (“feito-o”, “contado-lhe”). Coloque o pronome junto do auxiliar: “tinha-o feito”, “havia-lhe contado”.
+            </div>
+          </section>
+
+          <section id="combinacoes" class="section-block">
+            <h2>5) Combinações e ajustes ortográficos</h2>
+            <p>Com pronomes <em>o, a, os, as</em> na ênclise, há ajustes no final do verbo.</p>
+            <div class="tabela-compacta">
+              <table>
+                <thead><tr><th>Situação</th><th>Regra</th><th>Exemplos</th></tr></thead>
+                <tbody>
+                  <tr>
+                    <td>Verbo termina em <strong>R, S, Z</strong></td>
+                    <td>Elimine a consoante final e use <strong>-lo, -la, -los, -las</strong>.</td>
+                    <td><mark class="comb">fazer + o → fazê-lo</mark>; <mark class="comb">dizer + a → dizê-la</mark>; <mark class="comb">traz + as → trá-las</mark></td>
+                  </tr>
+                  <tr>
+                    <td>Verbo termina em som nasal (<strong>M, -ÃO, -ÕE</strong>)</td>
+                    <td>Use <strong>-no, -na, -nos, -nas</strong>.</td>
+                    <td><mark class="comb">veem + o → veem-no</mark>; <mark class="comb">põem + a → põem-na</mark>; <mark class="comb">fizeram + os → fizeram-nos</mark></td>
+                  </tr>
+                  <tr>
+                    <td>Com <strong>lhe / lhes</strong></td>
+                    <td>Não há ajuste ortográfico.</td>
+                    <td><mark class="comb">entregar + lhe → entregar-lhe</mark>; <mark class="comb">disseram-lhe</mark></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="callout tip">
+              <strong>Uso de “lhe”:</strong> “lhe/lhes” = objeto <u>indireto</u> (a/para alguém). Para objeto direto, use “o(s)/a(s)”. Ex.: “Informei-<u>lhe</u> o horário” (a ele); “Vi-<u>o</u> ontem” (OD).
+            </div>
+          </section>
+
+          <section id="proibicoes" class="section-block">
+            <h2>6) Proibições e preferências na norma de prova</h2>
+            <ul>
+              <li><strong>Início de oração</strong> sem atrativo: evite próclise. Prefira ênclise. Ex.: <span class="certo">Derrubaram-me</span> vs <span class="errado">Me derrubaram</span>.</li>
+              <li><strong>Depois de particípio</strong>: evite ênclise. Ex.: <span class="errado">Tinham enviado-nos</span> → <span class="certo">Tinham-nos enviado</span> ou <span class="certo">Nos tinham enviado</span>.</li>
+              <li><strong>Imperativo negativo</strong>: próclise obrigatória. Ex.: <span class="certo">Não <u>se</u> atrasem.</span></li>
+              <li><strong>Futuro (presente/pretérito)</strong> sem atrativo: mesóclise. Ex.: <span class="certo">Dir-se-á</span>, <span class="certo">Convidar-te-ia</span>.</li>
+              <li><strong>Locuções com particípio</strong>: pronome junto ao auxiliar (antes ou depois), nunca ao particípio.</li>
+            </ul>
+            <p class="nota">Na língua do dia a dia, a próclise é muito frequente (“Me avisa”). Em <u>prova</u>, siga a norma acima.</p>
+          </section>
+
+          <section id="exemplos" class="section-block">
+            <h2>Exemplos comentados</h2>
+            <div class="grid-2">
+              <div class="exemplo">
+                <strong>Ex. 1 — Atrativo negativo</strong>
+                <p><span class="errado">Não preocupe-se.</span></p>
+                <p><span class="certo"><mark class="atrativo">Não</mark> <mark class="pronome">se</mark> <mark class="verbo">preocupe</mark>.</span></p>
+              </div>
+              <div class="exemplo">
+                <strong>Ex. 2 — Início de oração</strong>
+                <p><span class="errado">Me contem os detalhes.</span></p>
+                <p><span class="certo"><mark class="verbo">Contem</mark>-<mark class="pronome">me</mark> os detalhes.</span></p>
+              </div>
+              <div class="exemplo">
+                <strong>Ex. 3 — Futuro (mesóclise)</strong>
+                <p><span class="certo"><mark class="verbo">Dir</mark>-<mark class="pronome">se</mark>-<mark class="verbo">á</mark> a verdade.</span></p>
+                <p><span class="certo"><mark class="verbo">Dar</mark>-<mark class="pronome">te</mark>-<mark class="verbo">ei</mark> retorno amanhã.</span></p>
+              </div>
+              <div class="exemplo">
+                <strong>Ex. 4 — Locução com particípio</strong>
+                <p><span class="errado">Tinha informado-lhe o horário.</span></p>
+                <p><span class="certo"><mark class="verbo">Tinha</mark>-<mark class="pronome">lhe</mark> <mark class="verbo">informado</mark> o horário.</span></p>
+              </div>
+              <div class="exemplo">
+                <strong>Ex. 5 — Ajuste ortográfico</strong>
+                <p><span class="certo"><mark class="verbo">Fazer</mark> + <mark class="pronome">o</mark> → <mark class="comb">fazê-lo</mark></span></p>
+                <p><span class="certo"><mark class="verbo">Põem</mark> + <mark class="pronome">a</mark> → <mark class="comb">põem-na</mark></span></p>
+              </div>
+              <div class="exemplo">
+                <strong>Ex. 6 — Imperativo</strong>
+                <p><span class="certo">Estudem-<mark class="pronome">se</mark> bem os exemplos.</span></p>
+                <p><span class="certo">Não <mark class="pronome">se</mark> atrasem.</span></p>
+              </div>
+            </div>
+          </section>
+
+          <section id="voce-decide-geral" class="section-block">
+            <h2>Você decide (casos variados)</h2>
+            <details>
+              <summary>Abrir minidesafios</summary>
+              <div class="exemplo">
+                <p>1) “Quando ele chegar, ___ aviso.” → <strong>o</strong> (atrativo “quando” → Próclise: Quando ele chegar, <u>o</u> aviso.)</p>
+                <p>2) “___ entregarei o relatório amanhã.” → <strong>Entregar-lhe-ei</strong> (futuro sem atrativo → Mesóclise)</p>
+                <p>3) “É preciso ___ preparar com antecedência.” → <strong>se</strong> (infinitivo impessoal: preparar-<u>se</u> / ou se preparar)</p>
+                <p>4) “Os dados foram ___ enviados ontem.” → <strong>nos</strong> (particípio: <u>nos</u> foram enviados / tinham-<u>nos</u> enviado)</p>
+                <p>5) “Alguém ___ contou a história?” → <strong>lhe</strong> (atrativo “alguém” — indefinido — costuma atrair: Alguém <u>lhe</u> contou?)</p>
+              </div>
+            </details>
+          </section>
+
+          <section id="exercicios" class="section-block">
+            <h2>Exercícios com gabarito explicado</h2>
+
+            <div class="exercise">
+              <strong>1)</strong> Assinale a alternativa correta:
+              <br/>A) Não preocupe-se com isso.
+              <br/>B) Talvez encontre-o mais tarde.
+              <br/>C) Contar-te-ei tudo amanhã.
+              <br/>D) Tinha avisado-o antes.
+              <details>
+                <summary>Gabarito e explicação</summary>
+                <p><strong>Resposta: C.</strong> Mesóclise no futuro do presente sem atrativo. A) exige próclise (Não <em>se</em> preocupe). B) “talvez” atrai → Próclise (Talvez <em>o</em> encontre). D) particípio não admite ênclise (Tinha-<em>o</em> avisado / <em>O</em> tinha avisado).</p>
+              </details>
+            </div>
+
+            <div class="exercise" style="margin-top:.5rem;">
+              <strong>2)</strong> Complete corretamente: “Os candidatos ________ bem para a prova.”
+              <br/>A) prepararam-se
+              <br/>B) se prepararam
+              <br/>C) não se prepararam
+              <br/>D) preparar-se-ão
+              <details>
+                <summary>Gabarito e explicação</summary>
+                <p><strong>Resposta: A, C e D</strong> podem estar corretas dependendo do contexto. A) ênclise no passado (início de oração sem atrativo). B) é coloquial; evite em prova no início de oração. C) negativa atrai próclise (correta). D) futuro sem atrativo → mesóclise (correta).</p>
+              </details>
+            </div>
+
+            <div class="exercise" style="margin-top:.5rem;">
+              <strong>3)</strong> Assinale a opção em que o pronome está <strong>mal posicionado</strong>:
+              <br/>A) Em se tratando de segurança, nos atentaremos às normas.
+              <br/>B) Quem te informou sobre a mudança?
+              <br/>C) Não lhe responderemos hoje.
+              <br/>D) Haviam-lhe contado a verdade.
+              <details>
+                <summary>Gabarito e explicação</summary>
+                <p><strong>Resposta: D.</strong> Com “haver” auxiliar (ou “ter”) + particípio, o pronome deve ficar junto do auxiliar (antes ou depois), mas a forma “Haviam-lhe contado” soa híbrida e, além disso, “haver” impessoal não flexiona (<em>Havia</em>-lhe contado). Melhores: <em>Lhe haviam contado</em> / <em>Havia-lhe contado</em>.</p>
+              </details>
+            </div>
+
+            <div class="exercise" style="margin-top:.5rem;">
+              <strong>4)</strong> Ajuste ortográfico com “o/a/os/as”:
+              <br/>A) Fazer + o = fazer-o
+              <br/>B) Diz + a = diz-a
+              <br/>C) Traz + as = trá-las
+              <br/>D) Põem + a = põem-la
+              <details>
+                <summary>Gabarito e explicação</summary>
+                <p><strong>Resposta: C e D.</strong> R/S/Z: elimina-se a consoante final e usa-se -lo/-la/-los/-las (traz + as → trá-las). Som nasal (m/ão/õe): usa-se -no/-na/-nos/-nas (põem + a → põem-na). Em A, “fazer + o” → <em>fazê-lo</em>; em B, “diz + a” → <em>di-la</em>.</p>
+              </details>
+            </div>
+
+            <div class="exercise" style="margin-top:.5rem;">
+              <strong>5)</strong> Imperativo:
+              <br/>A) Façam-se presentes.
+              <br/>B) Não atrasem-se.
+              <br/>C) Atrasem-se, por favor.
+              <br/>D) Não se atrasem.
+              <details>
+                <summary>Gabarito e explicação</summary>
+                <p><strong>Resposta: A, C e D.</strong> Imperativo afirmativo → ênclise (Façam-se; Atrasem-se). Imperativo negativo → próclise (Não se atrasem). B está incorreta.</p>
+              </details>
+            </div>
+          </section>
+
+          <section id="checklist" class="section-block">
+            <h2>Checklist rápido (prova)</h2>
+            <ul>
+              <li>Há <strong>atrativo</strong> (não, nunca, que, se, quando, quem)? → <strong>Próclise</strong>.</li>
+              <li>Sem atrativo e verbo no <strong>futuro</strong>? → <strong>Mesóclise</strong>.</li>
+              <li>Início de oração/imperativo afirmativo sem atrativo? → <strong>Ênclise</strong>.</li>
+              <li>Locução com <strong>particípio</strong>: coloque o pronome junto do <strong>auxiliar</strong>, nunca depois do particípio.</li>
+              <li>Ajustes com <strong>o/a/os/as</strong>: R/S/Z → -lo/-la/-los/-las; M/ÃO/ÕE → -no/-na/-nos/-nas.</li>
+              <li><strong>Lhe/lhes</strong> = objeto indireto; <strong>o/a/os/as</strong> = objeto direto.</li>
+            </ul>
+          </section>
+
+          <section id="pratica" class="section-block">
+            <h2>Pratique este tema</h2>
+            <div id="lesson-quiz-pronomes"></div>
+
+            <div class="btn-row" style="margin-top:.5rem;">
+              <a class="btn btn--ghost" id="les-adaptativo" href="/simulados/adaptativo.html?disc=portugues&tema=Coloca%C3%A7%C3%A3o%20Pronomial&add=20&start=1" target="_blank" rel="noopener">
+                Adaptativo: +20 deste tema e começar →
+              </a>
+            </div>
+
+            <!-- Script de prática integrado ao motor CTIQuiz (se presente) -->
+            <script>
+              document.addEventListener('DOMContentLoaded', () => {
+                const root = document.querySelector('#lesson-quiz-pronomes');
+                if (!root) return;
+
+                const TEMAS = [
+                  'Próclise',
+                  'Ênclise',
+                  'Mesóclise',
+                  'Locuções verbais',
+                  'Ajustes (lo/la/nos/nas)',
+                  'Colocação pronomial (geral)'
+                ];
+
+                root.innerHTML = `
+                  <div class="card">
+                    <div style="display:flex; gap:.5rem; align-items:center; flex-wrap:wrap;">
+                      <strong>Treine Colocação Pronomial</strong>
+                      <span class="chip">Português</span>
+
+                      <label for="les-tema" style="margin-left:auto;">Tema:</label>
+                      <select id="les-tema" class="select">
+                        ${TEMAS.map(t => `<option value="${t}">${t}</option>`).join('')}
+                      </select>
+
+                      <div class="btn-row" style="display:flex; gap:.5rem;">
+                        <button class="btn btn--primary" id="les-btn-10" type="button">10 questões</button>
+                        <button class="btn btn--outline" id="les-btn-20" type="button">20 questões</button>
+                      </div>
+                    </div>
+                    <div id="les-out" style="margin-top:.75rem;"></div>
+                  </div>
+                `;
+
+                const $out = root.querySelector('#les-out');
+                const $tema = root.querySelector('#les-tema');
+                const $btn10 = root.querySelector('#les-btn-10');
+                const $btn20 = root.querySelector('#les-btn-20');
+                const $adapt = document.getElementById('les-adaptativo');
+
+                const slug = s => (s || '')
+                  .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+                  .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+
+                const norm = s => (s || '')
+                  .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+                  .toLowerCase().trim();
+
+                const updateAdaptLink = () => {
+                  const tema = $tema.value;
+                  const href = `/simulados/adaptativo.html?disc=portugues&tema=${encodeURIComponent(tema)}&add=20&start=1`;
+                  if ($adapt) $adapt.href = href;
+                };
+
+                async function start(limit) {
+                  const tema = $tema.value;
+                  updateAdaptLink();
+
+                  $out.innerHTML = `<div class="card card--soft">Carregando questões de <strong>${tema}</strong>…</div>`;
+
+                  try {
+                    const res = await fetch('/dados/questoes/portugues.json', { credentials: 'same-origin', cache: 'no-store' });
+                    if (!res.ok) throw new Error('Falha ao carregar questões.');
+                    const data = await res.json();
+
+                    const alvo = norm(tema);
+                    const filtered = (data || []).filter(q => {
+                      const t = norm(q.tema || '');
+                      const area = norm(q.area || '');
+                      const cat = norm(q.categoria || '');
+                      return t === alvo || t.includes(alvo) || area.includes(alvo) || cat.includes(alvo);
+                    });
+
+                    if (!filtered.length) {
+                      $out.innerHTML = `<div class="card card--soft">Ainda não há questões cadastradas para <strong>${tema}</strong>. Tente outro tema ou use os <a href="/simulados/">simulados</a>.</div>`;
+                      return;
+                    }
+
+                    const subset = filtered.sort(() => Math.random() - 0.5).slice(0, limit || 10);
+
+                    if (!window.CTIQuiz || typeof window.CTIQuiz.startWithData !== 'function') {
+                      $out.innerHTML = `<div class="card card--soft">
+                        Para praticar aqui, carregue os scripts de simulado do site (CTIQuiz).
+                        Enquanto isso, use os <a href="/simulados/">simulados</a> ou o modo adaptativo.
+                      </div>`;
+                      return;
+                    }
+
+                    $out.innerHTML = '';
+                    const persistKey = `quiz:les:port:pronomes:${slug(tema)}:v1`;
+
+                    const app = await window.CTIQuiz.startWithData(subset, {
+                      container: '#les-out',
+                      limit: subset.length,
+                      shuffleAlternatives: true,
+                      shuffleQuestions: true,
+                      persistKey,
+                      showExplainOnCheck: true
+                    });
+
+                    if (window.CTICollections && typeof window.CTICollections.mount === 'function') {
+                      window.CTICollections.mount(app);
+                    }
+
+                    const HIST_KEY = 'simulado:cti2026:history';
+                    const origFinish = app.finish?.bind(app);
+                    app.finish = function () {
+                      if (origFinish) origFinish();
+                      try {
+                        const qs = app.state.questions || [];
+                        const ans = app.state.answers || {};
+                        const correct = qs.filter(q => ans[q.id] && ans[q.id].isCorrect).length;
+                        const payload = {
+                          id: 'sess-les-' + Date.now(),
+                          timestamp: Date.now(),
+                          mode: `aula:portugues:colocacao-pronomial:${slug(tema)}`,
+                          total: qs.length,
+                          correct,
+                          pct: qs.length ? Math.round((correct / qs.length) * 100) : 0,
+                          durationSeconds: Math.max(1, Math.round((Date.now() - (app.state.startTime || Date.now())) / 1000)),
+                          items: qs.map(q => {
+                            const a = ans[q.id] || {};
+                            return { id: q.id, disciplina: q.disciplina, area: q.area || null, tema: q.tema || null, correct: !!a.isCorrect, time: typeof a.time === 'number' ? a.time : null };
+                          }),
+                          questions: qs.map(q => q.id)
+                        };
+                        if (window.AppStorage) {
+                          const hist = window.AppStorage.get(HIST_KEY) || [];
+                          hist.unshift(payload);
+                          window.AppStorage.set(HIST_KEY, hist);
+                        }
+                      } catch (e) { console.warn('Histórico (aula) não registrado:', e); }
+                    };
+
+                  } catch (e) {
+                    console.error(e);
+                    $out.innerHTML = `<div class="card card--soft">Não foi possível iniciar a prática agora. Tente mais tarde.</div>`;
+                  }
+                }
+
+                $btn10?.addEventListener('click', () => start(10));
+                $btn20?.addEventListener('click', () => start(20));
+                $tema?.addEventListener('change', updateAdaptLink);
+                updateAdaptLink();
+              });
+            </script>
+          </section>
+
+          <section id="referencias" class="section-block">
+            <h2>Referências</h2>
+            <ul>
+              <li>BECHARA, Evanildo. Moderna Gramática Portuguesa.</li>
+              <li>CUNHA, Celso; CINTRA, Lindley. Nova Gramática do Português Contemporâneo.</li>
+              <li>VOLP — ABL (Vocabulário Ortográfico da Língua Portuguesa).</li>
+              <li>Editais e manuais de correção de vestibulares (norma-padrão).</li>
+            </ul>
+          </section>
+
+          <nav class="lesson-nav" aria-label="Navegação entre aulas">
+            <a class="btn btn--outline" href="/aulas/portugues/pronomes.html">← Pronomes</a>
+            <a class="btn btn--primary" href="/aulas/portugues/verbos.html">Verbos →</a>
+          </nav>
+        </div>
+
+        <aside class="lesson-toc" aria-label="Sumário da aula">
+          <h4>Conteúdo</h4>
+          <ol>
+            <li><a href="#como-estudar">Como usar</a></li>
+            <li><a href="#conceito">O que é</a></li>
+            <li><a href="#mapa-mental">Árvore de decisão</a></li>
+            <li><a href="#proclise">Próclise</a></li>
+            <li><a href="#enclise">Ênclise</a></li>
+            <li><a href="#mesoclise">Mesóclise</a></li>
+            <li><a href="#locucoes">Locuções verbais</a></li>
+            <li><a href="#combinacoes">Combinações</a></li>
+            <li><a href="#proibicoes">Proibições</a></li>
+            <li><a href="#exemplos">Exemplos</a></li>
+            <li><a href="#voce-decide-geral">Você decide</a></li>
+            <li><a href="#exercicios">Exercícios</a></li>
+            <li><a href="#checklist">Checklist</a></li>
+            <li><a href="#referencias">Referências</a></li>
+          </ol>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-wrap">
+      <p>© 2025–2026 • Projeto de estudos para o Vestibulinho CTI UNESP Bauru.</p>
+      <nav class="footer-nav" aria-label="Rodapé">
+        <ul>
+          <li><a href="/recursos/cronograma-de-estudos.html">Cronograma</a></li>
+          <li><a href="/recursos/como-preencher-gabarito.html">Gabarito</a></li>
+          <li><a href="/recursos/dicas-rapidas.html">Dicas</a></li>
+          <li><a href="/recursos/normas-da-prova.html">Normas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
